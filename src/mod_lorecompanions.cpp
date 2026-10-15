@@ -612,6 +612,39 @@ namespace
             guid.GetCounter(), data);
     }
 
+    // A bot logs in wherever it last logged out, which for a companion is
+    // wherever her previous summoner left her. On an open-world map she is
+    // simply saved at the summoner's feet before the login reads her back; an
+    // instance needs a bind the login cannot assume, so there she arrives at
+    // her old spot and is teleported over once she is in the world.
+    void PlaceAt(ObjectGuid guid, Player* summoner)
+    {
+        MapEntry const* map = sMapStore.LookupEntry(summoner->GetMapId());
+        if (!map || map->Instanceable())
+            return;
+
+        CharacterDatabase.DirectExecute(
+            "UPDATE characters SET map = {}, instance_id = 0, position_x = {}, position_y = {}, position_z = {}, "
+            "orientation = {}, zone = {} WHERE guid = {}",
+            summoner->GetMapId(), summoner->GetPositionX(), summoner->GetPositionY(), summoner->GetPositionZ(),
+            summoner->GetOrientation(), summoner->GetZoneId(), guid.GetCounter());
+    }
+
+    // True once she is standing with her summoner; until then, sends her there.
+    bool BringTo(Player* bot, Player* summoner)
+    {
+        if (bot->IsBeingTeleported())
+            return false;
+
+        if (bot->GetMapId() == summoner->GetMapId() && bot->GetInstanceId() == summoner->GetInstanceId() &&
+            bot->IsWithinDistInMap(summoner, 40.0f))
+            return true;
+
+        bot->TeleportTo(summoner->GetMapId(), summoner->GetPositionX(), summoner->GetPositionY(),
+            summoner->GetPositionZ(), summoner->GetOrientation());
+        return false;
+    }
+
     // The level a companion should be: her party leader's, or her summoner's
     // when the leader cannot be seen (offline, or not a player at all).
     uint8 TargetLevel(Player* bot, Player* master)
@@ -1127,6 +1160,8 @@ namespace
         if (cfg.FollowSummonerSide)
             PrepareSide(def.guid, player->GetTeamId());
 
+        PlaceAt(def.guid, player);
+
         Active state;
         state.def = IndexOf(&def);
         state.master = player->GetGUID();
@@ -1314,6 +1349,9 @@ namespace
                 }
 
                 state.master = aiMaster->GetGUID();
+                if (!BringTo(bot, aiMaster))
+                    continue;
+
                 ApplyModel(bot, def);
                 Rebuild(bot, def, TargetLevel(bot, aiMaster), aiMaster);
 

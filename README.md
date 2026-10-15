@@ -35,7 +35,10 @@ master is the summoner. playerbots only lets a player command characters
 from their own account, their guild or a linked account, so the summon first
 links the companion account to the summoner's in `playerbots_account_links`.
 playerbots then invites her into the summoner's party, and from there she
-follows, fights and loots like any alt bot.
+follows, fights and loots like any alt bot. A bot logs in wherever it last
+logged out, so she is first saved at the summoner's position. Inside an
+instance she arrives at her old spot instead and is teleported over once
+she is in the world.
 
 **Party only.** A companion who is no longer in her summoner's party (she was
 kicked, or the summoner left) is sent home after `JoinGraceSeconds`, and so is
