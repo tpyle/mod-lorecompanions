@@ -769,6 +769,13 @@ namespace
             botAI->ResetStrategies(false);
         }
 
+        // Enough to pay for flights and repairs alongside her summoner -
+        // without it she cannot follow a flight path at all. Topped up, never
+        // taken away: what she has looted is hers.
+        uint32 const purse = uint32(level) * 2 * GOLD;
+        if (bot->GetMoney() < purse)
+            bot->SetMoney(purse);
+
         bot->SetFullHealth();
         if (bot->getPowerType() == POWER_MANA)
             bot->SetPower(POWER_MANA, bot->GetMaxPower(POWER_MANA));
