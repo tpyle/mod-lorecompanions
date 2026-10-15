@@ -23,7 +23,10 @@ their own voices.
 **Built-in characters.** At startup the module makes sure an account
 (`LoreCompanions.AccountName`, `LORECOMPANIONS` by default) exists with one
 character per row of `lore_companion`, creating whatever is missing. The
-password is random and never shown. The characters are not random bots, so
+password is random and never shown. "Sylvanas" and "Alexstrasza" are in the
+client's reserved-name list, and the core refuses to log in a character with a
+reserved name, so the account is given one RBAC permission, 17 ("skip
+character creation reserved name check"), and nothing else. The characters are not random bots, so
 nothing logs them in except a summon: they never roam the world by
 themselves.
 

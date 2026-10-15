@@ -54,6 +54,7 @@
 #include "Pet.h"
 #include "Player.h"
 #include "QuestDef.h"
+#include "RBAC.h"
 #include "ScriptMgr.h"
 #include "SharedDefines.h"
 #include "SpellAuraDefines.h"
@@ -423,11 +424,26 @@ namespace
         return out;
     }
 
+    // "Sylvanas" and "Alexstrasza" are in the client's NamesReserved list
+    // ("Jaina" is not). Player::LoadFromDB checks the name on every login,
+    // flags a reserved one for a forced rename and refuses the login, unless
+    // the session may skip that check - so the companion account is given
+    // exactly that permission, and nothing else.
+    void AllowReservedNames()
+    {
+        LoginDatabase.DirectExecute(
+            "INSERT IGNORE INTO rbac_account_permissions (accountId, permissionId, granted, realmId) "
+            "VALUES ({}, {}, 1, -1)", companionAccountId, uint32(rbac::RBAC_PERM_SKIP_CHECK_CHARACTER_CREATION_RESERVEDNAME));
+    }
+
     bool EnsureAccount()
     {
         companionAccountId = AccountMgr::GetId(cfg.AccountName);
         if (companionAccountId)
+        {
+            AllowReservedNames();
             return true;
+        }
 
         // Nobody is meant to log into this account, so its password is thrown
         // away. A GM who wants in can set one with ".account set password".
@@ -453,6 +469,7 @@ namespace
         }
 
         LOG_INFO("module", "mod-lorecompanions: created account {} ({})", cfg.AccountName, companionAccountId);
+        AllowReservedNames();
         return true;
     }
 
@@ -513,6 +530,11 @@ namespace
                 LOG_INFO("module", "mod-lorecompanions: created {} ({})", def.title, def.name);
                 created = true;
             }
+
+            // A login refused before the permission existed left the rename
+            // flag behind, and it would refuse every login after.
+            CharacterDatabase.DirectExecute("UPDATE characters SET at_login = at_login & ~{} WHERE guid = {}",
+                uint32(AT_LOGIN_RENAME), guid.GetCounter());
 
             def.guid = guid;
             defByGuid[guid] = i;
@@ -1262,9 +1284,17 @@ namespace
 
             if (!bot || !bot->IsInWorld())
             {
-                // Still loading, or the login failed.
-                if (now - state.since > 60)
+                // Still loading, or the login failed - and playerbots drops a
+                // failed login without a word, so say something here.
+                if (now - state.since > time_t(cfg.JoinGraceSeconds))
+                {
+                    LOG_ERROR("module", "mod-lorecompanions: {} never came into the world; her login was refused",
+                        def.name);
+                    if (Player* master = ObjectAccessor::FindConnectedPlayer(state.master))
+                        ChatHandler(master->GetSession()).PSendSysMessage(
+                            "{} could not come. The server log says why.", def.title);
                     logouts.emplace_back(guid, state.master);
+                }
                 continue;
             }
 
@@ -1604,7 +1634,7 @@ public:
         if (!refusal.empty())
             handler->SendSysMessage(refusal);
         else
-            handler->PSendSysMessage("{} answers your call.", def->title);
+            handler->PSendSysMessage("You call for {}.", def->title);
 
         return true;
     }
