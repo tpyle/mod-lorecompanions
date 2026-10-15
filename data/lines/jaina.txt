@@ -1,0 +1,243 @@
+# Lady Jaina Proudmoore - frost mage, Ruler of Theramore, of the Kirin Tor.
+# Measured, warm, scholarly, a diplomat who has buried too many people. She
+# still believes the Alliance and the Horde can stand together, and she has
+# never stopped grieving what Arthas became.
+
+@ trigger=summon
+You called, %summoner? Theramore can spare me for a little while. Lead on.
+I've left Theramore in good hands. Let's see where the road takes us.
+A portal is a lonely way to travel. It's good to see a friendly face at the end of one.
+The Kirin Tor will grumble that I've gone wandering again. Let them.
+I'm here, %summoner. Tell me what needs doing.
+
+@ trigger=summon side=horde
+Thrall has always said the Horde has friends it doesn't know about. Consider me one of them.
+Some in Theramore would call this treason. I call it the only sensible thing anyone's done all week.
+
+@ trigger=summon where=dalaran
+Dalaran. I could lose a month in the libraries here. Let's not, shall we?
+
+@ trigger=summon where=theramore,dustwallow
+You came all the way to the marsh for me? Then I had better be worth the mosquitoes.
+
+@ trigger=dismiss
+I should get back to Theramore before the council forgets what I look like. Be careful, %summoner.
+Light keep you. Send word if you need me again.
+I'll open my own way home. Take care of yourself.
+Go well, %summoner. I mean that.
+
+@ trigger=zone_enter where=theramore
+Theramore. Every stone of it was laid by people who wanted a fresh start. I try to be worthy of them.
+Home. Lady Proudmoore, they call me here. Some days I still look over my shoulder for my father.
+
+@ trigger=zone_enter where=dustwallow
+The marsh never changes. Wet, grey, and full of things that bite.
+My father died in this marsh, believing he was saving me. I've never decided how I feel about that.
+
+@ trigger=zone_enter where=onyxias_lair
+Onyxia hid in Stormwind's court for years behind a borrowed face, and nobody saw it. That still frightens me.
+
+@ trigger=zone_enter where=durotar,orgrimmar
+Durotar. Thrall built something remarkable out of this red dirt. I hope the Horde remembers that.
+Orgrimmar has grown since I last walked here. Mind your manners, and so will they.
+
+@ trigger=zone_enter where=stormwind
+Stormwind. King Varian has his father's temper and none of his patience. Let's keep our heads down.
+Every time I come to Stormwind, someone asks me to explain the Horde. Every time, they don't like the answer.
+
+@ trigger=zone_enter where=dalaran
+Dalaran, floating above the war it used to hide from. Antonidas would have something dry to say about it.
+The Violet Citadel. I studied here when I was barely more than a child, convinced I knew everything.
+
+@ trigger=zone_enter where=alterac,lordamere,hillsbrad
+I can still see Dalaran on the lake, in my mind. Before Archimonde. Before everything.
+These hills were Lordaeron once. I grew up knowing them as safe.
+
+@ trigger=zone_enter where=stratholme,stratholme_city,eastern_plaguelands,culling_of_stratholme
+Stratholme. I walked away from him at the gates of this city. I've asked myself a thousand times whether I should have stayed.
+This is where it began. The grain, the purge, Arthas deciding he alone could choose who lived. I don't like being here.
+
+@ trigger=zone_enter where=tirisfal,undercity,silverpine,western_plaguelands
+Lordaeron. I used to come here as a girl, to the capital, to court. Now look at it.
+The Forsaken call this place home. I try very hard to remember that they didn't choose what was done to them.
+
+@ trigger=zone_enter where=quelthalas,eversong,silvermoon,ghostlands
+Quel'Thalas. Kael'thas once showed me these forests as if he'd painted every leaf himself. He was so proud of them.
+
+@ trigger=zone_enter where=dragonblight
+The Dragonblight. Dragons come here to die. It feels wrong to speak too loudly.
+
+@ trigger=zone_enter where=wrathgate
+The Wrathgate. Bolvar fell here. So did Saurfang's son. And the plague... I don't think Varian will ever forgive any of it.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. He's here, somewhere above us, waiting. I keep thinking I'll be ready for that and I keep being wrong.
+Do you feel that? The cold here isn't weather. It's attention.
+
+@ trigger=zone_enter where=borean,howling_fjord
+Northrend. The last time I came here, I came looking for Arthas and found something that only wore his face.
+
+@ trigger=zone_enter where=coldarra,nexus
+Malygos has decided every mage in the world is a threat to magic itself. As one of those mages, I take that rather personally.
+
+@ trigger=zone_enter where=crystalsong
+Crystalsong Forest. The Kirin Tor used to argue for hours about why the trees turned to crystal. Nobody ever won.
+
+@ trigger=zone_enter where=hyjal
+Mount Hyjal. Thrall and I stood together on these slopes against Archimonde, with the night elves beside us. It can be done. I've seen it.
+
+@ trigger=zone_enter
+%zone. I've read about it, I think. Reading is never quite the same as seeing.
+New ground. Keep your eyes open, %summoner.
+%zone. Let's see what trouble it's hiding.
+
+@ trigger=idle
+Antonidas used to say a mage who stops studying starts dying. I think he meant it literally.
+Thrall and I keep a correspondence, you know. Mostly about grain shipments. Peace is very boring work, and I wouldn't trade it.
+I sometimes wonder what Theramore will look like in a hundred years. I hope it's still there to wonder about.
+Frost is patient. You'd be surprised how much of magic comes down to patience.
+I tell myself the man I loved died in Northrend. It makes the rest of it easier to bear.
+My father was a hero to Kul Tiras. To me he was a man who couldn't let a war end. Both things are true.
+If you're hungry, I can conjure something. It won't taste of much, but it won't run out either.
+Rhonin keeps Dalaran running and complains about it constantly. He's very good at both.
+Kael'thas once wrote me poetry. It was dreadful. I've kept every page.
+I have more respect for a farmer who can grow wheat in the Barrens than for half the nobles in Stormwind.
+It's quiet. I've learned not to trust quiet.
+Do you ever think about how many maps are wrong? I correct mine as we go. Old habit.
+I was a student, then an apprentice, then a refugee, then a leader. Nobody asked if I was ready for any of it.
+Remind me to write to the council when we stop. Or don't. They'll only write back.
+
+@ trigger=idle where=theramore,dustwallow
+Look at the harbour. Ships from Kul Tiras still come in now and then. My mother's letters come with them. She's still angry with me.
+The guards here are good people. Most of them came west with me after Lordaeron fell. I owe them everything.
+
+@ trigger=idle where=dalaran
+Mind the crowds near the bank. Half of Dalaran will try to sell you a "genuine" piece of Medivh's tower.
+Somewhere in this city there's an archmage still annoyed about a fireball I set off in a lecture hall. Frost was a later interest.
+
+@ trigger=idle where=stratholme,stratholme_city,culling_of_stratholme
+He asked me to stand with him. I couldn't. Every day since, I've wondered whether anything would have been different if I had.
+
+@ trigger=idle where=icecrown,dragonblight,zuldrak,storm_peaks
+The cold doesn't bother me. Frost magic is good for something beyond the obvious.
+
+@ trigger=idle side=horde
+I spend half my life explaining the Horde to the Alliance and the other half explaining the Alliance to the Horde. Today, apparently, I'm doing both at once.
+
+@ trigger=idle side=alliance
+King Varian means well. I've told him so. He doesn't believe it about himself.
+
+@ trigger=idle with=sylvanas
+Sylvanas, I'm told the Forsaken still hold Lordaeron's throne room. Do you ever sit in it?
+> sylvanas: Sit on his throne? No, Proudmoore. I stand beside it and remember why I keep breathing without needing to.
+
+@ trigger=idle with=sylvanas
+You and I have both lost everything to Arthas, Sylvanas. I'd like to think that counts for something between us.
+> sylvanas: It counts for this, Proudmoore: I won't put an arrow in you. Don't mistake it for friendship.
+
+@ trigger=idle with=sylvanas
+Vereesa sends her regards, Sylvanas. She asked me to tell you she still sets a place for you on Winter Veil.
+> sylvanas: ...My sister is kinder than the world deserves. Tell her nothing.
+
+@ trigger=idle with=sylvanas
+I never thanked you, Sylvanas. For holding the Scourge at the Wrathgate, before Putress. You lost good people there too.
+> sylvanas: Putress was mine, and he betrayed me. Thank me when the Lich King is ash, and not before.
+
+@ trigger=idle with=alexstrasza
+Your Majesty, I've read every account of Grim Batol I could find. None of them begin to describe it, I imagine.
+> alexstrasza: No, child. But they remember that it ended. Sometimes that is all a history needs to do.
+
+@ trigger=idle with=alexstrasza
+I met Korialstrasz in Dalaran, years ago, as Krasus. He was the most patient teacher I ever had. I never guessed what he was.
+> alexstrasza: He spoke of you, Jaina. He said you were the only student he ever had who argued with him correctly.
+
+@ trigger=idle with=alexstrasza
+The Kirin Tor have asked me to tell you how grateful they are for the Accord's help against Malygos.
+> alexstrasza: Tell them Malygos was family once. Gratitude is not the word I would use. But the help is theirs.
+
+@ trigger=quest_accept
+"%quest". All right. Let's see what we can do.
+Someone needs help. That's reason enough.
+I'll read over it as we walk. Lead the way.
+"%quest"... I've seen worse odds. Not many, but some.
+Very well. Try not to set anything on fire before I've had a chance to.
+
+@ trigger=quest_complete
+Done, and nobody we cared about got hurt. That's a good day's work.
+That's one more thing put right. There are always more.
+Well done, %summoner. Truly.
+There. Someone's going to sleep a little easier tonight.
+
+@ trigger=combat_start rank=normal
+Stay close. I'll slow it down.
+Here we go.
+Careful, %summoner!
+Let's keep this quick.
+
+@ trigger=combat_start rank=notable
+This one's dangerous. Don't let it reach me while I'm casting.
+%target. Everyone stay sharp.
+I'll freeze it in place. Make every second count.
+
+@ trigger=combat_start ctype=undead
+Scourge. Of course it's Scourge.
+The dead don't feel the cold. They do still shatter.
+
+@ trigger=combat_start ctype=demon
+Demons. I'd hoped we'd seen the last of the Legion at Hyjal.
+
+@ trigger=combat_start ctype=dragonkin
+A dragon! Spread out. Don't stand in front of it.
+
+@ trigger=combat_start foe=the_lich_king
+Arthas. ...No. I know what you are now. And I know who you were. Neither one is going to stop me.
+
+@ trigger=combat_start foe=malygos
+Malygos! You've taken Dalaran's magic for a disease. We'll show you otherwise.
+
+@ trigger=combat_start foe=onyxia
+Lady Prestor. You lied to an entire kingdom in a noblewoman's face. It ends here.
+
+@ trigger=kill rank=normal
+That's done.
+Rest now.
+Shattered.
+
+@ trigger=kill rank=notable
+%target is finished. Is everyone all right?
+That was harder than it needed to be. Well done.
+And that's an end to %target.
+
+@ trigger=kill ctype=undead
+Whoever you were, be at peace.
+Another of his. Too many of them were somebody's neighbour, once.
+
+@ trigger=kill foe=the_lich_king
+It's over. Arthas... it's over. I hope, somewhere, the boy I knew can rest.
+
+@ trigger=kill foe=malygos
+Malygos is dead. The Kirin Tor will celebrate tonight. I think I'll just sit down.
+
+@ trigger=kill foe=onyxia
+Onyxia is dead. Stormwind can finally stop looking over its shoulder at court.
+
+@ trigger=death
+I... misjudged that...
+Not like this... Theramore...
+Go on without me...
+
+@ trigger=revived
+Thank you. That's not a kindness I'll forget.
+Back on my feet. Let's not do that again.
+I'm all right. Truly. Let's go.
+
+@ trigger=ally_down
+%other! No, no... stay with me!
+%other is down! Cover me, I'll hold them off!
+I've lost too many friends. Not you, %other. Not today.
+
+@ trigger=grow_stronger
+Something's settled in me. The frost answers more quickly than it did.
+I feel steadier. Sharper. Antonidas would say I'd finally started paying attention.
+There's more in me than there was this morning. I can feel it, like a tide coming in.
+My spells are coming more easily. The world doesn't stop being dangerous, but I'm a little more ready for it.

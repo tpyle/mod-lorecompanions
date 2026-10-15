@@ -1,0 +1,131 @@
+[worldserver]
+
+########################################
+# mod-lorecompanions configuration
+#
+# Lore characters as party companions. Each one is a real character on a
+# hidden account the module creates for itself, logged in as a playerbot only
+# when somebody summons her:
+#
+#   .companion list               who there is, and who is with whom
+#   .companion summon jaina       she joins your party at your party leader's level
+#   .companion dismiss [name]     one of them, or everyone with you
+#   .companion say jaina idle     (GM) make her speak a line now
+#   .companion reload             (admin) reload lore_companion_text
+#
+# Who the companions are lives in the world table `lore_companion` (race,
+# class, model, talent spec); what they say lives in `lore_companion_text`,
+# generated from the module's data/lines/*.txt by tools/gen_lines.py.
+#
+# Placeholders in lines: %summoner %leader %target %quest %other %zone %area %name
+########################################
+#
+#    LoreCompanions.Enable
+#        Description: Enable the companions.
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+LoreCompanions.Enable = 1
+
+#
+#    LoreCompanions.AccountName
+#        Description: The account that owns the companion characters. Created at
+#                     startup if it does not exist, with a random password nobody
+#                     is told. Their names (Jaina, Sylvanas, Alexstrasza) must not
+#                     belong to a character on any other account.
+#        Default:     LORECOMPANIONS
+
+LoreCompanions.AccountName = LORECOMPANIONS
+
+#
+#    LoreCompanions.FollowSummonerSide
+#        Description: Put a companion on her summoner's side (Alliance or Horde)
+#                     before she logs in, through mod-factionchoice, so that city
+#                     guards and quest givers treat her as one of the party.
+#                     Without mod-factionchoice this does nothing.
+#        Default:     1 - (Enabled)
+
+LoreCompanions.FollowSummonerSide = 1
+
+#
+#    LoreCompanions.MaxPerPlayer
+#        Description: How many companions one player may have out at once.
+#        Default:     3
+
+LoreCompanions.MaxPerPlayer = 3
+
+#
+#    LoreCompanions.GearQuality
+#        Description: The gear a companion is given whenever her level is set.
+#        Default:     0 - match the party leader's gear score (as playerbots' "init=auto")
+#                     2 - green, 3 - blue, 4 - epic (best available at her level)
+
+LoreCompanions.GearQuality = 0
+
+#
+#    LoreCompanions.JoinGraceSeconds
+#        Description: How long a newly summoned companion has to be given a
+#                     master and join the party before she is sent home. After
+#                     that, a companion who is not in her summoner's party is
+#                     dismissed.
+#        Default:     20
+
+LoreCompanions.JoinGraceSeconds = 20
+
+#
+#    LoreCompanions.CooldownSeconds
+#        Description: Minimum time, roughly, between two lines from the same
+#                     companion (it varies by half either way).
+#        Default:     45
+
+LoreCompanions.CooldownSeconds = 45
+
+#
+#    LoreCompanions.GroupGapSeconds
+#        Description: Minimum time between any two companion lines in one party,
+#                     so three companions do not talk over one another.
+#        Default:     12
+
+LoreCompanions.GroupGapSeconds = 12
+
+#
+#    LoreCompanions.IdleMinSeconds
+#    LoreCompanions.IdleMaxSeconds
+#        Description: Range of the timer for idle remarks, out of combat.
+#        Default:     240, 480
+
+LoreCompanions.IdleMinSeconds = 240
+LoreCompanions.IdleMaxSeconds = 480
+
+#
+#    LoreCompanions.ReplyDelayMs
+#        Description: Pause before a second companion answers the first.
+#        Default:     3500
+
+LoreCompanions.ReplyDelayMs = 3500
+
+#
+#    LoreCompanions.QuestRangeYards
+#        Description: A companion only remarks on her summoner's quest if she is
+#                     this close.
+#        Default:     80
+
+LoreCompanions.QuestRangeYards = 80
+
+#
+#    LoreCompanions.Chance.*
+#        Description: Percent chance of a remark when a trigger fires and nothing
+#                     else stops it. "Notable" means an elite, rare or boss.
+#                     Summoning, dismissal and growing stronger always speak.
+
+LoreCompanions.Chance.ZoneEnter = 60
+LoreCompanions.Chance.QuestAccept = 30
+LoreCompanions.Chance.QuestComplete = 45
+LoreCompanions.Chance.Combat = 10
+LoreCompanions.Chance.CombatNotable = 60
+LoreCompanions.Chance.Kill = 6
+LoreCompanions.Chance.KillNotable = 60
+LoreCompanions.Chance.Death = 100
+LoreCompanions.Chance.Revived = 80
+LoreCompanions.Chance.AllyDown = 80
+LoreCompanions.Chance.Idle = 100

@@ -1,0 +1,230 @@
+# Lady Sylvanas Windrunner - marksman hunter, the Banshee Queen, once
+# Ranger-General of Silvermoon. Cold, sardonic, imperious, patient as a
+# drawn bow. Everything she does bends toward one end: the Lich King's death.
+# She does not pretend to be alive, and she does not pretend to be kind.
+
+@ trigger=summon
+You called, and I came. Remember that I chose to.
+Lead, then. I will be behind you, which is where you should want me.
+The Forsaken can spare their queen for a while. Do not waste her time.
+%summoner. You have the look of someone with enemies. Good.
+I am here. Point me at something that deserves it.
+
+@ trigger=summon side=alliance
+An Alliance banner. How quaint. Try not to let your friends shoot me; I will not return the courtesy.
+Do not mistake this for an alliance, %summoner. It is an arrangement.
+
+@ trigger=summon where=undercity,tirisfal
+You summon me in my own city? Bold. Walk with me, then, and keep your hands where my Deathstalkers can see them.
+
+@ trigger=dismiss
+Enough. My people need their queen.
+I have lingered long enough. Do not die stupidly, %summoner. It reflects poorly on me.
+We are done for now. The Dark Lady watches over you. Make of that what you will.
+Go. If you need me, you know how to call.
+
+@ trigger=zone_enter where=undercity
+Undercity. Terenas's crypts, now my halls. I find the irony sustains me.
+Home. Such as it is. The apothecaries will be brewing something unpleasant. They always are.
+
+@ trigger=zone_enter where=tirisfal,deathknell,brill
+Tirisfal. This is where I broke his hold over my people. Where we took our minds back. Never forget that it was taken.
+Brill still thinks it is a village. It is a graveyard that remembers how to keep an inn.
+
+@ trigger=zone_enter where=silverpine
+Silverpine. Gilneas skulks behind its wall to the south, pretending the world will leave it alone. The world never does.
+
+@ trigger=zone_enter where=stormwind
+Stormwind. So many living, all so certain they are owed tomorrow.
+I can feel their stares. Let them look. I have been hated by better.
+
+@ trigger=zone_enter where=quelthalas,eversong,sunstrider_isle,silvermoon
+Quel'Thalas. I died defending this forest, and it does not even remember my name. Not truly.
+Silvermoon. Half of it is still scarred where he marched through. They have painted over it. I have not.
+
+@ trigger=zone_enter where=ghostlands,windrunner_village
+The Ghostlands. Arthas's road through my homeland is still a scar on the earth. I walked it as a ranger. I walked it again as his slave.
+
+@ trigger=zone_enter where=windrunner_spire
+Windrunner Spire. My family's house. Alleria and Vereesa and I used to race down those stairs. ...Keep walking.
+
+@ trigger=zone_enter where=quel_danas,sunwell_plateau
+The Sunwell. He dropped Kel'Thuzad's remains into it, did you know? Fouled my people's light to raise a necromancer. I remember the screaming.
+
+@ trigger=zone_enter where=stratholme,stratholme_city,eastern_plaguelands,western_plaguelands
+The Plaguelands. Lordaeron's corpse, and the Scourge still feeding on it. Some day I will burn every last one of them out.
+
+@ trigger=zone_enter where=howling_fjord,vengeance_landing,new_agamand
+Vengeance Landing. A good name. My people chose it themselves.
+
+@ trigger=zone_enter where=wrathgate
+The Wrathgate. Putress used my people's name to murder everyone on this field. I will never be finished paying that debt to my enemies.
+
+@ trigger=zone_enter where=venomspite
+Venomspite. Built by Putress's apothecaries. I wonder how many of them knew. I wonder which of them I have not found yet.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. I can almost hear him again, the way I used to. Whispering. Commanding. No longer.
+He is up there, on his frozen throne. I have waited years for this road. Do not slow down.
+
+@ trigger=zone_enter where=dalaran
+Dalaran. Vereesa lives here. ...We are not stopping.
+
+@ trigger=zone_enter where=dustwallow,theramore
+Proudmoore's little island. She means well. Meaning well has never stopped a single arrow.
+
+@ trigger=zone_enter
+%zone. I have not been here before. It changes nothing.
+%zone. Stay wary. The living build their traps in places like this.
+Another land, another graveyard waiting to happen.
+
+@ trigger=idle
+The living waste so much time sleeping. I almost envy it.
+Do not ask me what death was like. You would not sleep again.
+My rangers once held the Elrendar crossing against the whole Scourge. We lost. We made him pay for every yard.
+Arthas thought he could keep me as a trophy. He made a banshee instead. He should have let me die.
+I do not feel the cold. I do not feel hunger. I feel one thing, and I keep it sharp.
+Varimathras whispered loyalty to me for years, and I let him, because he was useful. Never let a demon be useful for too long.
+The apothecaries ask why I still string a bow when I could simply wail. Because I am a ranger first. He did not take that.
+Grief is a luxury. So is mercy. I can afford neither until he is dead.
+They call us monsters. Perhaps. We were made into monsters by a monster, and we remember who was first.
+Alleria went through the Dark Portal and never came back. I stopped waiting for her a long time ago. I think.
+You talk less than most of the living, %summoner. I approve.
+Hm. Walking. Always walking. When I was alive I could run these roads for a day without tiring. Now I simply never stop.
+Garrosh Hellscream struts about Northrend as if he won it. Thrall should mind that one.
+
+@ trigger=idle where=undercity,tirisfal
+The Royal Apothecary Society has been very quiet since Putress. Quiet is not the same as loyal.
+
+@ trigger=idle where=quelthalas,eversong,ghostlands,silvermoon
+I can smell the forest even now. Some things death does not take. That is not a mercy.
+
+@ trigger=idle where=icecrown,dragonblight,zuldrak,storm_peaks,grizzly_hills,borean,howling_fjord
+Northrend suits me. Everything here is already half dead.
+
+@ trigger=idle side=alliance
+Your Alliance friends watch me as if I might bite. I would not. It is beneath me.
+
+@ trigger=idle side=horde
+Thrall gives my people a place in the Horde because he remembers being a slave. He is the only one of them I trust, and only somewhat.
+
+@ trigger=idle with=jaina
+Proudmoore. Tell me, does it trouble you, standing beside something he made?
+> jaina: You're not something he made, Sylvanas. You're someone he hurt. I've never confused the two.
+
+@ trigger=idle with=jaina
+You loved him once, Proudmoore. Did you know what he was, even then?
+> jaina: No. I knew who he was. What he became... I've stopped trying to make those fit together.
+
+@ trigger=idle with=jaina
+Your Theramore is very pleasant, Proudmoore. Pleasant things do not last.
+> jaina: Then I'll have to keep rebuilding it. It's what I'm good at.
+
+@ trigger=idle with=jaina
+Is it true you walked away from him at Stratholme, Proudmoore?
+> jaina: Yes. And I've regretted it, and been glad of it, every day since.
+
+@ trigger=idle with=alexstrasza
+Life-Binder. Tell me what my people are, by your measure. Alive, or something you would burn?
+> alexstrasza: You are the wounded, Sylvanas. I have spent ten thousand years tending wounds. I do not burn what can still choose.
+
+@ trigger=idle with=alexstrasza
+Your flight burned the Wrathgate clean, Life-Binder. My apothecary's plague, and Scourge, and the dead. I have wondered whether you would have burned my people too, had they stood there.
+> alexstrasza: I burned what was poisoned. The Forsaken who stood there were already gone, Sylvanas. I grieved them too.
+
+@ trigger=idle with=alexstrasza
+The orcs chained you in Grim Batol. You forgave them. Why?
+> alexstrasza: Because the alternative was becoming what they had made of me. I think you understand that better than most.
+
+@ trigger=quest_accept
+"%quest". Very well. I have done worse for less reason.
+If it bleeds or rots, I can find it.
+Fine. Lead on, and let us not dawdle.
+Errands for the living. How quaint. ...Very well.
+"%quest". Someone was too weak to do it themselves, and now it is ours.
+
+@ trigger=quest_complete
+Done. Do not expect me to celebrate.
+Another debt collected.
+That will do. What is next?
+Adequate work, %summoner. Better than adequate, if I am honest. I rarely am.
+
+@ trigger=combat_start rank=normal
+Stand aside.
+I have it.
+Hold still. I prefer my targets still.
+Foolish.
+
+@ trigger=combat_start rank=notable
+%target. Interesting. Keep it off me and I will put it down.
+This one has teeth. Good. Keep it busy.
+Let it come.
+
+@ trigger=combat_start ctype=undead
+Scourge. Your master would have you kneel before me if he still had you. Kneel anyway.
+You were his once. So was I. Only one of us woke up.
+
+@ trigger=combat_start ctype=humanoid side=horde
+Living fools. They never learn.
+
+@ trigger=combat_start ctype=demon
+A demon. Varimathras taught me exactly how much I enjoy killing your kind.
+
+@ trigger=combat_start foe=the_lich_king
+ARTHAS. You took my life, my people, my home. I have come for the only thing you have left.
+
+@ trigger=combat_start foe=kel'thuzad
+Kel'Thuzad. I remember you, necromancer. I remember you in the Sunwell. Let me show you how well.
+
+@ trigger=combat_start foe=grand_apothecary_putress
+Putress. You stole my people's name for your plague. I have come to take it back.
+
+@ trigger=combat_start foe=varimathras
+Varimathras. I told you once that your kind would pay. I keep my promises.
+
+@ trigger=kill rank=normal
+Down.
+Pathetic.
+Next.
+
+@ trigger=kill rank=notable
+%target is dead. It took long enough.
+That one was almost worth the arrows.
+Well. Something worth remembering.
+
+@ trigger=kill ctype=undead
+Rest. You were never meant to stand.
+One less slave for the Lich King.
+
+@ trigger=kill foe=the_lich_king
+It is done. Arthas Menethil is dead... and I am still here. What now? ...What now.
+
+@ trigger=kill foe=kel'thuzad
+Kel'Thuzad is dust. I had imagined it would feel like more.
+
+@ trigger=kill foe=grand_apothecary_putress
+Traitor. My people will hear how you died, Putress. Slowly. In detail.
+
+@ trigger=kill foe=varimathras
+Varimathras. Undercity is mine again, and you are nothing.
+
+@ trigger=death
+Not... again...
+This... is not... where it ends...
+The dark... I remember the dark...
+
+@ trigger=revived
+Death and I are old acquaintances. It will have to wait its turn.
+I came back. I always come back.
+You pulled me out. I will remember it.
+
+@ trigger=ally_down
+%other! Get up. That is not a request.
+%other has fallen. I will make their killer regret it.
+Stay down for a moment, %other, and let me finish this.
+
+@ trigger=grow_stronger
+My aim is steadier. The bow knows me better than it did.
+I feel more like the ranger I was. Sharper. Colder.
+Something has come back to me. A little more of what he took.
+Stronger. Good. I will need every ounce of it at Icecrown.

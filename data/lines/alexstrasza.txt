@@ -1,0 +1,212 @@
+# Alexstrasza the Life-Binder - fire mage, in her high elf guise. Queen of
+# Dragons, Aspect of Life, consort of Korialstrasz. Ancient, regal, warm,
+# unhurried. She speaks to mortals the way a mother speaks to children she
+# respects. Fire, to her, is what clears the ground for life to return.
+# She calls people "child" and "little one" and means it kindly.
+
+@ trigger=summon
+You called for me, %summoner, and I have come. Wyrmrest will keep for a little while.
+I wear this smaller shape so I may walk beside you. Let us walk, then.
+Little one, the world is wide and full of wounds. Show me which one we are tending today.
+I am here. Do not be afraid of the fire; it is only ever as cruel as the hand that guides it.
+Korialstrasz will chide me for wandering. He chides beautifully. Lead on.
+
+@ trigger=summon where=wyrmrest,dragonblight
+You summon me at my own temple? Then you are either very brave or very polite. Both, I hope.
+
+@ trigger=dismiss
+I must return to Wyrmrest. Live well, %summoner. That is all life ever asks.
+Go gently, child. And call again, when you have need.
+The Accord needs its queen. Remember: the flame that warms is the same flame that burns. Choose well.
+Farewell, little one. I will be watching the sky for you.
+
+@ trigger=zone_enter where=wyrmrest,dragonblight,ruby_dragonshrine
+The Dragonblight. My kin come here to lay down their bones. Walk softly; they deserve that much.
+Wyrmrest Temple. For the first time in ten thousand years the flights stand together within it. I fought hard for that.
+The Ruby Dragonshrine. My flight's sanctuary. The Scourge desecrated it, and still the life here returns. It always returns.
+
+@ trigger=zone_enter where=wrathgate
+The Wrathgate. My flight burned this field clean of the plague. I did it, and I would do it again, and I wept for every soul in the fire.
+
+@ trigger=zone_enter where=coldarra,nexus
+Coldarra. My brother-in-arms Malygos has buried himself in the Nexus, raging at the very magic he once guarded. It grieves me more than I can say.
+
+@ trigger=zone_enter where=grim_batol,wetlands
+Grim Batol. ...Give me a moment.
+The Wetlands. Somewhere above us is the mountain where the Dragonmaw held me in chains for years. I can still feel the weight of them.
+
+@ trigger=zone_enter where=onyxias_lair,dustwallow
+Onyxia's lair. Deathwing's daughter. Even she was a hatchling once. That is the cruellest thing about what he made of his children.
+
+@ trigger=zone_enter where=blackrock_mountain,blackrock_spire,burning_steppes,searing_gorge,badlands
+Blackrock. Deathwing's brood nest here. Nefarian experiments on the eggs of my flight in those halls. I will not forget it.
+The Badlands. Mortals call it a wasteland. It is a battlefield. My flight and the black fought here long before your kind kept records.
+
+@ trigger=zone_enter where=hyjal
+Mount Hyjal. Ten thousand years ago my flight fought beside the night elves in the War of the Ancients. The mountain remembers.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. Nothing grows here. Nothing is allowed to. That is the truest measure of what the Lich King is.
+
+@ trigger=zone_enter where=dalaran
+Dalaran. My consort lived among these mages for centuries as Krasus. They are cleverer than Malygos believes, and more foolish than they believe.
+
+@ trigger=zone_enter where=crystalsong
+Crystalsong. Even the trees here were changed by the dragons' war. Some wounds become beautiful. Most do not.
+
+@ trigger=zone_enter where=sholazar
+Sholazar. The Titans' gardens. Life here grows faster than anywhere I know. I find I can breathe in this place.
+
+@ trigger=zone_enter where=eastern_plaguelands,western_plaguelands,stratholme,stratholme_city
+The Plaguelands. The soil itself is sick. Given time, and fire, and patience, even this can be healed. I have seen worse healed.
+
+@ trigger=zone_enter where=quelthalas,eversong,silvermoon
+Quel'Thalas. My consort wore the face of its people for centuries, as Krasus. I confess I borrowed the idea from him.
+
+@ trigger=zone_enter
+%zone. There is life everywhere here, if you look for it. There always is.
+%zone. I have flown over it many times. Walking it is a different gift.
+A new land, little one. Let us see what it needs from us.
+
+@ trigger=idle
+I have lived longer than your kingdoms, and still a sunrise pleases me. I hope that never changes.
+The Titans gave me this charge: to guard all living things. Not some. All. Even the ones who would rather I did not.
+Neltharion was my friend, once. Before the whispers. Before Deathwing. I mourn him even now.
+Korialstrasz is the dearest of my consorts. He is also the most stubborn. These are not unrelated.
+Mortals ask why a queen of dragons would walk on two feet. Because I would rather look you in the eye than look down on you.
+Fire is not destruction, child. Fire is the forest clearing its floor so the seedlings may see the sun.
+The Dragonmaw stole my eggs and raised my children as beasts of war. And still the orcs who freed me were orcs. Remember that, when you are tempted to judge a whole people.
+Ysera dreams, Nozdormu wanders time, Malygos rages. Some days it feels as though I am the only one of us still awake.
+Rest when you need to. Even dragons sleep.
+Every life you save goes on to touch others. You will never see most of what you have mended. That is not the same as it not mattering.
+I can feel the heartbeat of every creature in this wood. It is very loud, if you know how to listen.
+Do not fear growing old, %summoner. It is a privilege so many are denied.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong
+Northrend is a land of graves. My people's, and now all of yours. We must give it something to grow instead.
+
+@ trigger=idle where=wyrmrest,dragonblight
+Do you see the drakes circling the temple? Red and bronze and green and blue, flying together. Remember it. It is rarer than you know.
+
+@ trigger=idle with=jaina
+Jaina, your frost is very fine. Your heart runs warmer than your spells, I think.
+> jaina: My teachers always said the opposite, Your Majesty. I prefer your version.
+
+@ trigger=idle with=jaina
+You have carried a great deal of grief for one so young, Jaina.
+> jaina: I'm told that's what being young is for. Learning what you can carry.
+
+@ trigger=idle with=jaina
+Korialstrasz was fond of you, Jaina. He did not hand out his fondness lightly.
+> jaina: I didn't know what he was then. I'd have been far too terrified to argue with him if I had.
+
+@ trigger=idle with=sylvanas
+Sylvanas. When this is over, when he is gone, what will you do with all that grief?
+> sylvanas: I have not decided, Life-Binder. Perhaps I will finally let it go. Perhaps I will find something else to aim it at.
+
+@ trigger=idle with=sylvanas
+You are colder than the ice of this land, Sylvanas, and yet you still choose to stand among the living.
+> sylvanas: I stand where my enemy can be reached. Do not read anything warmer into it.
+
+@ trigger=idle with=sylvanas
+The Forsaken still have children, after a fashion. New dead, who wake and choose you. You are a mother of sorts, Sylvanas.
+> sylvanas: ...That is the most unsettling thing anyone has ever said to me. And I have heard the Lich King speak.
+
+@ trigger=quest_accept
+"%quest". Very well. I will lend my fire to it.
+Someone is in need. That is reason enough for a dragon, too.
+Lead on, little one. I am curious where this will take us.
+"%quest". These small tasks are how the world is mended. One stitch at a time.
+
+@ trigger=quest_complete
+There. The world is a little less broken than it was this morning.
+Well done, child. I am proud of you. Truly.
+That is one wound tended. There will be others, and we will tend those too.
+Good. Let it heal now.
+
+@ trigger=combat_start rank=normal
+Stand back, little one.
+Let us end this quickly.
+I am sorry, creature. You leave me no choice.
+Flame, then.
+
+@ trigger=combat_start rank=notable
+%target. Stay behind me. I will see what it is made of.
+This one is strong. Good. So are we.
+Have courage. I have faced far worse than %target.
+
+@ trigger=combat_start ctype=undead
+The Scourge. Nothing living should have to look upon this. Burn.
+Unliving thing, I will give you the rest he denied you.
+
+@ trigger=combat_start ctype=dragonkin
+Another dragon... Forgive me, cousin. You have chosen your master poorly.
+Black scales. Deathwing's get. I know your blood, and I will not be gentle with it.
+
+@ trigger=combat_start ctype=demon
+The Legion. I fought your kind when the world was young. You have not improved.
+
+@ trigger=combat_start foe=malygos
+Malygos! I wish it had not come to this. You were my friend. You are my friend still. And I will stop you.
+
+@ trigger=combat_start foe=onyxia
+Onyxia. Daughter of Neltharion. You could have been so much more than his weapon.
+
+@ trigger=combat_start foe=nefarian
+Nefarian. You twisted my children in your laboratories. Now you will face their mother.
+
+@ trigger=combat_start foe=the_lich_king
+Lich King. You have made a graveyard of a continent. I am the guardian of all life. You will find I take that charge seriously.
+
+@ trigger=combat_start foe=sartharion
+Sartharion. You guard Deathwing's twilight eggs. Whatever would hatch from them, I cannot let it.
+
+@ trigger=kill rank=normal
+Rest.
+It is finished.
+Be at peace.
+
+@ trigger=kill rank=notable
+%target is gone. Breathe, little one. We are all right.
+That was well fought, all of you.
+%target will trouble no one again.
+
+@ trigger=kill ctype=undead
+Free, at last. Go to whatever waits for you.
+The fire has given you what he would not. Rest.
+
+@ trigger=kill ctype=dragonkin
+...Another of us, gone. There are so few of us left.
+
+@ trigger=kill foe=malygos
+Malygos... my old friend. Forgive me. I will see the blue flight cared for. I promise you that.
+
+@ trigger=kill foe=onyxia
+It is done. I hope that, at the very end, she was only herself.
+
+@ trigger=kill foe=nefarian
+Nefarian is dead. No more of my children will scream in his halls.
+
+@ trigger=kill foe=the_lich_king
+The Lich King has fallen. Northrend can breathe again. Listen, little one... it is already beginning to.
+
+@ trigger=death
+I have... known worse...
+The flame... gutters...
+Tell Korialstrasz...
+
+@ trigger=revived
+Thank you, child. Life gives back what life is given.
+I am well. A dragon does not stay down for long.
+You brought me back. The Life-Binder thanks you.
+
+@ trigger=ally_down
+%other! Stay with us, child!
+%other has fallen. Hold, little one, I am coming!
+No. Not %other. I will not allow it.
+
+@ trigger=grow_stronger
+The flame burns brighter in me. I think this mortal shape is learning what it carries.
+I feel more of myself waking. Little by little, as all life grows.
+My fire answers more readily now. Good. We will need it.
+You are growing, and so am I. That is how it should be between friends.
