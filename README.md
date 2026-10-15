@@ -16,7 +16,7 @@ their own voices.
 | --- | --- | --- | --- |
 | Jaina | frost mage | 30863, Theramore | human |
 | Sylvanas | marksman hunter, with a bat | 28213, the Banshee Queen | Forsaken |
-| Alexstrasza | fire mage | 28227, her elf form | blood elf |
+| Alexstrasza | fire mage | 28227, her elf form, at 0.68 scale | blood elf |
 
 ## How it works
 

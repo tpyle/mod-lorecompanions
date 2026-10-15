@@ -51,6 +51,10 @@ OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 #   race:   1 human, 5 undead, 10 blood elf
 #   class:  3 hunter, 8 mage
 #   gender: 1 female
+#   scale:  multiplies the model's own size. Alexstrasza's model is drawn at
+#           1.75 (Jaina's and Sylvanas's at 1.2, player races at 1.0), so 0.68
+#           brings her to about 1.19: a little over a blood elf, level with
+#           the other two.
 #   spec:   an AiPlayerbot.PremadeSpecName for that class
 #   pet:    a hunter's pet by creature entry, 0 to let playerbots pick.
 #           1554 is the Vampiric Duskbat of Tirisfal Glades - the Forsaken's
@@ -58,7 +62,7 @@ OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 COMPANIONS = [
     ("jaina",       "Jaina",       "Lady Jaina Proudmoore",       1,  8, 1, 30863, 1.0, "frost pve", 0,    1),
     ("sylvanas",    "Sylvanas",    "Lady Sylvanas Windrunner",    5,  3, 1, 28213, 1.0, "mm pve",    1554, 2),
-    ("alexstrasza", "Alexstrasza", "Alexstrasza the Life-Binder", 10, 8, 1, 28227, 1.0, "fire pve",  0,    3),
+    ("alexstrasza", "Alexstrasza", "Alexstrasza the Life-Binder", 10, 8, 1, 28227, 0.68, "fire pve", 0,    3),
 ]
 
 TRIGGERS = {

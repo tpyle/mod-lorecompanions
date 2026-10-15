@@ -74,6 +74,7 @@
 #include <algorithm>
 #include <cctype>
 #include <chrono>
+#include <cmath>
 #include <deque>
 #include <mutex>
 #include <sstream>
@@ -571,18 +572,35 @@ namespace
     // Model, side and level
     // ---------------------------------------------------------------------
 
+    // Scale multiplies the model's own size from CreatureDisplayInfo:
+    // Alexstrasza's is 1.75, Jaina's and Sylvanas's 1.2, a player race's 1.0.
     void ApplyModel(Player* bot, CompanionDef const& def)
     {
         bot->SetNativeDisplayId(def.displayId);
 
         // A transform aura (a polymorph, say) owns the current display while it
         // lasts; when it ends the core restores the native one, which is now
-        // hers.
+        // hers. SetDisplayId also sets the object scale, so they go together.
         if (!bot->HasAuraType(SPELL_AURA_TRANSFORM))
-            bot->SetDisplayId(def.displayId);
+            bot->SetDisplayId(def.displayId, def.scale > 0.0f ? def.scale : 1.0f);
+    }
 
-        if (def.scale > 0.0f && def.scale != 1.0f)
-            bot->SetObjectScale(def.scale);
+    // Whether something has put her back in the racial model or reset her
+    // size. Both happen routinely: RestoreDisplayId after a polymorph sets
+    // scale 1, and so does InitStatsForLevel on every level change.
+    bool ModelDrifted(Player* bot, CompanionDef const& def)
+    {
+        if (bot->GetNativeDisplayId() != def.displayId)
+            return true;
+
+        if (bot->HasAuraType(SPELL_AURA_TRANSFORM))
+            return false;
+
+        if (bot->GetDisplayId() != def.displayId)
+            return true;
+
+        float const scale = def.scale > 0.0f ? def.scale : 1.0f;
+        return !bot->HasAuraType(SPELL_AURA_MOD_SCALE) && std::fabs(bot->GetObjectScale() - scale) > 0.001f;
     }
 
     // mod-factionchoice keeps a character's side in its player settings and
@@ -779,6 +797,9 @@ namespace
         bot->SetFullHealth();
         if (bot->getPowerType() == POWER_MANA)
             bot->SetPower(POWER_MANA, bot->GetMaxPower(POWER_MANA));
+
+        // InitStatsForLevel put her back to scale 1.
+        ApplyModel(bot, def);
 
         bot->SaveToDB(false, false);
 
@@ -1390,7 +1411,7 @@ namespace
                 continue;
             }
 
-            if (bot->GetNativeDisplayId() != def.displayId)
+            if (ModelDrifted(bot, def))
                 ApplyModel(bot, def);
 
             uint8 const target = TargetLevel(bot, master);

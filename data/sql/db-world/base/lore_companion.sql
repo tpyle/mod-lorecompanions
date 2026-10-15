@@ -25,7 +25,7 @@ CREATE TABLE `lore_companion` (
 INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`) VALUES
 ('jaina', 'Jaina', 'Lady Jaina Proudmoore', 1, 8, 1, 30863, 1.0, 'frost pve', 0, 1),
 ('sylvanas', 'Sylvanas', 'Lady Sylvanas Windrunner', 5, 3, 1, 28213, 1.0, 'mm pve', 1554, 2),
-('alexstrasza', 'Alexstrasza', 'Alexstrasza the Life-Binder', 10, 8, 1, 28227, 1.0, 'fire pve', 0, 3);
+('alexstrasza', 'Alexstrasza', 'Alexstrasza the Life-Binder', 10, 8, 1, 28227, 0.68, 'fire pve', 0, 3);
 
 DROP TABLE IF EXISTS `lore_companion_text`;
 CREATE TABLE `lore_companion_text` (
