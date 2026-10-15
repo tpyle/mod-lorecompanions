@@ -15,7 +15,7 @@ their own voices.
 | | spec | model | as a character |
 | --- | --- | --- | --- |
 | Jaina | frost mage | 30863, Theramore | human |
-| Sylvanas | marksman hunter | 28213, the Banshee Queen | Forsaken |
+| Sylvanas | marksman hunter, with a bat | 28213, the Banshee Queen | Forsaken |
 | Alexstrasza | fire mage | 28227, her elf form | blood elf |
 
 ## How it works
@@ -51,7 +51,9 @@ summoner's if the leader can't be found. On joining, and whenever that level
 changes (the leader levels up, or the lead passes to someone else), she is
 rebuilt with playerbots' factory: her spells, her fixed spec (the
 `AiPlayerbot.PremadeSpecName` named in `lore_companion.Spec`), gear, glyphs,
-reagents, ammo and a pet for Sylvanas. It is like playerbots' `init=auto`,
+reagents and ammo. Sylvanas's pet is always a bat, the Vampiric Duskbat of
+Tirisfal (`lore_companion.PetEntry`), instead of whatever playerbots would
+pick; the same bat is kept from one level to the next. It is like playerbots' `init=auto`,
 but it leaves out the random spec, the cleared quest log, guilds and arena
 teams. Her own XP gain is switched off. Moving down a level clears her
 spells first, so she can't keep abilities above it.
@@ -114,8 +116,8 @@ doesn't recite a statistic.
 ## Adding a companion
 
 Add a row to `COMPANIONS` in `tools/gen_lines.py` with a free character
-name, a race and class pair your realm allows, a creature display id, and a
-premade spec name for the class. Then write `data/lines/<id>.txt`, run the
+name, a race and class pair your realm allows, a creature display id, a
+premade spec name for the class and, for a hunter, a pet's creature entry. Then write `data/lines/<id>.txt`, run the
 generator and restart. The character is created on the next startup.
 
 ## Requirements

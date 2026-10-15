@@ -51,6 +51,7 @@
 #include "Log.h"
 #include "ObjectAccessor.h"
 #include "ObjectMgr.h"
+#include "Pet.h"
 #include "Player.h"
 #include "QuestDef.h"
 #include "ScriptMgr.h"
@@ -153,6 +154,7 @@ namespace
         uint32 displayId = 0;
         float scale = 1.0f;
         std::string spec;       // a playerbots premade spec name, "frost pve"
+        uint32 petEntry = 0;    // a hunter's pet, by creature entry; 0 lets playerbots choose
         int32 specNo = -1;      // resolved against AiPlayerbot.PremadeSpecName
         ObjectGuid guid;        // empty when the character could not be set up
     };
@@ -316,7 +318,7 @@ namespace
         defs.clear();
 
         QueryResult result = WorldDatabase.Query(
-            "SELECT Id, Name, Title, Race, Class, Gender, DisplayId, Scale, Spec "
+            "SELECT Id, Name, Title, Race, Class, Gender, DisplayId, Scale, Spec, PetEntry "
             "FROM lore_companion WHERE Enabled = 1 ORDER BY SortOrder, Id");
         if (!result)
         {
@@ -337,6 +339,7 @@ namespace
             def.displayId = fields[6].Get<uint32>();
             def.scale     = fields[7].Get<float>();
             def.spec      = Lower(fields[8].Get<std::string>());
+            def.petEntry  = fields[9].Get<uint32>();
             defs.push_back(std::move(def));
         } while (result->NextRow());
     }
@@ -598,6 +601,49 @@ namespace
         return master ? master->GetLevel() : bot->GetLevel();
     }
 
+    // Gives a hunter companion her own pet - Sylvanas's bat - in place of
+    // whatever playerbots would pick at random. A pet that is already the
+    // right creature is kept, so its name and talents survive a level change;
+    // anything else is put away the way playerbots replaces a bot's pet.
+    void EnsurePet(Player* bot, CompanionDef const& def)
+    {
+        if (!def.petEntry || bot->getClass() != CLASS_HUNTER || bot->GetLevel() < 10)
+            return;
+
+        uint32 current = 0;
+        if (Pet* pet = bot->GetPet())
+            current = pet->GetEntry();
+        else if (bot->GetPetStable() && bot->GetPetStable()->CurrentPet)
+            current = bot->GetPetStable()->CurrentPet->CreatureId;
+
+        if (current == def.petEntry)
+            return;
+
+        if (current)
+        {
+            bot->RemovePet(nullptr, PET_SAVE_AS_CURRENT);
+            bot->RemovePet(nullptr, PET_SAVE_NOT_IN_SLOT);
+        }
+
+        if (bot->GetPetStable())
+            bot->GetPetStable()->UnslottedPets.clear();
+
+        Pet* pet = bot->CreateTamedPetFrom(def.petEntry, 0);
+        if (!pet)
+        {
+            LOG_ERROR("module", "mod-lorecompanions: could not give {} her pet (creature {})", def.name, def.petEntry);
+            return;
+        }
+
+        pet->SetUInt32Value(UNIT_FIELD_LEVEL, bot->GetLevel() - 1);
+        pet->GetMap()->AddToMap(pet->ToCreature());
+        pet->SetUInt32Value(UNIT_FIELD_LEVEL, bot->GetLevel());
+        bot->SetMinion(pet, true);
+        pet->InitTalentForLevel();
+        pet->SavePetToDB(PET_SAVE_AS_CURRENT);
+        bot->PetSpellInitialize();
+    }
+
     // Rebuilds the companion for a level: what playerbots' "init" does, minus
     // the parts that would be wrong for her - a random spec, a cleared quest
     // log, random-bot guilds and arena teams, a pocketful of random gold.
@@ -655,6 +701,8 @@ namespace
 
         if (bot->getClass() == CLASS_HUNTER && level >= 10)
         {
+            // Hers first; InitPet then only levels it and sets its autocasts.
+            EnsurePet(bot, def);
             factory.InitPet();
             factory.InitPetTalents();
         }

@@ -47,15 +47,18 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 LINES = ROOT / "data" / "lines"
 OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 
-# id, name, title, race, class, gender, display, scale, spec, sort
+# id, name, title, race, class, gender, display, scale, spec, pet, sort
 #   race:   1 human, 5 undead, 10 blood elf
 #   class:  3 hunter, 8 mage
 #   gender: 1 female
 #   spec:   an AiPlayerbot.PremadeSpecName for that class
+#   pet:    a hunter's pet by creature entry, 0 to let playerbots pick.
+#           1554 is the Vampiric Duskbat of Tirisfal Glades - the Forsaken's
+#           own bats, and an ordinary tameable family, so no exotic talent.
 COMPANIONS = [
-    ("jaina",       "Jaina",       "Lady Jaina Proudmoore",       1,  8, 1, 30863, 1.0, "frost pve", 1),
-    ("sylvanas",    "Sylvanas",    "Lady Sylvanas Windrunner",    5,  3, 1, 28213, 1.0, "mm pve",    2),
-    ("alexstrasza", "Alexstrasza", "Alexstrasza the Life-Binder", 10, 8, 1, 28227, 1.0, "fire pve",  3),
+    ("jaina",       "Jaina",       "Lady Jaina Proudmoore",       1,  8, 1, 30863, 1.0, "frost pve", 0,    1),
+    ("sylvanas",    "Sylvanas",    "Lady Sylvanas Windrunner",    5,  3, 1, 28213, 1.0, "mm pve",    1554, 2),
+    ("alexstrasza", "Alexstrasza", "Alexstrasza the Life-Binder", 10, 8, 1, 28227, 1.0, "fire pve",  0,    3),
 ]
 
 TRIGGERS = {
@@ -236,12 +239,13 @@ def main():
         "  `DisplayId` INT UNSIGNED NOT NULL COMMENT 'CreatureDisplayInfo id of the lore model',",
         "  `Scale` FLOAT NOT NULL DEFAULT 1,",
         "  `Spec` VARCHAR(32) NOT NULL COMMENT 'AiPlayerbot.PremadeSpecName for the class',",
+        "  `PetEntry` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'hunter pet creature entry, 0 = playerbots picks',",
         "  `SortOrder` TINYINT UNSIGNED NOT NULL DEFAULT 0,",
         "  `Enabled` TINYINT UNSIGNED NOT NULL DEFAULT 1,",
         "  PRIMARY KEY (`Id`)",
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;",
         "",
-        "INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `SortOrder`) VALUES",
+        "INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`) VALUES",
         ",\n".join("(" + ", ".join(sql(v) for v in c) + ")" for c in COMPANIONS) + ";",
         "",
         "DROP TABLE IF EXISTS `lore_companion_text`;",

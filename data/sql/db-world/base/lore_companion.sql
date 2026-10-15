@@ -16,15 +16,16 @@ CREATE TABLE `lore_companion` (
   `DisplayId` INT UNSIGNED NOT NULL COMMENT 'CreatureDisplayInfo id of the lore model',
   `Scale` FLOAT NOT NULL DEFAULT 1,
   `Spec` VARCHAR(32) NOT NULL COMMENT 'AiPlayerbot.PremadeSpecName for the class',
+  `PetEntry` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'hunter pet creature entry, 0 = playerbots picks',
   `SortOrder` TINYINT UNSIGNED NOT NULL DEFAULT 0,
   `Enabled` TINYINT UNSIGNED NOT NULL DEFAULT 1,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `SortOrder`) VALUES
-('jaina', 'Jaina', 'Lady Jaina Proudmoore', 1, 8, 1, 30863, 1.0, 'frost pve', 1),
-('sylvanas', 'Sylvanas', 'Lady Sylvanas Windrunner', 5, 3, 1, 28213, 1.0, 'mm pve', 2),
-('alexstrasza', 'Alexstrasza', 'Alexstrasza the Life-Binder', 10, 8, 1, 28227, 1.0, 'fire pve', 3);
+INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`) VALUES
+('jaina', 'Jaina', 'Lady Jaina Proudmoore', 1, 8, 1, 30863, 1.0, 'frost pve', 0, 1),
+('sylvanas', 'Sylvanas', 'Lady Sylvanas Windrunner', 5, 3, 1, 28213, 1.0, 'mm pve', 1554, 2),
+('alexstrasza', 'Alexstrasza', 'Alexstrasza the Life-Binder', 10, 8, 1, 28227, 1.0, 'fire pve', 0, 3);
 
 DROP TABLE IF EXISTS `lore_companion_text`;
 CREATE TABLE `lore_companion_text` (
