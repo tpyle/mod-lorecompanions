@@ -1,0 +1,214 @@
+# High General Brigitte Abbendis - holy paladin. One of the Scarlet
+# Crusade's founders and long its commander at Tyr's Hand, she received a
+# vision from the Light commanding her to sail north, and took the most
+# devoted of the Crusade with her as the Scarlet Onslaught. She holds New
+# Hearthglen in the Dragonblight and fights the Scourge, the Horde, the
+# Alliance and the Argent Crusade with equal conviction. Her Grand Admiral,
+# Westwind, is in truth the dreadlord Mal'Ganis, and the vision may not have
+# come from the Light at all; she never suspects. A general first: crisp,
+# commanding, disciplined, utterly certain, and a healer who treats the
+# faith as a wound that must be kept clean.
+
+@ trigger=summon
+High General Abbendis. You have my sword and my prayers, %summoner. Use them well.
+I am here. New Hearthglen holds without me for a time. Westwind will see to it.
+The Light told me to go north. It seems it also told me to go wherever you are. Very well.
+Lead. I will keep you standing. Whether you deserve it is another matter.
+Report, %summoner. What is our objective?
+
+@ trigger=summon side=horde
+The Horde. My Onslaught kills your kind on sight. Do not make me regret making an exception.
+
+@ trigger=summon where=dragonblight,new_hearthglen
+You summon me within sight of my own walls. Efficient. I approve.
+
+@ trigger=dismiss
+I return to New Hearthglen. Keep your faith clean, %summoner.
+Enough. The Onslaught needs its general.
+Dismissed, then. You fought with discipline. That is rarer than courage.
+The Light keep you. And keep you away from my walls, unless you come as a friend.
+
+@ trigger=zone_enter where=dragonblight,new_hearthglen
+New Hearthglen. We built it from nothing in a frozen waste. That is what faith does.
+The Dragonblight. The Light led us here. I do not question it.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. The head of the serpent. Westwind's ships will carry us there, in the Light's own time.
+The Citadel. When we take it, the Onslaught will be first through the gates.
+
+@ trigger=zone_enter where=tyrs_hand,eastern_plaguelands,lights_hope
+Tyr's Hand. I commanded here for years. I left it in good hands. I hope.
+Light's Hope. The Argent Dawn. They sit in their chapel and bargain with death knights. Cowards.
+
+@ trigger=zone_enter where=hearthglen,mardenholde,western_plaguelands
+Hearthglen. The original. Isillien keeps it, for now. I named my new city for it. He was not pleased.
+
+@ trigger=zone_enter where=scarlet_monastery,tirisfal
+The Monastery. Whitemane and Mograine guard it well. Too well. They never leave.
+
+@ trigger=zone_enter where=stratholme,stratholme_city
+Stratholme. Grand Crusader Dathrohan's seat. He commands. We obey. That is the way of it.
+
+@ trigger=zone_enter where=undercity,ruins_of_lordaeron
+The Undercity. A nest of the dead, beneath the throne of the living. Someday we will clear it.
+
+@ trigger=zone_enter where=argent_tournament,crusaders_pinnacle
+The Argent Tournament. Fordring holds games while the Lich King watches from his tower. Unbelievable.
+
+@ trigger=zone_enter
+%zone. Secure the perimeter. Then we proceed.
+%zone. Note the terrain. Note the exits. Then we move.
+New ground. Stay in formation.
+
+@ trigger=idle
+The Light spoke to me, %summoner. Clearly. It said "go north." I went. What more does faith require?
+A crusade is an army before it is anything else. Armies need discipline. Faith is discipline.
+I heal my soldiers so they can kill again. Some find that hard to accept. I find it merciful.
+Grand Admiral Westwind is a hard man, but he understands what must be done. I trust him with my fleet.
+I lost my home to the plague. I lost my family. I did not lose my faith. That is the one thing they could not take.
+We burned the infected villages of Lordaeron because no one else would. History will thank us.
+Rest. I will take first watch. A general does not ask anything of her soldiers she will not do herself.
+The Argent Crusade calls us zealots. The Scourge calls us nothing at all. Only one of those opinions matters.
+Mercy is a luxury of peacetime. There has been no peacetime in a very long time.
+You fight well. With training, you could be an officer.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. The Light brought me here. Every frozen step has been worth it.
+
+@ trigger=idle side=horde
+I am marching with orcs. My officers would mutiny. I may not tell them.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. Your Kalimdor is full of orcs and you call it peace.
+> jaina: I call it peace because it is peace, High General. You should try it. It's quieter than burning villages.
+
+@ trigger=idle with=sylvanas
+The Banshee Queen. My Onslaught will reach your Undercity someday.
+> sylvanas: Your Onslaught has already met my Forsaken in the Dragonblight, General. Some of your soldiers are still there. Standing guard. For me.
+
+@ trigger=idle with=alexstrasza
+Dragon. Your Wyrmrest Temple sits too close to my walls.
+> alexstrasza: My temple was here long before your walls, child. It will be here long after. I wish you no harm. I wish you would stop throwing stones at it.
+
+@ trigger=idle with=moira
+Princess. A dwarf married to a Dark Iron. The Light has room for strange things.
+> moira: It's got room for you, General. That's about the strangest thing I've seen all week.
+
+@ trigger=idle with=liadrin
+Blood Knight. You command your knights well. I respect that.
+> liadrin: And you command yours to their deaths in the snow, Abbendis. I respect very little of that.
+
+@ trigger=idle with=tyrande
+High Priestess. Your goddess sends you visions too, I'm told.
+> tyrande: She does, High General. And I have learned to ask who else might be speaking when one comes. Have you?
+
+@ trigger=idle with=arthas
+Prince Arthas. You are... young.
+> arthas: Everyone says that, General. Then they look away. Is there something about me you aren't telling me?
+
+@ trigger=idle with=thrall
+Warchief. If I met you on a battlefield, I would kill you.
+> thrall: And yet you would heal me now, if I fell. Think on that, General. The Light seems to.
+
+@ trigger=idle with=illidan
+Demon. I see you looking at my soldiers. Stop it.
+> illidan: I am looking at your admiral, General. Your admiral is very interesting. You should look more closely too, sometime.
+
+@ trigger=idle with=whitemane
+Whitemane. The Monastery has been quiet. You could have come north with us.
+> whitemane: And leave Tirisfal to the Forsaken? Someone must keep the home fires burning, Abbendis. Literally, where necessary.
+
+@ trigger=idle with=paletress
+Confessor. The Argent Crusade lets death knights in. Explain that to me.
+> paletress: They are fighting the Lich King, Brigitte. So are you. We would let you in too, you know. Any time you liked.
+
+@ trigger=idle with=tirion
+Fordring. The Light abandoned you once. Why should I trust it in your hands?
+> tirion: It never abandoned me, Brigitte. People did. There's a difference. One day I hope you'll learn it without paying what I paid.
+
+@ trigger=idle with=renault
+Commander Mograine. The Monastery is well defended, I hear.
+> renault: It is, High General. Some of us still guard the homeland. Someone has to.
+
+@ trigger=idle with=isillien
+Isillien. I hear you have been calling yourself the true heart of the Crusade.
+> isillien: The Crusade has many hearts, Abbendis. Some of them sail away. Mine stays where it is needed.
+
+@ trigger=quest_accept
+"%quest". Understood. We proceed.
+An objective. Good. Lead on.
+"%quest". I will keep you alive. Complete it.
+Orders received.
+
+@ trigger=quest_complete
+Objective complete. Well done.
+Done. The Light is served.
+Efficient. I am pleased.
+Mission accomplished. On to the next.
+
+@ trigger=combat_start rank=normal
+For the Onslaught!
+Hold formation!
+The Light is with us!
+Advance!
+
+@ trigger=combat_start rank=notable
+%target. Focus on it. I will keep you on your feet.
+All of you, stay in my sight. I cannot heal what I cannot see.
+A worthy enemy. The Light will decide this.
+
+@ trigger=combat_start ctype=undead
+Scourge! Purge them all!
+The dead. My oldest enemy. Advance!
+
+@ trigger=combat_start ctype=demon
+Demon. I will see you cast back into the Nether.
+
+@ trigger=combat_start foe=the_lich_king
+Lich King! The Onslaught has come for you!
+
+@ trigger=combat_start foe=mal'ganis,grand_admiral_westwind
+Westwind? No... that is a dreadlord. That is... no. The vision. Was the vision yours? Was all of it yours?
+
+@ trigger=combat_start foe=balnazzar
+Dathrohan? What... a demon? The Grand Crusader is a demon? No. No. Stand fast, all of you! Kill it!
+
+@ trigger=kill rank=normal
+Target down.
+Purged.
+Next.
+
+@ trigger=kill rank=notable
+%target is dead. Regroup. Report.
+Well fought. The Light favors the disciplined.
+It is done. Tend your wounds. I will help.
+
+@ trigger=kill ctype=undead
+Return to the earth.
+
+@ trigger=kill foe=mal'ganis,grand_admiral_westwind
+It is dead. My admiral. My vision. My Onslaught... Light, what have I done?
+
+@ trigger=kill foe=the_lich_king
+The Lich King is dead. The vision was true. It was true. It must have been true.
+
+@ trigger=death
+The Light... commanded...
+Westwind... hold...
+I... was... certain...
+
+@ trigger=revived
+Back on my feet. Good. Report.
+I owe you, %summoner. I pay my debts.
+The Light is not done with me. Formation, everyone.
+
+@ trigger=ally_down
+%other is down! I am coming!
+Hold, %other! The Light will not let you go!
+Cover %other! I will raise them!
+
+@ trigger=grow_stronger
+My prayers carry further. Good.
+The Light flows easily. I am pleased.
+Stronger. The Onslaught will need every ounce.
+I feel the Light's favor. It knows I am faithful.

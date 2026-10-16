@@ -117,6 +117,22 @@ Illidan Stormrage. Would you like to confess?
 Sally. You can rest, you know. Just for a moment. The plague will still be there when you wake.
 > whitemane: That is exactly why I cannot, Confessor. And do not call me Sally.
 
+@ trigger=idle with=tirion
+Tirion. You should sleep.
+> tirion: After Icecrown, Paletress. After Icecrown, I'll sleep for a week.
+
+@ trigger=idle with=renault
+Renault. I've seen your father's memory, you know. In the Coliseum. He forgave you.
+> renault: Stop. Stop it. ...Did he? Truly? No. Don't answer. I can't hear it.
+
+@ trigger=idle with=brigitte
+Brigitte. When the Light speaks to me, it never feels like an order. It feels like being asked. What did your vision feel like?
+> brigitte: Like being chosen, Confessor. I did not ask questions. The chosen do not need to.
+
+@ trigger=idle with=isillien
+Isillien. I can't see your memories. You hide them very well.
+> isillien: I hide everything very well, Confessor. It is my vocation.
+
 @ trigger=quest_accept
 "%quest". Let's help, then.
 Someone needs us. That is reason enough.

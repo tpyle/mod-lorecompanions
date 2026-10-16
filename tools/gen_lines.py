@@ -61,7 +61,9 @@ OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 #           about three times a night elf's height, wings included, so 0.35
 #           brings him to a little over a night elf. Whitemane's Scarlet
 #           Monastery model is drawn at 1.25, so 0.85 brings her to about
-#           1.06; Paletress is at her natural size.
+#           1.06; Paletress is at her natural size. Tirion, Mograine and
+#           Abbendis are drawn at 1.2, so 0.9 brings them to about 1.08;
+#           Isillien is at his natural size.
 #   spec:   an AiPlayerbot.PremadeSpecName for that class
 #   pet:    a hunter's pet by creature entry, 0 to let playerbots pick.
 #           1554 is the Vampiric Duskbat of Tirisfal Glades - the Forsaken's
@@ -78,6 +80,10 @@ COMPANIONS = [
     ("illidan",     "Illidan",     "Illidan Stormrage",           4,  4, 0, 21135, 0.35, "combat pve", 0,  9),
     ("whitemane",   "Whitemane",   "High Inquisitor Whitemane",   1,  5, 1, 2043,  0.85, "disc pve",  0,    10),
     ("paletress",   "Paletress",   "Argent Confessor Paletress",  1,  5, 1, 29083, 1.0, "holy pve",  0,    11),
+    ("tirion",      "Tirion",      "Highlord Tirion Fordring",    1,  2, 0, 22209, 0.9, "ret pve",   0,    12),
+    ("renault",     "Renault",     "Scarlet Commander Renault Mograine", 1, 2, 0, 2042, 0.9, "prot pve", 0, 13),
+    ("brigitte",    "Brigitte",    "High General Brigitte Abbendis", 1, 2, 1, 24413, 0.9, "holy pve",  0,    14),
+    ("isillien",    "Isillien",    "Grand Inquisitor Isillien",   1,  5, 0, 10339, 1.0, "shadow pve", 0,   15),
 ]
 
 TRIGGERS = {
@@ -129,7 +135,8 @@ PLACES = {
     "icecrown_citadel": 4812, "culling_of_stratholme": 4100, "halls_of_stone": 4264,
     "halls_of_lightning": 4272, "ulduar": 4273, "argent_tournament": 4658,
     "scarlet_monastery": 796, "crusaders_pinnacle": 4580, "trial_of_the_champion": 4723,
-    "warsong_hold": 4129, "utgarde_keep": 3983, "frozen_throne": 4859, "halls_of_reflection": 4820,
+    "warsong_hold": 4129, "naxxramas": 3456, "mardenholde": 203, "ebon_hold": 4281,
+    "scarlet_enclave": 4298, "utgarde_keep": 3983, "frozen_throne": 4859, "halls_of_reflection": 4820,
 }
 
 CREATURE_TYPES = {
@@ -156,6 +163,10 @@ WEAPONS = {
     "illidan":   (32632, 32633, 0),      # the Warglaives of Azzinoth
     "whitemane": (28738, 0,     0),      # Benediction
     "paletress": (12591, 0,     0),      # her holy staff
+    "tirion":    (13262, 0,     0),      # the Ashbringer
+    "renault":   (7706,  12933, 0),      # his mace, and a Scarlet shield
+    "brigitte":  (38216, 12933, 0),      # her axe and Scarlet shield
+    "isillien":  (12591, 0,     0),      # a holy staff, as in Hearthglen
 }
 for _id in WEAPONS:
     if _id not in COMPANION_IDS:

@@ -1,0 +1,221 @@
+# Scarlet Commander Renault Mograine - protection paladin, the Scarlet
+# Monastery's champion. Elder son of Alexandros Mograine, the Ashbringer.
+# Jealous and promised power, he led his father into a Scourge ambush and
+# let him die; the Ashbringer fell to the Scourge and Alexandros became one
+# of the Lich King's death knights. His younger brother Darion went to save
+# their father's soul, became a death knight himself, and later gave the
+# blade to Tirion. Renault joined the Scarlet Crusade, rose to Commander,
+# and guards the cathedral beside Whitemane, who raises him when he falls.
+# Hard, proud, defensive, zealous to drown out his guilt. Never says the
+# word "father" easily. His battle cry: "Infidels! They must be purified!"
+
+@ trigger=summon
+Scarlet Commander Mograine. You called for a champion, %summoner. You have one.
+I am here. Stay behind my shield and you might live.
+The cathedral can hold without me for a time. Whitemane insisted I go. I suspect she wanted the quiet.
+Lead, then. I will deal with whatever comes at us.
+Mograine, of the Scarlet Crusade. Do not ask me about the name.
+
+@ trigger=summon side=horde
+The Horde? I am to fight beside orcs and corpses? ...The Light tests me. Fine. Stay out of my reach.
+
+@ trigger=summon where=scarlet_monastery,tirisfal
+You summon me from the cathedral doors. I could have walked.
+
+@ trigger=dismiss
+I return to the Monastery. Sally will be waiting.
+Enough. My post is at the cathedral, not at your heels.
+Go with the Light, %summoner. You fought well enough.
+Farewell. If you are ever in Tirisfal, do not come to the Monastery. I would hate to have to kill you.
+
+@ trigger=zone_enter where=scarlet_monastery
+The cathedral. My post. Every stone here has been washed in the blood of the faithless. Someone has to keep it clean.
+Home. Sally will be at the altar. She always is.
+
+@ trigger=zone_enter where=tirisfal,brill,deathknell
+Tirisfal. The dead walk these glades as if they owned them. We will correct that.
+
+@ trigger=zone_enter where=eastern_plaguelands,lights_hope,tyrs_hand
+The Plaguelands. My family's lands, once. I do not want to talk about my family.
+Light's Hope. They built a chapel where... no. I will not speak of it. Keep walking.
+
+@ trigger=zone_enter where=naxxramas
+Naxxramas. He is in there. What is left of him. Do not ask me who.
+
+@ trigger=zone_enter where=ebon_hold,scarlet_enclave
+Acherus. My brother lives here now, among the death knights. Darion always did love a lost cause.
+
+@ trigger=zone_enter where=stratholme,stratholme_city
+Stratholme. The Crusade holds a foothold here. Brave men. Most of them won't come home.
+
+@ trigger=zone_enter where=hearthglen,mardenholde,western_plaguelands
+Hearthglen. The Grand Inquisitor's seat. Isillien runs it the way a spider runs its web.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. Where all of this began. The Lich King thinks he has won. He has not met me.
+
+@ trigger=zone_enter
+%zone. Stay close. I cannot shield you from a distance.
+%zone. I will take the front.
+Somewhere new. The plague may be here too. We will see.
+
+@ trigger=idle
+Sally raises me when I fall. Every time. I have stopped asking what it costs her.
+They tell me I am the finest champion the Crusade has. I tell them I am the angriest. It amounts to the same thing.
+The Light does not forgive, %summoner. People say it does. It just keeps using you.
+I had a brother. He chose the dead. I chose the Crusade. We do not speak.
+My father was a great man. Everyone says so. Everyone says so all the time.
+I hold the line. That is all I have ever been good for. Holding a line.
+Rest, if you must. I will stand watch. I do not sleep much these days.
+There is a sword I used to know. A great sword. It glowed. It is in the wrong hands now. All hands are the wrong hands.
+They say a paladin's shield is a promise. I made a promise once. I broke it. Now I just hold the shield.
+Do not look at me like that. I do not need your pity, and you would not offer it if you knew.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. So this is where the plague was born. Cold, ugly place. Fitting.
+
+@ trigger=idle side=horde
+If the Monastery saw me now, marching with the Horde... Sally would never let me hear the end of it.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. You left Lordaeron to die.
+> jaina: I left to save who I could, Mograine. Some of us leave. Some of us stay and betray. Neither is clean.
+
+@ trigger=idle with=sylvanas
+Banshee. When the Scourge is gone, I will come to the Undercity myself.
+> sylvanas: I will leave the gate open for you, Commander. My Dark Rangers are always looking for new recruits.
+
+@ trigger=idle with=alexstrasza
+Dragon. You look at me as if you are sorry for me.
+> alexstrasza: I am, little champion. I have seen many sons who wanted their fathers to look at them. Few of them did what you did.
+
+@ trigger=idle with=moira
+Princess. The Dark Irons are an accursed people. Why did you go to them?
+> moira: For love, Mograine. And to get away from a father who was too great to see me. I'd have thought you'd understand that one.
+
+@ trigger=idle with=liadrin
+Blood Knight. You stole the Light from a naaru. I would never stoop so low.
+> liadrin: No, Commander. You only stooped to selling your own father. We all have our sins.
+
+@ trigger=idle with=tyrande
+Night elf. Your priestesses pray to the moon. Does it ever answer?
+> tyrande: Elune answers those who listen, Mograine. You do not strike me as a man who listens to anyone.
+
+@ trigger=idle with=arthas
+Prince Arthas. The Crusade fights in your father's name.
+> arthas: Mograine? Any son of Alexandros is a friend of mine. ...Why did you flinch when I said his name?
+
+@ trigger=idle with=thrall
+Orc. My father killed hundreds of your kind.
+> thrall: Your father was an honourable enemy, Mograine. I have heard the stories. I have also heard the other stories. About you.
+
+@ trigger=idle with=illidan
+You reek of demons, elf. Stay on the other side of the road.
+> illidan: I can see your soul, champion. It is very small, and it has a dagger in its back. Whose dagger, I wonder?
+
+@ trigger=idle with=whitemane
+Sally. Are you well?
+> whitemane: I am always well, my champion. Keep your shield up. I would rather not have to raise you today.
+
+@ trigger=idle with=whitemane
+Do you ever wonder whether the Grand Crusader is what he seems?
+> whitemane: Never. And neither do you, Mograine. Doubt is the plague's first symptom.
+
+@ trigger=idle with=paletress
+Confessor. Stop staring at me.
+> paletress: I'm sorry, Renault. You just look like a man with something to confess. I'll wait. I'm very patient.
+
+@ trigger=idle with=tirion
+That sword, Fordring. You carry it as though it were yours.
+> tirion: It's not mine, son. It was your father's. Darion asked me to carry it until it found someone worthy. I'm still looking.
+
+@ trigger=idle with=tirion
+My father would have liked you, Fordring. He liked fools who threw their lives away for strangers.
+> tirion: He liked you too, Renault. He loved you. That's the part you can't stand, isn't it?
+
+@ trigger=idle with=brigitte
+High General. You left for Northrend and took half the Crusade with you.
+> brigitte: The Light called me north, Commander. It did not call you. Guard your monastery. Leave the war to me.
+
+@ trigger=idle with=isillien
+Grand Inquisitor. Your Inquisition has been asking questions about my family.
+> isillien: My Inquisition asks questions about everyone, Mograine. Some of us simply have more interesting answers.
+
+@ trigger=quest_accept
+"%quest". Very well. I will take the front.
+Someone needs a shield. Fine.
+"%quest". Lead. I will keep them off you.
+A task. Good. Better than standing about.
+
+@ trigger=quest_complete
+Done. As expected.
+It is finished. The Light is served.
+Adequate work, %summoner.
+Another task. Another day the Crusade is proven right.
+
+@ trigger=combat_start rank=normal
+Infidels! They must be purified!
+To me!
+Stay behind me.
+For the Crusade!
+
+@ trigger=combat_start rank=notable
+%target. Stand behind me. All of you.
+This one is mine. Keep its friends off my back.
+The Light shields the faithful. Today, I am the shield.
+
+@ trigger=combat_start ctype=undead
+Scourge! Back into the dirt!
+The dead. I have no mercy for you. I have none left for anyone.
+
+@ trigger=combat_start ctype=demon
+Demon. The Light burns you. So will I.
+
+@ trigger=combat_start foe=highlord_mograine
+Father. No. Not you. Not like this. I am sorry. I am so sorry.
+
+@ trigger=combat_start foe=the_lich_king
+Lich King. You took my father. You'll not have me.
+
+@ trigger=combat_start foe=high_inquisitor_whitemane
+Sally? No. They have twisted you. I will set you free, and then I will find out who did this.
+
+@ trigger=kill rank=normal
+Unworthy.
+Purified.
+Next.
+
+@ trigger=kill rank=notable
+%target is down. The Light holds.
+Well fought. Stay sharp.
+Done. Who else wants to test my shield?
+
+@ trigger=kill ctype=undead
+Stay dead this time.
+
+@ trigger=kill foe=highlord_mograine
+Rest, Father. Rest. I... rest.
+
+@ trigger=kill foe=the_lich_king
+He is dead. And my father... is free. Is that enough? It will have to be.
+
+@ trigger=death
+Sally... raise... me...
+Unworthy...
+Father...
+
+@ trigger=revived
+I am back. Did Sally see? Do not tell her.
+Up again. The Light is not finished with me. It never is.
+I live. Let us end this.
+
+@ trigger=ally_down
+%other! Get behind me!
+%other is down! Hold, I will cover them!
+No! %other, stay down, I have this!
+
+@ trigger=grow_stronger
+My shield arm is stronger. Good.
+The Light runs hotter in me. It always has, when I am angry.
+More strength. I will need all of it.
+I am stronger. The faithless should be afraid.

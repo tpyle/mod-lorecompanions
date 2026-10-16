@@ -131,6 +131,22 @@ Warchief. You drank no demon's blood, and yet you lead the people who did. Cleve
 Priestess. Your Grand Crusader. Have you ever looked at him with true sight?
 > whitemane: I do not need demon eyes to see a holy man, Betrayer.
 
+@ trigger=idle with=tirion
+Fordring. You carry the Ashbringer. It hums against my fel. Unpleasant.
+> tirion: Then stay on the other side of me, Stormrage. It doesn't mean anything by it. Not much, anyway.
+
+@ trigger=idle with=renault
+Little champion. You killed your own father for power. Did you at least get the power?
+> renault: No. Did you, demon?
+
+@ trigger=idle with=brigitte
+General. Your admiral is not a man.
+> brigitte: My admiral has served the Light for years, demon. You will not poison my trust in him.
+
+@ trigger=idle with=isillien
+Inquisitor. Your soul is the colour of old ink. I have seen demons with brighter ones.
+> isillien: Then I am in excellent company, Betrayer.
+
 @ trigger=quest_accept
 "%quest". Trivial. Very well.
 You need my glaives for this? Fine.

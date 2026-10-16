@@ -154,6 +154,22 @@ Illidan. I freed you because I thought there was still something good in you.
 Inquisitor. My priestesses heal anyone who comes to them. You burn anyone who comes to you.
 > whitemane: Your priestesses have never watched a patient rise from the bed and eat the nurse, night elf.
 
+@ trigger=idle with=tirion
+Highlord. You carry a weapon that has broken much darkness. Carry it gently.
+> tirion: I'll try, High Priestess. It doesn't really do gently. Neither do I, these days.
+
+@ trigger=idle with=renault
+Commander. Your rage is a wound, and you keep tearing it open.
+> renault: My rage keeps me alive, priestess. Mind your goddess. Leave my wounds to me.
+
+@ trigger=idle with=brigitte
+General, a voice told you to go north. Elune taught me long ago that not every voice is hers.
+> brigitte: The Light is not your moon, night elf. It does not deceive its faithful.
+
+@ trigger=idle with=isillien
+Inquisitor. You use the shadow and call it light. My people were destroyed by that lie once.
+> isillien: Your people were destroyed by their own queen, priestess. I merely study the methods.
+
 @ trigger=quest_accept
 "%quest". Very well. Elune's light goes with us.
 Someone needs help. That is why we walk the world.

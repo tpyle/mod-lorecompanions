@@ -164,6 +164,22 @@ Betrayer. You lost to him, I hear. At the foot of his throne.
 Inquisitor. Your Crusade has burned more of the living than the Scourge has this year.
 > whitemane: Better a hundred burned in error than one plague-carrier spared, Banshee. You of all people should understand arithmetic.
 
+@ trigger=idle with=tirion
+Fordring. The Ashbringer. I remember Alexandros carrying it. It looked better on him.
+> tirion: It did, my lady. Everything looked better on Alexandros. I'm doing what I can.
+
+@ trigger=idle with=renault
+Mograine. I know what you did to your father. The dead talk, boy. I hear all of it.
+> renault: Then you can tell them to stop, Banshee. Or I will come down there and silence them myself.
+
+@ trigger=idle with=brigitte
+Your Onslaught is in my way in the Dragonblight, Abbendis.
+> brigitte: Then go around, Banshee. Or go back into the ground. Either suits me.
+
+@ trigger=idle with=isillien
+Inquisitor. My apothecaries have a few questions they would like to ask you.
+> isillien: How flattering, Banshee. I have been told I would make an interesting subject. I suspect I would be a disappointing one.
+
 @ trigger=quest_accept
 "%quest". Very well. I have done worse for less reason.
 If it bleeds or rots, I can find it.

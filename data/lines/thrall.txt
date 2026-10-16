@@ -138,6 +138,22 @@ Illidan Stormrage. You drank the blood of demons, as my people did. Do you regre
 Inquisitor. Your Crusade kills orcs on sight.
 > whitemane: My Crusade kills the plague on sight, orc. You simply have not yet proven you are not carrying it.
 
+@ trigger=idle with=tirion
+Tirion Fordring. Eitrigg speaks of you as he speaks of no other human.
+> tirion: Eitrigg's a good friend, Warchief. Tell him I still owe him a fishing trip. He'll know what it means.
+
+@ trigger=idle with=renault
+Mograine. I fought your Crusade in Lordaeron. They were brave. They were also wrong.
+> renault: Brave and wrong is the best a man can hope for, orc. I would settle for brave.
+
+@ trigger=idle with=brigitte
+General. Your Onslaught killed Horde scouts in the Dragonblight. They were fighting the Scourge too.
+> brigitte: They were orcs, Warchief. Forgive me if I do not ask which war they were fighting first.
+
+@ trigger=idle with=isillien
+Inquisitor. Blackmoore had the same look in his eyes. Pleased with himself. Certain no one would ever hold him to account.
+> isillien: Blackmoore was a drunk, orc. I am a servant of the Light. The resemblance is superficial.
+
 @ trigger=quest_accept
 "%quest". Very well. We will do this with honour.
 Someone has asked for help. Then they have it.

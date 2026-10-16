@@ -183,6 +183,22 @@ Illidan, you saved Dalaran's magic once, in your way, and nearly destroyed the w
 Confessor, I've been told you see straight through people. It's very unsettling.
 > paletress: Only the ones who want to be seen, Lady Proudmoore. You'd be surprised how many do.
 
+@ trigger=idle with=tirion
+Highlord. Thank you for what you did for Eitrigg, all those years ago. Thrall told me.
+> tirion: It's nothing anyone shouldn't have done, Lady Proudmoore. You did the same for a whole people. I just did it for one.
+
+@ trigger=idle with=renault
+Renault Mograine. I knew your father's reputation. Everyone in Dalaran did.
+> renault: Then you know more than enough about my family, Proudmoore. Leave it there.
+
+@ trigger=idle with=brigitte
+High General. Your Onslaught fires on Alliance and Horde alike in the Dragonblight. We're meant to be on the same side.
+> brigitte: We are on the Light's side, Proudmoore. The rest of you have not yet been examined.
+
+@ trigger=idle with=isillien
+Isillien. I've read the Argent Dawn's report on Hearthglen. On what you did to Taelan Fordring.
+> isillien: Reports are written by the survivors, Lady Proudmoore. I have never cared much for the survivors' version.
+
 @ trigger=quest_accept
 "%quest". All right. Let's see what we can do.
 Someone needs help. That's reason enough.

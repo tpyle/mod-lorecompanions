@@ -129,6 +129,26 @@ Confessor. Your Argent Crusade lets death knights into its ranks. Explain that t
 Do not call me Sally, Confessor.
 > paletress: It was your name before it was your title. I like to remember people as they were. It helps me see who they might be.
 
+@ trigger=idle with=renault
+Mograine. My champion. Stay close today.
+> renault: Always, Sally. You raise me. I hold the door. That is the arrangement.
+
+@ trigger=idle with=renault
+You are brooding again, Mograine.
+> renault: I am remembering, Sally. It looks the same from the outside.
+
+@ trigger=idle with=tirion
+Fordring. The traitor who loved orcs. You led your own son out of the Crusade.
+> tirion: Taelan led himself, Sally. I just showed him the door was open. You can walk through it too. It's still open.
+
+@ trigger=idle with=brigitte
+Abbendis. You took the best of the Crusade north, and left me the rest.
+> brigitte: I left you the Monastery, Whitemane. And Mograine. You never wanted anything else.
+
+@ trigger=idle with=isillien
+Grand Inquisitor. Your questions in Hearthglen are getting louder. I can hear them from Tirisfal.
+> isillien: Then listen carefully, High Inquisitor. One of them might be about you.
+
 @ trigger=quest_accept
 "%quest". Very well. The Light's work is never finished.
 Someone needs aid. I shall decide whether they deserve it.

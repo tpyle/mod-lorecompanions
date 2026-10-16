@@ -140,6 +140,22 @@ Illidan. Your brother still dreams of you, in Ysera's realm. Not kindly, but oft
 So much fire in you, child, and none of it for warmth.
 > whitemane: Warmth is for those who can afford it, dragon. The plague took that from me.
 
+@ trigger=idle with=tirion
+Tirion. You are tired. More tired than you let them see.
+> tirion: I am, Life-Binder. But I'm not done. When I'm done, I'll rest. I've earned a long sleep.
+
+@ trigger=idle with=renault
+Renault. Your father's sword is close by. Does it call to you?
+> renault: Every day, dragon. It calls me a traitor. It is right. Leave me be.
+
+@ trigger=idle with=brigitte
+Brigitte. Your soldiers throw stones at my temple. They are very brave and very foolish.
+> brigitte: They are faithful, Life-Binder. I would not expect a dragon to understand the difference.
+
+@ trigger=idle with=isillien
+Inquisitor. There is no life in your eyes. Only counting.
+> isillien: Someone must keep count, dragon. Life is so very careless with itself.
+
 @ trigger=quest_accept
 "%quest". Very well. I will lend my fire to it.
 Someone is in need. That is reason enough for a dragon, too.

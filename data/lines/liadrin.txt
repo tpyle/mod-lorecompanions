@@ -146,6 +146,22 @@ Kael'thas trusted you, Illidan. He gave you everything. And you led him to the L
 Confessor. You never once asked me about M'uru, at the tournament. Everyone else does.
 > paletress: You'd already confessed it to yourself, Matriarch. Many times. I didn't think you needed to do it again for me.
 
+@ trigger=idle with=tirion
+Highlord. You were the first human paladin to accept the Blood Knights into the Argent Crusade.
+> tirion: You'd found your way back to the Light, Lady Liadrin. Who was I to argue with the Light?
+
+@ trigger=idle with=renault
+Mograine. Your Crusade killed every elf it caught in Lordaeron, after Quel'Thalas fell.
+> renault: They were tainted by the plague. Or by worse. You of all people should understand purges, elf.
+
+@ trigger=idle with=brigitte
+Abbendis. You heal well for someone who believes most people deserve to die.
+> brigitte: I believe most people deserve to be tested, Blood Knight. The ones who pass, I heal.
+
+@ trigger=idle with=isillien
+Inquisitor. I have knelt before the Light in chains of my own making. I recognize the look of someone who never will.
+> isillien: You knelt because you were caught, Matriarch. I have never been caught.
+
 @ trigger=quest_accept
 "%quest". Very well. I'll take point.
 Someone asked for help. The Blood Knights answer. So do I.

@@ -153,6 +153,22 @@ You've a lot of horns for an elf, Stormrage.
 Confessor, if I confessed half of what goes on in Shadowforge, you'd need a longer shift.
 > paletress: I have time, Princess. I always seem to have time for the interesting ones.
 
+@ trigger=idle with=tirion
+Highlord. My father speaks well of you. That's rare. He doesn't speak well of most humans. Or most dwarves.
+> tirion: Magni's a good man under all that beard, Princess. He just needs someone to tell him when he's wrong. I gather that's you.
+
+@ trigger=idle with=renault
+You've the look of a man who did something unforgivable, Mograine.
+> renault: And you have the look of a woman who married her father's enemy, Bronzebeard. We all have our looks.
+
+@ trigger=idle with=brigitte
+General. Your Onslaught sent me a letter demanding I renounce the Dark Irons. I used it to light my pipe.
+> brigitte: Then you will be judged with them, Princess. I hope the tobacco was worth it.
+
+@ trigger=idle with=isillien
+Inquisitor. You remind me of my father's ministers. They also smiled while they decided who to lock up.
+> isillien: Your father's ministers were amateurs, Princess. I have read their files.
+
 @ trigger=quest_accept
 "%quest". Fine. Let's get it done before someone writes a song about it.
 Someone wants a favour. Someone always does. Lead on.

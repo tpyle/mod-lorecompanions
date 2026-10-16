@@ -147,6 +147,22 @@ Inquisitor, the Scarlet Crusade. I've never heard of it. Is it new?
 Confessor, can a man be forgiven for something he hasn't done yet?
 > paletress: I think, Arthas, that he can be forgiven for being afraid of it. Start there.
 
+@ trigger=idle with=tirion
+Lord Fordring, you were exiled for defending an orc. My father said you'd lost your mind.
+> tirion: Your father was wrong about that, son. And I was wrong about a few things too. We both paid. Listen to Uther, Arthas.
+
+@ trigger=idle with=renault
+Renault! I met your father once. Alexandros Mograine. He was the greatest knight I'd ever seen.
+> renault: ...Yes, my prince. He was. Everyone says so.
+
+@ trigger=idle with=brigitte
+General. You seem very sure the Light is on your side.
+> brigitte: Certainty is the Light's gift, my prince. You were certain once, I'm told. In Stratholme.
+
+@ trigger=idle with=isillien
+Inquisitor. Stop telling me I purged Stratholme. I haven't done anything yet.
+> isillien: "Yet," my prince. That is the most interesting word you have said all day.
+
 @ trigger=quest_accept
 "%quest". Right. Let's go.
 Someone needs help? Then they'll have it.

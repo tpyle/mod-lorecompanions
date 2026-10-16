@@ -3,8 +3,9 @@
 Lore characters as party companions: Lady Jaina Proudmoore, Lady Sylvanas
 Windrunner, Alexstrasza the Life-Binder, Princess Moira Bronzebeard, Lady
 Liadrin, Tyrande Whisperwind, Prince Arthas Menethil, Thrall, Illidan
-Stormrage, High Inquisitor Whitemane and Argent Confessor Paletress join your
-party as
+Stormrage, High Inquisitor Whitemane, Argent Confessor Paletress, Highlord
+Tirion Fordring, Scarlet Commander Renault Mograine, High General Brigitte
+Abbendis and Grand Inquisitor Isillien join your party as
 [mod-playerbots](https://github.com/liyunfan1223/mod-playerbots) bots, wear
 their own in-game models, stay at your party leader's level, and speak in
 their own voices.
@@ -28,10 +29,15 @@ their own voices.
 | Illidan | combat rogue | 21135, the Betrayer of the Black Temple, at 0.35 scale | night elf |
 | Whitemane | discipline priest | 2043, the High Inquisitor in the Scarlet Monastery, at 0.85 scale | human |
 | Paletress | holy priest | 29083, the Argent Confessor at the tournament | human |
+| Tirion | retribution paladin | 22209, the Highlord of the Argent Crusade, at 0.9 scale | human |
+| Renault | protection paladin | 2042, the Scarlet Commander in the Monastery, at 0.9 scale | human |
+| Brigitte | holy paladin | 24413, the High General of the Scarlet Onslaught, at 0.9 scale | human |
+| Isillien | shadow priest | 10339, the Grand Inquisitor of Hearthglen | human |
 
-Arthas is the prince before his fall, and Illidan is the Illidan of the
-Black Temple before it fell. Both were brought out of their own time by the
-bronze dragonflight, and both have been told how their stories end. Their
+Arthas is the prince before his fall, Illidan is the Illidan of the
+Black Temple before it fell, and Isillien is the Grand Inquisitor before
+Tirion came to Hearthglen. All three were brought out of their own time by the
+bronze dragonflight, and all three have been told how their stories end. Their
 lines and everyone else's are written that way.
 
 ## How it works

@@ -1,0 +1,210 @@
+# Grand Inquisitor Isillien - shadow priest. One of the founders of the
+# Scarlet Crusade and its Grand Inquisitor, ruling from Mardenholde Keep in
+# Hearthglen, the keep that once belonged to Tirion Fordring. Ambitious,
+# cold, sanctimonious and frightening; he uses shadow as freely as the Light
+# and calls it the Inquisition's necessary work. When Taelan Fordring turned
+# away from the Crusade, Isillien killed him in front of his father, and
+# Tirion killed Isillien in turn. Like Arthas and Illidan, he was lifted out
+# of time by the bronze flight from before that day, and he has been told
+# how he dies. He does not believe a traitor's sword could ever be the
+# Light's will. Speaks softly; every word sounds like a charge being read.
+
+@ trigger=summon
+Grand Inquisitor Isillien. You have called the Inquisition, %summoner. I hope your conscience is clean.
+I am here. The bronze dragons insisted. I never refuse an opportunity to observe.
+Lead, then. I will be watching. I am always watching.
+You summoned me. How interesting. Tell me everything about yourself. I will find out anyway.
+Hearthglen can spare its master for a time. Its prisoners will wait.
+
+@ trigger=summon side=horde
+The Horde. I would put you all to the question, given time. Today, perhaps, I will merely watch.
+
+@ trigger=summon where=hearthglen,mardenholde,western_plaguelands
+You summon me in my own keep. Bold, or careless. We will find out which.
+
+@ trigger=dismiss
+I return to Hearthglen. I will remember you, %summoner. That is not always a comfort.
+Enough. The Inquisition has other work.
+Farewell. Keep your thoughts pure. I can tell when they are not.
+Go with the Light. I will be there when it fails you.
+
+@ trigger=zone_enter where=hearthglen,mardenholde
+Mardenholde Keep. Mine. Fordring's, once. He gave it up for an orc. I took it for the Light. Which of us was the better steward?
+Hearthglen. The heart of the Crusade, whatever Abbendis and Dathrohan pretend.
+
+@ trigger=zone_enter where=western_plaguelands,andorhal,uthers_tomb
+The Western Plaguelands. Every farm here was a suspect. Every farmer was a question. We asked them all.
+
+@ trigger=zone_enter where=eastern_plaguelands,lights_hope,tyrs_hand
+Light's Hope. The Argent Dawn. I keep a list of their members. It grows longer every year.
+
+@ trigger=zone_enter where=scarlet_monastery,tirisfal
+The Monastery. Whitemane's little kingdom. She has a talent for interrogation. I taught her most of it.
+
+@ trigger=zone_enter where=undercity,ruins_of_lordaeron
+The Undercity. Ten thousand questions, and every one of them already dead. Such a waste.
+
+@ trigger=zone_enter where=stratholme,stratholme_city
+Stratholme. The Grand Crusader's seat. I have often thought it would suit me better.
+
+@ trigger=zone_enter where=dragonblight,new_hearthglen
+New Hearthglen. Abbendis named her little fortress after my city. Flattery, or theft? With her it is difficult to tell.
+
+@ trigger=zone_enter where=icecrown,argent_tournament,crusaders_pinnacle
+The Argent Crusade, under Fordring. The bronze dragons tell me he leads the world now. I am told many absurd things.
+
+@ trigger=zone_enter
+%zone. I wonder who here is hiding something. Everyone, I expect.
+%zone. Tell me about the people here. Who are the troublemakers?
+A new place. New faces. New questions.
+
+@ trigger=idle
+Everyone confesses, %summoner. Eventually. The only variable is the price.
+The Light is a lamp. The shadow is the hand that holds it steady. The Inquisition uses both. The Light does not complain.
+I founded this Crusade with Dathrohan and Abbendis. They lead armies. I lead souls. Mine is the harder work.
+Taelan Fordring was a fine young man, until he chose his father over his faith. That was his mistake. Not mine.
+The bronze dragons tell me Fordring kills me. In my own keep. With his own hands. They are confused. The Light does not reward traitors.
+Do you know what the most dangerous word in the world is? "Mercy." It sounds so harmless.
+Rest, if you must. I never sleep before I have finished thinking.
+Whitemane questions with fire. I question with silence. Hers is faster. Mine is more thorough.
+You have a guilty look, %summoner. No, do not explain. I prefer to work it out myself.
+The plague teaches us that anyone can be corrupt. The Inquisition teaches us that everyone is.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. So much cold. So many places to hide. It would take years to question everyone here.
+
+@ trigger=idle side=horde
+I am walking with the Horde. I will note it in my own file. Someone should.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. A daughter who turned on her own father for orcs. You and Taelan Fordring would have got on.
+> jaina: I'm told Taelan died for it, Inquisitor. I'm told you were the one holding the knife.
+
+@ trigger=idle with=sylvanas
+Banshee. I wonder what you would confess, under the right circumstances.
+> sylvanas: Under the right circumstances, Inquisitor, you would confess first. I have done this far longer than you.
+
+@ trigger=idle with=alexstrasza
+Dragon. Is it true your kind do not lie?
+> alexstrasza: We lie as rarely as we can, child. You lie as often as you can. I can smell it on you.
+
+@ trigger=idle with=moira
+A Bronzebeard who married a Dark Iron. The Inquisition would have questions.
+> moira: The Inquisition can put them in writing and send them to Shadowforge City. My guards keep a very hot fire.
+
+@ trigger=idle with=liadrin
+You stole the Light, Blood Knight. Do you even know what it is?
+> liadrin: Better than you, Inquisitor. I know what it costs to lose it, and what it costs to beg it back. You have never paid either.
+
+@ trigger=idle with=tyrande
+Moon priestess. Your goddess is silent. Mine speaks through me.
+> tyrande: Through you, Inquisitor? Then she must say very cruel things, and very quietly.
+
+@ trigger=idle with=arthas
+Prince Arthas. Your purging of Stratholme was the Crusade's first great act. We follow your example.
+> arthas: I haven't purged Stratholme. I haven't done anything. Why do you keep smiling at me like that? Stop it.
+
+@ trigger=idle with=thrall
+Orc. Fordring lost everything for one of you. I have always wondered what was worth it.
+> thrall: Eitrigg was worth it, Inquisitor. And Taelan, I am told, was worth more than everything you will ever be.
+
+@ trigger=idle with=illidan
+Demon. You would make a fascinating subject for the Inquisition.
+> illidan: I spent ten thousand years with a jailer far more patient than you, priest. She broke nothing. You would break less.
+
+@ trigger=idle with=whitemane
+High Inquisitor. Your methods at the Monastery are getting soft.
+> whitemane: My methods produce converts, Grand Inquisitor. Yours produce corpses. One of us is building a Crusade.
+
+@ trigger=idle with=paletress
+Confessor. We have the same work, you and I. Drawing out the truth.
+> paletress: No, Isillien. I listen until people are ready to speak. You hurt them until they say what you want. That's not the same work at all.
+
+@ trigger=idle with=tirion
+Fordring. You are holding that sword very tightly.
+> tirion: I'm holding it so I don't do something I'll regret, Isillien. Walk on. Please. Just walk on.
+
+@ trigger=idle with=tirion
+Your son begged, you know. At the end. Not for his life. For yours.
+> tirion: ...I know. I was there. I heard it. Don't you dare speak his name again.
+
+@ trigger=idle with=brigitte
+Abbendis. A vision told you to sail north. Have you ever wondered who sent it?
+> brigitte: The Light sent it, Isillien. If you are going to accuse me of heresy, do it to my face, and with evidence.
+
+@ trigger=idle with=renault
+Commander Mograine. I have reopened the file on your father's death.
+> renault: Close it, Isillien. Close it, or I will close it for you.
+
+@ trigger=quest_accept
+"%quest". Very well. Let us see who is lying.
+A task. I will observe.
+"%quest". Lead on. I will take notes.
+Someone wants something done. They always do.
+
+@ trigger=quest_complete
+Done. Everyone's secrets kept, for now.
+Satisfactory.
+It is finished. I will add it to your file.
+Well done. The Inquisition is pleased. Briefly.
+
+@ trigger=combat_start rank=normal
+Confess!
+You will be purified.
+The Light demands your death.
+Kneel.
+
+@ trigger=combat_start rank=notable
+%target. Let us see what you are hiding.
+Stand aside. This one will answer to me.
+Strong. Strong ones break the loudest.
+
+@ trigger=combat_start ctype=undead
+The dead. You have no secrets left. That makes you very boring.
+Scourge. Back to the dark.
+
+@ trigger=combat_start ctype=demon
+Demon. I have so many questions for you.
+
+@ trigger=combat_start foe=highlord_taelan_fordring
+Taelan. You chose your father. Now choose your death.
+
+@ trigger=combat_start foe=the_lich_king
+The Lich King. The greatest heretic of all. Finally, a worthy subject.
+
+@ trigger=kill rank=normal
+Confessed.
+Purified.
+The Light has judged.
+
+@ trigger=kill rank=notable
+%target is dead. A full confession.
+It is done. I will remember the details.
+Another file closed.
+
+@ trigger=kill ctype=undead
+Silence suits you.
+
+@ trigger=kill foe=the_lich_king
+The Lich King is dead. Someone will have to question the Crusade's role in it. That someone will be me.
+
+@ trigger=death
+Fordring... no... not you...
+The Light... does not reward...
+I was... right...
+
+@ trigger=revived
+Back. Interesting. I will want to know how that was done.
+I live. Someone will answer for that.
+The Light preserves its servants. As it should.
+
+@ trigger=ally_down
+%other is down. Someone cover them.
+Up, %other. I am not finished with you.
+%other falls. Someone will answer for that.
+
+@ trigger=grow_stronger
+My reach grows longer. Good.
+The shadows deepen. The Light grows brighter. Both answer me.
+Stronger. More questions I can ask.
+I feel it. Power. It always comes to those who are certain.

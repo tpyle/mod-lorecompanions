@@ -1,0 +1,229 @@
+# Highlord Tirion Fordring - retribution paladin, bearing the Ashbringer.
+# Once Lord of Mardenholde Keep in Hearthglen and a knight of the Silver
+# Hand, stripped of his lands and exiled by King Terenas for defending the
+# orc Eitrigg. His wife Karandra left him; his son Taelan joined the Scarlet
+# Crusade and was murdered by Grand Inquisitor Isillien, who now sits in
+# Tirion's own keep. Tirion lived as a hermit in the Plaguelands, came back,
+# took up the Ashbringer from Darion Mograine at Light's Hope, and leads the
+# Argent Crusade against the Lich King. Old, weary, plainspoken, warm, stern
+# when he must be. Believes in redemption, because he needed it himself.
+
+@ trigger=summon
+Tirion Fordring, at your side. The Crusade can spare an old man for a while.
+I'm here, %summoner. Point me at the Scourge, and let's not waste the daylight.
+You called, and I came. That's how it ought to work, between people who mean to do some good.
+Lead on. I've walked further on worse knees.
+The Ashbringer and I are yours, for as long as you need us.
+
+@ trigger=summon side=horde
+The Horde. Good. I lost everything once for standing beside an orc. I'd do it again.
+
+@ trigger=summon where=icecrown,argent_tournament,crusaders_pinnacle,trial_of_the_champion
+You've pulled me off the tournament grounds. Don't tell the jousters. They'll think they've won something.
+
+@ trigger=dismiss
+Back to Icecrown, then. Watch yourself, %summoner.
+The Crusade needs its Highlord. Light keep you.
+Farewell, friend. You've a good heart. Don't let anyone talk you out of it.
+I'll go. If you need me again, call. I'll come.
+
+@ trigger=zone_enter where=hearthglen,mardenholde
+Hearthglen. This was my home. Mardenholde Keep was my keep. Now Isillien's men hang their banners on it.
+Hearthglen. I raised my son here. I taught him to ride in that courtyard. The Scarlets took him from these walls.
+
+@ trigger=zone_enter where=eastern_plaguelands,lights_hope
+Light's Hope. The Scourge came against this chapel with everything they had, and the Light answered. I was there. I'll never forget it.
+The Plaguelands. I lived out here, in a little hut by the river, for years. Fishing, mostly. Waiting for the Light to tell me I wasn't finished.
+
+@ trigger=zone_enter where=uthers_tomb,western_plaguelands
+Uther's tomb. He was the best of us. I come here when I need to remember what a paladin is supposed to be.
+
+@ trigger=zone_enter where=stratholme,stratholme_city,culling_of_stratholme
+Stratholme. Uther refused, and the boy did it anyway. Every one of us who wore the hammer has carried that city since.
+
+@ trigger=zone_enter where=undercity,ruins_of_lordaeron
+Lordaeron. I stood in that throne room once, and King Terenas took my lands for an orc's life. I don't hate him for it. I'm sorry for what came after.
+
+@ trigger=zone_enter where=scarlet_monastery,tyrs_hand,new_hearthglen
+The Scarlet Crusade. Brave men and women, most of them, with the poison of certainty in their hearts. My son wore that tabard.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel,frozen_throne
+Icecrown. The Lich King is up there. I mean to look him in the eye, and I mean to bring this blade with me.
+The Citadel. One way or another, this ends here.
+
+@ trigger=zone_enter where=orgrimmar
+Orgrimmar. My old friend Eitrigg is here somewhere, I hope, telling the Warchief what he did for me. Or more likely, what I did for him.
+
+@ trigger=zone_enter where=naxxramas
+Naxxramas. Alexandros Mograine was made into one of their horsemen in there. The finest paladin who ever lived. The Light forgive them.
+
+@ trigger=zone_enter where=ebon_hold,scarlet_enclave
+Acherus. The Ebon Blade's home now. Darion Mograine gave me this sword at Light's Hope, and asked for nothing in return.
+
+@ trigger=zone_enter
+%zone. Let's see what the Light wants of us here.
+%zone. Stay alert. I've learned to expect trouble in places that look peaceful.
+New country. I don't get to see much of the world these days. I'll enjoy it while I can.
+
+@ trigger=idle
+An orc named Eitrigg saved my life on the road to Hearthglen. When they came to execute him, I couldn't let them. It cost me my lands, my title, and my family. It was the right thing to do.
+I was a hermit for a long time, %summoner. It teaches you patience. Mostly it teaches you how little you need.
+My son Taelan... he joined the Scarlets after I was exiled. At the end he came back to me. Just at the end.
+The Ashbringer remembers Alexandros Mograine. Sometimes I think it judges me against him. I come up short. I keep swinging anyway.
+The Light doesn't care what color your skin is. It cares what you do with your hands.
+Rest if you need to. I'll keep watch. I've had a lot of practice sitting still.
+I'm too old for this, %summoner. Don't tell anyone. They seem to think I know what I'm doing.
+Uther used to say the Light is a burden before it's a blessing. I didn't understand that until I lost everything.
+The Argent Crusade takes anyone who'll fight the Scourge. Living, dead, orc, elf, even death knights. Especially death knights. They know what's at stake better than anyone.
+Karandra was right to leave me. She had a son to raise and a husband who'd thrown everything away for a stranger. I just wish she'd known I'd do it again.
+You fight well. You fight with your heart. Don't lose that. Plenty of people will try to take it from you.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. I've been cold for so long I've forgotten what warm feels like. When this is over, I'm going to sit by a fire for a year.
+
+@ trigger=idle side=horde
+Walking with the Horde again. Eitrigg would laugh at me. Good. He doesn't laugh enough.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. Your father would be proud of the peace you've built, even if he'd never say it.
+> jaina: My father never quite forgave me for the Horde, Tirion. You understand that better than anyone.
+
+@ trigger=idle with=sylvanas
+Lady Sylvanas. Putress's plague at the Wrathgate killed as many of my people as the Scourge did.
+> sylvanas: Putress was a traitor, Highlord. I took my city back from him and his master in blood. Do not lay him at my door.
+
+@ trigger=idle with=alexstrasza
+Life-Binder. I'm told the Wyrmrest Accord stands with us in Icecrown. Thank you.
+> alexstrasza: It is we who thank you, paladin. You carry a burden that should never have fallen on one mortal's shoulders.
+
+@ trigger=idle with=moira
+Princess. Ironforge sends good soldiers to the Crusade. Dark Irons too, these days. That's your doing.
+> moira: Some of it, Highlord. The rest is just dwarves who'd rather hit something than sit at home. Same as always.
+
+@ trigger=idle with=liadrin
+Lady Liadrin. Your Blood Knights fight beside the Silver Hand now. I never thought I'd live to see it.
+> liadrin: Nor did I, Highlord. The Light took us back when we did not deserve it. I try to be worthy of that.
+
+@ trigger=idle with=tyrande
+High Priestess. Your Sentinels have come a long way from Ashenvale to die in the snow beside us. Thank you.
+> tyrande: They came because the Scourge threatens every forest, Highlord. But I will tell them you said so. It will please them more than they let show.
+
+@ trigger=idle with=arthas
+Arthas. Look at you. Golden-haired and so sure of himself. I knew you, when you were this age.
+> arthas: Lord Fordring? My father stripped you of everything. I always thought it was unjust. I'm sorry. Is that... is that why you look so sad?
+
+@ trigger=idle with=arthas
+Listen to Uther, son. Even when he's slow. Even when he's wrong. Listen to him.
+> arthas: Why does everyone keep telling me that? ...Fine. I'll listen. Will it be enough?
+
+@ trigger=idle with=thrall
+Warchief. Eitrigg's told me what you've done for your people. It's a fine thing, what you've built.
+> thrall: Eitrigg has told me what you did for him, Tirion. The Horde does not forget a debt like that. Neither do I.
+
+@ trigger=idle with=illidan
+Illidan Stormrage. I've heard a great deal about you. Very little of it good.
+> illidan: And yet here you are, Highlord, walking beside me. You collect lost causes. I have noticed.
+
+@ trigger=idle with=whitemane
+Sally. I knew your family, before the plague. You were a kind girl.
+> whitemane: I was a foolish girl, Fordring. The plague made me wise. You of all people should know what that costs.
+
+@ trigger=idle with=paletress
+Paletress. How are the champions faring?
+> paletress: Better than they think, Tirion. Worse than they hope. About the same as the rest of us.
+
+@ trigger=idle with=brigitte
+High General. Your Onslaught holds New Hearthglen. You're fighting the Scourge with one hand and the rest of us with the other.
+> brigitte: The Light told me to come north, Fordring. It did not tell me to make friends.
+
+@ trigger=idle with=renault
+Renault. Your brother gave me this sword. Do you want to know what he said?
+> renault: No. Keep it, and keep his words, Fordring. I have no right to either.
+
+@ trigger=idle with=isillien
+Isillien.
+> isillien: Fordring. Look at you, holding the Ashbringer. Your son was a traitor, and you are an orc-lover with a stolen sword. The Light has a sense of humour.
+
+@ trigger=idle with=isillien
+You killed my boy in front of me. I'm still deciding whether I can forgive you. I think the Light wants me to.
+> isillien: I don't want your forgiveness, Fordring. I want you to admit I was right.
+
+@ trigger=quest_accept
+"%quest". All right. Let's get it done.
+Someone needs help. That's all I need to hear.
+"%quest". I'll follow your lead.
+A good cause. Lead the way.
+
+@ trigger=quest_complete
+Done. Well fought.
+That's a good day's work.
+There. Someone's a little safer tonight. That's what matters.
+Good. I'm proud to walk with you, %summoner.
+
+@ trigger=combat_start rank=normal
+For the Light!
+Stand together!
+Stay behind me.
+Let's finish this.
+
+@ trigger=combat_start rank=notable
+%target. All right, then. Let's see what you're made of.
+Together, now! Stand fast!
+The Light is with us. Don't forget it.
+
+@ trigger=combat_start ctype=undead
+The Scourge. The Light will set you free, one way or another.
+Rest is coming for you. I'm bringing it.
+
+@ trigger=combat_start ctype=demon
+Demon. The Ashbringer was made for your kind.
+
+@ trigger=combat_start foe=the_lich_king
+Arthas! Your reign ends here. The Light will have justice.
+I'll not let you take one more life!
+
+@ trigger=combat_start foe=highlord_mograine
+Alexandros. Old friend. Forgive me. This is the only mercy I have left to give you.
+
+@ trigger=combat_start foe=grand_inquisitor_isillien
+Isillien. You took my son. You'll not take anyone else's.
+
+@ trigger=kill rank=normal
+Rest.
+Done.
+The Light prevails.
+
+@ trigger=kill rank=notable
+%target is down. Breathe, everyone. You did well.
+It's over. Good work.
+That one won't trouble anyone again.
+
+@ trigger=kill ctype=undead
+Go in peace. You're free of him now.
+
+@ trigger=kill foe=the_lich_king
+It's done. It's finally done. Light... let them all rest.
+
+@ trigger=kill foe=grand_inquisitor_isillien
+That's for Taelan. And may the Light have mercy on you, because I couldn't.
+
+@ trigger=death
+Taelan... I'm coming, son...
+The Light... endures...
+Not yet... not before...
+
+@ trigger=revived
+Up again. These old bones aren't done yet.
+Thank you. I've a bit more fight left in me.
+The Light isn't finished with me. Neither am I.
+
+@ trigger=ally_down
+%other! Hold on!
+%other's down! Cover them!
+Get up, %other. The Light's not done with you!
+
+@ trigger=grow_stronger
+I can feel the Light more clearly. Like the fog's lifting.
+Stronger. The Ashbringer feels lighter in my hand.
+The Light answers faster now. Good. We'll need it.
+I feel younger, somehow. I'll take it.
