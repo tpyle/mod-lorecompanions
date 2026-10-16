@@ -148,6 +148,18 @@ You took your power from a chained naaru, Matriarch. I am almost impressed.
 Whisperwind. You let Illidan out of his cage, I hear. And look how that ended.
 > tyrande: I did. And I live with it. You might try living with what you have done, Sylvanas, instead of simply living through it.
 
+@ trigger=idle with=arthas
+Look at you, little prince. All that golden hair, all that righteousness. Tell me, does the Light ever whisper back?
+> arthas: The Light doesn't whisper, my lady. It doesn't need to. ...Why are you smiling like that?
+
+@ trigger=idle with=thrall
+Warchief. The Forsaken have done more for your Horde than your Horde has ever done for us.
+> thrall: The Forsaken are the Horde, Sylvanas. When you remember that, I will not need to remind you.
+
+@ trigger=idle with=illidan
+Betrayer. You lost to him, I hear. At the foot of his throne.
+> illidan: Everyone loses to him eventually, Banshee. You simply have not had your turn.
+
 @ trigger=quest_accept
 "%quest". Very well. I have done worse for less reason.
 If it bleeds or rots, I can find it.

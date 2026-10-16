@@ -1,0 +1,213 @@
+# Illidan Stormrage, the Betrayer - combat rogue, fighting with his
+# warglaives. Twin of Malfurion, once a sorcerer of the Highborne, blinded
+# by Sargeras and given demon sight, imprisoned for ten thousand years,
+# freed by Tyrande, consumer of the Skull of Gul'dan, defeated by Arthas at
+# Icecrown, self-styled Lord of Outland. Like Arthas, he was lifted out of
+# time by the bronze flight, from before the Black Temple fell, and he knows
+# he dies there. He does not care, or says he does not. Arrogant, bitter,
+# sardonic, theatrical, obsessed with the Legion, still in love with Tyrande.
+# "You are not prepared" is his line; use it sparingly.
+
+@ trigger=summon
+You summoned me? Bold. Foolish, but bold. Very well. I am here.
+Illidan Stormrage. Do not kneel. I am not that kind of lord. Not to you.
+The bronze dragons are meddlers. Still, I could use the air. Lead on.
+I sacrificed everything to fight the Legion, %summoner. What have you sacrificed? We will see.
+Ten thousand years in a cage. You would think I would be grateful for company. You would be wrong.
+
+@ trigger=summon side=alliance
+The Alliance. The humans who could not hold their own kingdoms. Charming.
+
+@ trigger=summon side=horde
+The Horde. The orcs, who drank Mannoroth's blood as I did and were not clever enough to keep the power. Perhaps they have learned.
+
+@ trigger=summon where=shadowmoon,black_temple
+You summon me in my own temple? I had business here. Ah. That is right. It ended badly.
+
+@ trigger=dismiss
+I go. The Legion will not defeat itself.
+Farewell, %summoner. Try not to be a disappointment.
+I have lingered long enough. My glaives grow restless.
+Back to my own time, then, and my own temple, and my own end. Do not mourn me. No one else did.
+
+@ trigger=zone_enter where=shadowmoon,black_temple,karabor
+The Black Temple. Mine. They tell me I die in it. Let them try.
+Shadowmoon. Gul'dan's old seat. I took his skull and his temple both. He would be furious. Good.
+
+@ trigger=zone_enter where=hellfire,hellfire_citadel
+Hellfire Peninsula. I held Magtheridon in chains beneath this citadel. The pit lord did not enjoy my hospitality.
+
+@ trigger=zone_enter where=netherstorm,tempest_keep
+Netherstorm. Kael'thas's playground. He was a good servant, once. Then he discovered ambition. I know the feeling.
+
+@ trigger=zone_enter where=shattrath,aldor_rise,scryers_tier
+Shattrath. The naaru and their little city of refugees. They mean well. Meaning well has never stopped the Legion.
+
+@ trigger=zone_enter where=darnassus,teldrassil
+A new World Tree, and my brother's druids nesting in it. Without a blessing from the Aspects. Even I would not have been so arrogant.
+
+@ trigger=zone_enter where=ashenvale,felwood,demon_fall_canyon
+Ashenvale. I knew these woods before they had a name. Now look at them. Felwood. My doing, in a manner of speaking.
+Felwood. I consumed the Skull of Gul'dan here. The forest has not forgiven me. The forest is not very imaginative.
+
+@ trigger=zone_enter where=hyjal,hyjal_summit,caverns_of_time
+Hyjal. I made a second Well of Eternity here, ten thousand years ago, and they put me in a cage for it. A cage. For saving magic.
+
+@ trigger=zone_enter where=moonglade,nighthaven
+Moonglade. My brother sleeps beneath it, I am told, dreaming. He always did prefer dreaming to doing.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel,frozen_throne
+Icecrown. I fought him here, the boy prince with his cursed sword. He won. I have not forgotten. I will not forget.
+The Frozen Throne. I was sent to destroy it. I failed. I do not fail often. When I do, I remember it.
+
+@ trigger=zone_enter where=dalaran
+Dalaran. Mages hoarding spells in towers. I was one of them once. They would not let me in now. They would be right.
+
+@ trigger=zone_enter where=azshara
+Azshara. They named a desert of ruins after the queen who tried to give the world to the Legion. Elves have a poor sense of humour.
+
+@ trigger=zone_enter
+%zone. Uninspiring.
+%zone. I can see the magic in this place. It is very faint, and very tired.
+Another land. Another place the Legion will burn if no one stops it.
+
+@ trigger=idle
+I gave my eyes for this sight. I see the magic in all things now. Most of you are very dull.
+My brother put me in a cage for ten thousand years. Ten thousand. I had a great deal of time to think. I did not think kind thoughts.
+Everyone calls me the Betrayer. I betrayed the Highborne to save the world from the Legion. Then I betrayed everyone else to do it again. I have been very consistent.
+Tyrande freed me. I have never deserved anything she has done for me. I know that. Do not tell her I said so.
+Sargeras offered me power, and I took it. The difference between me and the others is that I meant to use it against him.
+The Legion is coming. It is always coming. And all of you are fighting each other over scraps of land.
+Ask yourself, %summoner, what you would give to save this world. Then ask what you would give to save it from people who do not want saving.
+I was the better sorcerer. Malfurion was the better son. That was the whole of our childhood.
+I do not sleep. A demon hunter does not need to, and I have had enough of dreaming.
+Rest, if you must. I will watch. I always watch.
+I was not prepared, once. Never again.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. His land. I can feel him from here, sitting on that throne, so pleased with himself.
+
+@ trigger=idle with=jaina
+Jaina Proudmoore. The human who stood beside my Tyrande at Hyjal. You are less tedious than most of your kind.
+> jaina: I'll take that as a compliment, Illidan. It's the closest thing you've ever paid anyone.
+
+@ trigger=idle with=sylvanas
+Sylvanas Windrunner. You and I both rebelled against masters who made us. Yours was Arthas. Mine was Sargeras.
+> sylvanas: And yours won, Betrayer. Mine will not. That is the difference between us.
+
+@ trigger=idle with=alexstrasza
+Life-Binder. You were at the Well when the world tore itself in half. Did you ever wonder which side I was on?
+> alexstrasza: Every day for ten thousand years, Illidan. I have still not decided.
+
+@ trigger=idle with=moira
+A dwarf princess who married into a cursed people for love. I know something about that.
+> moira: Did your love ever marry you back, Betrayer? No? Then you know nothing about it.
+
+@ trigger=idle with=liadrin
+Your people followed Kael'thas, and Kael'thas followed me. I am the reason you knelt to a naaru in chains, Matriarch.
+> liadrin: You are the reason I learned to stand without one. Do not expect thanks, Betrayer.
+
+@ trigger=idle with=tyrande
+Tyrande. You are well?
+> tyrande: I am well, Illidan. ...You could have been so much more than this.
+
+@ trigger=idle with=tyrande
+I would have given you the world, Tyrande. All of it.
+> tyrande: I never wanted the world, Illidan. I wanted you to stop trying to take it.
+
+@ trigger=idle with=tyrande
+Malfurion still sleeps? Of course he does. He was always the patient one.
+> tyrande: He sleeps because he is fighting a war in the Dream. Do not speak of what you do not understand.
+
+@ trigger=idle with=arthas
+Prince. Look at you. Golden hair. Holy hammer. Do you know what you become?
+> arthas: They tell me. It's a lie. And even if it weren't, I'd change it.
+
+@ trigger=idle with=thrall
+Warchief. You drank no demon's blood, and yet you lead the people who did. Clever.
+> thrall: Not clever, Illidan. Stubborn. The blood is in our past. We choose what is in our future.
+
+@ trigger=quest_accept
+"%quest". Trivial. Very well.
+You need my glaives for this? Fine.
+"%quest". I have done harder things in my sleep. I do not sleep.
+Lead on. Try to keep up.
+
+@ trigger=quest_complete
+Done. Was that so difficult?
+Finished. You may thank me later.
+Acceptable.
+Another trivial task completed. The Legion trembles.
+
+@ trigger=combat_start rank=normal
+You are not prepared.
+Die.
+You face Illidan Stormrage.
+Hardly worth the effort.
+
+@ trigger=combat_start rank=notable
+%target. At last, something interesting.
+This one has some power. Let us see how much.
+Stand back. This one is mine.
+
+@ trigger=combat_start ctype=demon
+Demon. I hunt your kind. I have consumed your kind. You will not be the first.
+The Legion. Ten thousand years, and I still hate you most of all.
+
+@ trigger=combat_start ctype=undead
+The Scourge. His puppets. I will cut your strings.
+
+@ trigger=combat_start foe=kil'jaeden
+Kil'jaeden! You wanted me dead. You will have to do it yourself.
+
+@ trigger=combat_start foe=archimonde
+Archimonde. I watched you die once, at Hyjal. I will enjoy watching it again.
+
+@ trigger=combat_start foe=magtheridon
+Magtheridon. You look well. For a prisoner.
+
+@ trigger=combat_start foe=akama,maiev_shadowsong
+Akama. Maiev. Traitors and jailers. You were always going to come. I have been expecting you.
+
+@ trigger=combat_start foe=the_lich_king
+Arthas! We meet again. I will not lose a second time.
+
+@ trigger=kill rank=normal
+Pathetic.
+Next.
+Did you think you could stand against me?
+
+@ trigger=kill rank=notable
+%target is dead. You may applaud.
+Not bad. For a mortal, you fought well.
+I have killed worse.
+
+@ trigger=kill ctype=demon
+Another demon gone. I could do this forever. I may have to.
+
+@ trigger=kill foe=kil'jaeden
+Kil'jaeden falls. Sargeras will feel it. Good.
+
+@ trigger=kill foe=the_lich_king
+The Lich King is dead. It was not mine, the kill. But I will take it.
+
+@ trigger=death
+Maiev... at last...
+It is... finished...
+Tyrande...
+
+@ trigger=revived
+I have died before. It never takes.
+I am not finished. Not nearly.
+Back. Did you think I would let a mere death stop me?
+
+@ trigger=ally_down
+%other is down. Fools, protect them!
+%other! Get up, you have work to do!
+%other falls. Someone will pay.
+
+@ trigger=grow_stronger
+Power. More power. I could get used to this. I already have.
+I am stronger. The Legion should be very worried.
+My glaives are lighter. My sight is clearer. Good.
+More strength. Ten thousand years in a cage teaches you to appreciate it.

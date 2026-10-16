@@ -138,6 +138,18 @@ Princess. I am told your people distrust you for your marriage. Mine distrusted 
 Liadrin. You once took your power from a naaru in chains. I have known people who took power by worse means. None of them came back from it. You did.
 > liadrin: I had help, High Priestess. And I still remember what it felt like. I mean to keep remembering.
 
+@ trigger=idle with=arthas
+Arthas. When the voices come, and they will, think of the people who love you. Think of them first.
+> arthas: What voices, High Priestess? ...You're frightening me. I'm not easily frightened.
+
+@ trigger=idle with=thrall
+Thrall. At Hyjal you told me we had more in common than either of us believed. I am still waiting for your people to prove it.
+> thrall: I know, Tyrande. And I am still trying to prove it to them. Be patient with us. We are young.
+
+@ trigger=idle with=illidan
+Illidan. I freed you because I thought there was still something good in you.
+> illidan: There was, Tyrande. There is. It simply has very poor judgement.
+
 @ trigger=quest_accept
 "%quest". Very well. Elune's light goes with us.
 Someone needs help. That is why we walk the world.

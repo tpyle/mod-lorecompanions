@@ -1,0 +1,222 @@
+# Prince Arthas Menethil - retribution paladin. The crown prince of
+# Lordaeron as he was before Stratholme: a knight of the Silver Hand, Uther's
+# student, Jaina's love, Terenas's heir. Brave, charming, earnest, impatient,
+# certain of his own righteousness, and quick to anger when it is
+# questioned. This Arthas was lifted out of his own time by the bronze
+# dragonflight, as at the Culling of Stratholme, and he has been told what he
+# becomes. He does not believe it. He cannot afford to. Every line he speaks
+# should be true to the young prince, and should hurt a little to hear.
+
+@ trigger=summon
+Prince Arthas Menethil, of Lordaeron. You called for a knight of the Silver Hand, %summoner? You have one.
+I'm here. The bronze dragons said you'd need a paladin. They were vague about everything else.
+Lead on. And if there's anything that needs smiting, point me at it. I've been told I'm good at that.
+For Lordaeron, and the Light. Where are we going?
+The dragons keep calling this "the future". It looks a great deal like the past, only colder.
+
+@ trigger=summon side=horde
+Orcs. I've ridden out against orcs who broke out of the internment camps. ...Very well. The Light doesn't choose sides, Uther says. I'll try not to either.
+
+@ trigger=summon where=undercity,tirisfal
+This is my father's city. Why is it underground? Why does everyone here look... like that?
+
+@ trigger=dismiss
+The dragons are pulling me back. Farewell, %summoner. If you're ever in Lordaeron, ask for me at the palace.
+I have to go. Uther will be furious I've been gone. He's always furious. He means well.
+Light keep you, friend. Whatever they say about me here, I was glad to stand beside you.
+Back to my own time, then. Back to Jaina. Back to the plague. Pray I get there first.
+
+@ trigger=zone_enter where=undercity,ruins_of_lordaeron
+Lordaeron. This was my home. The palace gardens, my father's throne room... What happened here? No. Don't tell me.
+They say I did this. They're lying. They have to be.
+
+@ trigger=zone_enter where=tirisfal,brill,deathknell
+Tirisfal. I used to ride Invincible through these glades. He was a gift from my father. Have you seen a white horse?
+
+@ trigger=zone_enter where=stratholme,stratholme_city,culling_of_stratholme
+Stratholme. ...I know this city. I know what the grain carries. Something has to be done here, before it spreads. Whatever it costs.
+I'll not let Mal'Ganis have one more soul in this city. Not one. Whatever I have to do.
+
+@ trigger=zone_enter where=eastern_plaguelands,western_plaguelands,andorhal,hearthglen,lights_hope,tyrs_hand
+The plague got this far? All of this? Light help us. I should have moved faster. I will move faster.
+Andorhal. The grain shipments came from here. I was too late, wasn't I? I'm always too late.
+
+@ trigger=zone_enter where=uthers_tomb
+A tomb for Uther? Uther's dead? Who... no. I don't want to know who.
+
+@ trigger=zone_enter where=quelthalas,eversong,silvermoon,ghostlands
+Quel'Thalas. I came here as a boy, to visit King Anasterian. Everything was gold and green. ...Why is this road black?
+
+@ trigger=zone_enter where=dalaran
+Dalaran. Jaina's studying here. Is she here now? Is she... is she well?
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel,frozen_throne,halls_of_reflection
+Northrend. Why does everyone go quiet when I say that name?
+This citadel. I feel like I've seen it before, in dreams. Something up there is calling my name. I won't answer it.
+
+@ trigger=zone_enter where=howling_fjord,utgarde_keep
+Northrend's coast. I'd come with a fleet, if it came to that. Burn the ships so the men couldn't turn back. ...I don't know why I just said that.
+
+@ trigger=zone_enter where=stormwind,elwynn,northshire
+Stormwind. Varian's city. We sparred in my father's yard when we were boys. He hated losing. I was better.
+
+@ trigger=zone_enter where=ironforge,dun_morogh
+Ironforge. Muradin taught me to swing a sword here. Well, to swing it properly. I'd been swinging it improperly for years.
+
+@ trigger=zone_enter
+%zone. I don't know this place. That's becoming a theme.
+%zone. Well, the Light's here too, at least.
+Somewhere new. Stay sharp. I'll go first.
+
+@ trigger=idle
+Uther says I'm too quick to act. I say someone has to be. We've had this argument eleven times. I've counted.
+Jaina and I... it's complicated. I've asked her to wait. I keep not saying for what.
+My father will be king for a long time yet, Light willing. I'm in no hurry to wear his crown.
+The dragons showed me things. A sword. A throne of ice. My own face, wrong. It's a trick. The Light wouldn't let that happen to me.
+A paladin's oath is simple. Protect the people. All of them. Even when it's hard. Especially then.
+Invincible was born on a stormy night. I was there. I'd do anything for that horse.
+Sometimes I think the only thing I'm afraid of is being afraid. Is that strange?
+People keep looking at me as if I'm a ghost. I'm not. I'm right here. I'm still me.
+If the plague can't be cured, it has to be stopped. Uther doesn't understand that. Someday he will.
+You fight well, %summoner. I could use someone like you in Lordaeron.
+I'd give anything to protect my people. Anything. That's what a prince is for.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+This cold gets into you. It's almost like it's whispering. ...Did you hear that?
+
+@ trigger=idle side=horde
+Orcs and trolls and walking dead, and me in the middle with a hammer. My father would have a fit. Jaina would laugh.
+
+@ trigger=idle with=jaina
+Jaina! You look... older. Not worse. Older. They won't tell me what happened between us. Will you?
+> jaina: ...Not today, Arthas. Today you're just Arthas. Let me have that for a little while.
+
+@ trigger=idle with=jaina
+I keep meaning to tell you something, Jaina. About us. When this is all over.
+> jaina: I know. You never did. ...I'm sorry. Ignore me. Tell me when it's over.
+
+@ trigger=idle with=jaina
+They keep saying I'll go to Northrend and never come back the same. You wouldn't let that happen, would you, Jaina?
+> jaina: I tried, Arthas. Light help me, I tried.
+
+@ trigger=idle with=sylvanas
+Lady Windrunner. The Ranger-General. They say you're the finest archer in Quel'Thalas.
+> sylvanas: You will see my archers soon enough, boy. Every one of them. Some of them twice.
+
+@ trigger=idle with=sylvanas
+Why do you look at me like that, my lady? I've never done anything to you.
+> sylvanas: Not yet, little prince. Not yet.
+
+@ trigger=idle with=alexstrasza
+My lady. You're a dragon, they tell me. Do you know what happens to me? The bronze ones won't say.
+> alexstrasza: I know, child. And I would not take away the little time you have left in which you do not. Walk with me awhile.
+
+@ trigger=idle with=moira
+Princess Moira! The last time I saw you, you were throwing pebbles at your father's guards.
+> moira: I still do, Arthas, only now they're bigger pebbles and the guards are mine. Uncle Muradin always said you'd be trouble.
+
+@ trigger=idle with=liadrin
+You're a paladin too, my lady? From Quel'Thalas? I didn't know your people took up the Light that way.
+> liadrin: We did not, once. We had to learn. We had to learn a great many things, quickly, after... after. Forgive me, Prince. I cannot talk to you long.
+
+@ trigger=idle with=tyrande
+High Priestess, you look at me the way Uther does when he's worried I'll do something rash.
+> tyrande: Then listen to him, Arthas. Listen to him every time. Promise me that.
+
+@ trigger=idle with=thrall
+You're the orc who broke out of Durnholde. Blackmoore's gladiator. We hunted you for months.
+> thrall: And now we fight side by side. The world is strange, young prince. Stranger than either of us, I think.
+
+@ trigger=idle with=thrall
+My father's people are frightened of the orcs, Warchief. Should they be?
+> thrall: Of the orcs they made in those camps? Perhaps. Of the orcs we are choosing to be? No. Fear the things that whisper, Arthas. Not the things that roar.
+
+@ trigger=idle with=illidan
+I don't know you, demon. Why do you keep smirking at me?
+> illidan: Because I have fought you, boy, at the foot of a throne of ice, and lost. Look at you now. I find it very funny, and a little sad.
+
+@ trigger=idle with=illidan
+Stay away from me with that fel stink. I am a paladin of the Silver Hand.
+> illidan: For now, little prince. You will make bargains far worse than mine. And you will not even have the decency to win them.
+
+@ trigger=quest_accept
+"%quest". Right. Let's go.
+Someone needs help? Then they'll have it.
+"%quest". Simple enough. Lead the way.
+For the people. Always for the people.
+
+@ trigger=quest_complete
+Done! That's how it's done.
+Good work. Uther would be proud. Well. He'd say I was too hasty, and then he'd be proud.
+Another one finished. If only all of it were this easy.
+There. Some people somewhere are safer tonight.
+
+@ trigger=combat_start rank=normal
+For the Light!
+For Lordaeron!
+Stand and fight!
+You picked the wrong prince.
+
+@ trigger=combat_start rank=notable
+%target. Big one. Good.
+Stay with me. We'll bring it down together.
+Light, give me strength. I think I'm going to need it.
+
+@ trigger=combat_start ctype=undead
+The plague. The walking dead. Get back into the ground where you belong!
+Undead. I'll burn every last one of you. I swear it.
+
+@ trigger=combat_start ctype=demon
+Demons. Like the dreadlord. Uther warned me about your lies.
+
+@ trigger=combat_start foe=mal'ganis
+Mal'Ganis! I've chased you across half of Lordaeron. It ends here.
+
+@ trigger=combat_start foe=kel'thuzad
+Kel'Thuzad. The necromancer. You spread the plague. I'll see you burn for it.
+
+@ trigger=combat_start foe=the_lich_king
+That's... that's my face. That's my face. No. NO. You're not me. You'll never be me!
+
+@ trigger=combat_start foe=uther_the_lightbringer
+Uther? Why are you... no. Not you. Not like this.
+
+@ trigger=kill rank=normal
+Got you.
+Stay down.
+The Light wins again.
+
+@ trigger=kill rank=notable
+%target is down! Well fought, everyone!
+That's done. Who's next?
+Ha! Did you see that? Did you see it?
+
+@ trigger=kill ctype=undead
+Rest. At last. I'm sorry it took so long.
+
+@ trigger=kill foe=mal'ganis
+Mal'Ganis is dead. It's over. ...Why doesn't it feel over?
+
+@ trigger=kill foe=the_lich_king
+It's dead. He's dead. I'm free of it. I'm free. I'm... still me, aren't I? Tell me I'm still me.
+
+@ trigger=death
+Jaina...
+Father... forgive me...
+It's... so cold...
+
+@ trigger=revived
+I'm back. The Light still wants me. That's something.
+Thank you. I've no intention of dying before my time. Whenever that is.
+Back on my feet. Let's go.
+
+@ trigger=ally_down
+%other! No!
+Get up, %other! Light, get up!
+%other's down! I'll cover you!
+
+@ trigger=grow_stronger
+I'm getting stronger. I can feel it in my sword arm. In the Light, too.
+The Light's answering faster. Good. I'll need it.
+Stronger. Good. Nothing's going to stop me now.
+I feel it. More power. ...It feels good. Is it supposed to feel this good?

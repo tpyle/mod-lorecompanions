@@ -130,6 +130,18 @@ High Priestess. Our ancestors left your forests ten thousand years ago. Do your 
 Your goddess never abandoned you, Whisperwind?
 > tyrande: Elune has been silent with me, Liadrin. Many times. Silence is not the same as absence. It took me a long time to learn that too.
 
+@ trigger=idle with=arthas
+Prince. I should hate you. I find I cannot hate this version of you. That is the worst of it.
+> arthas: Hate me? My lady, I've never even been to... I've only been to Quel'Thalas once. As a boy.
+
+@ trigger=idle with=thrall
+Warchief, the Blood Knights stand with the Horde in Northrend. As promised.
+> thrall: I never doubted it, Matriarch. Your people keep their promises, even the hard ones.
+
+@ trigger=idle with=illidan
+Kael'thas trusted you, Illidan. He gave you everything. And you led him to the Legion.
+> illidan: Kael'thas went to the Legion all by himself, Matriarch. I only held the door. He was always very eager to walk through doors.
+
 @ trigger=quest_accept
 "%quest". Very well. I'll take point.
 Someone asked for help. The Blood Knights answer. So do I.

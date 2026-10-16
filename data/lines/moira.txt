@@ -137,6 +137,18 @@ High Priestess. My grandfather's grandfather traded stone with your people. They
 Your goddess is the moon, Tyrande. Mine's whatever keeps the roof up. It's a mountain thing.
 > tyrande: Elune lights the dark places too, Moira. Even under mountains. You simply have to go looking.
 
+@ trigger=idle with=arthas
+Arthas Menethil. Uncle Muradin spoke of you like a son. Do you know what happened to him? Northrend, the sword...
+> arthas: Muradin? No. What sword? Moira, what aren't you telling me?
+
+@ trigger=idle with=thrall
+Warchief, your people and mine were both used by something that should have stayed in the dark. A demon for you, a Firelord for us.
+> thrall: Then we are kin of a kind, Princess. Both of us trying to raise children who are better than our history.
+
+@ trigger=idle with=illidan
+You've a lot of horns for an elf, Stormrage.
+> illidan: And you have a lot of opinions for a dwarf, Princess. We are both overcompensating.
+
 @ trigger=quest_accept
 "%quest". Fine. Let's get it done before someone writes a song about it.
 Someone wants a favour. Someone always does. Lead on.

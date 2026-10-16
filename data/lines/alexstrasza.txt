@@ -124,6 +124,18 @@ Liadrin, you shine brighter than when I last saw you. The Light sits easier in y
 Tyrande. The last time we fought side by side, the Well of Eternity was tearing the world apart.
 > tyrande: And you were the one who would not let it finish, Alexstrasza. I have never forgotten.
 
+@ trigger=idle with=arthas
+You are so young, Arthas. Hold on to that, as long as you can.
+> arthas: Everyone keeps saying that, my lady. As if it were going somewhere.
+
+@ trigger=idle with=thrall
+Thrall. The earth speaks to you more loudly than it should. Something stirs beneath it.
+> thrall: I hear it too, Life-Binder. A great anger, deep below. I have not yet found its name.
+
+@ trigger=idle with=illidan
+Illidan. Your brother still dreams of you, in Ysera's realm. Not kindly, but often.
+> illidan: My brother has always found me easier to love when I was not in the room.
+
 @ trigger=quest_accept
 "%quest". Very well. I will lend my fire to it.
 Someone is in need. That is reason enough for a dragon, too.

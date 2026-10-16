@@ -48,14 +48,17 @@ LINES = ROOT / "data" / "lines"
 OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 
 # id, name, title, race, class, gender, display, scale, spec, pet, sort
-#   race:   1 human, 3 dwarf, 4 night elf, 5 undead, 10 blood elf
-#   class:  2 paladin, 3 hunter, 5 priest, 8 mage
-#   gender: 1 female
+#   race:   1 human, 2 orc, 3 dwarf, 4 night elf, 5 undead, 10 blood elf
+#   class:  2 paladin, 3 hunter, 4 rogue, 5 priest, 7 shaman, 8 mage
+#   gender: 0 male, 1 female
 #   scale:  multiplies the model's own size. Alexstrasza's model is drawn at
 #           1.75 (Jaina's and Sylvanas's at 1.2, player races at 1.0), so 0.68
 #           brings her to about 1.19: a little over a blood elf, level with
 #           the other two. Moira, Liadrin and Tyrande wear their own NPC
-#           outfits on their race's model, at its natural size.
+#           outfits on their race's model, at its natural size, and so does
+#           Thrall. Illidan's Black Temple model is drawn at 1.5 and stands
+#           about three times a night elf's height, wings included, so 0.35
+#           brings him to a little over a night elf.
 #   spec:   an AiPlayerbot.PremadeSpecName for that class
 #   pet:    a hunter's pet by creature entry, 0 to let playerbots pick.
 #           1554 is the Vampiric Duskbat of Tirisfal Glades - the Forsaken's
@@ -67,6 +70,9 @@ COMPANIONS = [
     ("moira",       "Moira",       "Princess Moira Bronzebeard",  3,  5, 1, 8705,  1.0, "shadow pve", 0,  4),
     ("liadrin",     "Liadrin",     "Lady Liadrin",                10, 2, 1, 16820, 1.0, "prot pve",  0,    5),
     ("tyrande",     "Tyrande",     "Tyrande Whisperwind",         4,  5, 1, 7274,  1.0, "holy pve",  0,    6),
+    ("arthas",      "Arthas",      "Prince Arthas Menethil",      1,  2, 0, 24949, 1.0, "ret pve",   0,    7),
+    ("thrall",      "Thrall",      "Thrall, Warchief of the Horde", 2, 7, 0, 4527, 1.0, "enh pve",   0,    8),
+    ("illidan",     "Illidan",     "Illidan Stormrage",           4,  4, 0, 21135, 0.35, "combat pve", 0,  9),
 ]
 
 TRIGGERS = {
@@ -84,11 +90,13 @@ PLACES = {
     "ruttheran": 702, "darkshore": 148, "auberdine": 442, "astranaar": 415, "moonglade": 493,
     "nighthaven": 2361, "feralas": 357, "felwood": 361, "winterspring": 618, "azshara": 16,
     "silithus": 1377, "ahnqiraj": 3428, "tanaris": 440, "caverns_of_time": 1941,
-    "hyjal_summit": 3606,
+    "hyjal_summit": 3606, "valley_of_trials": 363, "razor_hill": 362, "echo_isles": 368,
+    "demon_fall_canyon": 435,
     # Eastern Kingdoms
     "dun_morogh": 1, "kharanos": 131, "gnomeregan": 133, "loch_modan": 38, "thelsamar": 144,
     "aerie_peak": 348, "ruins_of_thaurissan": 250, "molten_core": 2717, "tranquillien": 3488,
-    "deatholme": 3500, "magisters_terrace": 4095, "zulaman": 3805,
+    "deatholme": 3500, "magisters_terrace": 4095, "zulaman": 3805, "durnholde": 275,
+    "old_hillsbrad": 2367, "uthers_tomb": 196, "tyrs_hand": 2266, "ruins_of_lordaeron": 153,
     "elwynn": 12, "northshire": 9, "goldshire": 87, "stormwind": 1519, "westfall": 40,
     "duskwood": 10, "ironforge": 1537, "wetlands": 11, "grim_batol": 1037,
     "tirisfal": 85, "deathknell": 154, "brill": 159, "undercity": 1497, "silverpine": 130,
@@ -104,7 +112,8 @@ PLACES = {
     # Outland
     "hellfire": 3483, "shattrath": 3703, "netherstorm": 3523, "shadowmoon": 3520,
     "exodar": 3557, "tempest_keep": 3845, "aldor_rise": 3896, "scryers_tier": 3898,
-    "black_temple": 3959,
+    "black_temple": 3959, "karabor": 3756, "hellfire_citadel": 3545, "nagrand": 3518,
+    "garadar": 3613, "throne_of_elements": 3615,
     # Northrend
     "borean": 3537, "coldarra": 4024, "nexus": 4265, "howling_fjord": 495,
     "vengeance_landing": 4000, "new_agamand": 3991, "dragonblight": 65,
@@ -114,6 +123,7 @@ PLACES = {
     "storm_peaks": 67, "crystalsong": 2817, "dalaran": 4395, "icecrown": 210,
     "icecrown_citadel": 4812, "culling_of_stratholme": 4100, "halls_of_stone": 4264,
     "halls_of_lightning": 4272, "ulduar": 4273, "argent_tournament": 4658,
+    "warsong_hold": 4129, "utgarde_keep": 3983, "frozen_throne": 4859, "halls_of_reflection": 4820,
 }
 
 CREATURE_TYPES = {

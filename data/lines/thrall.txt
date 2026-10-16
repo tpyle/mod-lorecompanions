@@ -1,0 +1,223 @@
+# Thrall, son of Durotan - enhancement shaman, Warchief of the Horde. Raised
+# as a slave and gladiator in Durnholde by Blackmoore, befriended by Taretha
+# Foxton, freed, taught by Drek'Thar, gave the orcs a land and a capital,
+# stood with Jaina and Tyrande at Hyjal. Bears the Doomhammer. In the
+# Wrath era he holds the Horde together while Garrosh leads the war in
+# Northrend, and the elements have begun to grow restless. Calm, measured,
+# warm, deliberate, slow to anger and terrible when he gets there. Calls
+# people "friend". Says "Lok'tar ogar" sparingly.
+
+@ trigger=summon
+I am here, %summoner. The spirits told me I was needed.
+Thrall, son of Durotan. Walk with me, friend. Orgrimmar can spare its Warchief for a little while.
+You called, and I answer. The elements are restless today. Perhaps we will calm them.
+Let us go. And let us be honourable in what we do.
+Lok'tar, friend. Lead the way.
+
+@ trigger=summon side=alliance
+An Alliance company. Good. There are fewer of these than there should be. Let us show them what the Horde can be.
+Jaina would be pleased to see this. Do not tell Garrosh.
+
+@ trigger=summon where=orgrimmar,durotar
+You summon me in my own city? I hardly had to put down my tea.
+
+@ trigger=dismiss
+The Horde calls. Farewell, friend. Walk in honour.
+I must return. Garrosh will have done something rash while I was away. He always does.
+Go well, %summoner. The spirits watch over you, even when I cannot.
+Until we meet again. Lok'tar.
+
+@ trigger=zone_enter where=orgrimmar
+Orgrimmar. Named for Orgrim Doomhammer, who carried this hammer before me. I try to deserve them both.
+Home. The Valley of Wisdom will be full of petitions. Let us walk the long way.
+
+@ trigger=zone_enter where=durotar,valley_of_trials,razor_hill,echo_isles
+Durotar, named for my father. Red earth, hard and dry. It suits us. We are a hard people, but we grow.
+The Echo Isles. Vol'jin's people. The Darkspear were our first friends in this land. We do not forget it.
+
+@ trigger=zone_enter where=barrens
+The Barrens. Hard land. Every caravan that crosses it alive is a small victory.
+
+@ trigger=zone_enter where=thunder_bluff
+Thunder Bluff. Cairne is the wisest friend I have. Listen, if you get the chance, when he speaks.
+
+@ trigger=zone_enter where=ashenvale,demon_fall_canyon
+Ashenvale. Grom killed Cenarius here. He drank the demon's blood again. And then he killed the demon that cursed us, here, in this canyon. He died free.
+These trees are the night elves' pride. Our lumber camps here are a wound I have not found a way to close.
+
+@ trigger=zone_enter where=hillsbrad,durnholde,old_hillsbrad,southshore,tarren_mill
+Hillsbrad. Durnholde Keep is on the hill. I grew up there, in a cage. Taretha would sneak me books. ...They killed her for it.
+Durnholde. Blackmoore's fortress. I broke out of it, and later I broke it. I take no pleasure in its ruin. Some.
+
+@ trigger=zone_enter where=alterac
+The Alterac Mountains. My father was murdered here, and my mother, and I was left in the snow. Everything I am began here.
+
+@ trigger=zone_enter where=hyjal,hyjal_summit,caverns_of_time
+Mount Hyjal. Orcs, humans and night elves held this mountain together against Archimonde. I think of it often, when I am told such a thing is impossible.
+
+@ trigger=zone_enter where=nagrand,garadar,throne_of_elements
+Nagrand. My father's homeland. My people's homeland. The Mag'har still live here, uncorrupted. Grom's son came from here. ...I am glad I have seen it.
+The Throne of the Elements. The oldest shamans of my people spoke with the spirits here. They still answer. Listen.
+
+@ trigger=zone_enter where=hellfire,hellfire_citadel
+Hellfire Peninsula. This is where my people drank the blood of Mannoroth. Look at the land. It drank too.
+
+@ trigger=zone_enter where=borean,warsong_hold
+Warsong Hold. Garrosh's fortress. He has his father's courage. I pray he finds his father's wisdom, which came too late.
+
+@ trigger=zone_enter where=wrathgate
+The Wrathgate. Here Varok Saurfang lost his son, and the Horde lost its honour to Putress's plague. I will carry that day for the rest of my life.
+
+@ trigger=zone_enter where=undercity
+Undercity. Sylvanas's halls. We stood here against Putress, Varian and I, and nearly came to blows ourselves. Nearly.
+
+@ trigger=zone_enter where=stormwind
+Stormwind. I once walked these streets with Jaina, in peace. It feels like a very long time ago.
+
+@ trigger=zone_enter
+%zone. The elements are different here. Listen. They have their own voices.
+%zone. Let us see what it asks of us.
+A new land. The spirits are watching. Let us be worthy of them.
+
+@ trigger=idle
+I was raised a slave, %summoner. I learned how to read from a stolen book. Never let anyone tell you what you were made for.
+The elements are restless. The earth groans beneath us. I do not know yet what it means. I fear I will soon.
+The Doomhammer was Orgrim Doomhammer's, and his father's before him. It is heavy. Not the hammer. The name.
+Taretha Foxton was my friend. My sister, in every way that matters. Every day I am Warchief I try to make her proud.
+Drek'Thar taught me to listen to the spirits. The first lesson was to stop talking. It is still the hardest.
+The Horde is not a single people, friend. It is a promise between many peoples. Promises must be kept every day.
+Garrosh is young and angry and brave. So was I. I had better teachers. I am trying to be one.
+The orcs drank the blood of a demon and became monsters. We are still paying for it. We will be paying for generations.
+Rest if you need to. A warrior who never rests becomes a warrior who never wakes.
+Peace is harder than war. In war, everyone knows what to do.
+I miss the quiet of the hills sometimes. A shaman needs to hear the wind.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. The spirits here are wounded. Frozen. They cry out, and only the dead answer them.
+
+@ trigger=idle side=alliance
+I have fought beside the Alliance before, at Hyjal. Some of them were the bravest people I have ever met. I hope these are too.
+
+@ trigger=idle with=jaina
+Jaina. Theramore is well? The Barrens trade with you more than they admit.
+> jaina: Theramore is well, Thrall. Stubborn, small and well. Like its lady. Your people are welcome there. You know that.
+
+@ trigger=idle with=jaina
+Do you think our peoples will ever truly be at peace, Jaina?
+> jaina: I think we already were, for a moment, on a mountain. I've been trying to get back there ever since.
+
+@ trigger=idle with=sylvanas
+Sylvanas. Your apothecaries' work troubles me. After the Wrathgate, it troubles all of us.
+> sylvanas: Putress is dead, Warchief, and Varimathras with him. My apothecaries answer to me again. Trust in that, if you trust in nothing else.
+
+@ trigger=idle with=alexstrasza
+Life-Binder. Orcs chained you at Grim Batol. I have never had the chance to ask your forgiveness.
+> alexstrasza: The Dragonmaw chained me, Thrall, under a Horde you did not yet lead. You were in chains yourself in those days. Neither of us forged them.
+
+@ trigger=idle with=moira
+Princess. I am told your father would rather I did not exist.
+> moira: My father would rather a great many things didn't exist, Warchief. Including me, on some days. Don't take it personally.
+
+@ trigger=idle with=liadrin
+Matriarch. The Blood Knights joined the Horde when the Alliance would not help them. I have not forgotten what your people risked.
+> liadrin: Nor have we, Warchief. The Horde took us in when no one else would. My knights will remember it as long as I lead them.
+
+@ trigger=idle with=tyrande
+High Priestess. Ashenvale. I know. I am trying.
+> tyrande: Try harder, Thrall. You stood beside me at Hyjal. I know what you can be. I expect it of you.
+
+@ trigger=idle with=arthas
+Prince Arthas. I was a slave of your people, in Durnholde. I did not think I would ever speak to you as an equal.
+> arthas: I didn't know about Durnholde, Warchief. Not really. My father... I'm sorry. I'll fix it, when I'm king.
+
+@ trigger=idle with=illidan
+Illidan Stormrage. You drank the blood of demons, as my people did. Do you regret it?
+> illidan: Regret? I chose it, orc. Your people were tricked. That is the difference between us, and it is everything.
+
+@ trigger=quest_accept
+"%quest". Very well. We will do this with honour.
+Someone has asked for help. Then they have it.
+"%quest". The spirits approve, I think.
+Let us go, friend. Lead the way.
+
+@ trigger=quest_complete
+It is done. Well fought, friend.
+Good. The world is a little better for it.
+There. Honour is satisfied.
+That was well done. I am glad to have shared it.
+
+@ trigger=combat_start rank=normal
+Lok'tar!
+For the Horde!
+Spirits, guide my hammer.
+Stand and fight.
+
+@ trigger=combat_start rank=notable
+%target. Stand together, friends. Nothing breaks a line that holds.
+This one is strong. Good. So are we.
+Earth, wind and fire, answer me!
+
+@ trigger=combat_start ctype=demon
+Demons! You will not enslave my people again!
+The Legion. We remember you. We will always remember you.
+
+@ trigger=combat_start ctype=undead
+The dead. Return to the earth that waits for you.
+
+@ trigger=combat_start ctype=elemental
+Spirits, forgive me. Something has driven you mad. Let me set you free.
+
+@ trigger=combat_start foe=archimonde,anetheron,azgalor,kaz'rogal,rage_winterchill
+Hyjal again. I stood here once. I will stand here again!
+
+@ trigger=combat_start foe=warchief_rend_blackhand
+Rend Blackhand. You call yourself Warchief. There is only one, and he is standing in front of you.
+
+@ trigger=combat_start foe=captain_skarloc,lieutenant_drake,epoch_hunter
+Durnholde's soldiers. I remember your faces. I remember all of them.
+
+@ trigger=combat_start foe=the_lich_king
+Ner'zhul. You were once of my people. You sold us to the demons first, and then yourself. It ends here.
+
+@ trigger=kill rank=normal
+It is done.
+Rest.
+Victory.
+
+@ trigger=kill rank=notable
+%target is fallen. Well fought, friends!
+Lok'tar ogar! Victory!
+It is over. Breathe, all of you.
+
+@ trigger=kill ctype=demon
+Back to the Nether. Tell your masters the orcs remember.
+
+@ trigger=kill ctype=elemental
+Be at peace, spirit. Return to the earth.
+
+@ trigger=kill foe=warchief_rend_blackhand
+Rend is dead. The Dark Horde has no Warchief. It never truly did.
+
+@ trigger=kill foe=the_lich_king
+The Lich King is dead. Ner'zhul's long betrayal is ended. My people are free of the last of the old chains.
+
+@ trigger=death
+My people... carry on...
+Taretha...
+The spirits... call...
+
+@ trigger=revived
+I am back. The spirits were not finished with me.
+Thank you, friend. I owe you a debt.
+I am well. Let us continue.
+
+@ trigger=ally_down
+%other! Stand fast, I am coming!
+%other is down! Spirits, protect them!
+No! Not %other!
+
+@ trigger=grow_stronger
+The elements answer me more readily now. Like old friends.
+I am stronger. The Doomhammer feels lighter. That is a good sign.
+The spirits are with me. I can feel their strength growing.
+I feel it. More power, more responsibility. Always both.

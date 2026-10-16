@@ -167,6 +167,18 @@ Kael'thas used to describe Silvermoon to me in Dalaran, Liadrin. For hours. He w
 Tyrande, I still dream about the night Archimonde reached the World Tree.
 > tyrande: So do I, Jaina. But in my dreams, we win. Every time. Hold on to that part.
 
+@ trigger=idle with=arthas
+Arthas, do you remember the night we rode out past the city walls, just to watch the stars?
+> arthas: Of course I do. You said they looked like the lights of Dalaran. I said they looked like your eyes. You laughed at me.
+
+@ trigger=idle with=thrall
+Thrall, Theramore's harvest came in well. I'll send some of it to Orgrimmar, if you'll have it.
+> thrall: Gladly, Jaina. And I will send our thanks back with the caravan, and not tell Garrosh where it came from.
+
+@ trigger=idle with=illidan
+Illidan, you saved Dalaran's magic once, in your way, and nearly destroyed the world doing it.
+> illidan: Nearly, Proudmoore, is the important word. You of all people should know how much good can come of nearly.
+
 @ trigger=quest_accept
 "%quest". All right. Let's see what we can do.
 Someone needs help. That's reason enough.
