@@ -50,10 +50,13 @@ LoreCompanions.FollowSummonerSide = 1
 
 #
 #    LoreCompanions.MaxPerPlayer
-#        Description: How many companions one player may have out at once.
-#        Default:     3
+#        Description: How many companions one player may have out at once. 4
+#                     fills a party: the player and four companions. The
+#                     party's own limit still applies; a companion never turns
+#                     a party into a raid.
+#        Default:     4
 
-LoreCompanions.MaxPerPlayer = 3
+LoreCompanions.MaxPerPlayer = 4
 
 #
 #    LoreCompanions.GearQuality

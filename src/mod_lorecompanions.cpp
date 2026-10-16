@@ -122,7 +122,7 @@ namespace
         bool        Enable             = true;
         std::string AccountName        = "LORECOMPANIONS";
         bool        FollowSummonerSide = true;
-        uint32      MaxPerPlayer       = 3;
+        uint32      MaxPerPlayer       = 4;
         uint32      GearQuality        = 0;     // 0 = match the leader's gear score
         uint32      JoinGraceSeconds   = 20;
         uint32      CooldownSeconds    = 45;
@@ -288,7 +288,7 @@ namespace
         cfg.Enable             = sConfigMgr->GetOption<bool>("LoreCompanions.Enable", true);
         cfg.AccountName        = sConfigMgr->GetOption<std::string>("LoreCompanions.AccountName", "LORECOMPANIONS");
         cfg.FollowSummonerSide = sConfigMgr->GetOption<bool>("LoreCompanions.FollowSummonerSide", true);
-        cfg.MaxPerPlayer       = sConfigMgr->GetOption<uint32>("LoreCompanions.MaxPerPlayer", 3);
+        cfg.MaxPerPlayer       = sConfigMgr->GetOption<uint32>("LoreCompanions.MaxPerPlayer", 4);
         cfg.GearQuality        = sConfigMgr->GetOption<uint32>("LoreCompanions.GearQuality", 0);
         cfg.JoinGraceSeconds   = sConfigMgr->GetOption<uint32>("LoreCompanions.JoinGraceSeconds", 20);
         cfg.CooldownSeconds    = sConfigMgr->GetOption<uint32>("LoreCompanions.CooldownSeconds", 45);
