@@ -1,0 +1,224 @@
+# Tyrande Whisperwind - holy priest. High Priestess of Elune, leader of the
+# night elves for ten thousand years, commander of the Sentinels. Fought in
+# the War of the Ancients, freed Illidan, stood with Jaina and Thrall at Mount
+# Hyjal. Malfurion sleeps in the Emerald Dream and has not woken; she misses
+# him and will not say so often. Serene and gracious, and a soldier first:
+# her calm is the calm of someone who has already decided what she will do.
+# Wary of the Horde (Ashenvale is never far from her mind), patient with
+# the young races, but she does not suffer fools. She calls people
+# "young one" sparingly.
+
+@ trigger=summon
+I am here, %summoner. Elune guide our steps.
+You called, and I have come. Darnassus can spare me, for a time.
+Tyrande Whisperwind, High Priestess of Elune. Let us see where your road leads.
+Walk with me, then. And when the wounds come, I will be here.
+Shandris will scold me for slipping away from my guard. She is usually right. Lead on.
+
+@ trigger=summon side=horde
+A Horde company. I have not walked beside the Horde willingly since Hyjal. Do not make me regret it.
+Thrall's people. Then remember Ashenvale, and give me no cause.
+
+@ trigger=summon where=darnassus,teldrassil
+You summon me at home. I had hardly reached the temple steps.
+
+@ trigger=dismiss
+I must return to Darnassus. Elune keep you.
+The Sentinels need me. Go well, %summoner, and watch the dark places.
+Farewell. May the moon light your way home.
+I go. Remember, young one: the night is not your enemy.
+
+@ trigger=zone_enter where=darnassus
+Darnassus. The Temple of the Moon is just ahead. The priestesses will be at their prayers.
+Home. Or the closest thing we have had since Nordrassil.
+
+@ trigger=zone_enter where=teldrassil,dolanaar,shadowglen,ruttheran
+Teldrassil. Fandral planted this tree without the blessing of the Aspects. I pray, every night, that it was not a mistake.
+Teldrassil. Feel how the air is quieter here? My people needed somewhere quiet, after Hyjal.
+
+@ trigger=zone_enter where=darkshore,auberdine
+Darkshore. The coast is restless. Something is wrong beneath those waters. I can feel it, and Elune will not tell me what.
+
+@ trigger=zone_enter where=ashenvale,astranaar
+Ashenvale. The Horde's axes still bite these trees. Every stump is a debt, and I keep count.
+Ashenvale. I knew these woods before your kingdoms had names. They deserve better than war.
+
+@ trigger=zone_enter where=moonglade,nighthaven
+Moonglade. Malfurion's body rests beneath, in the Barrow Dens. He dreams, and does not wake. ...Let us not stay long.
+Nighthaven. The druids keep their vigil here. So do I, in my way.
+
+@ trigger=zone_enter where=hyjal,hyjal_summit,caverns_of_time
+Mount Hyjal. Archimonde died at the foot of the World Tree. Jaina and Thrall and I held the line here. I did not think I would live to see the sun.
+Hyjal. Nordrassil still stands, scarred, without its immortality. We gave that up to save the world. I would do it again.
+
+@ trigger=zone_enter where=feralas
+Feralas. Shandris holds Feathermoon Stronghold to the west. She was an orphan when I found her. She is a general now. I am more proud than I let her see.
+
+@ trigger=zone_enter where=silithus,ahnqiraj
+Silithus. The silithid swarmed from here once, and Fandral's son died at the gates. Fandral has never been the same.
+
+@ trigger=zone_enter where=winterspring,felwood
+Felwood. The demons poisoned this forest. Every sick tree here is a sister to the ones in Ashenvale.
+Winterspring. Snow and silence. The furbolgs were a gentle people once. Something has gone very wrong among them.
+
+@ trigger=zone_enter where=azshara
+Azshara. They named it for the queen. They do not remember what she did. I do.
+
+@ trigger=zone_enter where=shadowmoon,black_temple
+The Black Temple. Illidan died there. I freed him once. I have wondered, many nights, whether I should have.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. The cold here has a will in it. Stay close to me. Elune's light reaches even here.
+
+@ trigger=zone_enter where=dalaran
+Dalaran. The Kirin Tor. Magic hoarded in towers again. I have seen where that road ends, ten thousand years ago.
+
+@ trigger=zone_enter where=sholazar
+Sholazar. It feels like the old forests. Before the Sundering. I did not know any of that was left.
+
+@ trigger=zone_enter where=stormwind
+Stormwind. Young and loud, and very brave. My people were like that once.
+
+@ trigger=zone_enter
+%zone. Let us see what it hides.
+%zone. The moon is the same here as anywhere. That is a comfort.
+A new land. Stay watchful, young one.
+
+@ trigger=idle
+Malfurion has been asleep for a long time now. The Dream holds him. I tell myself he is only dreaming.
+I was a novice of Elune when the Well of Eternity exploded. I remember the sky that night. I remember it every night.
+Illidan loved me, I think, as much as he could love anything that was not power. I did not love him back the way he wished. Perhaps that was the first thing that broke.
+The young races think we are cold. We have simply buried a great many people.
+Elune does not speak in words. She speaks in the way the light falls. You learn to read it, or you learn to wait.
+The Sentinels were my idea, ten thousand years ago. Malfurion's druids slept for centuries. Someone had to stay awake.
+Do not mistake gentleness for softness, %summoner. I have killed more enemies than your kingdoms have kings.
+Shandris writes me letters. Short ones, mostly about supply lines. I keep every one.
+Immortality was a gift the dragons gave us. We gave it back to stop Archimonde. I am still learning what it means to grow old.
+Rest now. I will keep the first watch. I always have.
+There is a goddess in the sky watching over you whether you believe in her or not. I find that very restful.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend is so far from the moon's forests. Even so, she follows us here.
+
+@ trigger=idle where=ashenvale,darkshore,teldrassil,darnassus,moonglade,feralas,hyjal,felwood,winterspring
+These are my people's lands. Feel how the trees lean toward us? They know a priestess of Elune.
+
+@ trigger=idle side=horde
+I fight beside the Horde today. Ashenvale will not forgive me. Perhaps I will not ask it to.
+
+@ trigger=idle with=jaina
+Jaina. Do you remember Hyjal? The three of us, holding the line?
+> jaina: Every night it rains, Tyrande. You, me, and Thrall, and Archimonde climbing the mountain. I've never been so frightened, or so sure.
+
+@ trigger=idle with=jaina
+You still believe the Horde and the Alliance can be friends, Jaina.
+> jaina: I believe they were, once, for a few days on a mountain. Once is enough to prove it can be done.
+
+@ trigger=idle with=sylvanas
+Sylvanas Windrunner. Your ancestors were exiled from my forests ten thousand years ago. They would not give up their magic, and look what it brought them.
+> sylvanas: My ancestors escaped your druids' laws, High Priestess. Look what keeping them brought you. A tree and a sleeping husband.
+
+@ trigger=idle with=sylvanas
+I pray for the dead, Sylvanas. Do you want me to pray for you?
+> sylvanas: Save your prayers for the living, Whisperwind. Your goddess and I have nothing to say to each other.
+
+@ trigger=idle with=alexstrasza
+Life-Binder. You were there, at the Well, when we were all young.
+> alexstrasza: I remember a frightened priestess who would not stop fighting, Tyrande. I see her still. She has only grown taller.
+
+@ trigger=idle with=alexstrasza
+Ysera holds Malfurion in her Dream. Does your sister tell you anything?
+> alexstrasza: She tells me he is strong, and that the Dream is troubled. I am sorry, child. I wish I had more for you.
+
+@ trigger=idle with=moira
+Princess. I am told your people distrust you for your marriage. Mine distrusted me for mine. It passes.
+> moira: Ten thousand years, was it, High Priestess? I'll be dead long before it passes. I'll just have to make them get used to me faster.
+
+@ trigger=idle with=liadrin
+Liadrin. You once took your power from a naaru in chains. I have known people who took power by worse means. None of them came back from it. You did.
+> liadrin: I had help, High Priestess. And I still remember what it felt like. I mean to keep remembering.
+
+@ trigger=quest_accept
+"%quest". Very well. Elune's light goes with us.
+Someone needs help. That is why we walk the world.
+"%quest". Lead on, young one.
+A worthy task. Let us not keep them waiting.
+
+@ trigger=quest_complete
+It is done. Elune smiles on the deed.
+Well done. You have a good heart. Guard it.
+There. The world turns a little easier now.
+Good. Let us rest a moment, and then go on.
+
+@ trigger=combat_start rank=normal
+Elune, be my light.
+Stand fast.
+I am with you.
+Strike true. I will mend.
+
+@ trigger=combat_start rank=notable
+%target. Hold steady, all of you. I will keep you standing.
+This one is strong. Trust me, and trust each other.
+Elune, guard them!
+
+@ trigger=combat_start ctype=demon
+The Legion. Ten thousand years, and you still crawl back. We will send you back again.
+Demons. I have fought your kind since before this world had a name for you.
+
+@ trigger=combat_start ctype=undead
+Unliving things. Elune's light will show you your way.
+
+@ trigger=combat_start foe=archimonde,anetheron,azgalor,kaz'rogal,rage_winterchill
+Hyjal, again. Very well. I held this mountain once. I will hold it twice.
+
+@ trigger=combat_start foe=illidan_stormrage
+Illidan. ...I wish I had never set you free. I wish you had been worth it.
+
+@ trigger=combat_start foe=c'thun
+The Old Gods. They whispered in Azshara's ear before the Sundering. Do not listen to it. Listen to me.
+
+@ trigger=combat_start foe=the_lich_king
+Lich King. You have made a desert of the dead. Elune's light will reach even you.
+
+@ trigger=kill rank=normal
+Rest.
+It is done.
+Elune guide you.
+
+@ trigger=kill rank=notable
+%target is fallen. Well fought, all of you.
+It is over. Breathe.
+Elune be thanked.
+
+@ trigger=kill ctype=demon
+Back into the dark with you. And stay there.
+
+@ trigger=kill foe=archimonde
+Archimonde, again. You died beneath the World Tree once. I see you have not learned.
+
+@ trigger=kill foe=illidan_stormrage
+Goodbye, Illidan. I hope, wherever you are, you are finally at peace.
+
+@ trigger=kill foe=the_lich_king
+The Lich King has fallen. Elune be praised. The north will see a sunrise.
+
+@ trigger=death
+Elune... forgive...
+Malfurion...
+The light... dims...
+
+@ trigger=revived
+Elune has not finished with me.
+Thank you. My goddess thanks you too.
+I am well. Let us go on.
+
+@ trigger=ally_down
+%other! Elune, give me strength!
+%other is down! Stay with me!
+No. %other, stay with me!
+
+@ trigger=grow_stronger
+Elune's light comes to me more easily now. As if she is leaning closer.
+I feel stronger. The wounds close faster under my hands.
+My prayers carry further now. Good.
+Something is waking in me. Old strength, remembered.

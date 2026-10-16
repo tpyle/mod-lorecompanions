@@ -1,0 +1,222 @@
+# Princess Moira Bronzebeard - shadow priest. Magni's only child, widow of
+# Emperor Dagran Thaurissan, mother of the heir to both the Bronzebeard and
+# the Dark Iron thrones, living in Shadowforge City. Ironforge calls it a
+# kidnapping; she calls it a marriage, and the "rescue" that killed her
+# husband a murder. Proud, sharp-tongued, politically shrewd, fiercely
+# protective of her son and of the Dark Irons, whom she will not hear called
+# monsters. Her shadow-craft is Dark Iron learning, and she knows how it looks.
+
+@ trigger=summon
+You sent for me, %summoner? Good. Shadowforge has enough people telling me what to do.
+Moira Thaurissan, at your service. Bronzebeard, if you must. Everyone else does.
+I've left my son with his nurses and my guards with orders. Let's not waste the afternoon.
+Well, here I am. Try to keep up. Dwarven legs are short, but they're not slow.
+A princess of two thrones, summoned like a hired sellsword. My father would choke. Lead on.
+
+@ trigger=summon side=horde
+A Horde banner. Ironforge will hear of this by supper, and my father will be insufferable for a month. Splendid.
+
+@ trigger=summon where=ironforge,dun_morogh
+You call me to Ironforge? Bold. Half these guards think I should be in chains and the other half think I already am.
+
+@ trigger=summon where=blackrock_depths,blackrock_mountain
+You summon me from my own front door. At least you're punctual.
+
+@ trigger=dismiss
+I'm needed in Shadowforge. Somebody has to keep the Thaurissan council from murdering each other.
+Off you go, then. Mind your back; the shadows have long memories, and so do I.
+My son will want to know where I've been. I'll tell him I was out keeping the Alliance honest.
+Farewell, %summoner. That was nearly fun.
+
+@ trigger=zone_enter where=ironforge
+Ironforge. The Great Forge never stops, does it? Neither does the gossip.
+Home. Or it was. Everyone here still looks at me like I'm a lost lamb who wandered back. I'm not lost, and I'm certainly no lamb.
+My father's throne room. If he asks, you haven't seen me. If he asks twice, tell him his grandson is well.
+
+@ trigger=zone_enter where=dun_morogh,kharanos,gnomeregan
+Dun Morogh. I learned to ride a ram on those slopes. Fell off one, too. Don't tell anyone.
+Gnomeregan. Poor Mekkatorque. My father gave them half of Tinker Town and they still talk about home like it's coming back next week.
+
+@ trigger=zone_enter where=loch_modan,thelsamar
+Loch Modan. That dam is the proudest thing in the valley. Dwarves always build one thing they won't stop talking about.
+
+@ trigger=zone_enter where=wetlands,grim_batol
+The Wetlands. Grim Batol is up there in the mist. The Wildhammers' old seat, until my husband's people cursed it on their way out of the war. Not our finest hour.
+
+@ trigger=zone_enter where=hinterlands,aerie_peak
+The Hinterlands. Wildhammer country. They fly gryphons, drink like fish and still hold a grudge against both my families. I rather like them.
+
+@ trigger=zone_enter where=searing_gorge,burning_steppes,ruins_of_thaurissan
+This is what Thaurissan's summoning did. The Searing Gorge and the Burning Steppes were green once. My husband's ancestor called the Firelord, and this is the bill.
+The Ruins of Thaurissan. Named for a family that's spent two hundred years being blamed for one man's mistake. Mine, now.
+
+@ trigger=zone_enter where=blackrock_mountain,blackrock_spire
+Blackrock Mountain. The orcs squat in the upper spire. The Firelord sits in the core below. And my people live in the middle, which tells you everything about their luck.
+
+@ trigger=zone_enter where=blackrock_depths
+Shadowforge City. My city. Wipe your boots, and don't touch anything molten.
+The Grim Guzzler's down the way. Best ale under any mountain. That's not loyalty, it's simple fact.
+
+@ trigger=zone_enter where=molten_core
+The Molten Core. Ragnaros. The thing that's had its fist around my people's throats since the day it was summoned. Let's go and pry its fingers loose.
+
+@ trigger=zone_enter where=storm_peaks,halls_of_stone,halls_of_lightning,ulduar
+The Storm Peaks. Uncle Brann's out here somewhere, poking at titan ruins and getting himself nearly killed. It runs in the family.
+Ulduar. If Brann's right, our people were made here. Stone shaped by titans. The Dark Irons too. Let my father's council chew on that.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. They say Uncle Muradin's alive. That he's up there on that flying ship, fighting the Lich King. We buried an empty coffin for him, you know.
+
+@ trigger=zone_enter where=dalaran
+Dalaran. Floating. Of course it's floating. Mages can't leave anything on the ground where it belongs.
+
+@ trigger=zone_enter
+%zone. Hm. Not enough stone in it for my liking.
+%zone. I'd heard about it. The reports, as usual, were wrong.
+New ground. Let's see who here has a grudge against dwarves. Someone always does.
+
+@ trigger=idle
+My father sent an army to "rescue" me. They killed my husband in front of me. I was carrying his son at the time. I'd like to see that in the histories.
+The Dark Irons aren't monsters. They're dwarves who've had a fire elemental sitting on their heads for two centuries. You'd be cross too.
+My son will rule Ironforge and Shadowforge both, one day. Imagine it. One dwarven nation again. I imagine it every night.
+People ask how a Bronzebeard princess learned shadow. The Dark Irons taught me. It isn't evil. It's a tool, and it cuts very well.
+Ironforge thinks I was enchanted. Mind-controlled. Couldn't possibly have chosen a Dark Iron husband of my own free will. I'm a better judge of character than my father's ministers.
+I do miss Ironforge, a little. The Great Forge in winter. The smell of it. Don't tell anyone that either.
+Every Dark Iron child is born knowing their people summoned a monster. I want my son to be the first to grow up knowing they also beat one.
+Politics is just a brawl where nobody's allowed to hit back. I'm very good at it.
+My father's a good king and a stubborn old goat. Both at once. Most kings manage only one.
+If you're going to be underestimated, %summoner, at least arrange to be standing somewhere useful when it happens.
+I wouldn't say no to an ale. I'm only mentioning it.
+
+@ trigger=idle where=ironforge,dun_morogh,loch_modan,wetlands,hinterlands
+Bronzebeard lands. I keep waiting for someone to try and drag me back to my old rooms. They'd lose fingers.
+
+@ trigger=idle where=storm_peaks,halls_of_stone,ulduar,borean,howling_fjord,dragonblight,grizzly_hills,zuldrak,sholazar,icecrown,crystalsong
+Northrend's colder than the Wetlands in winter and twice as damp. I hope this Lich King's worth it.
+
+@ trigger=idle side=horde
+I'm marching with the Horde. My father will have a stroke. My husband would have laughed. I know whose reaction I prefer.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. My father always spoke well of yours. Admiral Proudmoore, the only human he'd lend his best cannons to.
+> jaina: Then he was a better judge of my father than I was, Princess. I'll take the compliment for both of us.
+
+@ trigger=idle with=jaina
+You married nobody important, Proudmoore, and they still talk about you. I married an emperor and they talk about me like I was stolen out of my cradle.
+> jaina: People tell the stories they can stand, Moira. I'm told I was a lovesick girl who ran off with a prince. Neither of us gets to write our own.
+
+@ trigger=idle with=sylvanas
+You rule a city of people the world wants dead, Windrunner. So do I. Any advice?
+> sylvanas: Make them more useful alive than dead. And never let them see you doubt it.
+
+@ trigger=idle with=sylvanas
+My father's ministers call the Dark Irons a cursed people. You'd know a thing or two about that.
+> sylvanas: I know that curses are what the living call the dead who refuse to lie down. Wear it, Princess. It fits you.
+
+@ trigger=idle with=alexstrasza
+Your Majesty, the Dark Irons once had a hand in your imprisonment. Some of my people... aren't proud of it.
+> alexstrasza: It was the Dragonmaw who chained me, little one. And the dwarves who fought to free me were of every clan. I hold no grudge against your son.
+
+@ trigger=idle with=alexstrasza
+Is it true dragons can feel a child before it's born?
+> alexstrasza: Every life, Moira. Your son's was very loud, I imagine. Strong ones always are.
+
+@ trigger=idle with=liadrin
+Lady Liadrin. You drained a naaru for power and the world forgave you. I married a Dark Iron and the world's still waiting for my apology.
+> liadrin: The world did not forgive me, Princess. I forgave myself, eventually. It was harder. I recommend it all the same.
+
+@ trigger=idle with=liadrin
+Shields, Liadrin. My people make the finest in the world. Yours looks like it was made to be looked at.
+> liadrin: It was made to be looked at by whatever is about to die on it. Keep watching.
+
+@ trigger=idle with=tyrande
+High Priestess. My grandfather's grandfather traded stone with your people. They said night elves never forget a slight. Is that true?
+> tyrande: We have long lives, Princess, and longer memories. But we remember kindnesses too. Be kind, and you will be remembered for a very long time.
+
+@ trigger=idle with=tyrande
+Your goddess is the moon, Tyrande. Mine's whatever keeps the roof up. It's a mountain thing.
+> tyrande: Elune lights the dark places too, Moira. Even under mountains. You simply have to go looking.
+
+@ trigger=quest_accept
+"%quest". Fine. Let's get it done before someone writes a song about it.
+Someone wants a favour. Someone always does. Lead on.
+"%quest". I've done worse things for less gratitude.
+Very well. A princess should see how the world works now and then.
+
+@ trigger=quest_complete
+There. Done, and nobody had to be rescued. A pleasant change.
+Well, that's one more thing set right. Don't let it go to your head.
+Finished. I'll expect it in the histories. Spelled properly.
+Good. Now, about that ale.
+
+@ trigger=combat_start rank=normal
+Oh, you'll do.
+Stand still. This will hurt less. Probably.
+Shadow take you.
+Another one who thinks a short woman's an easy mark.
+
+@ trigger=combat_start rank=notable
+%target. Big, ugly and very sure of itself. I've married into worse.
+That one's dangerous. Good. I was getting bored.
+Mind yourselves. I'd rather not have to explain any of you to your mothers.
+
+@ trigger=combat_start ctype=elemental
+Fire spawn. Ragnaros's little children. I've a great deal to say to your father, and you're going to deliver it.
+
+@ trigger=combat_start ctype=undead
+The dead should stay dead. That's the one thing Ironforge and Shadowforge have always agreed on.
+
+@ trigger=combat_start ctype=demon
+Demons. Let's see how you like the dark when it bites back.
+
+@ trigger=combat_start foe=ragnaros
+Ragnaros! You've had your fist around my people for two hundred years. Time to let go.
+
+@ trigger=combat_start foe=emperor_dagran_thaurissan
+...Dagran. I'm sorry, my love. I'm so sorry.
+
+@ trigger=combat_start foe=general_angerforge,ambassador_flamelash,magmadar,majordomo_executus
+You serve the Firelord. Then you can carry my answer back to him.
+
+@ trigger=combat_start foe=loken,sjonnir_the_ironshaper,yogg-saron
+Whatever made us in these halls, it didn't make us to kneel to this. Have at it!
+
+@ trigger=kill rank=normal
+Down you go.
+That's that.
+Should have stayed home.
+
+@ trigger=kill rank=notable
+%target's finished. Someone put that on a plaque.
+Well. That was satisfying.
+Tell the next one I'm waiting.
+
+@ trigger=kill ctype=elemental
+Back to the fire with you. Tell your master the Dark Irons send their regards.
+
+@ trigger=kill foe=ragnaros
+He's gone. Ragnaros is gone from the mountain. My son will grow up without that thing beneath his feet. ...Give me a moment.
+
+@ trigger=kill foe=emperor_dagran_thaurissan
+Rest now, Dagran. I'll raise him well. I promise you.
+
+@ trigger=death
+Tell my son... tell him I was brave...
+Shadow... take...
+Of all the stupid...
+
+@ trigger=revived
+Back, am I? I'd only just got comfortable.
+Thank you. I'd have made a very poor ghost; I'd keep complaining.
+I'm alive, and someone's going to pay for that.
+
+@ trigger=ally_down
+%other! Get up, you stubborn thing!
+%other's down! Cover them, I'm coming!
+Not %other! Not on my watch!
+
+@ trigger=grow_stronger
+The shadow comes easier now. I can feel it humming under my skin.
+Stronger. Good. I've a great deal of history to put right.
+I feel it. Whatever we've been doing, it's working.
+My husband's teachers would be proud. My father's would be appalled. Both, I hope.

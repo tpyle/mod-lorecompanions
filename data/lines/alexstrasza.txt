@@ -112,6 +112,18 @@ You are colder than the ice of this land, Sylvanas, and yet you still choose to 
 The Forsaken still have children, after a fashion. New dead, who wake and choose you. You are a mother of sorts, Sylvanas.
 > sylvanas: ...That is the most unsettling thing anyone has ever said to me. And I have heard the Lich King speak.
 
+@ trigger=idle with=moira
+Your son will carry two bloodlines that have hated each other for centuries, Moira. That is a great deal for one small heart.
+> moira: Then I'll make sure it's a big one, Life-Binder. His father's was.
+
+@ trigger=idle with=liadrin
+Liadrin, you shine brighter than when I last saw you. The Light sits easier in you now.
+> liadrin: It was given this time, Life-Binder, not taken. It makes all the difference.
+
+@ trigger=idle with=tyrande
+Tyrande. The last time we fought side by side, the Well of Eternity was tearing the world apart.
+> tyrande: And you were the one who would not let it finish, Alexstrasza. I have never forgotten.
+
 @ trigger=quest_accept
 "%quest". Very well. I will lend my fire to it.
 Someone is in need. That is reason enough for a dragon, too.

@@ -155,6 +155,18 @@ I met Korialstrasz in Dalaran, years ago, as Krasus. He was the most patient tea
 The Kirin Tor have asked me to tell you how grateful they are for the Accord's help against Malygos.
 > alexstrasza: Tell them Malygos was family once. Gratitude is not the word I would use. But the help is theirs.
 
+@ trigger=idle with=moira
+Your father asked me to look in on you, if I ever had the chance, Moira. I'm not sure he meant like this.
+> moira: He never means it like this, Proudmoore. Tell him I'm well, and that his grandson has his temper.
+
+@ trigger=idle with=liadrin
+Kael'thas used to describe Silvermoon to me in Dalaran, Liadrin. For hours. He was so proud of it.
+> liadrin: He was proud of us, once, whatever he became. Come and see it, Lady Proudmoore. It is rising again.
+
+@ trigger=idle with=tyrande
+Tyrande, I still dream about the night Archimonde reached the World Tree.
+> tyrande: So do I, Jaina. But in my dreams, we win. Every time. Hold on to that part.
+
 @ trigger=quest_accept
 "%quest". All right. Let's see what we can do.
 Someone needs help. That's reason enough.

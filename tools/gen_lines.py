@@ -48,13 +48,14 @@ LINES = ROOT / "data" / "lines"
 OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 
 # id, name, title, race, class, gender, display, scale, spec, pet, sort
-#   race:   1 human, 5 undead, 10 blood elf
-#   class:  3 hunter, 8 mage
+#   race:   1 human, 3 dwarf, 4 night elf, 5 undead, 10 blood elf
+#   class:  2 paladin, 3 hunter, 5 priest, 8 mage
 #   gender: 1 female
 #   scale:  multiplies the model's own size. Alexstrasza's model is drawn at
 #           1.75 (Jaina's and Sylvanas's at 1.2, player races at 1.0), so 0.68
 #           brings her to about 1.19: a little over a blood elf, level with
-#           the other two.
+#           the other two. Moira, Liadrin and Tyrande wear their own NPC
+#           outfits on their race's model, at its natural size.
 #   spec:   an AiPlayerbot.PremadeSpecName for that class
 #   pet:    a hunter's pet by creature entry, 0 to let playerbots pick.
 #           1554 is the Vampiric Duskbat of Tirisfal Glades - the Forsaken's
@@ -63,6 +64,9 @@ COMPANIONS = [
     ("jaina",       "Jaina",       "Lady Jaina Proudmoore",       1,  8, 1, 30863, 1.0, "frost pve", 0,    1),
     ("sylvanas",    "Sylvanas",    "Lady Sylvanas Windrunner",    5,  3, 1, 28213, 1.0, "mm pve",    1554, 2),
     ("alexstrasza", "Alexstrasza", "Alexstrasza the Life-Binder", 10, 8, 1, 28227, 0.68, "fire pve", 0,    3),
+    ("moira",       "Moira",       "Princess Moira Bronzebeard",  3,  5, 1, 8705,  1.0, "shadow pve", 0,  4),
+    ("liadrin",     "Liadrin",     "Lady Liadrin",                10, 2, 1, 16820, 1.0, "prot pve",  0,    5),
+    ("tyrande",     "Tyrande",     "Tyrande Whisperwind",         4,  5, 1, 7274,  1.0, "holy pve",  0,    6),
 ]
 
 TRIGGERS = {
@@ -76,8 +80,15 @@ PLACES = {
     # Kalimdor
     "durotar": 14, "orgrimmar": 1637, "barrens": 17, "dustwallow": 15, "theramore": 513,
     "brackenwall": 496, "onyxias_lair": 2159, "ashenvale": 331, "thunder_bluff": 1638,
-    "darnassus": 1657, "hyjal": 616,
+    "darnassus": 1657, "hyjal": 616, "teldrassil": 141, "dolanaar": 186, "shadowglen": 188,
+    "ruttheran": 702, "darkshore": 148, "auberdine": 442, "astranaar": 415, "moonglade": 493,
+    "nighthaven": 2361, "feralas": 357, "felwood": 361, "winterspring": 618, "azshara": 16,
+    "silithus": 1377, "ahnqiraj": 3428, "tanaris": 440, "caverns_of_time": 1941,
+    "hyjal_summit": 3606,
     # Eastern Kingdoms
+    "dun_morogh": 1, "kharanos": 131, "gnomeregan": 133, "loch_modan": 38, "thelsamar": 144,
+    "aerie_peak": 348, "ruins_of_thaurissan": 250, "molten_core": 2717, "tranquillien": 3488,
+    "deatholme": 3500, "magisters_terrace": 4095, "zulaman": 3805,
     "elwynn": 12, "northshire": 9, "goldshire": 87, "stormwind": 1519, "westfall": 40,
     "duskwood": 10, "ironforge": 1537, "wetlands": 11, "grim_batol": 1037,
     "tirisfal": 85, "deathknell": 154, "brill": 159, "undercity": 1497, "silverpine": 130,
@@ -92,7 +103,8 @@ PLACES = {
     "sunwell_plateau": 4075,
     # Outland
     "hellfire": 3483, "shattrath": 3703, "netherstorm": 3523, "shadowmoon": 3520,
-    "exodar": 3557,
+    "exodar": 3557, "tempest_keep": 3845, "aldor_rise": 3896, "scryers_tier": 3898,
+    "black_temple": 3959,
     # Northrend
     "borean": 3537, "coldarra": 4024, "nexus": 4265, "howling_fjord": 495,
     "vengeance_landing": 4000, "new_agamand": 3991, "dragonblight": 65,
@@ -100,7 +112,8 @@ PLACES = {
     "agmars_hammer": 4165, "wintergarde": 4177, "new_hearthglen": 4180,
     "venomspite": 4186, "grizzly_hills": 394, "zuldrak": 66, "sholazar": 3711,
     "storm_peaks": 67, "crystalsong": 2817, "dalaran": 4395, "icecrown": 210,
-    "icecrown_citadel": 4812, "culling_of_stratholme": 4100,
+    "icecrown_citadel": 4812, "culling_of_stratholme": 4100, "halls_of_stone": 4264,
+    "halls_of_lightning": 4272, "ulduar": 4273, "argent_tournament": 4658,
 }
 
 CREATURE_TYPES = {

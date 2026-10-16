@@ -136,6 +136,18 @@ Your flight burned the Wrathgate clean, Life-Binder. My apothecary's plague, and
 The orcs chained you in Grim Batol. You forgave them. Why?
 > alexstrasza: Because the alternative was becoming what they had made of me. I think you understand that better than most.
 
+@ trigger=idle with=moira
+They say you chose your Dark Iron husband over your father's throne, Bronzebeard.
+> moira: I chose both, Windrunner. My son gets the throne. I just took the scenic route.
+
+@ trigger=idle with=liadrin
+You took your power from a chained naaru, Matriarch. I am almost impressed.
+> liadrin: Don't be. I've spent every day since giving it back. You might try the same with your own, Ranger-General.
+
+@ trigger=idle with=tyrande
+Whisperwind. You let Illidan out of his cage, I hear. And look how that ended.
+> tyrande: I did. And I live with it. You might try living with what you have done, Sylvanas, instead of simply living through it.
+
 @ trigger=quest_accept
 "%quest". Very well. I have done worse for less reason.
 If it bleeds or rots, I can find it.

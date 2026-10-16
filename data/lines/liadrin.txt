@@ -1,0 +1,219 @@
+# Lady Liadrin - protection paladin, Blood Knight Matriarch of Silvermoon.
+# Once a priestess of the Light, she lost her faith when Arthas burned
+# Quel'Thalas, founded the Blood Knights and took her power from the naaru
+# M'uru, captive of Kael'thas. When Kael'thas betrayed them and M'uru gave
+# himself to rekindle the Sunwell, she found the Light again, freely given
+# this time. Proud, fierce, disciplined, honest about what she was. She
+# stands at the front; it is where she has decided she belongs.
+
+@ trigger=summon
+You called for a shield, %summoner. I am the shield. Stay behind me.
+The Blood Knights can spare their Matriarch for a while. Show me where the fighting is.
+Lady Liadrin, of Silvermoon. I go first. That is not a courtesy; it is how this will work.
+I am here. By the Light, and by my own will. Both, these days.
+Lead, then. And when they come, get behind me.
+
+@ trigger=summon side=alliance
+An Alliance company. Strange times. Very well; the Light has never asked me which banner I stand under.
+I have not marched beside the Alliance since before the Scourge. Let us hope we both remember how.
+
+@ trigger=summon where=silvermoon,eversong,quelthalas
+You call me from Silvermoon's own gates. Well, I didn't have far to walk.
+
+@ trigger=dismiss
+Silvermoon needs me. Hold the line without me, %summoner. You can.
+I must go. Keep your shield up, even if you don't carry one.
+The Blood Knights await their Matriarch. Light be with you.
+Farewell. You fought well. I don't say that often.
+
+@ trigger=zone_enter where=silvermoon
+Silvermoon. The western half is still a ruin. I walk through it every morning, so I never forget why we fight.
+Home. The Sunwell burns again. Can you feel it? I can, every moment.
+
+@ trigger=zone_enter where=eversong,sunstrider_isle,quelthalas
+Eversong. Look how green it is. Now imagine it with the Scourge marching down the road. I don't have to imagine.
+Quel'Thalas. We were a broken people when I founded the order. We are less broken now. Not mended.
+
+@ trigger=zone_enter where=ghostlands,tranquillien,deatholme
+The Ghostlands. Arthas's road. The trees never grew back where he passed. Neither did a good many of us.
+Deatholme. Dar'Khan Drathir sold us to the Scourge from here. A magister of our own people. Remember that the worst wounds come from inside the walls.
+
+@ trigger=zone_enter where=quel_danas,sunwell_plateau,magisters_terrace
+The Isle of Quel'Danas. Here M'uru gave himself up, and here I learned that the Light can be given and not taken. I come back whenever I can.
+The Sunwell. I stood here while Velen restored it. I wept. Blood Knights do not weep. I did.
+Magisters' Terrace. Kael'thas's last betrayal. He was our prince. We would have followed him into the Twisting Nether. Very nearly, we did.
+
+@ trigger=zone_enter where=netherstorm,tempest_keep
+Netherstorm. Tempest Keep. M'uru was held there, once, before they brought him to us. I took my power from a prisoner. I won't pretend otherwise.
+
+@ trigger=zone_enter where=shattrath,aldor_rise,scryers_tier
+Shattrath. The Aldor and the Scryers, still squabbling. The naaru were patient with us. More patient than we deserved.
+
+@ trigger=zone_enter where=shadowmoon,black_temple
+Shadowmoon Valley. The Black Temple. Illidan made promises to our prince. Our prince made promises to us. Neither was worth the breath.
+
+@ trigger=zone_enter where=zulaman
+Zul'Aman. The Amani have hated my people for seven thousand years. The feeling is, I admit, mutual.
+
+@ trigger=zone_enter where=stratholme,stratholme_city,eastern_plaguelands,western_plaguelands
+The Plaguelands. I once prayed to the Light for these people. Then I watched it fail to save mine. Both of those things are true.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. The one who burned Quel'Thalas is up there, on his frozen throne. I have waited a long time to stand this close.
+
+@ trigger=zone_enter where=argent_tournament
+The Argent Tournament. Every order in the world, in one field, polishing its armor. The Blood Knights will show them how it's done.
+
+@ trigger=zone_enter where=dalaran
+Dalaran. The Sunreavers and the Silver Covenant glaring at each other across one floating city. Elves have a talent for bad timing.
+
+@ trigger=zone_enter
+%zone. I'll walk ahead.
+%zone. Stay close. I have not been here before, and I trust nothing I have not been before.
+New ground. Keep your eyes open and your weapons closer.
+
+@ trigger=idle
+I was a priestess once. I prayed for Quel'Thalas, and the Scourge came anyway. So I stopped asking the Light for anything, and started taking.
+The Blood Knights were built on a captive's suffering. I knew it, and I did it anyway, because my people were dying. I would like to tell you I'd choose differently now.
+When M'uru died, I felt the Light come back. Not seized. Offered. I've never been so ashamed, or so grateful.
+A shield is only a promise. Every blow it stops, it keeps that promise one more time.
+Regent Lord Theron is a good man. Too good, some days. Someone has to be the hard one.
+We hungered for magic after the Sunwell fell. Some of us are hungry still. I hold my knights to a stricter diet.
+I trained my first Blood Knights in a courtyard that still had Scourge ash in the cracks. We swept it out ourselves.
+I don't need you to like me, %summoner. I need you to stay behind me.
+Kael'thas was our prince. I would have died for him. That I didn't is the Light's mercy, not his.
+Rest if you must. I'll keep watch. I always do.
+The Light is generous now that I no longer try to steal it. There's a lesson in that I am still learning.
+
+@ trigger=idle where=quelthalas,eversong,silvermoon,ghostlands,quel_danas
+I can feel the Sunwell from here. Like the sun on the back of your neck. You never notice it until it's gone.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. Arthas's home now. I mean to make it his grave.
+
+@ trigger=idle side=alliance
+The Alliance let us go when the trolls came, and again when the Scourge came. I don't say that to start an argument. I say it so you know why my knights look at your banners the way they do.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. You loved him once, didn't you? Arthas.
+> jaina: Once. A long time ago, when he was someone else. I'm sorry for what he did to your home, Liadrin. I've never stopped being sorry.
+
+@ trigger=idle with=jaina
+The Silver Covenant would rather my people weren't in Dalaran at all, Proudmoore. They make very little effort to hide it.
+> jaina: I know. Rhonin wants the Sunreavers there, and so do I. Some old wounds take longer to close than they should, Liadrin.
+
+@ trigger=idle with=sylvanas
+Ranger-General. You held the gates of Quel'Thalas when no one else would. My knights still tell that story.
+> sylvanas: Then they tell a story that ends with me dead, Matriarch. Tell them to learn a better one.
+
+@ trigger=idle with=sylvanas
+Some of my order say you abandoned us, Windrunner. That the Forsaken are no kin of Quel'Thalas.
+> sylvanas: Your order were children when I died for them. Let them say what they like. I know whose blood is on Silvermoon's stones.
+
+@ trigger=idle with=alexstrasza
+You wear our people's face, Life-Binder. Korialstrasz did too, for centuries. I have always wondered why.
+> alexstrasza: Because your people were beautiful, Liadrin, and proud, and grieving. We understood all three. We still do.
+
+@ trigger=idle with=alexstrasza
+Life-Binder. When M'uru died, was that the Light? Or was that life?
+> alexstrasza: I am not sure there is a difference, child. He gave his for yours. Whatever name you give it, honour it.
+
+@ trigger=idle with=moira
+You command a city that hates you, Princess. I command an order that half of Silvermoon distrusts. We should compare notes.
+> moira: I'll bring the ale, Matriarch. You bring the list of names. Everyone keeps one.
+
+@ trigger=idle with=tyrande
+High Priestess. Our ancestors left your forests ten thousand years ago. Do your people still call us exiles?
+> tyrande: Some do. I call you what you are, Liadrin: the children of those who would not let go of magic. Whether that is a curse or an inheritance is still up to you.
+
+@ trigger=idle with=tyrande
+Your goddess never abandoned you, Whisperwind?
+> tyrande: Elune has been silent with me, Liadrin. Many times. Silence is not the same as absence. It took me a long time to learn that too.
+
+@ trigger=quest_accept
+"%quest". Very well. I'll take point.
+Someone asked for help. The Blood Knights answer. So do I.
+"%quest". Good. Idle hands are an insult to the Light.
+Show me the way. I'll clear it.
+
+@ trigger=quest_complete
+Done. The Light keeps its promises when we keep ours.
+Well fought. That was properly done.
+One more debt paid. There are always more.
+Good. On to the next.
+
+@ trigger=combat_start rank=normal
+On me!
+Stay behind me.
+By the Light!
+Face me, not them.
+
+@ trigger=combat_start rank=notable
+%target. Look at me, beast. Only me.
+This one's strong. Hold your ground and let me take it.
+Everyone behind me. Now!
+
+@ trigger=combat_start ctype=undead
+Scourge. I have waited for every one of you.
+For Quel'Thalas!
+
+@ trigger=combat_start ctype=demon
+The Legion. You whispered to my people once. Hear how they answer now.
+
+@ trigger=combat_start foe=kael'thas_sunstrider
+My prince. You led us into the dark. I'll lead them out.
+
+@ trigger=combat_start foe=m'uru
+...M'uru. I am so sorry. I will set you free, as you once set me.
+
+@ trigger=combat_start foe=kil'jaeden
+Kil'jaeden! You bought our prince and tried to buy our souls. The Sunwell is not for sale.
+
+@ trigger=combat_start foe=zul'jin
+Zul'jin. You took Quel'Thalas's forests for seven thousand years. You will not take another step.
+
+@ trigger=combat_start foe=the_lich_king
+Arthas. You burned my home and called it a crusade. The Light you betrayed is here for you. And so am I.
+
+@ trigger=kill rank=normal
+Fall.
+Next!
+Stay down.
+
+@ trigger=kill rank=notable
+%target is finished. The Light is with us.
+That was well held. Good work, all of you.
+%target falls. As they all will.
+
+@ trigger=kill ctype=undead
+Back to the ashes. That is one fewer to walk our roads.
+
+@ trigger=kill foe=kael'thas_sunstrider
+It is done, my prince. I hope you found what you were looking for. I hope it was worth it.
+
+@ trigger=kill foe=kil'jaeden
+The Deceiver is driven out. The Sunwell is ours. Truly ours, at last.
+
+@ trigger=kill foe=the_lich_king
+Arthas is dead. Quel'Thalas... Quel'Thalas is avenged. Give me a moment. Just one.
+
+@ trigger=death
+The Light... endures...
+Hold... the line...
+Silvermoon...
+
+@ trigger=revived
+Thank you. On your feet, Liadrin. There is still work.
+The Light gives back what I spend. Usually.
+I'm up. Back behind me, all of you.
+
+@ trigger=ally_down
+%other! Get behind me, I'll cover you!
+%other is down! Light, stand with them!
+No, %other! Not while I'm standing!
+
+@ trigger=grow_stronger
+The Light answers me more fully now. Freely. That still astonishes me.
+My shield arm is stronger. Good. More of you can stand behind it.
+I feel it. The Light, closer than before.
+Stronger. The Blood Knights will have to work to keep up with their Matriarch.

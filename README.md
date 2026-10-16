@@ -1,7 +1,8 @@
 # mod-lorecompanions
 
 Lore characters as party companions: Lady Jaina Proudmoore, Lady Sylvanas
-Windrunner and Alexstrasza the Life-Binder join your party as
+Windrunner, Alexstrasza the Life-Binder, Princess Moira Bronzebeard, Lady
+Liadrin and Tyrande Whisperwind join your party as
 [mod-playerbots](https://github.com/liyunfan1223/mod-playerbots) bots, wear
 their own in-game models, stay at your party leader's level, and speak in
 their own voices.
@@ -17,6 +18,9 @@ their own voices.
 | Jaina | frost mage | 30863, Theramore | human |
 | Sylvanas | marksman hunter, with a bat | 28213, the Banshee Queen | Forsaken |
 | Alexstrasza | fire mage | 28227, her elf form, at 0.68 scale | blood elf |
+| Moira | shadow priest | 8705, the princess in Blackrock Depths | dwarf |
+| Liadrin | protection paladin, a tank | 16820, the Blood Knight Matriarch | blood elf |
+| Tyrande | holy priest, a healer | 7274, the High Priestess in Darnassus | night elf |
 
 ## How it works
 
@@ -26,7 +30,8 @@ character per row of `lore_companion`, creating whatever is missing. The
 password is random and never shown. "Sylvanas" and "Alexstrasza" are in the
 client's reserved-name list, and the core refuses to log in a character with a
 reserved name, so the account is given one RBAC permission, 17 ("skip
-character creation reserved name check"), and nothing else. The characters are not random bots, so
+character creation reserved name check"), and nothing else. The same goes
+for any other lore name on that list. The characters are not random bots, so
 nothing logs them in except a summon: they never roam the world by
 themselves.
 
@@ -89,8 +94,8 @@ are usually mixed-faction.
 
 `CooldownSeconds` paces each companion. `GroupGapSeconds` keeps a party's
 companions from talking over one another. A line may carry a reply from
-another companion, delivered `ReplyDelayMs` later; that is how Jaina and
-Sylvanas talk to each other.
+another companion, delivered `ReplyDelayMs` later; that is how the companions
+talk to each other.
 
 ## The lines
 
@@ -132,7 +137,7 @@ generator and restart. The character is created on the next startup.
 - mod-factionchoice for `FollowSummonerSide`. Without it that setting does
   nothing, and a companion keeps her race's side.
 - A realm that allows the race and class pairs above (Forsaken hunter, blood
-  elf mage).
+  elf mage, blood elf paladin, dwarf priest, night elf priest).
 - `AllowTwoSide.Interaction.Group = 1` if companions are to join parties of
   the other faction.
 

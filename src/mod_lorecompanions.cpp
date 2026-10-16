@@ -1,9 +1,9 @@
 /*
  * mod-lorecompanions - lore characters as party companions
  *
- * Jaina, Sylvanas and Alexstrasza (and whoever else is added to the
- * `lore_companion` table) are real characters on a hidden account that this
- * module owns. ".companion summon jaina" logs one in as a mod-playerbots alt
+ * Jaina, Sylvanas, Alexstrasza, Moira, Liadrin and Tyrande (and whoever else
+ * is added to the `lore_companion` table) are real characters on a hidden
+ * account that this module owns. ".companion summon jaina" logs one in as a mod-playerbots alt
  * bot whose master is the summoner, so she joins the summoner's party and
  * fights, follows and loots the way any alt bot does. Nothing else ever logs
  * them in: they are not random bots, so they never wander the world on their
@@ -425,8 +425,8 @@ namespace
         return out;
     }
 
-    // "Sylvanas" and "Alexstrasza" are in the client's NamesReserved list
-    // ("Jaina" is not). Player::LoadFromDB checks the name on every login,
+    // Lore names such as "Sylvanas" and "Alexstrasza" are in the client's
+    // NamesReserved list ("Jaina" is not). Player::LoadFromDB checks the name on every login,
     // flags a reserved one for a forced rename and refuses the login, unless
     // the session may skip that check - so the companion account is given
     // exactly that permission, and nothing else.
