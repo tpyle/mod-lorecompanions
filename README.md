@@ -66,8 +66,14 @@ time.
 **Model.** The character's *native* display id is replaced with the lore
 creature's on every login, before she is visible. Native rather than current
 means anything that restores a player's appearance, such as a polymorph
-ending, restores the lore model. The model draws its own clothes and
-weapons, so her equipped gear doesn't show.
+ending, restores the lore model. The model draws its own clothes, so her
+equipped armour doesn't show. Weapons are drawn from a player's visible item
+slots rather than the model, so the module writes the lore NPC's own weapons
+there (`MainHand`, `OffHand` and `Ranged` in `lore_companion`, from
+`WEAPONS` in the generator): Thrall carries the Doomhammer and Illidan his
+warglaives, whatever she or he actually has equipped. Only the picture
+changes; the real weapons, and their stats, are the ones she fights with.
+Alexstrasza, Moira and Liadrin carry nothing as NPCs, so they show their own.
 
 **Level.** A companion is always at her party leader's level, or her
 summoner's if the leader can't be found. On joining, and whenever that level

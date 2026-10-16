@@ -73,6 +73,7 @@
 #include "RandomPlayerbotMgr.h"
 
 #include <algorithm>
+#include <array>
 #include <cctype>
 #include <chrono>
 #include <cmath>
@@ -158,6 +159,9 @@ namespace
         float scale = 1.0f;
         std::string spec;       // a playerbots premade spec name, "frost pve"
         uint32 petEntry = 0;    // a hunter's pet, by creature entry; 0 lets playerbots choose
+        // The lore NPC's weapons, drawn in her main hand, off hand and ranged
+        // slot in place of what she really holds. All 0: her own are shown.
+        std::array<uint32, 3> weapons = { };
         int32 specNo = -1;      // resolved against AiPlayerbot.PremadeSpecName
         ObjectGuid guid;        // empty when the character could not be set up
     };
@@ -321,7 +325,8 @@ namespace
         defs.clear();
 
         QueryResult result = WorldDatabase.Query(
-            "SELECT Id, Name, Title, Race, Class, Gender, DisplayId, Scale, Spec, PetEntry "
+            "SELECT Id, Name, Title, Race, Class, Gender, DisplayId, Scale, Spec, PetEntry, "
+            "MainHand, OffHand, Ranged "
             "FROM lore_companion WHERE Enabled = 1 ORDER BY SortOrder, Id");
         if (!result)
         {
@@ -343,6 +348,8 @@ namespace
             def.scale     = fields[7].Get<float>();
             def.spec      = Lower(fields[8].Get<std::string>());
             def.petEntry  = fields[9].Get<uint32>();
+            for (uint8 i = 0; i < def.weapons.size(); ++i)
+                def.weapons[i] = fields[10 + i].Get<uint32>();
             defs.push_back(std::move(def));
         } while (result->NextRow());
     }
@@ -584,6 +591,51 @@ namespace
         // hers. SetDisplayId also sets the object scale, so they go together.
         if (!bot->HasAuraType(SPELL_AURA_TRANSFORM))
             bot->SetDisplayId(def.displayId, def.scale > 0.0f ? def.scale : 1.0f);
+    }
+
+    // The model shows armour, not weapons: a player's hands are drawn from
+    // her visible item slots. So the lore NPC's weapons are written there in
+    // place of her real ones - the picture only; the items she fights with,
+    // and their stats, are untouched. Every redraw of a slot (equipping,
+    // a rebuild, mod-transmog) goes through OnPlayerAfterSetVisibleItemSlot,
+    // which calls this again.
+    static constexpr uint8 WeaponSlots[3] = { EQUIPMENT_SLOT_MAINHAND, EQUIPMENT_SLOT_OFFHAND, EQUIPMENT_SLOT_RANGED };
+
+    bool HasLoreWeapons(CompanionDef const& def)
+    {
+        return def.weapons[0] || def.weapons[1] || def.weapons[2];
+    }
+
+    void ApplyWeapon(Player* bot, CompanionDef const& def, uint8 slot)
+    {
+        for (uint8 i = 0; i < 3; ++i)
+        {
+            if (WeaponSlots[i] != slot)
+                continue;
+            if (bot->GetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + slot * 2) != def.weapons[i])
+            {
+                bot->SetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + slot * 2, def.weapons[i]);
+                bot->SetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENCHANTMENT + slot * 2, 0);
+            }
+        }
+    }
+
+    void ApplyWeapons(Player* bot, CompanionDef const& def)
+    {
+        if (!HasLoreWeapons(def))
+            return;
+        for (uint8 slot : WeaponSlots)
+            ApplyWeapon(bot, def, slot);
+    }
+
+    bool WeaponsDrifted(Player* bot, CompanionDef const& def)
+    {
+        if (!HasLoreWeapons(def))
+            return false;
+        for (uint8 i = 0; i < 3; ++i)
+            if (bot->GetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + WeaponSlots[i] * 2) != def.weapons[i])
+                return true;
+        return false;
     }
 
     // Whether something has put her back in the racial model or reset her
@@ -1414,6 +1466,8 @@ namespace
 
             if (ModelDrifted(bot, def))
                 ApplyModel(bot, def);
+            if (WeaponsDrifted(bot, def))
+                ApplyWeapons(bot, def);
 
             uint8 const target = TargetLevel(bot, master);
             if (target != bot->GetLevel() && !bot->IsInCombat() && !master->IsInCombat() && !bot->IsInFlight())
@@ -1550,8 +1604,18 @@ public:
             PLAYERHOOK_ON_CREATURE_KILLED_BY_PET,
             PLAYERHOOK_ON_PLAYER_JUST_DIED,
             PLAYERHOOK_ON_PLAYER_RESURRECT,
-            PLAYERHOOK_ON_PLAYER_ENTER_COMBAT
+            PLAYERHOOK_ON_PLAYER_ENTER_COMBAT,
+            PLAYERHOOK_ON_AFTER_SET_VISIBLE_ITEM_SLOT
         }) { }
+
+    // Runs on her own map's thread, for her own fields; defs never change
+    // after startup.
+    void OnPlayerAfterSetVisibleItemSlot(Player* player, uint8 slot, Item* /*item*/) override
+    {
+        auto const def = defByGuid.find(player->GetGUID());
+        if (def != defByGuid.end() && HasLoreWeapons(defs[def->second]))
+            ApplyWeapon(player, defs[def->second], slot);
+    }
 
     void OnPlayerLogin(Player* player) override
     {
@@ -1561,6 +1625,7 @@ public:
 
         // Before she is visible to anyone, so nobody sees the racial model.
         ApplyModel(player, defs[def->second]);
+        ApplyWeapons(player, defs[def->second]);
 
         // Tells mod-botlore she has her own voice and wants none of its lines.
         player->CustomData.Set("LoreCompanion", new DataMap::Base());

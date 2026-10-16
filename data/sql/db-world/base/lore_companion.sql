@@ -18,22 +18,25 @@ CREATE TABLE `lore_companion` (
   `Spec` VARCHAR(32) NOT NULL COMMENT 'AiPlayerbot.PremadeSpecName for the class',
   `PetEntry` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'hunter pet creature entry, 0 = playerbots picks',
   `SortOrder` TINYINT UNSIGNED NOT NULL DEFAULT 0,
+  `MainHand` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'item entry drawn in her main hand, 0 = her own',
+  `OffHand` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'off hand; with MainHand or Ranged set, 0 = empty',
+  `Ranged` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'ranged slot; with MainHand or OffHand set, 0 = empty',
   `Enabled` TINYINT UNSIGNED NOT NULL DEFAULT 1,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`) VALUES
-('jaina', 'Jaina', 'Lady Jaina Proudmoore', 1, 8, 1, 30863, 1.0, 'frost pve', 0, 1),
-('sylvanas', 'Sylvanas', 'Lady Sylvanas Windrunner', 5, 3, 1, 28213, 1.0, 'mm pve', 1554, 2),
-('alexstrasza', 'Alexstrasza', 'Alexstrasza the Life-Binder', 10, 8, 1, 28227, 0.68, 'fire pve', 0, 3),
-('moira', 'Moira', 'Princess Moira Bronzebeard', 3, 5, 1, 8705, 1.0, 'shadow pve', 0, 4),
-('liadrin', 'Liadrin', 'Lady Liadrin', 10, 2, 1, 16820, 1.0, 'prot pve', 0, 5),
-('tyrande', 'Tyrande', 'Tyrande Whisperwind', 4, 5, 1, 7274, 1.0, 'holy pve', 0, 6),
-('arthas', 'Arthas', 'Prince Arthas Menethil', 1, 2, 0, 24949, 1.0, 'ret pve', 0, 7),
-('thrall', 'Thrall', 'Thrall, Warchief of the Horde', 2, 7, 0, 4527, 0.9, 'enh pve', 0, 8),
-('illidan', 'Illidan', 'Illidan Stormrage', 4, 4, 0, 21135, 0.35, 'combat pve', 0, 9),
-('whitemane', 'Whitemane', 'High Inquisitor Whitemane', 1, 5, 1, 2043, 0.85, 'disc pve', 0, 10),
-('paletress', 'Paletress', 'Argent Confessor Paletress', 1, 5, 1, 29083, 1.0, 'holy pve', 0, 11);
+INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`, `MainHand`, `OffHand`, `Ranged`) VALUES
+('jaina', 'Jaina', 'Lady Jaina Proudmoore', 1, 8, 1, 30863, 1.0, 'frost pve', 0, 1, 2177, 12869, 0),
+('sylvanas', 'Sylvanas', 'Lady Sylvanas Windrunner', 5, 3, 1, 28213, 1.0, 'mm pve', 1554, 2, 2179, 0, 42775),
+('alexstrasza', 'Alexstrasza', 'Alexstrasza the Life-Binder', 10, 8, 1, 28227, 0.68, 'fire pve', 0, 3, 0, 0, 0),
+('moira', 'Moira', 'Princess Moira Bronzebeard', 3, 5, 1, 8705, 1.0, 'shadow pve', 0, 4, 0, 0, 0),
+('liadrin', 'Liadrin', 'Lady Liadrin', 10, 2, 1, 16820, 1.0, 'prot pve', 0, 5, 0, 0, 0),
+('tyrande', 'Tyrande', 'Tyrande Whisperwind', 4, 5, 1, 7274, 1.0, 'holy pve', 0, 6, 5598, 0, 14105),
+('arthas', 'Arthas', 'Prince Arthas Menethil', 1, 2, 0, 24949, 1.0, 'ret pve', 0, 7, 37579, 0, 0),
+('thrall', 'Thrall', 'Thrall, Warchief of the Horde', 2, 7, 0, 4527, 0.9, 'enh pve', 0, 8, 12183, 0, 0),
+('illidan', 'Illidan', 'Illidan Stormrage', 4, 4, 0, 21135, 0.35, 'combat pve', 0, 9, 32632, 32633, 0),
+('whitemane', 'Whitemane', 'High Inquisitor Whitemane', 1, 5, 1, 2043, 0.85, 'disc pve', 0, 10, 28738, 0, 0),
+('paletress', 'Paletress', 'Argent Confessor Paletress', 1, 5, 1, 29083, 1.0, 'holy pve', 0, 11, 12591, 0, 0);
 
 DROP TABLE IF EXISTS `lore_companion_text`;
 CREATE TABLE `lore_companion_text` (

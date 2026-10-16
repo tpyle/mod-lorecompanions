@@ -143,6 +143,24 @@ CHANNELS = {"say": 0, "emote": 1, "party": 2, "yell": 3}
 PLACEHOLDERS = {"%summoner", "%leader", "%target", "%quest", "%other", "%zone", "%area", "%name"}
 COMPANION_IDS = {c[0] for c in COMPANIONS}
 
+# The weapons she is drawn holding: main hand, off hand, ranged, by item entry -
+# the lore NPC's own creature_equip_template items. Only the picture changes;
+# she fights with the gear she is given. 0 leaves that hand empty. A companion
+# not listed here (her NPC carries nothing) shows her real weapons.
+WEAPONS = {
+    "jaina":     (2177,  12869, 0),      # Ornate Mage Staff, a glowing blue book
+    "sylvanas":  (2179,  0,     42775),  # her scimitar and her bow
+    "tyrande":   (5598,  0,     14105),  # three-bladed glaive, white bow
+    "arthas":    (37579, 0,     0),      # the prince's mace
+    "thrall":    (12183, 0,     0),      # the Doomhammer
+    "illidan":   (32632, 32633, 0),      # the Warglaives of Azzinoth
+    "whitemane": (28738, 0,     0),      # Benediction
+    "paletress": (12591, 0,     0),      # her holy staff
+}
+for _id in WEAPONS:
+    if _id not in COMPANION_IDS:
+        sys.exit(f"WEAPONS names {_id!r}, who is not in COMPANIONS")
+
 
 def fail(path, number, message):
     sys.exit(f"{path.name}:{number}: {message}")
@@ -274,12 +292,15 @@ def main():
         "  `Spec` VARCHAR(32) NOT NULL COMMENT 'AiPlayerbot.PremadeSpecName for the class',",
         "  `PetEntry` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'hunter pet creature entry, 0 = playerbots picks',",
         "  `SortOrder` TINYINT UNSIGNED NOT NULL DEFAULT 0,",
+        "  `MainHand` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'item entry drawn in her main hand, 0 = her own',",
+        "  `OffHand` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'off hand; with MainHand or Ranged set, 0 = empty',",
+        "  `Ranged` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'ranged slot; with MainHand or OffHand set, 0 = empty',",
         "  `Enabled` TINYINT UNSIGNED NOT NULL DEFAULT 1,",
         "  PRIMARY KEY (`Id`)",
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;",
         "",
-        "INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`) VALUES",
-        ",\n".join("(" + ", ".join(sql(v) for v in c) + ")" for c in COMPANIONS) + ";",
+        "INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`, `MainHand`, `OffHand`, `Ranged`) VALUES",
+        ",\n".join("(" + ", ".join(sql(v) for v in c + WEAPONS.get(c[0], (0, 0, 0))) + ")" for c in COMPANIONS) + ";",
         "",
         "DROP TABLE IF EXISTS `lore_companion_text`;",
         "CREATE TABLE `lore_companion_text` (",
