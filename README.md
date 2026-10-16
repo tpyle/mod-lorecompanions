@@ -72,14 +72,24 @@ time.
 **Model.** The character's *native* display id is replaced with the lore
 creature's on every login, before she is visible. Native rather than current
 means anything that restores a player's appearance, such as a polymorph
-ending, restores the lore model. The model draws its own clothes, so her
-equipped armour doesn't show. Weapons are drawn from a player's visible item
-slots rather than the model, so the module writes the lore NPC's own weapons
-there (`MainHand`, `OffHand` and `Ranged` in `lore_companion`, from
-`WEAPONS` in the generator): Thrall carries the Doomhammer and Illidan his
-warglaives, whatever she or he actually has equipped. Only the picture
-changes; the real weapons, and their stats, are the ones she fights with.
-Alexstrasza, Moira and Liadrin carry nothing as NPCs, so they show their own.
+ending, restores the lore model. Not everything comes from the model,
+though: a player's weapons, and the shape of her armour, are drawn from her
+visible item slots. So the module writes those slots too, in place of what
+she has equipped:
+
+- **Weapons:** the lore NPC's own (`MainHand`, `OffHand` and `Ranged` in
+  `lore_companion`, from `WEAPONS` in the generator). Thrall carries the
+  Doomhammer and Illidan his warglaives. Alexstrasza, Moira and Liadrin carry
+  nothing as NPCs, so they show their own.
+- **Armour shape** (`Look`, from `OUTFITS`): a humanoid model's outfit gives
+  every piece its colours, but the helmet, shoulder pads, cloak and the hang
+  of a tabard or robe come from the item in the slot. Each slot shows an
+  item shaped like the NPC's piece, or nothing where the NPC wears nothing,
+  so Tirion has no helmet and Whitemane's robe has its front flap. Creature
+  models (Jaina, Sylvanas, Alexstrasza, Arthas, Illidan) don't use it.
+
+Only the picture changes; the real gear, and its stats, is what she fights
+with.
 
 **Level.** A companion is always at her party leader's level, or her
 summoner's if the leader can't be found. On joining, and whenever that level

@@ -172,6 +172,44 @@ for _id in WEAPONS:
     if _id not in COMPANION_IDS:
         sys.exit(f"WEAPONS names {_id!r}, who is not in COMPANIONS")
 
+# The shape of the armour she is drawn wearing, by item entry; 0 leaves the
+# slot empty. A humanoid model's outfit (CreatureDisplayInfoExtra) supplies the
+# colours of every piece, but a player is drawn with the meshes and attached
+# models of her visible items: a helmet, shoulder pads, a cloak, the flap of a
+# tabard or the skirt of a robe. So each slot names an item whose
+# ItemDisplayInfo has the same models and geosets as the NPC's piece - the
+# same colours too, where one exists - or 0 where the NPC wears nothing there.
+# Creature models (Jaina, Sylvanas, Alexstrasza, Arthas, Illidan) draw no
+# armour from items and are not listed. Unmatched pieces: Renault's red
+# blindfold and Paletress's white shoulders are left empty; Brigitte's rust
+# and Isillien's Crusader shoulders are drawn in black and in crimson.
+SLOTS = {"head": 0, "shoulders": 2, "shirt": 3, "chest": 4, "waist": 5, "legs": 6,
+         "feet": 7, "wrists": 8, "hands": 9, "back": 14, "tabard": 18}
+_BARE = {slot: 0 for slot in SLOTS}
+OUTFITS = {
+    "moira":     dict(_BARE, legs=153),
+    "liadrin":   dict(_BARE, shoulders=22429, feet=843, hands=1965, tabard=746),
+    "tyrande":   dict(_BARE, head=10123, legs=153),
+    "thrall":    dict(_BARE, shoulders=32868, feet=43, hands=203),
+    "whitemane": dict(_BARE, head=7720, shoulders=7059, tabard=746),
+    "paletress": dict(_BARE, head=7520, tabard=746),
+    "tirion":    dict(_BARE, shoulders=33699, feet=843, hands=1965, back=29369, tabard=746),
+    "renault":   dict(_BARE, shoulders=21683, feet=843, hands=2422, tabard=746),
+    "brigitte":  dict(_BARE, shoulders=30979, feet=43, hands=1965, tabard=746),
+    "isillien":  dict(_BARE, head=7720, shoulders=10237, legs=153, hands=1965),
+}
+for _id, _outfit in OUTFITS.items():
+    if _id not in COMPANION_IDS:
+        sys.exit(f"OUTFITS names {_id!r}, who is not in COMPANIONS")
+    for _slot in _outfit:
+        if _slot not in SLOTS:
+            sys.exit(f"OUTFITS gives {_id} an unknown slot {_slot!r}")
+
+
+def look(companion):
+    outfit = OUTFITS.get(companion, {})
+    return " ".join(f"{SLOTS[slot]}:{entry}" for slot, entry in sorted(outfit.items(), key=lambda kv: SLOTS[kv[0]]))
+
 
 def fail(path, number, message):
     sys.exit(f"{path.name}:{number}: {message}")
@@ -306,12 +344,13 @@ def main():
         "  `MainHand` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'item entry drawn in her main hand, 0 = her own',",
         "  `OffHand` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'off hand; with MainHand or Ranged set, 0 = empty',",
         "  `Ranged` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'ranged slot; with MainHand or OffHand set, 0 = empty',",
+        "  `Look` VARCHAR(255) NOT NULL DEFAULT '' COMMENT 'equipment slot:item entry pairs drawn in place of her armour, 0 = empty',",
         "  `Enabled` TINYINT UNSIGNED NOT NULL DEFAULT 1,",
         "  PRIMARY KEY (`Id`)",
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;",
         "",
-        "INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`, `MainHand`, `OffHand`, `Ranged`) VALUES",
-        ",\n".join("(" + ", ".join(sql(v) for v in c + WEAPONS.get(c[0], (0, 0, 0))) + ")" for c in COMPANIONS) + ";",
+        "INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, `DisplayId`, `Scale`, `Spec`, `PetEntry`, `SortOrder`, `MainHand`, `OffHand`, `Ranged`, `Look`) VALUES",
+        ",\n".join("(" + ", ".join(sql(v) for v in c + WEAPONS.get(c[0], (0, 0, 0)) + (look(c[0]),)) + ")" for c in COMPANIONS) + ";",
         "",
         "DROP TABLE IF EXISTS `lore_companion_text`;",
         "CREATE TABLE `lore_companion_text` (",

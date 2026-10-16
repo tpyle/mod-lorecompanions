@@ -59,7 +59,9 @@
 #include "ScriptMgr.h"
 #include "SharedDefines.h"
 #include "SpellAuraDefines.h"
+#include "StringConvert.h"
 #include "StringFormat.h"
+#include "Tokenize.h"
 #include "World.h"
 #include "WorldSession.h"
 
@@ -159,12 +161,18 @@ namespace
         float scale = 1.0f;
         std::string spec;       // a playerbots premade spec name, "frost pve"
         uint32 petEntry = 0;    // a hunter's pet, by creature entry; 0 lets playerbots choose
-        // The lore NPC's weapons, drawn in her main hand, off hand and ranged
-        // slot in place of what she really holds. All 0: her own are shown.
-        std::array<uint32, 3> weapons = { };
+        // How she is drawn, slot by slot, in place of her real gear: the lore
+        // NPC's weapons, and for her armour an item shaped like the NPC's
+        // piece, or nothing. A slot not in lookMask shows what she wears.
+        uint32 lookMask = 0;
+        std::array<uint32, EQUIPMENT_SLOT_END> look = { };
         int32 specNo = -1;      // resolved against AiPlayerbot.PremadeSpecName
         ObjectGuid guid;        // empty when the character could not be set up
     };
+
+    // Her main hand, off hand and ranged slot, in the order of lore_companion's
+    // MainHand, OffHand and Ranged.
+    static constexpr uint8 WeaponSlots[3] = { EQUIPMENT_SLOT_MAINHAND, EQUIPMENT_SLOT_OFFHAND, EQUIPMENT_SLOT_RANGED };
 
     struct Line
     {
@@ -326,7 +334,7 @@ namespace
 
         QueryResult result = WorldDatabase.Query(
             "SELECT Id, Name, Title, Race, Class, Gender, DisplayId, Scale, Spec, PetEntry, "
-            "MainHand, OffHand, Ranged "
+            "MainHand, OffHand, Ranged, Look "
             "FROM lore_companion WHERE Enabled = 1 ORDER BY SortOrder, Id");
         if (!result)
         {
@@ -348,8 +356,32 @@ namespace
             def.scale     = fields[7].Get<float>();
             def.spec      = Lower(fields[8].Get<std::string>());
             def.petEntry  = fields[9].Get<uint32>();
-            for (uint8 i = 0; i < def.weapons.size(); ++i)
-                def.weapons[i] = fields[10 + i].Get<uint32>();
+            // Any lore weapon claims all three hands, so a 0 beside it is an
+            // empty hand rather than her own weapon.
+            uint32 const weapons[3] = { fields[10].Get<uint32>(), fields[11].Get<uint32>(), fields[12].Get<uint32>() };
+            if (weapons[0] || weapons[1] || weapons[2])
+            {
+                for (uint8 i = 0; i < 3; ++i)
+                {
+                    def.lookMask |= 1u << WeaponSlots[i];
+                    def.look[WeaponSlots[i]] = weapons[i];
+                }
+            }
+            // "slot:entry slot:entry ...", by equipment slot; entry 0 is empty.
+            std::string const look = fields[13].Get<std::string>();
+            for (std::string_view pair : Acore::Tokenize(look, ' ', false))
+            {
+                std::vector<std::string_view> parts = Acore::Tokenize(pair, ':', false);
+                Optional<uint32> slot = parts.size() == 2 ? Acore::StringTo<uint32>(parts[0]) : std::nullopt;
+                Optional<uint32> entry = parts.size() == 2 ? Acore::StringTo<uint32>(parts[1]) : std::nullopt;
+                if (!slot || !entry || *slot >= EQUIPMENT_SLOT_END)
+                {
+                    LOG_ERROR("module", "mod-lorecompanions: {} has a bad Look entry '{}'", def.id, pair);
+                    continue;
+                }
+                def.lookMask |= 1u << *slot;
+                def.look[*slot] = *entry;
+            }
             defs.push_back(std::move(def));
         } while (result->NextRow());
     }
@@ -593,47 +625,36 @@ namespace
             bot->SetDisplayId(def.displayId, def.scale > 0.0f ? def.scale : 1.0f);
     }
 
-    // The model shows armour, not weapons: a player's hands are drawn from
-    // her visible item slots. So the lore NPC's weapons are written there in
-    // place of her real ones - the picture only; the items she fights with,
-    // and their stats, are untouched. Every redraw of a slot (equipping,
-    // a rebuild, mod-transmog) goes through OnPlayerAfterSetVisibleItemSlot,
-    // which calls this again.
-    static constexpr uint8 WeaponSlots[3] = { EQUIPMENT_SLOT_MAINHAND, EQUIPMENT_SLOT_OFFHAND, EQUIPMENT_SLOT_RANGED };
+    // The model does not settle everything she is drawn wearing. Its outfit
+    // supplies her armour's colours, but her weapons, and the shape of her
+    // armour - helmet, shoulder pads, cloak, the hang of a tabard or a robe -
+    // are drawn from her visible item slots, so Tirion would wear whatever
+    // helmet playerbots gave him. Those slots are written here in place of
+    // her real gear - the picture only; the items she fights with, and their
+    // stats, are untouched. Every redraw of a slot (equipping, a rebuild, mod-transmog)
+    // goes through OnPlayerAfterSetVisibleItemSlot, which calls this again.
 
-    bool HasLoreWeapons(CompanionDef const& def)
+    void ApplyLookSlot(Player* bot, CompanionDef const& def, uint8 slot)
     {
-        return def.weapons[0] || def.weapons[1] || def.weapons[2];
-    }
-
-    void ApplyWeapon(Player* bot, CompanionDef const& def, uint8 slot)
-    {
-        for (uint8 i = 0; i < 3; ++i)
+        if (slot >= EQUIPMENT_SLOT_END || !(def.lookMask & (1u << slot)))
+            return;
+        if (bot->GetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + slot * 2) != def.look[slot])
         {
-            if (WeaponSlots[i] != slot)
-                continue;
-            if (bot->GetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + slot * 2) != def.weapons[i])
-            {
-                bot->SetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + slot * 2, def.weapons[i]);
-                bot->SetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENCHANTMENT + slot * 2, 0);
-            }
+            bot->SetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + slot * 2, def.look[slot]);
+            bot->SetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENCHANTMENT + slot * 2, 0);
         }
     }
 
-    void ApplyWeapons(Player* bot, CompanionDef const& def)
+    void ApplyLook(Player* bot, CompanionDef const& def)
     {
-        if (!HasLoreWeapons(def))
-            return;
-        for (uint8 slot : WeaponSlots)
-            ApplyWeapon(bot, def, slot);
+        for (uint8 slot = 0; slot < EQUIPMENT_SLOT_END; ++slot)
+            ApplyLookSlot(bot, def, slot);
     }
 
-    bool WeaponsDrifted(Player* bot, CompanionDef const& def)
+    bool LookDrifted(Player* bot, CompanionDef const& def)
     {
-        if (!HasLoreWeapons(def))
-            return false;
-        for (uint8 i = 0; i < 3; ++i)
-            if (bot->GetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + WeaponSlots[i] * 2) != def.weapons[i])
+        for (uint8 slot = 0; slot < EQUIPMENT_SLOT_END; ++slot)
+            if ((def.lookMask & (1u << slot)) && bot->GetUInt32Value(PLAYER_VISIBLE_ITEM_1_ENTRYID + slot * 2) != def.look[slot])
                 return true;
         return false;
     }
@@ -1466,8 +1487,8 @@ namespace
 
             if (ModelDrifted(bot, def))
                 ApplyModel(bot, def);
-            if (WeaponsDrifted(bot, def))
-                ApplyWeapons(bot, def);
+            if (LookDrifted(bot, def))
+                ApplyLook(bot, def);
 
             uint8 const target = TargetLevel(bot, master);
             if (target != bot->GetLevel() && !bot->IsInCombat() && !master->IsInCombat() && !bot->IsInFlight())
@@ -1613,8 +1634,8 @@ public:
     void OnPlayerAfterSetVisibleItemSlot(Player* player, uint8 slot, Item* /*item*/) override
     {
         auto const def = defByGuid.find(player->GetGUID());
-        if (def != defByGuid.end() && HasLoreWeapons(defs[def->second]))
-            ApplyWeapon(player, defs[def->second], slot);
+        if (def != defByGuid.end())
+            ApplyLookSlot(player, defs[def->second], slot);
     }
 
     void OnPlayerLogin(Player* player) override
@@ -1625,7 +1646,7 @@ public:
 
         // Before she is visible to anyone, so nobody sees the racial model.
         ApplyModel(player, defs[def->second]);
-        ApplyWeapons(player, defs[def->second]);
+        ApplyLook(player, defs[def->second]);
 
         // Tells mod-botlore she has her own voice and wants none of its lines.
         player->CustomData.Set("LoreCompanion", new DataMap::Base());
