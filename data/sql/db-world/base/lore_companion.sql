@@ -30,7 +30,7 @@ INSERT INTO `lore_companion` (`Id`, `Name`, `Title`, `Race`, `Class`, `Gender`, 
 ('liadrin', 'Liadrin', 'Lady Liadrin', 10, 2, 1, 16820, 1.0, 'prot pve', 0, 5),
 ('tyrande', 'Tyrande', 'Tyrande Whisperwind', 4, 5, 1, 7274, 1.0, 'holy pve', 0, 6),
 ('arthas', 'Arthas', 'Prince Arthas Menethil', 1, 2, 0, 24949, 1.0, 'ret pve', 0, 7),
-('thrall', 'Thrall', 'Thrall, Warchief of the Horde', 2, 7, 0, 4527, 1.0, 'enh pve', 0, 8),
+('thrall', 'Thrall', 'Thrall, Warchief of the Horde', 2, 7, 0, 4527, 0.9, 'enh pve', 0, 8),
 ('illidan', 'Illidan', 'Illidan Stormrage', 4, 4, 0, 21135, 0.35, 'combat pve', 0, 9);
 
 DROP TABLE IF EXISTS `lore_companion_text`;

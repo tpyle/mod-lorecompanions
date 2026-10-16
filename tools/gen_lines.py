@@ -55,8 +55,9 @@ OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 #           1.75 (Jaina's and Sylvanas's at 1.2, player races at 1.0), so 0.68
 #           brings her to about 1.19: a little over a blood elf, level with
 #           the other two. Moira, Liadrin and Tyrande wear their own NPC
-#           outfits on their race's model, at its natural size, and so does
-#           Thrall. Illidan's Black Temple model is drawn at 1.5 and stands
+#           outfits on their race's model, at its natural size. Thrall's
+#           Warchief model is drawn at 1.2, so 0.9 brings him to about 1.08:
+#           a little over an ordinary orc rather than a head above. Illidan's Black Temple model is drawn at 1.5 and stands
 #           about three times a night elf's height, wings included, so 0.35
 #           brings him to a little over a night elf.
 #   spec:   an AiPlayerbot.PremadeSpecName for that class
@@ -71,7 +72,7 @@ COMPANIONS = [
     ("liadrin",     "Liadrin",     "Lady Liadrin",                10, 2, 1, 16820, 1.0, "prot pve",  0,    5),
     ("tyrande",     "Tyrande",     "Tyrande Whisperwind",         4,  5, 1, 7274,  1.0, "holy pve",  0,    6),
     ("arthas",      "Arthas",      "Prince Arthas Menethil",      1,  2, 0, 24949, 1.0, "ret pve",   0,    7),
-    ("thrall",      "Thrall",      "Thrall, Warchief of the Horde", 2, 7, 0, 4527, 1.0, "enh pve",   0,    8),
+    ("thrall",      "Thrall",      "Thrall, Warchief of the Horde", 2, 7, 0, 4527, 0.9, "enh pve",   0,    8),
     ("illidan",     "Illidan",     "Illidan Stormrage",           4,  4, 0, 21135, 0.35, "combat pve", 0,  9),
 ]
 

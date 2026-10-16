@@ -23,7 +23,7 @@ their own voices.
 | Liadrin | protection paladin, a tank | 16820, the Blood Knight Matriarch | blood elf |
 | Tyrande | holy priest, a healer | 7274, the High Priestess in Darnassus | night elf |
 | Arthas | retribution paladin | 24949, the prince at the Culling of Stratholme | human |
-| Thrall | enhancement shaman | 4527, the Warchief in Orgrimmar | orc |
+| Thrall | enhancement shaman | 4527, the Warchief in Orgrimmar, at 0.9 scale | orc |
 | Illidan | combat rogue | 21135, the Betrayer of the Black Temple, at 0.35 scale | night elf |
 
 Arthas is the prince before his fall, and Illidan is the Illidan of the
