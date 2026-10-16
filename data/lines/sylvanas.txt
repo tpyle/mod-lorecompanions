@@ -160,6 +160,10 @@ Warchief. The Forsaken have done more for your Horde than your Horde has ever do
 Betrayer. You lost to him, I hear. At the foot of his throne.
 > illidan: Everyone loses to him eventually, Banshee. You simply have not had your turn.
 
+@ trigger=idle with=whitemane
+Inquisitor. Your Crusade has burned more of the living than the Scourge has this year.
+> whitemane: Better a hundred burned in error than one plague-carrier spared, Banshee. You of all people should understand arithmetic.
+
 @ trigger=quest_accept
 "%quest". Very well. I have done worse for less reason.
 If it bleeds or rots, I can find it.

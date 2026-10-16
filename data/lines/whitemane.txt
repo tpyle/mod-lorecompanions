@@ -1,0 +1,212 @@
+# High Inquisitor Sally Whitemane - discipline priest. The Scarlet
+# Crusade's High Inquisitor, mistress of the Scarlet Monastery, who raises
+# her fallen champion Mograine with the words "Arise, my champion!". She
+# lost everything to the plague and answered by deciding that anyone might
+# carry it. Zealous, imperious, cutting, utterly certain, and not without
+# grief underneath. She tolerates this company because the Scourge is the
+# greater enemy, and she says so. Unknown to her, the Crusade's leaders are
+# dreadlords: Dathrohan is Balnazzar, and Westwind is Mal'Ganis. Her lines
+# may brush against that irony; she never sees it.
+
+@ trigger=summon
+High Inquisitor Whitemane. You called, %summoner, and the Crusade answers. Do not make me regret it.
+I am here. Keep your distance until I have judged you clean.
+The Light has sent me to you. Whether it sent me to aid you or to watch you, we shall see.
+Lead, then. And should you show the slightest sign of the plague, I will know.
+The Monastery can spare its Inquisitor for a time. Mograine will hold the doors.
+
+@ trigger=summon side=horde
+The Horde. Orcs, trolls and walking corpses. The Light tests me. Very well. I will pass.
+You keep company with the Forsaken? Then I will keep my eyes on your back, and my hand on my mace.
+
+@ trigger=summon where=scarlet_monastery,tirisfal
+You summon me at my own doors. At least you are not lost.
+
+@ trigger=dismiss
+I return to the Monastery. Stay pure, %summoner. I will know if you do not.
+Enough. The Crusade needs me more than you do.
+Go with the Light. And never let it out of your sight.
+Farewell. You fought cleanly. That is rarer than you know.
+
+@ trigger=zone_enter where=scarlet_monastery
+The Scarlet Monastery. Our bastion. Every stone here was laid by the faithful.
+Home. The cathedral bells will be ringing for vespers. Mograine will be waiting.
+
+@ trigger=zone_enter where=tirisfal,brill,deathknell
+Tirisfal. These glades were full of farmers and their children once. Now look what walks here.
+The Forsaken infest this land like rot in grain. One day we will burn them out. Every last one.
+
+@ trigger=zone_enter where=undercity,ruins_of_lordaeron
+The Undercity. A sewer of abominations beneath King Terenas's palace. I would put it to the torch with my own hand.
+
+@ trigger=zone_enter where=western_plaguelands,hearthglen,andorhal,uthers_tomb
+Hearthglen. The Crusade holds it still, by the Light's grace and the strength of our arms.
+The Western Plaguelands. Andorhal's grain carried the plague to us all. My family ate that bread.
+
+@ trigger=zone_enter where=eastern_plaguelands,tyrs_hand,lights_hope,stratholme,stratholme_city
+Tyr's Hand. Our stronghold in the east. Grand Crusader Dathrohan commands from Stratholme. A great man. Utterly incorruptible.
+Light's Hope. The Argent Dawn. They treat with the dead and call it diplomacy. Fools.
+
+@ trigger=zone_enter where=dragonblight,new_hearthglen
+New Hearthglen. High General Abbendis's Onslaught. Grand Admiral Westwind is a hard man, but he gets results.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel,argent_tournament
+Icecrown. The heart of the plague. Here, at last, we can strike the head of the serpent.
+The Argent Tournament. Jousting. With the Lich King a mile away. I despair.
+
+@ trigger=zone_enter where=stormwind,ironforge
+Stormwind. They still do not test their grain. They will learn, as we did.
+
+@ trigger=zone_enter
+%zone. Let us see whether the plague has reached it.
+%zone. Stay alert. The taint hides in the most ordinary places.
+A new land. I will judge it as I find it.
+
+@ trigger=idle
+The plague came in the grain. In the bread. In the hand of a neighbour who smiled at you. That is why we trust no one.
+Mograine is my champion. I raise him when he falls. It is the Light's will. It is mine, too.
+They call us fanatics. The plague is not moderate. Why should we be?
+I have purged villages, %summoner. Whole villages. I would do it again. I pray every night that I will not have to.
+The Argent Dawn think they can reason with the dead. The dead do not reason. They hunger.
+My family died of the plague in their beds. I burned the house myself. I was the only one left to do it.
+Grand Crusader Dathrohan has never once wavered. I aspire to his certainty.
+Rest if you must. I will watch for the taint while you sleep.
+Do you know why the Crusade's tabards are scarlet? So the blood does not show.
+The Light does not ask whether a thing is pleasant. Only whether it is right.
+I am not cruel, %summoner. Cruelty would be letting the plague spread.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend. The source of it all. Every step here is a step closer to the end of the plague.
+
+@ trigger=idle side=horde
+I walk beside the Horde. If the Monastery hears of this, I shall have a great deal of penance to do. And they will have a great deal more.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. You fled Lordaeron with half its people and left the rest of us to the plague.
+> jaina: I took everyone who would come, Whitemane. Including the ones who called me a traitor for it. I'd have taken you too.
+
+@ trigger=idle with=sylvanas
+Banshee. When the Lich King is dead, the Crusade will come for you next.
+> sylvanas: Your Crusade has been coming for me for years, Inquisitor. I am still waiting. Bring it something sharper than prayer.
+
+@ trigger=idle with=alexstrasza
+Dragon. You do not carry the plague. I checked.
+> alexstrasza: I am glad to hear it, little one. You may check me again whenever you like. I think it comforts you.
+
+@ trigger=idle with=moira
+A Bronzebeard who married a Dark Iron. The Crusade would have words with your father about that.
+> moira: Get in line, Inquisitor. And take a number. My father's been having words with me for years.
+
+@ trigger=idle with=liadrin
+You drew power from a naaru in chains, elf. And you call yourself a paladin?
+> liadrin: I call myself a paladin who learned better, Inquisitor. I recommend the lesson. It is less painful than the alternative.
+
+@ trigger=idle with=tyrande
+Night elf. Your goddess is a heathen moon. Still, you fight the dead. I will allow it.
+> tyrande: How gracious of you, Inquisitor. Elune will be relieved.
+
+@ trigger=idle with=arthas
+My prince. The Crusade fights in your father's name. In yours. We will avenge Lordaeron for you.
+> arthas: Avenge it? What happened to Lordaeron? ...Why won't any of you look at me when you say that?
+
+@ trigger=idle with=arthas
+I know what you become, Menethil. I should purge you here, while you are still flesh.
+> arthas: Then do it, Inquisitor. Or tell me how to stop it. Those are the only two things worth saying to me.
+
+@ trigger=idle with=thrall
+Orc. Your kind brought the demons to this world. The plague is their work too.
+> thrall: My kind were deceived, Inquisitor, as yours are being deceived. Look closely at the people who lead your Crusade.
+
+@ trigger=idle with=illidan
+Demon. You reek of fel. Give me one reason I should not purge you now.
+> illidan: Because you would lose, priestess. And because I am the only one here who can see what is wearing your Grand Crusader's face.
+
+@ trigger=idle with=paletress
+Confessor. Your Argent Crusade lets death knights into its ranks. Explain that to me.
+> paletress: Anyone who stands against the Lich King may stand with us, Sally. Even you. Especially you.
+
+@ trigger=idle with=paletress
+Do not call me Sally, Confessor.
+> paletress: It was your name before it was your title. I like to remember people as they were. It helps me see who they might be.
+
+@ trigger=quest_accept
+"%quest". Very well. The Light's work is never finished.
+Someone needs aid. I shall decide whether they deserve it.
+"%quest". Lead on. And stay where I can see you.
+A task. Good. Idleness breeds doubt.
+
+@ trigger=quest_complete
+It is done. The Light is served.
+Adequate. The Crusade has seen worse.
+Another stain wiped clean.
+Well done. I will remember your name. That is a compliment.
+
+@ trigger=combat_start rank=normal
+There is no escape for you.
+Die, heretic!
+The Light purges all!
+You will be cleansed.
+
+@ trigger=combat_start rank=notable
+%target. The Light has delivered you to me.
+Stand fast. I will see you through this. Not one of you falls today.
+This one is strong. The Crusade is stronger.
+
+@ trigger=combat_start ctype=undead
+Scourge! Abomination! Return to the earth!
+The dead. At last, an honest enemy.
+
+@ trigger=combat_start ctype=demon
+Demon. The Light burns you like it burns nothing else.
+
+@ trigger=combat_start foe=the_lich_king
+Lich King! I have waited for this moment since the first grain shipment reached my village!
+
+@ trigger=combat_start foe=scarlet_commander_mograine
+Mograine? No. My champion? What have they done to you? Forgive me. I will raise you after.
+
+@ trigger=combat_start foe=balnazzar,grand_admiral_westwind
+What? No. No, that is not possible. Dathrohan... Westwind... Lies! Demon lies!
+
+@ trigger=combat_start foe=high_inquisitor_fairbanks
+Fairbanks. You were my predecessor. You died here. Why are you... no. Back to your rest.
+
+@ trigger=kill rank=normal
+Cleansed.
+The Light prevails.
+Purged.
+
+@ trigger=kill rank=notable
+%target is purged. Give thanks, all of you.
+That was well fought. The Crusade would be proud.
+%target falls. As all the impure will.
+
+@ trigger=kill ctype=undead
+Return to the earth, and stay there.
+
+@ trigger=kill foe=the_lich_king
+The Lich King is dead. The plague... is over. I do not know what to do with my hands.
+
+@ trigger=kill foe=balnazzar,grand_admiral_westwind
+A demon. All this time. All this time, and I followed... I will not speak of it.
+
+@ trigger=death
+The Light... has not... forsaken me...
+Mograine... avenge...
+Impossible...
+
+@ trigger=revived
+Raised again. The Light is not finished with me.
+Thank you. I owe you a debt. I despise owing debts.
+I live. Now, where were we? Ah, yes. Purging.
+
+@ trigger=ally_down
+%other! Arise, my champion! ...Well? Arise!
+%other is down! Stay with me, I will raise you if I must!
+No! %other, you will not die while I watch!
+
+@ trigger=grow_stronger
+The Light burns hotter in me. As it should.
+I am stronger. The impure should be very afraid.
+My faith grows. My reach with it.
+The Light rewards the faithful. I have always been faithful.

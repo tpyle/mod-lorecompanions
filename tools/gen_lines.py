@@ -59,7 +59,9 @@ OUT = ROOT / "data" / "sql" / "db-world" / "base" / "lore_companion.sql"
 #           Warchief model is drawn at 1.2, so 0.9 brings him to about 1.08:
 #           a little over an ordinary orc rather than a head above. Illidan's Black Temple model is drawn at 1.5 and stands
 #           about three times a night elf's height, wings included, so 0.35
-#           brings him to a little over a night elf.
+#           brings him to a little over a night elf. Whitemane's Scarlet
+#           Monastery model is drawn at 1.25, so 0.85 brings her to about
+#           1.06; Paletress is at her natural size.
 #   spec:   an AiPlayerbot.PremadeSpecName for that class
 #   pet:    a hunter's pet by creature entry, 0 to let playerbots pick.
 #           1554 is the Vampiric Duskbat of Tirisfal Glades - the Forsaken's
@@ -74,6 +76,8 @@ COMPANIONS = [
     ("arthas",      "Arthas",      "Prince Arthas Menethil",      1,  2, 0, 24949, 1.0, "ret pve",   0,    7),
     ("thrall",      "Thrall",      "Thrall, Warchief of the Horde", 2, 7, 0, 4527, 0.9, "enh pve",   0,    8),
     ("illidan",     "Illidan",     "Illidan Stormrage",           4,  4, 0, 21135, 0.35, "combat pve", 0,  9),
+    ("whitemane",   "Whitemane",   "High Inquisitor Whitemane",   1,  5, 1, 2043,  0.85, "disc pve",  0,    10),
+    ("paletress",   "Paletress",   "Argent Confessor Paletress",  1,  5, 1, 29083, 1.0, "holy pve",  0,    11),
 ]
 
 TRIGGERS = {
@@ -124,6 +128,7 @@ PLACES = {
     "storm_peaks": 67, "crystalsong": 2817, "dalaran": 4395, "icecrown": 210,
     "icecrown_citadel": 4812, "culling_of_stratholme": 4100, "halls_of_stone": 4264,
     "halls_of_lightning": 4272, "ulduar": 4273, "argent_tournament": 4658,
+    "scarlet_monastery": 796, "crusaders_pinnacle": 4580, "trial_of_the_champion": 4723,
     "warsong_hold": 4129, "utgarde_keep": 3983, "frozen_throne": 4859, "halls_of_reflection": 4820,
 }
 

@@ -150,6 +150,10 @@ Thrall. At Hyjal you told me we had more in common than either of us believed. I
 Illidan. I freed you because I thought there was still something good in you.
 > illidan: There was, Tyrande. There is. It simply has very poor judgement.
 
+@ trigger=idle with=whitemane
+Inquisitor. My priestesses heal anyone who comes to them. You burn anyone who comes to you.
+> whitemane: Your priestesses have never watched a patient rise from the bed and eat the nurse, night elf.
+
 @ trigger=quest_accept
 "%quest". Very well. Elune's light goes with us.
 Someone needs help. That is why we walk the world.

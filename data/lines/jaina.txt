@@ -179,6 +179,10 @@ Thrall, Theramore's harvest came in well. I'll send some of it to Orgrimmar, if 
 Illidan, you saved Dalaran's magic once, in your way, and nearly destroyed the world doing it.
 > illidan: Nearly, Proudmoore, is the important word. You of all people should know how much good can come of nearly.
 
+@ trigger=idle with=paletress
+Confessor, I've been told you see straight through people. It's very unsettling.
+> paletress: Only the ones who want to be seen, Lady Proudmoore. You'd be surprised how many do.
+
 @ trigger=quest_accept
 "%quest". All right. Let's see what we can do.
 Someone needs help. That's reason enough.

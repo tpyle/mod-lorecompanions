@@ -142,6 +142,10 @@ Warchief, the Blood Knights stand with the Horde in Northrend. As promised.
 Kael'thas trusted you, Illidan. He gave you everything. And you led him to the Legion.
 > illidan: Kael'thas went to the Legion all by himself, Matriarch. I only held the door. He was always very eager to walk through doors.
 
+@ trigger=idle with=paletress
+Confessor. You never once asked me about M'uru, at the tournament. Everyone else does.
+> paletress: You'd already confessed it to yourself, Matriarch. Many times. I didn't think you needed to do it again for me.
+
 @ trigger=quest_accept
 "%quest". Very well. I'll take point.
 Someone asked for help. The Blood Knights answer. So do I.

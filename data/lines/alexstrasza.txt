@@ -136,6 +136,10 @@ Thrall. The earth speaks to you more loudly than it should. Something stirs bene
 Illidan. Your brother still dreams of you, in Ysera's realm. Not kindly, but often.
 > illidan: My brother has always found me easier to love when I was not in the room.
 
+@ trigger=idle with=whitemane
+So much fire in you, child, and none of it for warmth.
+> whitemane: Warmth is for those who can afford it, dragon. The plague took that from me.
+
 @ trigger=quest_accept
 "%quest". Very well. I will lend my fire to it.
 Someone is in need. That is reason enough for a dragon, too.

@@ -1,9 +1,10 @@
 /*
  * mod-lorecompanions - lore characters as party companions
  *
- * Jaina, Sylvanas, Alexstrasza, Moira, Liadrin, Tyrande, Arthas, Thrall and
- * Illidan (and whoever else is added to the `lore_companion` table) are real
- * characters on a hidden account that this module owns. ".companion summon jaina" logs one in as a mod-playerbots alt
+ * Jaina, Sylvanas, Alexstrasza, Moira, Liadrin, Tyrande, Arthas, Thrall,
+ * Illidan, Whitemane and Paletress (and whoever else is added to the
+ * `lore_companion` table) are real characters on a hidden account that this
+ * module owns. ".companion summon jaina" logs one in as a mod-playerbots alt
  * bot whose master is the summoner, so she joins the summoner's party and
  * fights, follows and loots the way any alt bot does. Nothing else ever logs
  * them in: they are not random bots, so they never wander the world on their

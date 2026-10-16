@@ -127,6 +127,10 @@ Prince. Look at you. Golden hair. Holy hammer. Do you know what you become?
 Warchief. You drank no demon's blood, and yet you lead the people who did. Clever.
 > thrall: Not clever, Illidan. Stubborn. The blood is in our past. We choose what is in our future.
 
+@ trigger=idle with=whitemane
+Priestess. Your Grand Crusader. Have you ever looked at him with true sight?
+> whitemane: I do not need demon eyes to see a holy man, Betrayer.
+
 @ trigger=quest_accept
 "%quest". Trivial. Very well.
 You need my glaives for this? Fine.

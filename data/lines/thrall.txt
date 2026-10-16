@@ -134,6 +134,10 @@ Prince Arthas. I was a slave of your people, in Durnholde. I did not think I wou
 Illidan Stormrage. You drank the blood of demons, as my people did. Do you regret it?
 > illidan: Regret? I chose it, orc. Your people were tricked. That is the difference between us, and it is everything.
 
+@ trigger=idle with=whitemane
+Inquisitor. Your Crusade kills orcs on sight.
+> whitemane: My Crusade kills the plague on sight, orc. You simply have not yet proven you are not carrying it.
+
 @ trigger=quest_accept
 "%quest". Very well. We will do this with honour.
 Someone has asked for help. Then they have it.

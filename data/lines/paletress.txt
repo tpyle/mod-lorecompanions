@@ -1,0 +1,194 @@
+# Argent Confessor Paletress - holy priest. A priestess of the Argent
+# Crusade, one of Tirion Fordring's champions at the Argent Tournament in
+# Icecrown, where she tests challengers by calling up the memories of the
+# foes they have faced. Gentle, perceptive and unafraid, she listens far
+# more than she speaks, and when she speaks she tends to see straight
+# through people. She believes in redemption, sometimes more than the
+# people she believes it for. Her tournament line: "Take this time to
+# consider your past deeds."
+
+@ trigger=summon
+Argent Confessor Paletress, at your side. Tell me, %summoner, what brings you to call on a priestess?
+I am here. The Crusade can spare me a little while. Lord Fordring insisted, actually.
+You called, and I have come. Let us see what the road teaches us.
+Lead on. And if ever you need to unburden yourself, I am a very good listener.
+Hello, %summoner. I sense you have a story. I hope you'll tell it to me along the way.
+
+@ trigger=summon side=horde
+The Horde. Good. The Argent Crusade has room for everyone who fights the Scourge. Everyone.
+
+@ trigger=summon where=icecrown,argent_tournament,crusaders_pinnacle,trial_of_the_champion
+You summon me from the tournament grounds? I hope the jousting can do without me. It usually can.
+
+@ trigger=dismiss
+I must return to the tournament. Take care of yourself, %summoner. In every sense.
+Farewell. Remember: no memory is so dark it cannot be faced.
+The Crusade calls. Go with the Light, and with my blessing.
+Goodbye, for now. Thank you for letting me walk with you.
+
+@ trigger=zone_enter where=argent_tournament,trial_of_the_champion,crusaders_pinnacle
+The Argent Tournament. Lord Fordring built it to find champions worthy of Icecrown. Mostly it finds people who are very good at falling off horses.
+The Coliseum. I test the champions here. I show them their memories. Many of them do not enjoy it.
+
+@ trigger=zone_enter where=icecrown,icecrown_citadel
+Icecrown. So much grief in one place. I can feel it, like a weight on my chest.
+The Citadel. Every soul inside is someone's son or daughter. I try to remember that, even when they're trying to kill me.
+
+@ trigger=zone_enter where=lights_hope,eastern_plaguelands
+Light's Hope. Where the Argent Dawn became the Argent Crusade. Where Tirion took up the Ashbringer. Holy ground, in its way.
+
+@ trigger=zone_enter where=scarlet_monastery,tyrs_hand,hearthglen,new_hearthglen
+The Scarlet Crusade. They began as we did, wanting only to fight the plague. Somewhere they forgot the rest. It frightens me how easily it happens.
+
+@ trigger=zone_enter where=dalaran
+Dalaran. The Silver Covenant and the Sunreavers. So much quarrelling over who gets to stand closest to the fight.
+
+@ trigger=zone_enter where=stratholme,stratholme_city,culling_of_stratholme
+Stratholme. I don't think I need to say anything. Let's just walk quietly through here.
+
+@ trigger=zone_enter where=undercity
+The Undercity. The Forsaken have their own priests, you know. Their own confessions. I've heard a few. They are not so different from ours.
+
+@ trigger=zone_enter where=stormwind,ironforge,orgrimmar,thunder_bluff,darnassus,silvermoon
+%zone. So many people, so many stories. I could listen here for years.
+
+@ trigger=zone_enter
+%zone. Let's see what memories it holds.
+%zone. Every place has its own history. Most of it unwritten.
+Somewhere new. I like new places. They have no expectations of you.
+
+@ trigger=idle
+Take this time to consider your past deeds, %summoner. Not to punish yourself. Just to see them.
+Everyone has a memory they'd rather not face. I've seen thousands of them. I've never once seen one that couldn't be faced.
+Lord Fordring was exiled for defending an orc. That's the kind of man the Crusade follows. I'm proud of that.
+The Ebon Blade fight beside us now. Death knights, risen by the Lich King, turned against him. If they can be redeemed, anyone can.
+I was a parish priestess once, in a village you won't have heard of. It's gone now. I carry it with me.
+Hogger. Every champion who faces my test remembers Hogger. It's always Hogger. I don't know why that pleases me so much.
+You're carrying something heavy, %summoner. You don't have to tell me what. Just know I've noticed.
+Forgiveness isn't for the one who did wrong. Not mostly. It's for the one who has to keep living.
+Rest. I'll keep watch. Confessors are used to staying up late.
+The Light doesn't need us to be perfect. It needs us to keep trying.
+I think the bravest thing anyone can do is change their mind.
+
+@ trigger=idle where=icecrown,zuldrak,storm_peaks,dragonblight,borean,howling_fjord,grizzly_hills,crystalsong,sholazar
+Northrend is so cold. And yet people come here, from every land, to fight for strangers. That warms me.
+
+@ trigger=idle with=jaina
+Lady Proudmoore. You carry Arthas with you everywhere, don't you?
+> jaina: Is it that obvious, Confessor? ...Yes. Every day. I don't know how to put him down.
+
+@ trigger=idle with=sylvanas
+Lady Sylvanas. Would you ever confess anything to me?
+> sylvanas: My sins are my own, priestess. I keep them close. They keep me warm.
+
+@ trigger=idle with=alexstrasza
+Life-Binder. What does a dragon confess?
+> alexstrasza: That I have outlived too many I loved, child, and still love too easily. I would not change it.
+
+@ trigger=idle with=moira
+Princess. Your father misses you. You can see it, when he thinks no one's looking.
+> moira: ...You've met him, then. Don't tell him I asked how he was. I didn't ask.
+
+@ trigger=idle with=liadrin
+Matriarch. Your Blood Knights are some of the finest at the tournament.
+> liadrin: They had better be, Confessor. I trained them. And I am not gentle about it.
+
+@ trigger=idle with=tyrande
+High Priestess. Does Elune ever answer you in words?
+> tyrande: Rarely, Paletress. But when she is silent, I find I listen better. Perhaps that is the answer.
+
+@ trigger=idle with=arthas
+Prince Arthas. You're kind, you know. Underneath the hurry. I can see it.
+> arthas: Thank you, Confessor. ...Will it be enough? Will kindness be enough?
+
+@ trigger=idle with=arthas
+Is there anything you'd like to confess, Arthas?
+> arthas: That I'm frightened. Of what I'll become. I've never said that out loud before.
+
+@ trigger=idle with=thrall
+Warchief. The Crusade owes a great deal to your people. Saurfang's son died at the Wrathgate.
+> thrall: Dranosh died a hero, Confessor. His father carries it. I carry it too. Thank you for remembering him.
+
+@ trigger=idle with=illidan
+Illidan Stormrage. Would you like to confess?
+> illidan: To what, priestess? I have done everything I ever meant to do. That is my sin. I do not intend to be absolved of it.
+
+@ trigger=idle with=whitemane
+Sally. You can rest, you know. Just for a moment. The plague will still be there when you wake.
+> whitemane: That is exactly why I cannot, Confessor. And do not call me Sally.
+
+@ trigger=quest_accept
+"%quest". Let's help, then.
+Someone needs us. That is reason enough.
+"%quest". I'll be right behind you.
+A worthy task. Lead on.
+
+@ trigger=quest_complete
+There. Someone will sleep better tonight.
+Well done. Truly.
+It's done. The Light smiles on it.
+Good work, %summoner. I'm glad I was here for it.
+
+@ trigger=combat_start rank=normal
+Light, guide my hand.
+Stand fast, I'm with you.
+I will not let you fall.
+Forgive me for this.
+
+@ trigger=combat_start rank=notable
+%target. Even the strongest have their weakness. Let's find it.
+Take this time to consider your past deeds, %target.
+Stay close, everyone. I'll keep you standing.
+
+@ trigger=combat_start ctype=undead
+Poor souls. Let us set you free.
+The Scourge. I'm sorry for what was done to you.
+
+@ trigger=combat_start ctype=demon
+Demon. You have no memories worth keeping. Only hunger.
+
+@ trigger=combat_start foe=the_black_knight
+The Black Knight. You disgraced the tournament. Face the Light.
+
+@ trigger=combat_start foe=memory_of_hogger,memory_of_vancleef,memory_of_archimonde,memory_of_illidan
+A memory. Face it. It cannot hurt you more than you let it.
+
+@ trigger=combat_start foe=the_lich_king
+Lich King. I have heard so many confessions of what you've done. Now I will hear your end.
+
+@ trigger=kill rank=normal
+Rest.
+Be at peace.
+Go to the Light.
+
+@ trigger=kill rank=notable
+%target is gone. Breathe, all of you.
+It's over. Well done.
+Even the darkest memory fades when confronted.
+
+@ trigger=kill ctype=undead
+Go in peace. You're free now.
+
+@ trigger=kill foe=the_lich_king
+It's done. Everyone he took... I pray they're finally free.
+
+@ trigger=death
+Even the darkest memory... fades...
+Light... forgive...
+I'm sorry...
+
+@ trigger=revived
+Thank you. I'm not ready to stop listening yet.
+Back again. The Light is kind.
+I'm well. Let's continue.
+
+@ trigger=ally_down
+%other! Hold on, I'm coming!
+%other is down! Light, hear me!
+Stay with me, %other. Please.
+
+@ trigger=grow_stronger
+The Light flows more easily now. I can feel it in my hands.
+I'm stronger. Good. More of you will walk away from each fight.
+My prayers carry further. I'm grateful.
+I feel it. The Light, closer than before. Like an old friend.

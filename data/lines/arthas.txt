@@ -139,6 +139,14 @@ I don't know you, demon. Why do you keep smirking at me?
 Stay away from me with that fel stink. I am a paladin of the Silver Hand.
 > illidan: For now, little prince. You will make bargains far worse than mine. And you will not even have the decency to win them.
 
+@ trigger=idle with=whitemane
+Inquisitor, the Scarlet Crusade. I've never heard of it. Is it new?
+> whitemane: It was founded after Lordaeron fell, my prince. After... after what you did. Please. Do not ask me more.
+
+@ trigger=idle with=paletress
+Confessor, can a man be forgiven for something he hasn't done yet?
+> paletress: I think, Arthas, that he can be forgiven for being afraid of it. Start there.
+
 @ trigger=quest_accept
 "%quest". Right. Let's go.
 Someone needs help? Then they'll have it.

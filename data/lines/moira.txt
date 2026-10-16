@@ -149,6 +149,10 @@ Warchief, your people and mine were both used by something that should have stay
 You've a lot of horns for an elf, Stormrage.
 > illidan: And you have a lot of opinions for a dwarf, Princess. We are both overcompensating.
 
+@ trigger=idle with=paletress
+Confessor, if I confessed half of what goes on in Shadowforge, you'd need a longer shift.
+> paletress: I have time, Princess. I always seem to have time for the interesting ones.
+
 @ trigger=quest_accept
 "%quest". Fine. Let's get it done before someone writes a song about it.
 Someone wants a favour. Someone always does. Lead on.

@@ -2,8 +2,9 @@
 
 Lore characters as party companions: Lady Jaina Proudmoore, Lady Sylvanas
 Windrunner, Alexstrasza the Life-Binder, Princess Moira Bronzebeard, Lady
-Liadrin, Tyrande Whisperwind, Prince Arthas Menethil, Thrall and Illidan
-Stormrage join your party as
+Liadrin, Tyrande Whisperwind, Prince Arthas Menethil, Thrall, Illidan
+Stormrage, High Inquisitor Whitemane and Argent Confessor Paletress join your
+party as
 [mod-playerbots](https://github.com/liyunfan1223/mod-playerbots) bots, wear
 their own in-game models, stay at your party leader's level, and speak in
 their own voices.
@@ -25,6 +26,8 @@ their own voices.
 | Arthas | retribution paladin | 24949, the prince at the Culling of Stratholme | human |
 | Thrall | enhancement shaman | 4527, the Warchief in Orgrimmar, at 0.9 scale | orc |
 | Illidan | combat rogue | 21135, the Betrayer of the Black Temple, at 0.35 scale | night elf |
+| Whitemane | discipline priest | 2043, the High Inquisitor in the Scarlet Monastery, at 0.85 scale | human |
+| Paletress | holy priest | 29083, the Argent Confessor at the tournament | human |
 
 Arthas is the prince before his fall, and Illidan is the Illidan of the
 Black Temple before it fell. Both were brought out of their own time by the
@@ -147,7 +150,7 @@ generator and restart. The character is created on the next startup.
   nothing, and a companion keeps her race's side.
 - A realm that allows the race and class pairs above (Forsaken hunter, blood
   elf mage, blood elf paladin, dwarf priest, night elf priest, human paladin,
-  orc shaman, night elf rogue).
+  orc shaman, night elf rogue, human priest).
 - `AllowTwoSide.Interaction.Group = 1` if companions are to join parties of
   the other faction.
 
