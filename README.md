@@ -140,9 +140,12 @@ are usually mixed-faction.
 | `idle` | out of combat, every `IdleMin`-`IdleMaxSeconds` | `Chance.Idle` |
 
 `CooldownSeconds` paces each companion. `GroupGapSeconds` keeps a party's
-companions from talking over one another. A line may carry a reply from
-another companion, delivered `ReplyDelayMs` later; that is how the companions
-talk to each other.
+companions from talking over one another. A line may open a conversation:
+replies from the other companions, or from the opener again, each one
+`ReplyDelayMs` plus `ReplyDelayPerCharMs` for every character of the line
+before it. That is how the companions talk to each other. Nobody else speaks
+over a conversation, and if one of its speakers leaves, the rest of it is
+dropped.
 
 ## The lines
 
@@ -151,6 +154,7 @@ The lines are written in `data/lines/<companion>.txt`, and
 of the script, into `data/sql/db-world/base/lore_companion.sql`. The core's
 updater applies that file at startup whenever its hash changes. To publish
 lines without a restart, apply the file by hand and run `.companion reload`.
+[`wiki/lore/`](wiki/lore/README.md) is the reference for writing them.
 
     @ trigger=zone_enter where=undercity
     Undercity. Terenas's crypts, now my halls. I find the irony sustains me.
@@ -158,6 +162,23 @@ lines without a restart, apply the file by hand and run `.companion reload`.
     @ trigger=idle with=jaina
     Is it true you walked away from him at Stratholme, Proudmoore?
     > jaina: Yes. And I've regretted it, and been glad of it, every day since.
+    > sylvanas: Both. How very human of you.
+    > arthas: She was right to go.
+
+A `> companion:` line is a reply. Up to eight can follow a line, in order;
+nobody answers herself, and a conversation is only started when everyone in
+it is in the party, so a third speaker needs no `with=` of her own.
+
+Conversations can also live in `data/lines/conversations/`, one file per pair
+or trio (`arthas_jaina.txt`), where each line names its opener the way a reply
+names its speaker, without the `>`:
+
+    @ trigger=zone_enter where=stratholme
+    jaina: Arthas. Don't.
+    > arthas: You don't know what I'm going to say.
+    > jaina: I know exactly what you're going to say.
+
+A line is at most 255 bytes, the most a chat message can carry.
 
 Filters: `where=` (named places, matched against zone and area), `foe=`
 (creature names), `ctype=` (creature type), `rank=normal|notable`,
@@ -188,6 +209,14 @@ generator and restart. The character is created on the next startup.
   orc shaman, night elf rogue, human priest).
 - `AllowTwoSide.Interaction.Group = 1` if companions are to join parties of
   the other faction.
+
+## Tests
+
+    python3 -m unittest discover -s tests     # the line-file parser
+    g++ -std=c++17 -Isrc tests/conversation_test.cpp -o /tmp/t && /tmp/t
+
+The C++ test needs only the standard library; see the top of
+`tests/conversation_test.cpp` for running it in a container.
 
 ## Licence
 

@@ -28,8 +28,9 @@
  *   voice  - her lines come from `lore_companion_text`, written for her and
  *            nobody else, keyed by trigger and filtered by place, foe, creature
  *            type, which side she is fighting for and which other companions
- *            are present. A line can carry a reply from another companion,
- *            which is how two of them talk to each other.
+ *            are present. A line can open a conversation: replies, in
+ *            order, from the other companions or from her again, which is
+ *            how they talk to each other (see LC_conversation.h).
  *
  * Threading: script hooks can fire on map worker threads, so they only push
  * events onto a locked queue. Everything that touches a companion - speaking,
@@ -64,6 +65,8 @@
 #include "Tokenize.h"
 #include "World.h"
 #include "WorldSession.h"
+
+#include "LC_conversation.h"
 
 #include "PlayerbotAI.h"
 #include "PlayerbotAIConfig.h"
@@ -134,6 +137,7 @@ namespace
         uint32      IdleMinSeconds     = 240;
         uint32      IdleMaxSeconds     = 480;
         uint32      ReplyDelayMs       = 3500;
+        uint32      ReplyDelayPerCharMs = 20;
         uint32      QuestRangeYards    = 80;
 
         uint32 ChanceZoneEnter     = 60;
@@ -184,8 +188,7 @@ namespace
         int8 rank = RANK_ANY;
         int8 side = -1;                     // TeamId the companion fights for
         std::string with;                   // another companion who must be present
-        std::string replyBy;
-        std::string replyText;
+        std::vector<LoreCompanions::Reply> replies;     // the conversation this line opens, in order
         uint8 channel = CHANNEL_SAY;
         uint32 weight = 1;
     };
@@ -247,6 +250,7 @@ namespace
 
     struct PendingReply
     {
+        uint32 conversation = 0;    // replies of one conversation share this
         ObjectGuid speaker;
         std::string text;
         uint8 channel = CHANNEL_SAY;
@@ -263,7 +267,8 @@ namespace
     // World thread only.
     std::unordered_map<ObjectGuid, Active> active;
     std::unordered_map<ObjectGuid, time_t> groupLastLine;   // keyed by master
-    std::vector<PendingReply> replies;
+    std::vector<PendingReply> pendingReplies;
+    uint32 nextConversation = 1;
     uint32 maintainTimer = 0;
 
     std::mutex eventLock;
@@ -311,6 +316,7 @@ namespace
         cfg.IdleMinSeconds     = sConfigMgr->GetOption<uint32>("LoreCompanions.IdleMinSeconds", 240);
         cfg.IdleMaxSeconds     = std::max(cfg.IdleMinSeconds, sConfigMgr->GetOption<uint32>("LoreCompanions.IdleMaxSeconds", 480));
         cfg.ReplyDelayMs       = sConfigMgr->GetOption<uint32>("LoreCompanions.ReplyDelayMs", 3500);
+        cfg.ReplyDelayPerCharMs = sConfigMgr->GetOption<uint32>("LoreCompanions.ReplyDelayPerCharMs", 20);
         cfg.QuestRangeYards    = sConfigMgr->GetOption<uint32>("LoreCompanions.QuestRangeYards", 80);
 
         cfg.ChanceZoneEnter     = sConfigMgr->GetOption<uint32>("LoreCompanions.Chance.ZoneEnter", 60);
@@ -392,9 +398,20 @@ namespace
     {
         lines.clear();
 
+        std::unordered_map<uint32, std::vector<LoreCompanions::Reply>> repliesByLine;
+        if (QueryResult replies = WorldDatabase.Query(
+            "SELECT TextId, Speaker, Text FROM lore_companion_reply ORDER BY TextId, Seq"))
+        {
+            do
+            {
+                Field* fields = replies->Fetch();
+                repliesByLine[fields[0].Get<uint32>()].push_back({ Lower(fields[1].Get<std::string>()), fields[2].Get<std::string>() });
+            } while (replies->NextRow());
+        }
+
         QueryResult result = WorldDatabase.Query(
             "SELECT Id, Companion, `Trigger`, Text, Places, CreatureTypes, Foes, `Rank`, Side, `With`, "
-            "ReplyBy, ReplyText, Channel, Weight FROM lore_companion_text");
+            "Channel, Weight FROM lore_companion_text");
         if (!result)
         {
             LOG_ERROR("module", "mod-lorecompanions: lore_companion_text is empty or missing");
@@ -417,10 +434,12 @@ namespace
             line.rank          = fields[7].Get<int8>();
             line.side          = fields[8].Get<int8>();
             line.with          = Lower(fields[9].Get<std::string>());
-            line.replyBy       = Lower(fields[10].Get<std::string>());
-            line.replyText     = fields[11].Get<std::string>();
-            line.channel       = fields[12].Get<uint8>();
-            line.weight        = std::max<uint32>(fields[13].Get<uint32>(), 1);
+            line.channel       = fields[10].Get<uint8>();
+            line.weight        = std::max<uint32>(fields[11].Get<uint32>(), 1);
+
+            auto const conversation = repliesByLine.find(line.id);
+            if (conversation != repliesByLine.end())
+                line.replies = std::move(conversation->second);
 
             lines[companion + "/" + trigger].push_back(std::move(line));
             ++count;
@@ -976,10 +995,15 @@ namespace
                 score *= 4;
             }
 
-            // A reply needs its speaker in the party, or the line is left
-            // hanging.
-            if (!line.replyBy.empty() && !present.count(line.replyBy))
+            // Everyone in the conversation must be in the party, or it is
+            // left hanging.
+            std::vector<std::string> const speakers = LoreCompanions::OtherSpeakers(defs[state.def].id, line.replies);
+            if (std::any_of(speakers.begin(), speakers.end(), [&present](std::string const& id) { return !present.count(id); }))
                 continue;
+
+            // A conversation is about its company, as much as a with= line is.
+            if (line.with.empty() && !speakers.empty())
+                score *= 4;
 
             bool const recent = std::find(state.recent.begin(), state.recent.end(), line.id) != state.recent.end();
             anyFresh |= !recent;
@@ -1073,6 +1097,61 @@ namespace
         }
     }
 
+    // Queues the replies of the conversation `line` opens, each spoken by
+    // her companion of that id in the same party. Nobody else may speak
+    // over it until the last reply is out.
+    void Converse(Active const& opener, Player* bot, Line const& line, Context const& context, Player* master, time_t now)
+    {
+        std::string const openerId = defs[opener.def].id;
+        std::unordered_map<std::string, std::pair<ObjectGuid, Player*>> speakers;
+        speakers[openerId] = { bot->GetGUID(), bot };
+
+        Group* group = bot->GetGroup();
+        for (std::string const& id : LoreCompanions::OtherSpeakers(openerId, line.replies))
+        {
+            for (auto& [guid, other] : active)
+            {
+                if (defs[other.def].id != id || other.stage != Stage::Ready || !group || !group->IsMember(guid))
+                    continue;
+                if (Player* player = ObjectAccessor::FindConnectedPlayer(guid))
+                    speakers[id] = { guid, player };
+                break;
+            }
+            if (!speakers.count(id))
+                return;     // PickLine saw her a moment ago; she is gone now
+        }
+
+        uint64 const nowMs = GameTime::GetGameTimeMS().count();
+        std::vector<uint64> const due = LoreCompanions::ReplyTimes(line.text, line.replies, nowMs,
+            cfg.ReplyDelayMs, cfg.ReplyDelayPerCharMs);
+
+        uint32 const conversation = nextConversation++;
+        for (size_t i = 0; i < line.replies.size(); ++i)
+        {
+            auto const& [guid, player] = speakers[line.replies[i].speaker];
+            PendingReply reply;
+            reply.conversation = conversation;
+            reply.speaker = guid;
+            reply.text = Substitute(line.replies[i].text, player, context, master);
+            reply.channel = line.channel == CHANNEL_EMOTE ? CHANNEL_SAY : line.channel;
+            reply.dueMs = due[i];
+            pendingReplies.push_back(std::move(reply));
+        }
+
+        // They spoke too.
+        for (auto const& [id, speaker] : speakers)
+        {
+            auto const it = active.find(speaker.first);
+            if (it == active.end() || id == openerId)
+                continue;
+            it->second.recent.push_back(line.id);
+            while (it->second.recent.size() > 8)
+                it->second.recent.pop_front();
+        }
+
+        groupLastLine[opener.master] = now + time_t((due.back() - nowMs) / IN_MILLISECONDS);
+    }
+
     // `forced` skips the chance roll and both cooldowns: a summon, a goodbye
     // or a test is never something to roll for.
     bool Speak(ObjectGuid guid, std::string const& trigger, Context const& context, bool forced = false)
@@ -1113,30 +1192,8 @@ namespace
             state.recent.pop_front();
         groupLastLine[state.master] = now;
 
-        if (!line->replyBy.empty())
-        {
-            for (auto& [otherGuid, other] : active)
-            {
-                if (defs[other.def].id != line->replyBy || other.stage != Stage::Ready)
-                    continue;
-
-                Player* replier = ObjectAccessor::FindConnectedPlayer(otherGuid);
-                if (!replier)
-                    break;
-
-                PendingReply reply;
-                reply.speaker = otherGuid;
-                reply.text = Substitute(line->replyText, replier, context, master);
-                reply.channel = line->channel == CHANNEL_EMOTE ? CHANNEL_SAY : line->channel;
-                reply.dueMs = GameTime::GetGameTimeMS().count() + cfg.ReplyDelayMs;
-                replies.push_back(std::move(reply));
-
-                // She spoke too; nobody else should cut in.
-                other.recent.push_back(line->id);
-                groupLastLine[state.master] = now + cfg.ReplyDelayMs / IN_MILLISECONDS;
-                break;
-            }
-        }
+        if (!line->replies.empty())
+            Converse(state, bot, *line, context, master, now);
 
         LOG_DEBUG("module", "mod-lorecompanions: {} said line {} for {}", bot->GetName(), line->id, trigger);
         return true;
@@ -1567,26 +1624,43 @@ namespace
         }
     }
 
+    // Speaks every reply that is due. A conversation whose next speaker has
+    // gone (logged out, dismissed) is dropped from there on, so nobody
+    // answers a question that was never asked.
     void DeliverReplies()
     {
-        if (replies.empty())
+        if (pendingReplies.empty())
             return;
 
         uint64 const nowMs = GameTime::GetGameTimeMS().count();
-        for (auto it = replies.begin(); it != replies.end();)
+        std::unordered_set<uint32> broken;
+        for (auto it = pendingReplies.begin(); it != pendingReplies.end();)
         {
+            if (broken.count(it->conversation))
+            {
+                it = pendingReplies.erase(it);
+                continue;
+            }
+
             if (it->dueMs > nowMs)
             {
                 ++it;
                 continue;
             }
 
-            if (Player* bot = ObjectAccessor::FindConnectedPlayer(it->speaker))
-                if (bot->IsInWorld() && active.count(it->speaker))
-                    Emit(bot, it->channel, it->text);
+            Player* bot = ObjectAccessor::FindConnectedPlayer(it->speaker);
+            if (bot && bot->IsInWorld() && active.count(it->speaker))
+                Emit(bot, it->channel, it->text);
+            else
+                broken.insert(it->conversation);
 
-            it = replies.erase(it);
+            it = pendingReplies.erase(it);
         }
+
+        if (!broken.empty())
+            pendingReplies.erase(std::remove_if(pendingReplies.begin(), pendingReplies.end(),
+                [&broken](PendingReply const& reply) { return broken.count(reply.conversation) > 0; }),
+                pendingReplies.end());
     }
 
     void Push(LoreEvent event)

@@ -21,6 +21,26 @@ holds Jaina's lines - and reads like this:
     Jaina says this, only when Sylvanas is in the party...
     > sylvanas: ...and Sylvanas answers it a few seconds later.
 
+    @ trigger=idle with=arthas
+    A line can open a conversation of up to MAX_REPLIES replies...
+    > arthas: ...each spoken by the companion named, in order...
+    > jaina: ...who may be the opener again...
+    > sylvanas: ...or a third companion.
+
+A conversation is only started when everyone who speaks in it is in the
+party. The replies come straight after the line they follow; a speaker never
+answers herself, and with=, if given, names one of the speakers.
+
+Conversations can also be kept together, away from any one companion's
+file, in data/lines/conversations/ - one file per pair or trio by
+convention, e.g. conversations/arthas_jaina.txt. There every line names its
+opener the way a reply names its speaker, only without the '>':
+
+    @ trigger=zone_enter where=stratholme
+    jaina: Arthas. Don't.
+    > arthas: You don't know what I'm going to say.
+    > jaina: I know exactly what you're going to say.
+
 Filters (all optional except trigger; a bad value stops the build):
 
     trigger=  summon dismiss zone_enter quest_accept quest_complete combat_start
@@ -211,11 +231,26 @@ def look(companion):
     return " ".join(f"{SLOTS[slot]}:{entry}" for slot, entry in sorted(outfit.items(), key=lambda kv: SLOTS[kv[0]]))
 
 
+# The most replies one line may carry; a longer exchange is a scene, not a
+# conversation on the road.
+MAX_REPLIES = 8
+
+
+class LineError(ValueError):
+    """A line file that cannot be built, with the file name and line number."""
+
+
 def fail(path, number, message):
-    sys.exit(f"{path.name}:{number}: {message}")
+    raise LineError(f"{path.name}:{number}: {message}")
+
+
+# A chat message longer than this is cut off by the client.
+MAX_BYTES = 255
 
 
 def check_text(path, number, text):
+    if len(text.encode("utf-8")) > MAX_BYTES:
+        fail(path, number, f"a line is at most {MAX_BYTES} bytes")
     if "%level" in text:
         fail(path, number, "%level is not allowed - a companion never states a level as a number")
     for token in re.findall(r"%[a-z_]+", text):
@@ -276,39 +311,73 @@ def parse_header(path, number, text):
     return filters
 
 
+def parse_lines(path, companion, text):
+    """
+    Parse one line file's text, spoken by `companion`, into rows: one per
+    line, each with its header's filters and its conversation as a list of
+    (speaker, text) replies. With `companion` None it is a conversations
+    file, where each line names its opener as "who: text".
+    `path` only names the file in errors. Raises LineError at the first problem.
+    """
+    rows = []
+    filters = None
+    open_row = None     # the row a "> reply" would continue
+    for number, raw in enumerate(text.splitlines(), 1):
+        text = raw.strip()
+        if not text or text.startswith("#"):
+            continue
+        if text.startswith("@"):
+            filters = parse_header(path, number, text)
+            open_row = None
+            continue
+        if filters is None:
+            fail(path, number, "a line before any @ header")
+        if text.startswith(">"):
+            match = re.match(r">\s*([a-z]+)\s*:\s*(.+)", text)
+            if not match:
+                fail(path, number, "a reply is written '> companion: text'")
+            who, reply = match.groups()
+            if open_row is None:
+                fail(path, number, "a reply must follow the line it answers")
+            if who not in COMPANION_IDS:
+                fail(path, number, f"no companion called {who!r}")
+            previous = open_row["replies"][-1][0] if open_row["replies"] else open_row["companion"]
+            if who == previous:
+                fail(path, number, f"{who} cannot answer herself")
+            if len(open_row["replies"]) == MAX_REPLIES:
+                fail(path, number, f"a line carries at most {MAX_REPLIES} replies")
+            check_text(path, number, reply)
+            open_row["replies"].append((who, reply))
+            continue
+        opener = companion
+        if opener is None:
+            match = re.match(r"([a-z]+)\s*:\s*(.+)", text)
+            if not match:
+                fail(path, number, "a line here is written 'companion: text'")
+            opener, text = match.groups()
+            if opener not in COMPANION_IDS:
+                fail(path, number, f"no companion called {opener!r}")
+        check_text(path, number, text)
+        open_row = dict(filters, companion=opener, text=text, replies=[])
+        rows.append(open_row)
+
+    for row in rows:
+        speakers = {who for who, _ in row["replies"]}
+        if row["with"] and row["replies"] and row["with"] not in speakers:
+            raise LineError(f"{path.name}: the header says with={row['with']}, but {row['with']} "
+                            f"does not speak in the conversation that opens {row['text'][:40]!r}")
+    return rows
+
+
 def load():
     rows = []
     for path in sorted(LINES.glob("*.txt")):
         companion = path.stem
         if companion not in COMPANION_IDS:
-            sys.exit(f"{path.name}: no companion called {companion!r}")
-        filters = None
-        for number, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
-            text = raw.strip()
-            if not text or text.startswith("#"):
-                continue
-            if text.startswith("@"):
-                filters = parse_header(path, number, text)
-                continue
-            if filters is None:
-                fail(path, number, "a line before any @ header")
-            if text.startswith(">"):
-                match = re.match(r">\s*([a-z]+)\s*:\s*(.+)", text)
-                if not match:
-                    fail(path, number, "a reply is written '> companion: text'")
-                who, reply = match.groups()
-                if who not in COMPANION_IDS or who == companion:
-                    fail(path, number, f"{who!r} cannot reply here")
-                if not rows or rows[-1]["companion"] != companion or rows[-1]["reply_by"]:
-                    fail(path, number, "a reply must follow the line it answers")
-                if filters["with"] and filters["with"] != who:
-                    fail(path, number, f"the header says with={filters['with']}, but {who} replies")
-                check_text(path, number, reply)
-                rows[-1]["reply_by"] = who
-                rows[-1]["reply_text"] = reply
-                continue
-            check_text(path, number, text)
-            rows.append(dict(filters, companion=companion, text=text, reply_by="", reply_text=""))
+            raise LineError(f"{path.name}: no companion called {companion!r}")
+        rows.extend(parse_lines(path, companion, path.read_text(encoding="utf-8")))
+    for path in sorted((LINES / "conversations").glob("*.txt")):
+        rows.extend(parse_lines(path, None, path.read_text(encoding="utf-8")))
     return rows
 
 
@@ -319,7 +388,10 @@ def sql(value):
 
 
 def main():
-    rows = load()
+    try:
+        rows = load()
+    except LineError as error:
+        sys.exit(str(error))
     out = [
         "-- ---------------------------------------------------------------------------",
         "-- mod-lorecompanions: who the companions are, and everything they say.",
@@ -364,8 +436,6 @@ def main():
         "  `Rank` TINYINT NOT NULL DEFAULT -1 COMMENT '-1 any, 0 normal, 1 elite/rare/boss',",
         "  `Side` TINYINT NOT NULL DEFAULT -1 COMMENT '-1 any, 0 Alliance, 1 Horde',",
         "  `With` VARCHAR(32) NOT NULL DEFAULT '' COMMENT 'companion who must be present',",
-        "  `ReplyBy` VARCHAR(32) NOT NULL DEFAULT '',",
-        "  `ReplyText` TEXT NOT NULL,",
         "  `Channel` TINYINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '0 say, 1 emote, 2 party, 3 yell',",
         "  `Weight` INT UNSIGNED NOT NULL DEFAULT 1,",
         "  PRIMARY KEY (`Id`),",
@@ -373,16 +443,34 @@ def main():
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;",
         "",
     ]
-    columns = "(`Companion`, `Trigger`, `Text`, `Places`, `CreatureTypes`, `Foes`, `Rank`, `Side`, `With`, `ReplyBy`, `ReplyText`, `Channel`, `Weight`)"
-    for start in range(0, len(rows), 200):
-        chunk = rows[start:start + 200]
+    out += [
+        "DROP TABLE IF EXISTS `lore_companion_reply`;",
+        "CREATE TABLE `lore_companion_reply` (",
+        "  `TextId` INT UNSIGNED NOT NULL COMMENT 'the lore_companion_text line this conversation follows',",
+        "  `Seq` TINYINT UNSIGNED NOT NULL COMMENT 'order within the conversation, from 1',",
+        "  `Speaker` VARCHAR(32) NOT NULL COMMENT 'lore_companion.Id',",
+        "  `Text` TEXT NOT NULL,",
+        "  PRIMARY KEY (`TextId`, `Seq`)",
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;",
+        "",
+    ]
+    columns = "(`Id`, `Companion`, `Trigger`, `Text`, `Places`, `CreatureTypes`, `Foes`, `Rank`, `Side`, `With`, `Channel`, `Weight`)"
+    numbered = list(enumerate(rows, 1))
+    for start in range(0, len(numbered), 200):
+        chunk = numbered[start:start + 200]
         out.append(f"INSERT INTO `lore_companion_text` {columns} VALUES")
         values = []
-        for r in chunk:
+        for id_, r in chunk:
             values.append("(" + ", ".join(sql(v) for v in (
-                r["companion"], r["trigger"], r["text"], r["places"], r["ctypes"], r["foes"],
-                r["rank"], r["side"], r["with"], r["reply_by"], r["reply_text"], r["channel"], r["weight"])) + ")")
+                id_, r["companion"], r["trigger"], r["text"], r["places"], r["ctypes"], r["foes"],
+                r["rank"], r["side"], r["with"], r["channel"], r["weight"])) + ")")
         out.append(",\n".join(values) + ";")
+        out.append("")
+    replies = [(id_, seq, who, text) for id_, r in numbered for seq, (who, text) in enumerate(r["replies"], 1)]
+    for start in range(0, len(replies), 200):
+        chunk = replies[start:start + 200]
+        out.append("INSERT INTO `lore_companion_reply` (`TextId`, `Seq`, `Speaker`, `Text`) VALUES")
+        out.append(",\n".join("(" + ", ".join(sql(v) for v in reply) + ")" for reply in chunk) + ";")
         out.append("")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(out), encoding="utf-8")
@@ -395,8 +483,10 @@ def main():
         total = sum(triggers.values())
         detail = ", ".join(f"{t} {n}" for t, n in sorted(triggers.items()))
         print(f"{companion}: {total} lines ({detail})")
-    replies = sum(1 for r in rows if r["reply_by"])
-    print(f"{len(rows)} lines, {replies} with replies -> {OUT.relative_to(ROOT)}")
+    conversations = [r for r in rows if r["replies"]]
+    longer = sum(1 for r in conversations if len(r["replies"]) > 1)
+    print(f"{len(rows)} lines, {len(conversations)} opening conversations "
+          f"({longer} longer than one reply) -> {OUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

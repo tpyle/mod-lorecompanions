@@ -104,10 +104,15 @@ LoreCompanions.IdleMaxSeconds = 480
 
 #
 #    LoreCompanions.ReplyDelayMs
-#        Description: Pause before a second companion answers the first.
-#        Default:     3500
+#    LoreCompanions.ReplyDelayPerCharMs
+#        Description: Pause before each reply in a conversation between
+#                     companions: ReplyDelayMs, plus ReplyDelayPerCharMs for
+#                     every character of the line before it, so a long line
+#                     is given time to be read.
+#        Default:     3500, 20
 
 LoreCompanions.ReplyDelayMs = 3500
+LoreCompanions.ReplyDelayPerCharMs = 20
 
 #
 #    LoreCompanions.QuestRangeYards
