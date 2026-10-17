@@ -64,10 +64,15 @@ instance she arrives at her old spot instead and is teleported over once
 she is in the world.
 
 **Party only.** A companion who is no longer in her summoner's party (she was
-kicked, or the summoner left) is sent home after `JoinGraceSeconds`, and so is
-one whose summoner logs out. A summon is refused when the party is full; she
-never turns a party into a raid. Each companion can be with one player at a
-time.
+kicked, or the summoner left) is sent home after `JoinGraceSeconds`, and a
+dismissed one leaves the party as she goes. A summon is refused when the party
+is full; she never turns a party into a raid. Each companion can be with one
+player at a time.
+
+**Logging out.** Companions log out with their summoner but keep their seats
+in the party, and when the summoner logs back in, each one still in the party
+is summoned again into her seat, even across a server restart. One who was
+summoned by someone else in the meantime has left the party for theirs.
 
 **Model.** The character's *native* display id is replaced with the lore
 creature's on every login, before she is visible. Native rather than current

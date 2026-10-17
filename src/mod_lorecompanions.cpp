@@ -219,6 +219,7 @@ namespace
         time_t nextLine = 0;
         time_t idleAt = 0;
         time_t leaveAt = 0;
+        bool leaveParty = false;    // taken out of her party as she goes
         std::deque<uint32> recent;
     };
 
@@ -226,6 +227,7 @@ namespace
     {
         Login,
         Logout,
+        MasterLogin,
         Zone,
         QuestAccept,
         QuestComplete,
@@ -1179,7 +1181,10 @@ namespace
         return count;
     }
 
-    void Dismiss(ObjectGuid guid, bool sayGoodbye)
+    // A companion who goes with her party seat kept is one whose summoner
+    // logged out: she rejoins when they log back in. Any other goodbye
+    // gives the seat up, or she would come back after being sent home.
+    void Dismiss(ObjectGuid guid, bool sayGoodbye, bool leaveParty = true)
     {
         auto const it = active.find(guid);
         if (it == active.end() || it->second.stage == Stage::Leaving)
@@ -1190,6 +1195,7 @@ namespace
                 Speak(guid, T_DISMISS, ContextAt(bot), true);
 
         it->second.stage = Stage::Leaving;
+        it->second.leaveParty = leaveParty;
         it->second.leaveAt = GameTime::GetGameTime().count() + (sayGoodbye ? 2 : 0);
     }
 
@@ -1207,7 +1213,9 @@ namespace
             sRandomPlayerbotMgr.LogoutPlayerBot(guid);
     }
 
-    std::string Summon(Player* player, CompanionDef const& def)
+    // `rejoining`: she is already in the summoner's party, holding her seat
+    // from before they logged out, so a full party does not keep her out.
+    std::string Summon(Player* player, CompanionDef const& def, bool rejoining = false)
     {
         if (!cfg.Enable)
             return "Lore companions are disabled.";
@@ -1243,7 +1251,7 @@ namespace
             if (group->isBGGroup() || group->isBFGroup() || group->isLFGGroup())
                 return "Companions cannot join this kind of group.";
 
-            if (!group->isRaidGroup() && group->GetMembersCount() >= MAXGROUPSIZE)
+            if (!rejoining && !group->isRaidGroup() && group->GetMembersCount() >= MAXGROUPSIZE)
                 return "Your party is full.";
         }
 
@@ -1349,6 +1357,35 @@ namespace
                 return;
             }
 
+            case LoreEventType::MasterLogin:
+            {
+                // Companions who logged out with their summoner are still in
+                // the party, offline. Bring them back into their seats.
+                Player* player = ObjectAccessor::FindConnectedPlayer(event.subject);
+                if (!player || !player->IsInWorld())
+                    return;
+
+                Group* group = player->GetGroup();
+                if (!group)
+                    return;
+
+                std::vector<size_t> seated;
+                for (Group::MemberSlot const& slot : group->GetMemberSlots())
+                {
+                    auto const def = defByGuid.find(slot.guid);
+                    if (def != defByGuid.end() && !active.count(slot.guid) && !ObjectAccessor::FindConnectedPlayer(slot.guid))
+                        seated.push_back(def->second);
+                }
+
+                for (size_t index : seated)
+                {
+                    std::string const refusal = Summon(player, defs[index], true);
+                    if (!refusal.empty())
+                        ChatHandler(player->GetSession()).PSendSysMessage("{}", refusal);
+                }
+                return;
+            }
+
             case LoreEventType::Zone:
                 Speak(event.subject, T_ZONE_ENTER, event.context);
                 return;
@@ -1415,7 +1452,12 @@ namespace
             if (state.stage == Stage::Leaving)
             {
                 if (now >= state.leaveAt)
+                {
+                    if (state.leaveParty && bot)
+                        if (Group* group = bot->GetGroup())
+                            group->RemoveMember(guid);
                     logouts.emplace_back(guid, state.master);
+                }
                 continue;
             }
 
@@ -1445,7 +1487,7 @@ namespace
                     if (now - state.since > time_t(cfg.JoinGraceSeconds))
                     {
                         LOG_INFO("module", "mod-lorecompanions: {} has nobody to follow; sending her home", def.name);
-                        Dismiss(guid, false);
+                        Dismiss(guid, false, false);
                     }
                     continue;
                 }
@@ -1468,7 +1510,8 @@ namespace
             Player* master = ObjectAccessor::FindConnectedPlayer(state.master);
             if (!master || aiMaster != master)
             {
-                Dismiss(guid, false);
+                // A summoner who logged out keeps her seat for next time.
+                Dismiss(guid, false, master != nullptr);
                 continue;
             }
 
@@ -1642,7 +1685,11 @@ public:
     {
         auto const def = defByGuid.find(player->GetGUID());
         if (def == defByGuid.end())
+        {
+            if (IsHumanPlayer(player))
+                Push({ LoreEventType::MasterLogin, player->GetGUID(), {} });
             return;
+        }
 
         // Before she is visible to anyone, so nobody sees the racial model.
         ApplyModel(player, defs[def->second]);
