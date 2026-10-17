@@ -19,7 +19,7 @@ Ten thousand years in a cage. You would think I would be grateful for company. Y
 The Alliance. The humans who could not hold their own kingdoms. Charming.
 
 @ trigger=summon side=horde
-The Horde. The orcs, who drank Mannoroth's blood as I did and were not clever enough to keep the power. Perhaps they have learned.
+The Horde. The orcs drank Mannoroth's blood and could not hold the power. I took mine from the Skull of Gul'dan, and kept it. Perhaps they have learned.
 
 @ trigger=summon where=shadowmoon,black_temple
 You summon me in my own temple? I had business here. Ah. That is right. It ended badly.
@@ -46,8 +46,10 @@ Shattrath. The naaru and their little city of refugees. They mean well. Meaning 
 @ trigger=zone_enter where=darnassus,teldrassil
 A new World Tree, and my brother's druids nesting in it. Without a blessing from the Aspects. Even I would not have been so arrogant.
 
-@ trigger=zone_enter where=ashenvale,felwood,demon_fall_canyon
-Ashenvale. I knew these woods before they had a name. Now look at them. Felwood. My doing, in a manner of speaking.
+@ trigger=zone_enter where=ashenvale,demon_fall_canyon
+Ashenvale. I knew these woods before they had a name. North of here they call it Felwood now. My doing, in a manner of speaking.
+
+@ trigger=zone_enter where=felwood
 Felwood. I consumed the Skull of Gul'dan here. The forest has not forgiven me. The forest is not very imaginative.
 
 @ trigger=zone_enter where=hyjal,hyjal_summit,caverns_of_time
@@ -61,10 +63,10 @@ Icecrown. I fought him here, the boy prince with his cursed sword. He won. I hav
 The Frozen Throne. I was sent to destroy it. I failed. I do not fail often. When I do, I remember it.
 
 @ trigger=zone_enter where=dalaran
-Dalaran. Mages hoarding spells in towers. I was one of them once. They would not let me in now. They would be right.
+Dalaran. I came here once for the Eye of Sargeras. Your mages still hoard spells in towers. Now they hoard them in the sky.
 
 @ trigger=zone_enter where=azshara
-Azshara. They named a desert of ruins after the queen who tried to give the world to the Legion. Elves have a poor sense of humour.
+Azshara. They named a wilderness of ruins after the queen who tried to give the world to the Legion. Elves have a poor sense of humour.
 
 @ trigger=zone_enter
 %zone. Uninspiring.
@@ -136,7 +138,7 @@ Fordring. You carry the Ashbringer. It hums against my fel. Unpleasant.
 > tirion: Then stay on the other side of me, Stormrage. It doesn't mean anything by it. Not much, anyway.
 
 @ trigger=idle with=renault
-Little champion. You killed your own father for power. Did you at least get the power?
+Little champion. Your soul reeks of your father's blood. I see it, even if no one else does. Did you at least get the power?
 > renault: No. Did you, demon?
 
 @ trigger=idle with=brigitte
@@ -160,12 +162,12 @@ Acceptable.
 Another trivial task completed. The Legion trembles.
 
 @ trigger=combat_start rank=normal
-You are not prepared.
 Die.
 You face Illidan Stormrage.
 Hardly worth the effort.
 
 @ trigger=combat_start rank=notable
+You are not prepared.
 %target. At last, something interesting.
 This one has some power. Let us see how much.
 Stand back. This one is mine.
@@ -181,7 +183,7 @@ The Scourge. His puppets. I will cut your strings.
 Kil'jaeden! You wanted me dead. You will have to do it yourself.
 
 @ trigger=combat_start foe=archimonde
-Archimonde. I watched you die once, at Hyjal. I will enjoy watching it again.
+Archimonde. They killed you at Hyjal while I was elsewhere. This time I will watch.
 
 @ trigger=combat_start foe=magtheridon
 Magtheridon. You look well. For a prisoner.
@@ -209,7 +211,7 @@ Another demon gone. I could do this forever. I may have to.
 Kil'jaeden falls. Sargeras will feel it. Good.
 
 @ trigger=kill foe=the_lich_king
-The Lich King is dead. It was not mine, the kill. But I will take it.
+The Lich King is dead. Not by my glaives alone, but I will take it.
 
 @ trigger=death
 Maiev... at last...

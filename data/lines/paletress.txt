@@ -28,13 +28,15 @@ Goodbye, for now. Thank you for letting me walk with you.
 
 @ trigger=zone_enter where=argent_tournament,trial_of_the_champion,crusaders_pinnacle
 The Argent Tournament. Lord Fordring built it to find champions worthy of Icecrown. Mostly it finds people who are very good at falling off horses.
+
+@ trigger=zone_enter where=trial_of_the_champion
 The Coliseum. I test the champions here. I show them their memories. Many of them do not enjoy it.
 
 @ trigger=zone_enter where=icecrown,icecrown_citadel
 Icecrown. So much grief in one place. I can feel it, like a weight on my chest.
 The Citadel. Every soul inside is someone's son or daughter. I try to remember that, even when they're trying to kill me.
 
-@ trigger=zone_enter where=lights_hope,eastern_plaguelands
+@ trigger=zone_enter where=lights_hope
 Light's Hope. Where the Argent Dawn became the Argent Crusade. Where Tirion took up the Ashbringer. Holy ground, in its way.
 
 @ trigger=zone_enter where=scarlet_monastery,tyrs_hand,hearthglen,new_hearthglen
@@ -106,12 +108,12 @@ Is there anything you'd like to confess, Arthas?
 > arthas: That I'm frightened. Of what I'll become. I've never said that out loud before.
 
 @ trigger=idle with=thrall
-Warchief. The Crusade owes a great deal to your people. Saurfang's son died at the Wrathgate.
+Warchief. I prayed for Saurfang's son after the Wrathgate. I pray for his father still.
 > thrall: Dranosh died a hero, Confessor. His father carries it. I carry it too. Thank you for remembering him.
 
 @ trigger=idle with=illidan
 Illidan Stormrage. Would you like to confess?
-> illidan: To what, priestess? I have done everything I ever meant to do. That is my sin. I do not intend to be absolved of it.
+> illidan: To what, priestess? Everything I did, I chose. That is my sin. I do not intend to be absolved of it.
 
 @ trigger=idle with=whitemane
 Sally. You can rest, you know. Just for a moment. The plague will still be there when you wake.

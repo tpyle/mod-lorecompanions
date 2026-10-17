@@ -55,7 +55,7 @@ Hyjal. Nordrassil still stands, scarred, without its immortality. We gave that u
 Feralas. Shandris holds Feathermoon Stronghold to the west. She was an orphan when I found her. She is a general now. I am more proud than I let her see.
 
 @ trigger=zone_enter where=silithus,ahnqiraj
-Silithus. The silithid swarmed from here once, and Fandral's son died at the gates. Fandral has never been the same.
+Silithus. The silithid swarmed from here once, and Fandral watched his son die before the qiraji lines. Fandral has never been the same.
 
 @ trigger=zone_enter where=winterspring,felwood
 Felwood. The demons poisoned this forest. Every sick tree here is a sister to the ones in Ashenvale.
@@ -86,7 +86,7 @@ A new land. Stay watchful, young one.
 
 @ trigger=idle
 Malfurion has been asleep for a long time now. The Dream holds him. I tell myself he is only dreaming.
-I was a novice of Elune when the Well of Eternity exploded. I remember the sky that night. I remember it every night.
+I was a novice of Elune when the War of the Ancients began, and its High Priestess when the Well exploded. I remember the sky that night. I remember it every night.
 Illidan loved me, I think, as much as he could love anything that was not power. I did not love him back the way he wished. Perhaps that was the first thing that broke.
 The young races think we are cold. We have simply buried a great many people.
 Elune does not speak in words. She speaks in the way the light falls. You learn to read it, or you learn to wait.
@@ -108,15 +108,15 @@ I fight beside the Horde today. Ashenvale will not forgive me. Perhaps I will no
 
 @ trigger=idle with=jaina
 Jaina. Do you remember Hyjal? The three of us, holding the line?
-> jaina: Every night it rains, Tyrande. You, me, and Thrall, and Archimonde climbing the mountain. I've never been so frightened, or so sure.
+> jaina: Every time it rains, Tyrande. You, me, and Thrall, and Archimonde climbing the mountain. I've never been so frightened, or so sure.
 
 @ trigger=idle with=jaina
 You still believe the Horde and the Alliance can be friends, Jaina.
 > jaina: I believe they were, once, for a few days on a mountain. Once is enough to prove it can be done.
 
 @ trigger=idle with=sylvanas
-Sylvanas Windrunner. Your ancestors were exiled from my forests ten thousand years ago. They would not give up their magic, and look what it brought them.
-> sylvanas: My ancestors escaped your druids' laws, High Priestess. Look what keeping them brought you. A tree and a sleeping husband.
+Sylvanas Windrunner. Your ancestors were exiled from my forests seven thousand years ago. They would not give up their magic, and look what it brought them.
+> sylvanas: My ancestors escaped your druids' laws, High Priestess. Look what keeping them brought you. A tree and a sleeping lover.
 
 @ trigger=idle with=sylvanas
 I pray for the dead, Sylvanas. Do you want me to pray for you?
@@ -131,8 +131,8 @@ Ysera holds Malfurion in her Dream. Does your sister tell you anything?
 > alexstrasza: She tells me he is strong, and that the Dream is troubled. I am sorry, child. I wish I had more for you.
 
 @ trigger=idle with=moira
-Princess. I am told your people distrust you for your marriage. Mine distrusted me for mine. It passes.
-> moira: Ten thousand years, was it, High Priestess? I'll be dead long before it passes. I'll just have to make them get used to me faster.
+Princess. I am told your people distrust you for your marriage. Mine distrusted me for freeing Illidan. It passes.
+> moira: Did it, High Priestess? Then I'll just have to make them get used to me faster.
 
 @ trigger=idle with=liadrin
 Liadrin. You once took your power from a naaru in chains. I have known people who took power by worse means. None of them came back from it. You did.
@@ -207,7 +207,7 @@ Hyjal, again. Very well. I held this mountain once. I will hold it twice.
 Illidan. ...I wish I had never set you free. I wish you had been worth it.
 
 @ trigger=combat_start foe=c'thun
-The Old Gods. They whispered in Azshara's ear before the Sundering. Do not listen to it. Listen to me.
+An Old God. Its kind were old when my people were young. It will whisper to you. Do not listen to it. Listen to me.
 
 @ trigger=combat_start foe=the_lich_king
 Lich King. You have made a desert of the dead. Elune's light will reach even you.

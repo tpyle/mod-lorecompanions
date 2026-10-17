@@ -1,5 +1,5 @@
-# Grand Inquisitor Isillien - shadow priest. One of the founders of the
-# Scarlet Crusade and its Grand Inquisitor, ruling from Mardenholde Keep in
+# Grand Inquisitor Isillien - shadow priest. One of the Scarlet Crusade's
+# early leaders and its Grand Inquisitor, ruling from Mardenholde Keep in
 # Hearthglen, the keep that once belonged to Tirion Fordring. Ambitious,
 # cold, sanctimonious and frightening; he uses shadow as freely as the Light
 # and calls it the Inquisition's necessary work. When Taelan Fordring turned
@@ -29,7 +29,7 @@ Farewell. Keep your thoughts pure. I can tell when they are not.
 Go with the Light. I will be there when it fails you.
 
 @ trigger=zone_enter where=hearthglen,mardenholde
-Mardenholde Keep. Mine. Fordring's, once. He gave it up for an orc. I took it for the Light. Which of us was the better steward?
+Mardenholde Keep. Fordring's, once, then his son's. Now the Inquisition's. Fordring gave it up for an orc. I keep it for the Light. Which of us is the better steward?
 Hearthglen. The heart of the Crusade, whatever Abbendis and Dathrohan pretend.
 
 @ trigger=zone_enter where=western_plaguelands,andorhal,uthers_tomb
@@ -61,9 +61,9 @@ A new place. New faces. New questions.
 @ trigger=idle
 Everyone confesses, %summoner. Eventually. The only variable is the price.
 The Light is a lamp. The shadow is the hand that holds it steady. The Inquisition uses both. The Light does not complain.
-I founded this Crusade with Dathrohan and Abbendis. They lead armies. I lead souls. Mine is the harder work.
+I built this Crusade beside Dathrohan and Abbendis. They lead armies. I lead souls. Mine is the harder work.
 Taelan Fordring was a fine young man, until he chose his father over his faith. That was his mistake. Not mine.
-The bronze dragons tell me Fordring kills me. In my own keep. With his own hands. They are confused. The Light does not reward traitors.
+The bronze dragons tell me Fordring kills me. On the road from my own keep. With his own hands. They are confused. The Light does not reward traitors.
 Do you know what the most dangerous word in the world is? "Mercy." It sounds so harmless.
 Rest, if you must. I never sleep before I have finished thinking.
 Whitemane questions with fire. I question with silence. Hers is faster. Mine is more thorough.
@@ -78,7 +78,7 @@ I am walking with the Horde. I will note it in my own file. Someone should.
 
 @ trigger=idle with=jaina
 Lady Proudmoore. A daughter who turned on her own father for orcs. You and Taelan Fordring would have got on.
-> jaina: I'm told Taelan died for it, Inquisitor. I'm told you were the one holding the knife.
+> jaina: I'm told Taelan died for it, Inquisitor. I'm told you were the one who struck him down.
 
 @ trigger=idle with=sylvanas
 Banshee. I wonder what you would confess, under the right circumstances.
@@ -101,8 +101,8 @@ Moon priestess. Your goddess is silent. Mine speaks through me.
 > tyrande: Through you, Inquisitor? Then she must say very cruel things, and very quietly.
 
 @ trigger=idle with=arthas
-Prince Arthas. Your purging of Stratholme was the Crusade's first great act. We follow your example.
-> arthas: I haven't purged Stratholme. I haven't done anything. Why do you keep smiling at me like that? Stop it.
+Prince Arthas. Your purging of Stratholme showed us the way. We follow your example.
+> arthas: I haven't done it yet. I've been told I will. Why do you keep smiling at me like that? Stop it.
 
 @ trigger=idle with=thrall
 Orc. Fordring lost everything for one of you. I have always wondered what was worth it.

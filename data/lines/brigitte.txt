@@ -5,7 +5,11 @@
 # Hearthglen in the Dragonblight and fights the Scourge, the Horde, the
 # Alliance and the Argent Crusade with equal conviction. Her Grand Admiral,
 # Westwind, is in truth the dreadlord Mal'Ganis, and the vision may not have
-# come from the Light at all; she never suspects. A general first: crisp,
+# come from the Light at all; she has sensed something wrong in him and
+# pushed the doubt down, and the Light has been quiet since he came. She has
+# broken with the old Crusade and Grand Crusader Dathrohan, unmasked as the
+# dreadlord Balnazzar. In canon she is killed at New Hearthglen in 3.0; the
+# module keeps her alive on purpose. A general first: crisp,
 # commanding, disciplined, utterly certain, and a healer who treats the
 # faith as a wound that must be kept clean.
 
@@ -38,22 +42,22 @@ The Citadel. When we take it, the Onslaught will be first through the gates.
 
 @ trigger=zone_enter where=tyrs_hand,eastern_plaguelands,lights_hope
 Tyr's Hand. I commanded here for years. I left it in good hands. I hope.
-Light's Hope. The Argent Dawn. They sit in their chapel and bargain with death knights. Cowards.
+Light's Hope. The Argent Crusade. They sit in their chapel and bargain with death knights. Cowards.
 
 @ trigger=zone_enter where=hearthglen,mardenholde,western_plaguelands
-Hearthglen. The original. Isillien keeps it, for now. I named my new city for it. He was not pleased.
+Hearthglen. The original. My father died defending it. I named my new city for him.
 
 @ trigger=zone_enter where=scarlet_monastery,tirisfal
 The Monastery. Whitemane and Mograine guard it well. Too well. They never leave.
 
 @ trigger=zone_enter where=stratholme,stratholme_city
-Stratholme. Grand Crusader Dathrohan's seat. He commands. We obey. That is the way of it.
+Stratholme. Dathrohan's seat. A demon wore him, they say. I left his Crusade behind me.
 
 @ trigger=zone_enter where=undercity,ruins_of_lordaeron
 The Undercity. A nest of the dead, beneath the throne of the living. Someday we will clear it.
 
 @ trigger=zone_enter where=argent_tournament,crusaders_pinnacle
-The Argent Tournament. Fordring holds games while the Lich King watches from his tower. Unbelievable.
+The Argent Tournament. Fordring held games while the Lich King watched from his tower. Unbelievable.
 
 @ trigger=zone_enter
 %zone. Secure the perimeter. Then we proceed.
@@ -64,7 +68,7 @@ New ground. Stay in formation.
 The Light spoke to me, %summoner. Clearly. It said "go north." I went. What more does faith require?
 A crusade is an army before it is anything else. Armies need discipline. Faith is discipline.
 I heal my soldiers so they can kill again. Some find that hard to accept. I find it merciful.
-Grand Admiral Westwind is a hard man, but he understands what must be done. I trust him with my fleet.
+Grand Admiral Westwind is a hard man. Sometimes I think... no. He understands what must be done. I trust him with my fleet.
 I lost my home to the plague. I lost my family. I did not lose my faith. That is the one thing they could not take.
 We burned the infected villages of Lordaeron because no one else would. History will thank us.
 Rest. I will take first watch. A general does not ask anything of her soldiers she will not do herself.
@@ -131,7 +135,7 @@ Commander Mograine. The Monastery is well defended, I hear.
 > renault: It is, High General. Some of us still guard the homeland. Someone has to.
 
 @ trigger=idle with=isillien
-Isillien. I hear you have been calling yourself the true heart of the Crusade.
+Isillien. They told me Fordring killed you. Yet here you are, calling yourself the true heart of the Crusade.
 > isillien: The Crusade has many hearts, Abbendis. Some of them sail away. Mine stays where it is needed.
 
 @ trigger=quest_accept
@@ -171,7 +175,7 @@ Lich King! The Onslaught has come for you!
 Westwind? No... that is a dreadlord. That is... no. The vision. Was the vision yours? Was all of it yours?
 
 @ trigger=combat_start foe=balnazzar
-Dathrohan? What... a demon? The Grand Crusader is a demon? No. No. Stand fast, all of you! Kill it!
+Balnazzar. So it is true. Dathrohan was you all along. Stand fast, all of you! Kill it!
 
 @ trigger=kill rank=normal
 Target down.
@@ -187,7 +191,7 @@ It is done. Tend your wounds. I will help.
 Return to the earth.
 
 @ trigger=kill foe=mal'ganis,grand_admiral_westwind
-It is dead. My admiral. My vision. My Onslaught... Light, what have I done?
+It flees. My admiral. My vision. My Onslaught... Light, what have I done?
 
 @ trigger=kill foe=the_lich_king
 The Lich King is dead. The vision was true. It was true. It must have been true.

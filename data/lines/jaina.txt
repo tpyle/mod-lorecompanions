@@ -35,7 +35,7 @@ The marsh never changes. Wet, grey, and full of things that bite.
 My father died in this marsh, believing he was saving me. I've never decided how I feel about that.
 
 @ trigger=zone_enter where=onyxias_lair
-Onyxia hid in Stormwind's court for years behind a borrowed face, and nobody saw it. That still frightens me.
+Onyxia hid in Stormwind's court for years behind a borrowed face, and it took us far too long to see it. That still frightens me.
 
 @ trigger=zone_enter where=durotar,orgrimmar
 Durotar. Thrall built something remarkable out of this red dirt. I hope the Horde remembers that.
@@ -62,7 +62,7 @@ Lordaeron. I used to come here as a girl, to the capital, to court. Now look at 
 The Forsaken call this place home. I try very hard to remember that they didn't choose what was done to them.
 
 @ trigger=zone_enter where=quelthalas,eversong,silvermoon,ghostlands
-Quel'Thalas. Kael'thas once showed me these forests as if he'd painted every leaf himself. He was so proud of them.
+Quel'Thalas. Kael'thas used to describe these forests to me as if he'd painted every leaf himself. He was so proud of them.
 
 @ trigger=zone_enter where=dragonblight
 The Dragonblight. Dragons come here to die. It feels wrong to speak too loudly.
@@ -75,10 +75,10 @@ Icecrown. He's here, somewhere above us, waiting. I keep thinking I'll be ready 
 Do you feel that? The cold here isn't weather. It's attention.
 
 @ trigger=zone_enter where=borean,howling_fjord
-Northrend. The last time I came here, I came looking for Arthas and found something that only wore his face.
+Northrend. Arthas sailed here hunting Mal'Ganis and never came home. Whatever sits on that throne only wears his face.
 
 @ trigger=zone_enter where=coldarra,nexus
-Malygos has decided every mage in the world is a threat to magic itself. As one of those mages, I take that rather personally.
+Malygos decided every mage in the world was a threat to magic itself. As one of those mages, I took that rather personally.
 
 @ trigger=zone_enter where=crystalsong
 Crystalsong Forest. The Kirin Tor used to argue for hours about why the trees turned to crystal. Nobody ever won.
@@ -108,7 +108,7 @@ I was a student, then an apprentice, then a refugee, then a leader. Nobody asked
 Remind me to write to the council when we stop. Or don't. They'll only write back.
 
 @ trigger=idle where=theramore,dustwallow
-Look at the harbour. Ships from Kul Tiras still come in now and then. My mother's letters come with them. She's still angry with me.
+Look at the harbour. Ships from Kul Tiras almost never come in any more. I try not to count them.
 The guards here are good people. Most of them came west with me after Lordaeron fell. I owe them everything.
 
 @ trigger=idle where=dalaran
@@ -129,18 +129,18 @@ King Varian means well. I've told him so. He doesn't believe it about himself.
 
 @ trigger=idle with=sylvanas
 Sylvanas, I'm told the Forsaken still hold Lordaeron's throne room. Do you ever sit in it?
-> sylvanas: Sit on his throne? No, Proudmoore. I stand beside it and remember why I keep breathing without needing to.
+> sylvanas: Sit on his throne? No, Proudmoore. I stand beside it and remember why I still walk when I should be in the ground.
 
 @ trigger=idle with=sylvanas
 You and I have both lost everything to Arthas, Sylvanas. I'd like to think that counts for something between us.
 > sylvanas: It counts for this, Proudmoore: I won't put an arrow in you. Don't mistake it for friendship.
 
 @ trigger=idle with=sylvanas
-Vereesa sends her regards, Sylvanas. She asked me to tell you she still sets a place for you on Winter Veil.
+Vereesa sends her regards, Sylvanas. She asked me to tell you she still sets a place for you at Winter Veil.
 > sylvanas: ...My sister is kinder than the world deserves. Tell her nothing.
 
 @ trigger=idle with=sylvanas
-I never thanked you, Sylvanas. For holding the Scourge at the Wrathgate, before Putress. You lost good people there too.
+I never thanked you, Sylvanas, for the Forsaken who stood at the Wrathgate before Putress turned on everyone. You lost good people there too.
 > sylvanas: Putress was mine, and he betrayed me. Thank me when the Lich King is ash, and not before.
 
 @ trigger=idle with=alexstrasza
@@ -176,7 +176,7 @@ Thrall, Theramore's harvest came in well. I'll send some of it to Orgrimmar, if 
 > thrall: Gladly, Jaina. And I will send our thanks back with the caravan, and not tell Garrosh where it came from.
 
 @ trigger=idle with=illidan
-Illidan, you saved Dalaran's magic once, in your way, and nearly destroyed the world doing it.
+Illidan, you cast a spell from Dalaran's ruins that cracked the Frozen Throne, and nearly tore the world apart doing it.
 > illidan: Nearly, Proudmoore, is the important word. You of all people should know how much good can come of nearly.
 
 @ trigger=idle with=paletress

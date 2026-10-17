@@ -34,11 +34,19 @@ their own voices.
 | Brigitte | holy paladin | 24413, the High General of the Scarlet Onslaught, at 0.9 scale | human |
 | Isillien | shadow priest | 10339, the Grand Inquisitor of Hearthglen | human |
 
-Arthas is the prince before his fall, Illidan is the Illidan of the
-Black Temple before it fell, and Isillien is the Grand Inquisitor before
-Tirion came to Hearthglen. All three were brought out of their own time by the
-bronze dragonflight, and all three have been told how their stories end. Their
-lines and everyone else's are written that way.
+The companions speak from late in Wrath of the Lich King: after the Argent
+Tournament and the Trial of the Crusader, with the assault on Icecrown
+Citadel about to begin. The Lich King still sits on the Frozen Throne.
+
+Four of them come from earlier. Arthas is the prince before his fall,
+Illidan is the Illidan of the Black Temple before it fell, Isillien is the
+Grand Inquisitor before the day he struck down Taelan Fordring, and Renault
+is the Scarlet Commander before his brother brought the corrupted Ashbringer
+to the Monastery. All four were brought out of their own time by the bronze
+dragonflight, and all four have been told how their stories end. Brigitte
+Abbendis, who dies at New Hearthglen in the game's own story, is kept alive
+here on purpose. Their lines and everyone else's are written that way; the
+[lore reference](wiki/lore/README.md) has the details.
 
 ## How it works
 

@@ -1,11 +1,16 @@
 # Scarlet Commander Renault Mograine - protection paladin, the Scarlet
 # Monastery's champion. Elder son of Alexandros Mograine, the Ashbringer.
-# Jealous and promised power, he led his father into a Scourge ambush and
-# let him die; the Ashbringer fell to the Scourge and Alexandros became one
-# of the Lich King's death knights. His younger brother Darion went to save
-# their father's soul, became a death knight himself, and later gave the
-# blade to Tirion. Renault joined the Scarlet Crusade, rose to Commander,
-# and guards the cathedral beside Whitemane, who raises him when he falls.
+# Jealous, and promised power by Grand Crusader Dathrohan, he led his father
+# into a Scourge ambush and ran him through with the Ashbringer; the blade
+# was fouled and Alexandros was raised as a death knight of Naxxramas.
+# Renault joined the Scarlet Crusade, rose to Commander, and guards the
+# cathedral beside Whitemane, who raises him when he falls. Like Arthas,
+# Illidan and Isillien, he was lifted out of time by the bronze flight, from
+# before his brother Darion brought the corrupted blade to the Monastery,
+# and he has been told how he dies: his father's spirit rising from the
+# Ashbringer in his own chapel. Everything after that - Darion a death
+# knight, Rivendare in his father's place, the blade cleansed in Tirion's
+# hands - he knows only as told. His betrayal is not public; few know it.
 # Hard, proud, defensive, zealous to drown out his guilt. Never says the
 # word "father" easily. His battle cry: "Infidels! They must be purified!"
 
@@ -15,6 +20,8 @@ I am here. Stay behind my shield and you might live.
 The cathedral can hold without me for a time. Whitemane insisted I go. I suspect she wanted the quiet.
 Lead, then. I will deal with whatever comes at us.
 Mograine, of the Scarlet Crusade. Do not ask me about the name.
+The bronze dragons pulled me out of my own time and told me how I die. Then they sent me to you. I have had kinder orders.
+I know how my story ends, %summoner. A dragon told me. Do not ask, and I will not tell you.
 
 @ trigger=summon side=horde
 The Horde? I am to fight beside orcs and corpses? ...The Light tests me. Fine. Stay out of my reach.
@@ -37,19 +44,19 @@ Tirisfal. The dead walk these glades as if they owned them. We will correct that
 
 @ trigger=zone_enter where=eastern_plaguelands,lights_hope,tyrs_hand
 The Plaguelands. My family's lands, once. I do not want to talk about my family.
-Light's Hope. They built a chapel where... no. I will not speak of it. Keep walking.
+Light's Hope. The dragons say my brother... no. I will not speak of it. Keep walking.
 
 @ trigger=zone_enter where=naxxramas
-Naxxramas. He is in there. What is left of him. Do not ask me who.
+Naxxramas. He was in there. The dragons say he is gone now, and Rivendare rides in his place. Do not ask me more.
 
 @ trigger=zone_enter where=ebon_hold,scarlet_enclave
-Acherus. My brother lives here now, among the death knights. Darion always did love a lost cause.
+Acherus. The dragons say my brother lives here now, among the death knights. Darion always did love a lost cause.
 
 @ trigger=zone_enter where=stratholme,stratholme_city
 Stratholme. The Crusade holds a foothold here. Brave men. Most of them won't come home.
 
 @ trigger=zone_enter where=hearthglen,mardenholde,western_plaguelands
-Hearthglen. The Grand Inquisitor's seat. Isillien runs it the way a spider runs its web.
+Hearthglen. The Grand Inquisitor's seat. Isillien ran it the way a spider runs its web. The dragons say Fordring finally stepped on him.
 
 @ trigger=zone_enter where=icecrown,icecrown_citadel
 Icecrown. Where all of this began. The Lich King thinks he has won. He has not met me.
@@ -63,7 +70,7 @@ Somewhere new. The plague may be here too. We will see.
 Sally raises me when I fall. Every time. I have stopped asking what it costs her.
 They tell me I am the finest champion the Crusade has. I tell them I am the angriest. It amounts to the same thing.
 The Light does not forgive, %summoner. People say it does. It just keeps using you.
-I had a brother. He chose the dead. I chose the Crusade. We do not speak.
+I had a brother. The dragons say he chose the dead. I chose the Crusade. We do not speak.
 My father was a great man. Everyone says so. Everyone says so all the time.
 I hold the line. That is all I have ever been good for. Holding a line.
 Rest, if you must. I will stand watch. I do not sleep much these days.
@@ -79,7 +86,7 @@ If the Monastery saw me now, marching with the Horde... Sally would never let me
 
 @ trigger=idle with=jaina
 Lady Proudmoore. You left Lordaeron to die.
-> jaina: I left to save who I could, Mograine. Some of us leave. Some of us stay and betray. Neither is clean.
+> jaina: I left to save who I could, Mograine. Some of us leave. Some of us stay and burn. Neither is clean.
 
 @ trigger=idle with=sylvanas
 Banshee. When the Scourge is gone, I will come to the Undercity myself.
@@ -95,7 +102,7 @@ Princess. The Dark Irons are an accursed people. Why did you go to them?
 
 @ trigger=idle with=liadrin
 Blood Knight. You stole the Light from a naaru. I would never stoop so low.
-> liadrin: No, Commander. You only stooped to selling your own father. We all have our sins.
+> liadrin: No, Commander. You only stoop to burning farmers. We all have our sins.
 
 @ trigger=idle with=tyrande
 Night elf. Your priestesses pray to the moon. Does it ever answer?
@@ -107,7 +114,7 @@ Prince Arthas. The Crusade fights in your father's name.
 
 @ trigger=idle with=thrall
 Orc. My father killed hundreds of your kind.
-> thrall: Your father was an honourable enemy, Mograine. I have heard the stories. I have also heard the other stories. About you.
+> thrall: Your father was an honourable enemy, Mograine. I have heard the stories. You flinch whenever someone tells one.
 
 @ trigger=idle with=illidan
 You reek of demons, elf. Stay on the other side of the road.
@@ -118,16 +125,16 @@ Sally. Are you well?
 > whitemane: I am always well, my champion. Keep your shield up. I would rather not have to raise you today.
 
 @ trigger=idle with=whitemane
-Do you ever wonder whether the Grand Crusader is what he seems?
-> whitemane: Never. And neither do you, Mograine. Doubt is the plague's first symptom.
+The dragons say the Grand Crusader was a demon all along. Did you know, Sally?
+> whitemane: Lies, Mograine. Demon lies, spread to break us. Do not dwell on them. Doubt is the plague's first symptom.
 
 @ trigger=idle with=paletress
 Confessor. Stop staring at me.
 > paletress: I'm sorry, Renault. You just look like a man with something to confess. I'll wait. I'm very patient.
 
 @ trigger=idle with=tirion
-That sword, Fordring. You carry it as though it were yours.
-> tirion: It's not mine, son. It was your father's. Darion asked me to carry it until it found someone worthy. I'm still looking.
+That sword, Fordring. The dragons say it is clean again. You carry it as though it were yours.
+> tirion: It's not mine, son. It was your father's. Darion put it in my hands at Light's Hope, and the Light made it clean.
 
 @ trigger=idle with=tirion
 My father would have liked you, Fordring. He liked fools who threw their lives away for strangers.
@@ -171,14 +178,11 @@ The dead. I have no mercy for you. I have none left for anyone.
 @ trigger=combat_start ctype=demon
 Demon. The Light burns you. So will I.
 
-@ trigger=combat_start foe=highlord_mograine
-Father. No. Not you. Not like this. I am sorry. I am so sorry.
-
 @ trigger=combat_start foe=the_lich_king
-Lich King. You took my father. You'll not have me.
+Lich King. You took my father. You will not have me.
 
 @ trigger=combat_start foe=high_inquisitor_whitemane
-Sally? No. They have twisted you. I will set you free, and then I will find out who did this.
+Sally? No. I will not raise a hand against you. Do not make me.
 
 @ trigger=kill rank=normal
 Unworthy.
@@ -193,11 +197,8 @@ Done. Who else wants to test my shield?
 @ trigger=kill ctype=undead
 Stay dead this time.
 
-@ trigger=kill foe=highlord_mograine
-Rest, Father. Rest. I... rest.
-
 @ trigger=kill foe=the_lich_king
-He is dead. And my father... is free. Is that enough? It will have to be.
+He is dead. The dragons say my father was freed long ago. Is that enough? It will have to be.
 
 @ trigger=death
 Sally... raise... me...

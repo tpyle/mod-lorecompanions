@@ -11,7 +11,7 @@ The Forsaken can spare their queen for a while. Do not waste her time.
 I am here. Point me at something that deserves it.
 
 @ trigger=summon side=alliance
-An Alliance banner. How quaint. Try not to let your friends shoot me; I will not return the courtesy.
+An Alliance banner. How quaint. Try not to let your friends shoot me. If they do, I will not be so restrained.
 Do not mistake this for an alliance, %summoner. It is an arrangement.
 
 @ trigger=summon where=undercity,tirisfal
@@ -58,7 +58,7 @@ The Plaguelands. Lordaeron's corpse, and the Scourge still feeding on it. Some d
 Vengeance Landing. A good name. My people chose it themselves.
 
 @ trigger=zone_enter where=wrathgate
-The Wrathgate. Putress used my people's name to murder everyone on this field. I will never be finished paying that debt to my enemies.
+The Wrathgate. Putress used my people's name to murder everyone on this field. I will never be finished collecting that debt.
 
 @ trigger=zone_enter where=venomspite
 Venomspite. Built by Putress's apothecaries. I wonder how many of them knew. I wonder which of them I have not found yet.
@@ -205,7 +205,7 @@ This one has teeth. Good. Keep it busy.
 Let it come.
 
 @ trigger=combat_start ctype=undead
-Scourge. Your master would have you kneel before me if he still had you. Kneel anyway.
+Scourge. You knelt to him. Now kneel to me.
 You were his once. So was I. Only one of us woke up.
 
 @ trigger=combat_start ctype=humanoid side=horde

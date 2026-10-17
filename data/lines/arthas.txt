@@ -31,7 +31,7 @@ Lordaeron. This was my home. The palace gardens, my father's throne room... What
 They say I did this. They're lying. They have to be.
 
 @ trigger=zone_enter where=tirisfal,brill,deathknell
-Tirisfal. I used to ride Invincible through these glades. He was a gift from my father. Have you seen a white horse?
+Tirisfal. I rode Invincible through these glades. The Balnirs gave him to me. ...He's gone now. My fault. All of it.
 
 @ trigger=zone_enter where=stratholme,stratholme_city,culling_of_stratholme
 Stratholme. ...I know this city. I know what the grain carries. Something has to be done here, before it spreads. Whatever it costs.
@@ -39,6 +39,8 @@ I'll not let Mal'Ganis have one more soul in this city. Not one. Whatever I have
 
 @ trigger=zone_enter where=eastern_plaguelands,western_plaguelands,andorhal,hearthglen,lights_hope,tyrs_hand
 The plague got this far? All of this? Light help us. I should have moved faster. I will move faster.
+
+@ trigger=zone_enter where=andorhal
 Andorhal. The grain shipments came from here. I was too late, wasn't I? I'm always too late.
 
 @ trigger=zone_enter where=uthers_tomb
@@ -48,7 +50,7 @@ A tomb for Uther? Uther's dead? Who... no. I don't want to know who.
 Quel'Thalas. I came here as a boy, to visit King Anasterian. Everything was gold and green. ...Why is this road black?
 
 @ trigger=zone_enter where=dalaran
-Dalaran. Jaina's studying here. Is she here now? Is she... is she well?
+Dalaran? Floating? ...Jaina studied here. Is she here now? Is she... is she well?
 
 @ trigger=zone_enter where=icecrown,icecrown_citadel,frozen_throne,halls_of_reflection
 Northrend. Why does everyone go quiet when I say that name?
@@ -74,7 +76,7 @@ Jaina and I... it's complicated. I've asked her to wait. I keep not saying for w
 My father will be king for a long time yet, Light willing. I'm in no hurry to wear his crown.
 The dragons showed me things. A sword. A throne of ice. My own face, wrong. It's a trick. The Light wouldn't let that happen to me.
 A paladin's oath is simple. Protect the people. All of them. Even when it's hard. Especially then.
-Invincible was born on a stormy night. I was there. I'd do anything for that horse.
+I was there the night Invincible was born. I was there the night he died, too. I held the sword.
 Sometimes I think the only thing I'm afraid of is being afraid. Is that strange?
 People keep looking at me as if I'm a ghost. I'm not. I'm right here. I'm still me.
 If the plague can't be cured, it has to be stopped. Uther doesn't understand that. Someday he will.
@@ -140,7 +142,7 @@ Stay away from me with that fel stink. I am a paladin of the Silver Hand.
 > illidan: For now, little prince. You will make bargains far worse than mine. And you will not even have the decency to win them.
 
 @ trigger=idle with=whitemane
-Inquisitor, the Scarlet Crusade. I've never heard of it. Is it new?
+High Inquisitor of the Scarlet Crusade? I've never heard of it. Is it new?
 > whitemane: It was founded after Lordaeron fell, my prince. After... after what you did. Please. Do not ask me more.
 
 @ trigger=idle with=paletress
@@ -191,13 +193,13 @@ The plague. The walking dead. Get back into the ground where you belong!
 Undead. I'll burn every last one of you. I swear it.
 
 @ trigger=combat_start ctype=demon
-Demons. Like the dreadlord. Uther warned me about your lies.
+Demons. Like the dreadlord at Stratholme. I'll not listen to your lies.
 
 @ trigger=combat_start foe=mal'ganis
 Mal'Ganis! I've chased you across half of Lordaeron. It ends here.
 
 @ trigger=combat_start foe=kel'thuzad
-Kel'Thuzad. The necromancer. You spread the plague. I'll see you burn for it.
+Kel'Thuzad? I cut you down at Andorhal! Then I'll do it again.
 
 @ trigger=combat_start foe=the_lich_king
 That's... that's my face. That's my face. No. NO. You're not me. You'll never be me!
@@ -240,7 +242,7 @@ Get up, %other! Light, get up!
 %other's down! I'll cover you!
 
 @ trigger=grow_stronger
-I'm getting stronger. I can feel it in my sword arm. In the Light, too.
+I'm getting stronger. I can feel it in my hammer arm. In the Light, too.
 The Light's answering faster. Good. I'll need it.
 Stronger. Good. Nothing's going to stop me now.
 I feel it. More power. ...It feels good. Is it supposed to feel this good?

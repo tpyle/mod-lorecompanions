@@ -4,9 +4,11 @@
 # lost everything to the plague and answered by deciding that anyone might
 # carry it. Zealous, imperious, cutting, utterly certain, and not without
 # grief underneath. She tolerates this company because the Scourge is the
-# greater enemy, and she says so. Unknown to her, the Crusade's leaders are
-# dreadlords: Dathrohan is Balnazzar, and Westwind is Mal'Ganis. Her lines
-# may brush against that irony; she never sees it.
+# greater enemy, and she says so. The Crusade's leaders are dreadlords:
+# Dathrohan is Balnazzar, and Westwind is Mal'Ganis. She has heard the claim
+# about Dathrohan and calls it demon lies, spread to break the Crusade.
+# Westwind's secret is not yet out. Her lines may brush against that irony;
+# she never sees it.
 
 @ trigger=summon
 High Inquisitor Whitemane. You called, %summoner, and the Crusade answers. Do not make me regret it.
@@ -39,15 +41,19 @@ The Forsaken infest this land like rot in grain. One day we will burn them out. 
 @ trigger=zone_enter where=undercity,ruins_of_lordaeron
 The Undercity. A sewer of abominations beneath King Terenas's palace. I would put it to the torch with my own hand.
 
-@ trigger=zone_enter where=western_plaguelands,hearthglen,andorhal,uthers_tomb
+@ trigger=zone_enter where=hearthglen
 Hearthglen. The Crusade holds it still, by the Light's grace and the strength of our arms.
+
+@ trigger=zone_enter where=western_plaguelands
 The Western Plaguelands. Andorhal's grain carried the plague to us all. My family ate that bread.
 
-@ trigger=zone_enter where=eastern_plaguelands,tyrs_hand,lights_hope,stratholme,stratholme_city
-Tyr's Hand. Our stronghold in the east. Grand Crusader Dathrohan commands from Stratholme. A great man. Utterly incorruptible.
-Light's Hope. The Argent Dawn. They treat with the dead and call it diplomacy. Fools.
+@ trigger=zone_enter where=eastern_plaguelands,tyrs_hand,stratholme,stratholme_city
+The Eastern Plaguelands. Tyr's Hand is our stronghold here. Grand Crusader Dathrohan commands from Stratholme. A great man. Utterly incorruptible.
 
-@ trigger=zone_enter where=dragonblight,new_hearthglen
+@ trigger=zone_enter where=lights_hope
+Light's Hope. The Argent Crusade. They treat with the dead and call it diplomacy. Fools.
+
+@ trigger=zone_enter where=new_hearthglen
 New Hearthglen. High General Abbendis's Onslaught. Grand Admiral Westwind is a hard man, but he gets results.
 
 @ trigger=zone_enter where=icecrown,icecrown_citadel,argent_tournament
@@ -55,7 +61,7 @@ Icecrown. The heart of the plague. Here, at last, we can strike the head of the 
 The Argent Tournament. Jousting. With the Lich King a mile away. I despair.
 
 @ trigger=zone_enter where=stormwind,ironforge
-Stormwind. They still do not test their grain. They will learn, as we did.
+%zone. They still do not test their grain. They will learn, as we did.
 
 @ trigger=zone_enter
 %zone. Let us see whether the plague has reached it.
@@ -68,7 +74,7 @@ Mograine is my champion. I raise him when he falls. It is the Light's will. It i
 They call us fanatics. The plague is not moderate. Why should we be?
 I have purged villages, %summoner. Whole villages. I would do it again. I pray every night that I will not have to.
 The Argent Dawn think they can reason with the dead. The dead do not reason. They hunger.
-My family died of the plague in their beds. I burned the house myself. I was the only one left to do it.
+My family took the plague on the road north. When they rose, I put them down myself. I was the only one left to do it.
 Grand Crusader Dathrohan has never once wavered. I aspire to his certainty.
 Rest if you must. I will watch for the taint while you sleep.
 Do you know why the Crusade's tabards are scarlet? So the blood does not show.
@@ -79,7 +85,7 @@ I am not cruel, %summoner. Cruelty would be letting the plague spread.
 Northrend. The source of it all. Every step here is a step closer to the end of the plague.
 
 @ trigger=idle side=horde
-I walk beside the Horde. If the Monastery hears of this, I shall have a great deal of penance to do. And they will have a great deal more.
+I walk beside the Horde. If the Monastery hears of this, I shall have a great deal of penance to do. And so will whoever tells them.
 
 @ trigger=idle with=jaina
 Lady Proudmoore. You fled Lordaeron with half its people and left the rest of us to the plague.
@@ -107,7 +113,7 @@ Night elf. Your goddess is a heathen moon. Still, you fight the dead. I will all
 
 @ trigger=idle with=arthas
 My prince. The Crusade fights in your father's name. In yours. We will avenge Lordaeron for you.
-> arthas: Avenge it? What happened to Lordaeron? ...Why won't any of you look at me when you say that?
+> arthas: Avenge it? Inquisitor, I'm the one who... You know. Don't fight in my name. Please.
 
 @ trigger=idle with=arthas
 I know what you become, Menethil. I should purge you here, while you are still flesh.
@@ -139,7 +145,7 @@ You are brooding again, Mograine.
 
 @ trigger=idle with=tirion
 Fordring. The traitor who loved orcs. You led your own son out of the Crusade.
-> tirion: Taelan led himself, Sally. I just showed him the door was open. You can walk through it too. It's still open.
+> tirion: Taelan led himself, Sally. I only showed him the door. Isillien killed him on the threshold. It's still open.
 
 @ trigger=idle with=brigitte
 Abbendis. You took the best of the Crusade north, and left me the rest.
@@ -180,7 +186,7 @@ The dead. At last, an honest enemy.
 Demon. The Light burns you like it burns nothing else.
 
 @ trigger=combat_start foe=the_lich_king
-Lich King! I have waited for this moment since the first grain shipment reached my village!
+Lich King! I have waited for this moment since the day my family rose on the road!
 
 @ trigger=combat_start foe=scarlet_commander_mograine
 Mograine? No. My champion? What have they done to you? Forgive me. I will raise you after.
@@ -189,7 +195,7 @@ Mograine? No. My champion? What have they done to you? Forgive me. I will raise 
 What? No. No, that is not possible. Dathrohan... Westwind... Lies! Demon lies!
 
 @ trigger=combat_start foe=high_inquisitor_fairbanks
-Fairbanks. You were my predecessor. You died here. Why are you... no. Back to your rest.
+Fairbanks. My predecessor. We put you down for your blasphemy. Why are you... no. Back to your rest.
 
 @ trigger=kill rank=normal
 Cleansed.
@@ -222,7 +228,7 @@ I live. Now, where were we? Ah, yes. Purging.
 
 @ trigger=ally_down
 %other! Arise, my champion! ...Well? Arise!
-%other is down! Stay with me, I will raise you if I must!
+%other is down! Stay with me! I will raise you if I must!
 No! %other, you will not die while I watch!
 
 @ trigger=grow_stronger

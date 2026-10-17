@@ -29,30 +29,32 @@ The Ruby Dragonshrine. My flight's sanctuary. The Scourge desecrated it, and sti
 The Wrathgate. My flight burned this field clean of the plague. I did it, and I would do it again, and I wept for every soul in the fire.
 
 @ trigger=zone_enter where=coldarra,nexus
-Coldarra. My brother-in-arms Malygos has buried himself in the Nexus, raging at the very magic he once guarded. It grieves me more than I can say.
+Coldarra. My brother-in-arms Malygos buried himself in the Nexus, raging at the very magic he once guarded, until I had to end him. It grieves me more than I can say.
 
 @ trigger=zone_enter where=grim_batol,wetlands
 Grim Batol. ...Give me a moment.
 The Wetlands. Somewhere above us is the mountain where the Dragonmaw held me in chains for years. I can still feel the weight of them.
 
 @ trigger=zone_enter where=onyxias_lair,dustwallow
-Onyxia's lair. Deathwing's daughter. Even she was a hatchling once. That is the cruellest thing about what he made of his children.
+Onyxia made her lair in this marsh. Deathwing's daughter. Even she was a hatchling once. That is the cruellest thing about what he made of his children.
 
-@ trigger=zone_enter where=blackrock_mountain,blackrock_spire,burning_steppes,searing_gorge,badlands
-Blackrock. Deathwing's brood nest here. Nefarian experiments on the eggs of my flight in those halls. I will not forget it.
+@ trigger=zone_enter where=blackrock_mountain,blackrock_spire,burning_steppes,searing_gorge
+Blackrock. Deathwing's brood nest here. Nefarian experimented on the eggs of my flight in those halls. I will not forget it.
+
+@ trigger=zone_enter where=badlands
 The Badlands. Mortals call it a wasteland. It is a battlefield. My flight and the black fought here long before your kind kept records.
 
 @ trigger=zone_enter where=hyjal
-Mount Hyjal. Ten thousand years ago my flight fought beside the night elves in the War of the Ancients. The mountain remembers.
+Mount Hyjal. After the War of the Ancients, Ysera, Nozdormu and I planted the World Tree here. The mountain remembers.
 
 @ trigger=zone_enter where=icecrown,icecrown_citadel
 Icecrown. Nothing grows here. Nothing is allowed to. That is the truest measure of what the Lich King is.
 
 @ trigger=zone_enter where=dalaran
-Dalaran. My consort lived among these mages for centuries as Krasus. They are cleverer than Malygos believes, and more foolish than they believe.
+Dalaran. My consort lived among these mages for centuries as Krasus. They are cleverer than Malygos believed, and more foolish than they believe.
 
 @ trigger=zone_enter where=crystalsong
-Crystalsong. Even the trees here were changed by the dragons' war. Some wounds become beautiful. Most do not.
+Crystalsong. Even the trees here were changed, when elven sorcerers turned their spells on my blue cousins. Some wounds become beautiful. Most do not.
 
 @ trigger=zone_enter where=sholazar
 Sholazar. The Titans' gardens. Life here grows faster than anywhere I know. I find I can breathe in this place.
@@ -75,8 +77,8 @@ Neltharion was my friend, once. Before the whispers. Before Deathwing. I mourn h
 Korialstrasz is the dearest of my consorts. He is also the most stubborn. These are not unrelated.
 Mortals ask why a queen of dragons would walk on two feet. Because I would rather look you in the eye than look down on you.
 Fire is not destruction, child. Fire is the forest clearing its floor so the seedlings may see the sun.
-The Dragonmaw stole my eggs and raised my children as beasts of war. And still the orcs who freed me were orcs. Remember that, when you are tempted to judge a whole people.
-Ysera dreams, Nozdormu wanders time, Malygos rages. Some days it feels as though I am the only one of us still awake.
+The Dragonmaw stole my eggs and raised my children as beasts of war. And still I will not judge every orc by the Dragonmaw. Remember that, when you are tempted to judge a whole people.
+Ysera dreams, Nozdormu wanders time, and Malygos is gone. Some days it feels as though I am the only one of us still awake.
 Rest when you need to. Even dragons sleep.
 Every life you save goes on to touch others. You will never see most of what you have mended. That is not the same as it not mattering.
 I can feel the heartbeat of every creature in this wood. It is very loud, if you know how to listen.
@@ -145,8 +147,8 @@ Tirion. You are tired. More tired than you let them see.
 > tirion: I am, Life-Binder. But I'm not done. When I'm done, I'll rest. I've earned a long sleep.
 
 @ trigger=idle with=renault
-Renault. Your father's sword is close by. Does it call to you?
-> renault: Every day, dragon. It calls me a traitor. It is right. Leave me be.
+Renault. Your father's sword is in Tirion's hands now, made clean again. Does it call to you?
+> renault: Then it is in better hands than mine, dragon. It would call me a traitor, and it would be right. Leave me be.
 
 @ trigger=idle with=brigitte
 Brigitte. Your soldiers throw stones at my temple. They are very brave and very foolish.
@@ -203,7 +205,7 @@ Nefarian. You twisted my children in your laboratories. Now you will face their 
 Lich King. You have made a graveyard of a continent. I am the guardian of all life. You will find I take that charge seriously.
 
 @ trigger=combat_start foe=sartharion
-Sartharion. You guard Deathwing's twilight eggs. Whatever would hatch from them, I cannot let it.
+Sartharion. You guard Deathwing's twilight eggs. Whatever would hatch from them, I cannot allow it.
 
 @ trigger=kill rank=normal
 Rest.

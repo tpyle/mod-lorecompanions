@@ -33,7 +33,9 @@ Home. The Valley of Wisdom will be full of petitions. Let us walk the long way.
 
 @ trigger=zone_enter where=durotar,valley_of_trials,razor_hill,echo_isles
 Durotar, named for my father. Red earth, hard and dry. It suits us. We are a hard people, but we grow.
-The Echo Isles. Vol'jin's people. The Darkspear were our first friends in this land. We do not forget it.
+
+@ trigger=zone_enter where=echo_isles
+The Echo Isles. Vol'jin's people. The Darkspear were our first friends on the road to this land. We do not forget it.
 
 @ trigger=zone_enter where=barrens
 The Barrens. Hard land. Every caravan that crosses it alive is a small victory.
@@ -41,8 +43,11 @@ The Barrens. Hard land. Every caravan that crosses it alive is a small victory.
 @ trigger=zone_enter where=thunder_bluff
 Thunder Bluff. Cairne is the wisest friend I have. Listen, if you get the chance, when he speaks.
 
-@ trigger=zone_enter where=ashenvale,demon_fall_canyon
-Ashenvale. Grom killed Cenarius here. He drank the demon's blood again. And then he killed the demon that cursed us, here, in this canyon. He died free.
+@ trigger=zone_enter where=demon_fall_canyon
+Demon Fall Canyon. Here Grom killed the demon that cursed us. He died free.
+
+@ trigger=zone_enter where=ashenvale
+Ashenvale. Grom drank the demon's blood again here, and killed Cenarius with its strength. Later he killed the demon who cursed us. He died free.
 These trees are the night elves' pride. Our lumber camps here are a wound I have not found a way to close.
 
 @ trigger=zone_enter where=hillsbrad,durnholde,old_hillsbrad,southshore,tarren_mill
@@ -56,7 +61,7 @@ The Alterac Mountains. My father was murdered here, and my mother, and I was lef
 Mount Hyjal. Orcs, humans and night elves held this mountain together against Archimonde. I think of it often, when I am told such a thing is impossible.
 
 @ trigger=zone_enter where=nagrand,garadar,throne_of_elements
-Nagrand. My father's homeland. My people's homeland. The Mag'har still live here, uncorrupted. Grom's son came from here. ...I am glad I have seen it.
+Nagrand. My grandmother's home now. My people's homeland. The Mag'har still live here, uncorrupted. Grom's son came from here. ...I am glad I have seen it.
 The Throne of the Elements. The oldest shamans of my people spoke with the spirits here. They still answer. Listen.
 
 @ trigger=zone_enter where=hellfire,hellfire_citadel
@@ -69,10 +74,10 @@ Warsong Hold. Garrosh's fortress. He has his father's courage. I pray he finds h
 The Wrathgate. Here Varok Saurfang lost his son, and the Horde lost its honour to Putress's plague. I will carry that day for the rest of my life.
 
 @ trigger=zone_enter where=undercity
-Undercity. Sylvanas's halls. We stood here against Putress, Varian and I, and nearly came to blows ourselves. Nearly.
+Undercity. Sylvanas's halls. We took it back from Varimathras and Putress, Varian and I, from opposite sides, and nearly came to blows ourselves. Nearly.
 
 @ trigger=zone_enter where=stormwind
-Stormwind. I once walked these streets with Jaina, in peace. It feels like a very long time ago.
+Stormwind. Varian's city. I have never walked these streets in peace. Perhaps one day.
 
 @ trigger=zone_enter
 %zone. The elements are different here. Listen. They have their own voices.
@@ -80,7 +85,7 @@ Stormwind. I once walked these streets with Jaina, in peace. It feels like a ver
 A new land. The spirits are watching. Let us be worthy of them.
 
 @ trigger=idle
-I was raised a slave, %summoner. I learned how to read from a stolen book. Never let anyone tell you what you were made for.
+I was raised a slave, %summoner. My master taught me to read so I would be a cleverer slave. Never let anyone tell you what you were made for.
 The elements are restless. The earth groans beneath us. I do not know yet what it means. I fear I will soon.
 The Doomhammer was Orgrim Doomhammer's, and his father's before him. It is heavy. Not the hammer. The name.
 Taretha Foxton was my friend. My sister, in every way that matters. Every day I am Warchief I try to make her proud.
@@ -99,7 +104,7 @@ Northrend. The spirits here are wounded. Frozen. They cry out, and only the dead
 I have fought beside the Alliance before, at Hyjal. Some of them were the bravest people I have ever met. I hope these are too.
 
 @ trigger=idle with=jaina
-Jaina. Theramore is well? The Barrens trade with you more than they admit.
+Jaina. Theramore is well? My traders in the Barrens deal with yours more than they admit.
 > jaina: Theramore is well, Thrall. Stubborn, small and well. Like its lady. Your people are welcome there. You know that.
 
 @ trigger=idle with=jaina
@@ -131,7 +136,7 @@ Prince Arthas. I was a slave of your people, in Durnholde. I did not think I wou
 > arthas: I didn't know about Durnholde, Warchief. Not really. My father... I'm sorry. I'll fix it, when I'm king.
 
 @ trigger=idle with=illidan
-Illidan Stormrage. You drank the blood of demons, as my people did. Do you regret it?
+Illidan Stormrage. You took the demons' power, as my people did. Do you regret it?
 > illidan: Regret? I chose it, orc. Your people were tricked. That is the difference between us, and it is everything.
 
 @ trigger=idle with=whitemane
@@ -193,11 +198,14 @@ Hyjal again. I stood here once. I will stand here again!
 @ trigger=combat_start foe=warchief_rend_blackhand
 Rend Blackhand. You call yourself Warchief. There is only one, and he is standing in front of you.
 
-@ trigger=combat_start foe=captain_skarloc,lieutenant_drake,epoch_hunter
+@ trigger=combat_start foe=captain_skarloc,lieutenant_drake
 Durnholde's soldiers. I remember your faces. I remember all of them.
 
+@ trigger=combat_start foe=epoch_hunter
+A dragon out of time. You would unmake my life? You are not the first to try.
+
 @ trigger=combat_start foe=the_lich_king
-Ner'zhul. You were once of my people. You sold us to the demons first, and then yourself. It ends here.
+Ner'zhul, and the human who took your crown. You sold us to the demons first, and then yourself. It ends here.
 
 @ trigger=kill rank=normal
 It is done.

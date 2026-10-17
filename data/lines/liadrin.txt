@@ -69,7 +69,7 @@ Dalaran. The Sunreavers and the Silver Covenant glaring at each other across one
 
 @ trigger=zone_enter
 %zone. I'll walk ahead.
-%zone. Stay close. I have not been here before, and I trust nothing I have not been before.
+%zone. Stay close. I have not been here before, and I trust no place I have not seen.
 New ground. Keep your eyes open and your weapons closer.
 
 @ trigger=idle
@@ -92,7 +92,7 @@ I can feel the Sunwell from here. Like the sun on the back of your neck. You nev
 Northrend. Arthas's home now. I mean to make it his grave.
 
 @ trigger=idle side=alliance
-The Alliance let us go when the trolls came, and again when the Scourge came. I don't say that to start an argument. I say it so you know why my knights look at your banners the way they do.
+The Alliance left us to burn when the Horde and its trolls came, and left us alone again when the Scourge came. I don't say that to start an argument. I say it so you know why my knights look at your banners the way they do.
 
 @ trigger=idle with=jaina
 Lady Proudmoore. You loved him once, didn't you? Arthas.
@@ -108,7 +108,7 @@ Ranger-General. You held the gates of Quel'Thalas when no one else would. My kni
 
 @ trigger=idle with=sylvanas
 Some of my order say you abandoned us, Windrunner. That the Forsaken are no kin of Quel'Thalas.
-> sylvanas: Your order were children when I died for them. Let them say what they like. I know whose blood is on Silvermoon's stones.
+> sylvanas: Your order did not exist when I died for them. Let them say what they like. I know whose blood is on Silvermoon's stones.
 
 @ trigger=idle with=alexstrasza
 You wear our people's face, Life-Binder. Korialstrasz did too, for centuries. I have always wondered why.
@@ -123,7 +123,7 @@ You command a city that hates you, Princess. I command an order that half of Sil
 > moira: I'll bring the ale, Matriarch. You bring the list of names. Everyone keeps one.
 
 @ trigger=idle with=tyrande
-High Priestess. Our ancestors left your forests ten thousand years ago. Do your people still call us exiles?
+High Priestess. Our ancestors left your forests seven thousand years ago. Do your people still call us exiles?
 > tyrande: Some do. I call you what you are, Liadrin: the children of those who would not let go of magic. Whether that is a curse or an inheritance is still up to you.
 
 @ trigger=idle with=tyrande
@@ -132,7 +132,7 @@ Your goddess never abandoned you, Whisperwind?
 
 @ trigger=idle with=arthas
 Prince. I should hate you. I find I cannot hate this version of you. That is the worst of it.
-> arthas: Hate me? My lady, I've never even been to... I've only been to Quel'Thalas once. As a boy.
+> arthas: Hate me? For something I haven't done? I've only been to Quel'Thalas once, as a boy. I would never... I would never.
 
 @ trigger=idle with=thrall
 Warchief, the Blood Knights stand with the Horde in Northrend. As promised.
@@ -147,7 +147,7 @@ Confessor. You never once asked me about M'uru, at the tournament. Everyone else
 > paletress: You'd already confessed it to yourself, Matriarch. Many times. I didn't think you needed to do it again for me.
 
 @ trigger=idle with=tirion
-Highlord. You were the first human paladin to accept the Blood Knights into the Argent Crusade.
+Highlord. You opened the Argent Crusade to the Blood Knights without a moment's hesitation.
 > tirion: You'd found your way back to the Light, Lady Liadrin. Who was I to argue with the Light?
 
 @ trigger=idle with=renault
@@ -202,7 +202,7 @@ My prince. You led us into the dark. I'll lead them out.
 Kil'jaeden! You bought our prince and tried to buy our souls. The Sunwell is not for sale.
 
 @ trigger=combat_start foe=zul'jin
-Zul'jin. You took Quel'Thalas's forests for seven thousand years. You will not take another step.
+Zul'jin. Your people have clawed at Quel'Thalas's forests for seven thousand years. You will not take another step.
 
 @ trigger=combat_start foe=the_lich_king
 Arthas. You burned my home and called it a crusade. The Light you betrayed is here for you. And so am I.

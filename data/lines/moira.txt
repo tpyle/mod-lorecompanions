@@ -102,7 +102,7 @@ Lady Proudmoore. My father always spoke well of yours. Admiral Proudmoore, the o
 > jaina: Then he was a better judge of my father than I was, Princess. I'll take the compliment for both of us.
 
 @ trigger=idle with=jaina
-You married nobody important, Proudmoore, and they still talk about you. I married an emperor and they talk about me like I was stolen out of my cradle.
+You never married at all, Proudmoore, and they still talk about you. I married an emperor and they talk about me like I was stolen out of my cradle.
 > jaina: People tell the stories they can stand, Moira. I'm told I was a lovesick girl who ran off with a prince. Neither of us gets to write our own.
 
 @ trigger=idle with=sylvanas
@@ -114,8 +114,8 @@ My father's ministers call the Dark Irons a cursed people. You'd know a thing or
 > sylvanas: I know that curses are what the living call the dead who refuse to lie down. Wear it, Princess. It fits you.
 
 @ trigger=idle with=alexstrasza
-Your Majesty, the Dark Irons once had a hand in your imprisonment. Some of my people... aren't proud of it.
-> alexstrasza: It was the Dragonmaw who chained me, little one. And the dwarves who fought to free me were of every clan. I hold no grudge against your son.
+Your Majesty, they chained you in Grim Batol, on ground my husband's people cursed. Some of them wonder if you blame us.
+> alexstrasza: It was the Dragonmaw who chained me, little one, not your people's old curse. I hold no grudge against the Dark Irons.
 
 @ trigger=idle with=alexstrasza
 Is it true dragons can feel a child before it's born?
@@ -130,7 +130,7 @@ Shields, Liadrin. My people make the finest in the world. Yours looks like it wa
 > liadrin: It was made to be looked at by whatever is about to die on it. Keep watching.
 
 @ trigger=idle with=tyrande
-High Priestess. My grandfather's grandfather traded stone with your people. They said night elves never forget a slight. Is that true?
+High Priestess. Our peoples only met a few years ago, and already I hear night elves never forget a slight. Is that true?
 > tyrande: We have long lives, Princess, and longer memories. But we remember kindnesses too. Be kind, and you will be remembered for a very long time.
 
 @ trigger=idle with=tyrande
@@ -138,8 +138,8 @@ Your goddess is the moon, Tyrande. Mine's whatever keeps the roof up. It's a mou
 > tyrande: Elune lights the dark places too, Moira. Even under mountains. You simply have to go looking.
 
 @ trigger=idle with=arthas
-Arthas Menethil. Uncle Muradin spoke of you like a son. Do you know what happened to him? Northrend, the sword...
-> arthas: Muradin? No. What sword? Moira, what aren't you telling me?
+Arthas Menethil. Uncle Muradin spoke of you like a son. He went to Northrend with you, and only you came back. You and that sword.
+> arthas: The dragons told me about the sword. They didn't tell me about Muradin. ...Moira, what happened to him?
 
 @ trigger=idle with=thrall
 Warchief, your people and mine were both used by something that should have stayed in the dark. A demon for you, a Firelord for us.
@@ -192,7 +192,7 @@ Another one who thinks a short woman's an easy mark.
 That one's dangerous. Good. I was getting bored.
 Mind yourselves. I'd rather not have to explain any of you to your mothers.
 
-@ trigger=combat_start ctype=elemental
+@ trigger=combat_start ctype=elemental where=blackrock_mountain,blackrock_spire,blackrock_depths,molten_core,searing_gorge,burning_steppes,ruins_of_thaurissan
 Fire spawn. Ragnaros's little children. I've a great deal to say to your father, and you're going to deliver it.
 
 @ trigger=combat_start ctype=undead
@@ -223,7 +223,7 @@ Should have stayed home.
 Well. That was satisfying.
 Tell the next one I'm waiting.
 
-@ trigger=kill ctype=elemental
+@ trigger=kill ctype=elemental where=blackrock_mountain,blackrock_spire,blackrock_depths,molten_core,searing_gorge,burning_steppes,ruins_of_thaurissan
 Back to the fire with you. Tell your master the Dark Irons send their regards.
 
 @ trigger=kill foe=ragnaros
