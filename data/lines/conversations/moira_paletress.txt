@@ -1,0 +1,21 @@
+# Moira and Paletress: a princess who won't confess, and a confessor who waits.
+
+@ trigger=idle
+paletress: You never talk about your husband, Princess. Only about the men who killed him. What was he like?
+> moira: Loud. Clever. Sang badly and didn't care. He used to let me win at dice and then pretend he hadn't.
+> paletress: That's a good memory to keep. Better than the other kind.
+> moira: ...It is. Don't tell anyone in Ironforge. They'd say it proves he was a cheat.
+
+@ trigger=idle
+moira: In your trial you call up a champion's old foes. Who'd you call up for me, Confessor?
+> paletress: I don't choose, Princess. The memory does. Who do you think it would be?
+> moira: ...Hm. Father, probably, with a rescue party behind him.
+> paletress: Then I'm glad you'll never stand in my arena. Some memories shouldn't be fought. They should be forgiven.
+> moira: Some memories should be fought a little first.
+
+@ trigger=idle
+moira: Did my father ever kneel at your screen, Confessor? I'm only asking.
+> paletress: You know I can't tell you that.
+> moira: That's a yes, then.
+> paletress: It's an "ask him yourself". He's only a letter away, Moira.
+> moira: Then he can write first. He's the king; he's got more paper. ...Maybe.

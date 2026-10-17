@@ -1,0 +1,21 @@
+# Alexstrasza and Sylvanas: the Aspect of Life and the queen of the dead.
+
+@ trigger=idle
+alexstrasza: Your sister Vereesa was among those who freed me from Grim Batol, Sylvanas. Did you know?
+> sylvanas: I knew she went with the human mage. I did not know she came back proud of it.
+> alexstrasza: She did not boast. She only asked whether my young would be safe.
+> sylvanas: ...That sounds like her. Vereesa always did collect wounded things.
+> alexstrasza: She still does, I think. She asks after you, too.
+
+@ trigger=idle
+sylvanas: Tell me, Life-Binder. When Arthas falls, will you weep for him as you weep for Malygos?
+> alexstrasza: I will weep for the boy he was. Not for what sits on that throne.
+> sylvanas: The bronze dragons have brought the boy back to walk among us. You seem to weep for him already.
+> alexstrasza: I do. Every time I hear him laugh. Do you not?
+> sylvanas: No. When he laughs, I count.
+
+@ trigger=idle
+alexstrasza: Your apothecaries brew plagues in the Undercity still, Sylvanas. I can taste them on the wind.
+> sylvanas: They brew cures as well. And weapons for the war you are fighting beside me.
+> alexstrasza: I burned one of those weapons at the Wrathgate. I would not like to burn another.
+> sylvanas: Then let us both hope Putress was the last fool of his kind, Life-Binder.

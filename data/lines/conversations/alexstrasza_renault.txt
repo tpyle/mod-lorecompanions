@@ -1,0 +1,22 @@
+# Alexstrasza the Life-Binder and Scarlet Commander Renault Mograine.
+
+@ trigger=zone_enter where=wyrmrest,dragonblight
+renault: Life-Binder. It was bronze dragons who took me. Did they ask your leave?
+> alexstrasza: Nozdormu's children ask no one's leave, Commander. Not even mine.
+> renault: Then why me? There are better men to save.
+> alexstrasza: Perhaps they did not take you to be saved. Perhaps they took you so that you could choose. That is rarer.
+> renault: I chose once. I would not trust myself to choose again.
+
+@ trigger=idle
+alexstrasza: You never speak of your mother, Renault.
+> renault: She died giving Darion his life. I was a boy.
+> alexstrasza: I have lost many children, and I have never once blamed the ones who lived.
+> renault: I did not say I blamed him.
+> alexstrasza: No, child. You did not have to.
+
+@ trigger=zone_enter where=lights_hope
+alexstrasza: Light's Hope. Your brother gave his life here to free your father's soul, Renault.
+> renault: I am told. It is always Darion.
+> alexstrasza: He gave everything he had for your father, child. Would you have?
+> renault: ...Ask me another question.
+> alexstrasza: Then I will ask it another day. I am very old. I can wait.

@@ -1,0 +1,47 @@
+# Illidan and Tyrande: ten thousand years, a brother between them, and a promise kept carefully.
+
+@ trigger=idle
+tyrande: Illidan. When you look at the moon now, with those eyes, what do you see?
+> illidan: Not the moon. A cold fire, and a great deal of magic I could take apart if I had the time.
+> tyrande: That is a sad way to see the sky.
+> illidan: I saw it your way once, over Suramar, when you were still a novice. You made me promise to remember it.
+> tyrande: ...And do you?
+> illidan: I made you a promise, Tyrande. I break those very carefully.
+
+@ trigger=idle
+illidan: Ten thousand years, and my brother has still not married you?
+> tyrande: That is none of your concern.
+> illidan: I was in a cage, and I still showed more initiative.
+> tyrande: You showed no initiative. You had an army of demons and a very poor sense of timing.
+> illidan: And yet you are still waiting for him, and I am the one here.
+> tyrande: You are here because a dragon dragged you, Illidan. Do not mistake that for being chosen.
+
+@ trigger=zone_enter where=moonglade
+illidan: He is here, is he not? Malfurion. I can see the shape of him, asleep under the barrow.
+> tyrande: Do not go near him.
+> illidan: I was only going to look. ...He looks peaceful. It does not suit him.
+> tyrande: Come away, Illidan. Whatever you meant to say to him, say it to me, and I will keep it until he wakes.
+> illidan: Tell him... No. Tell him nothing. He will know.
+
+@ trigger=zone_enter where=hyjal
+illidan: My Well lies beneath that tree. I made it with my own hands, and they planted a tree on it to hide it.
+> tyrande: Nordrassil was planted to seal it, and it gave us ten thousand years of immortality. We spent them to destroy Archimonde.
+> illidan: Then my Well killed Archimonde. I will take that.
+> tyrande: You will take anything, Illidan. That has always been the trouble.
+
+@ trigger=idle
+tyrande: Maiev took your body from the Black Temple. The Wardens keep it now.
+> illidan: Of course she did. Millennia as my jailer, and she could not bear to be out of work.
+> tyrande: You speak of her as a joke. She gave her whole life to watching you.
+> illidan: She chose that. I never asked her to stand outside my door. You, I asked. You did not come.
+> tyrande: I came once, Illidan. I opened the door. Look where that led us.
+
+@ trigger=combat_start foe=Illidan_Stormrage
+illidan: Is that... me? I am taller than I remember.
+> tyrande: Hold, Illidan. That one is only an echo.
+> illidan: So am I. Let us see which of us is better at it.
+
+@ trigger=combat_start ctype=demon
+tyrande: Demons. As it was at Zin-Azshari.
+> illidan: Then stay close, Tyrande. I know how they die.
+> tyrande: So do I, Illidan. I was there too.

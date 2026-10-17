@@ -1,0 +1,20 @@
+# Grand Inquisitor Isillien and Lady Liadrin, both once priests.
+
+@ trigger=idle
+isillien: Red and gold, Matriarch. Your knights and my Crusade dress alike. People will talk.
+> liadrin: Let them. Ours are the colours of Silvermoon. Yours are the colour of whatever you last questioned.
+> isillien: Crimson hides nothing, Blood Knight. It merely spares the laundresses.
+> liadrin: Then we agree on one thing, Inquisitor. Pray it is the only one.
+
+@ trigger=zone_enter where=sunwell_plateau,quel_danas
+liadrin: The Sunwell. It burns again, Inquisitor, because a naaru gave the last of itself. Look at it, and tell me the Light belongs to your Crusade.
+> isillien: It is very bright.
+> liadrin: That is not an answer.
+> isillien: It is an observation. I am still deciding whether it is a heresy.
+> liadrin: Decide quickly. It will outlive you either way.
+
+@ trigger=idle
+isillien: Elves came south to Lordaeron after Quel'Thalas fell, Matriarch. Sick. Starving. Hungry for magic. We were thorough with them.
+> liadrin: I know. Some of them were my students.
+> isillien: Then I may have their files.
+> liadrin: Keep them, Inquisitor. One day I will come and read them aloud to you, one name at a time.

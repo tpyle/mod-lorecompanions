@@ -1,0 +1,21 @@
+# Illidan and the Argent Confessor, who has summoned him in the Trial of the Champion.
+
+@ trigger=idle
+paletress: I should tell you, Illidan. In the Trial, I summon a memory of you for the champions to fight.
+> illidan: Of course you do. Do I win?
+> paletress: Not often. It's only a memory. It doesn't have your... conversation.
+> illidan: Then it is a poor likeness. Make it sneer more.
+> paletress: I'll see what I can do.
+
+@ trigger=idle
+paletress: You keep turning toward the moon. Is it her you're thinking of? Tyrande?
+> illidan: I am thinking that the moon is bright and the night is long. Do not dig, priestess.
+> paletress: I'm not digging. I'm leaving a door open. You don't have to walk through it.
+> illidan: I spent long enough behind a door. I have no interest in yours.
+> paletress: Then I'll leave it open anyway. It's a good door. It doesn't lock.
+
+@ trigger=idle
+illidan: I am told you defeated two Val'kyr on your tournament grounds. With a staff and a sermon.
+> paletress: Fjola and Eydis. I'm afraid I did rather more than preach.
+> illidan: You do not look dangerous.
+> paletress: Thank you. It's very useful.

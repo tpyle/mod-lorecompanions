@@ -1,0 +1,33 @@
+# Prince Arthas and Renault, who lived through the fall of Lordaeron, and through something of his own.
+
+@ trigger=idle
+renault: I was in Brill when the news came, Prince. That you had come home from Northrend. Half of Tirisfal rode to the capital to cheer.
+> arthas: Don't.
+> renault: I remember the bells. They rang all day.
+> arthas: Stop it, Mograine.
+> renault: As you like. I thought you should know how it sounded. Before.
+
+@ trigger=idle
+renault: The dragons say you kill your father, Prince.
+> arthas: The dragons say a lot of things. I never would.
+> renault: No. No one ever means to.
+> arthas: You sound as if you'd know.
+> renault: I know soldiers. That is all. Leave it, Prince.
+
+@ trigger=idle
+arthas: You were Silver Hand once, weren't you? Before this Crusade of yours.
+> renault: Briefly. After your war. The Order was a ruin by then.
+> arthas: A ruin? Uther built it to last a thousand years.
+> renault: Uther is dead, I am told, and half his knights wear red now. Your doing, mostly.
+
+@ trigger=zone_enter where=brill
+renault: Brill. I was born here.
+> arthas: I know it. The inn did a decent ale.
+> renault: The dead keep it now. They have no use for ale.
+> arthas: Forsaken. Everyone says that word as if it explained anything.
+> renault: It explains enough. Keep your hand on your mace.
+
+@ trigger=combat_start
+arthas: With me, Mograine!
+> renault: Infidels! They must be purified!
+> arthas: I'd have said "charge", but fine.

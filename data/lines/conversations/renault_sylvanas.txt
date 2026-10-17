@@ -1,0 +1,23 @@
+# Scarlet Commander Renault Mograine and Lady Sylvanas Windrunner.
+
+@ trigger=zone_enter where=brill
+renault: Brill. I was born here. There was an inn on the corner, and a baker who gave me sweet rolls.
+> sylvanas: The inn still stands, Commander. Gallows' End, my people call it now.
+> renault: And the baker?
+> sylvanas: Possibly one of mine. I can ask. He may remember you better than you would like.
+> renault: Leave him in the ground, Banshee.
+
+@ trigger=zone_enter where=tirisfal
+sylvanas: Tirisfal. You marched out of your Monastery at my people once, Mograine. I remember how quickly you marched back.
+> renault: We put your villages to the torch first.
+> sylvanas: You burned graveyards. My people simply got up and walked out of them. We are rather good at that.
+> renault: Then next time I will burn them deeper.
+> sylvanas: Try. The Forsaken are patient, Commander. We have nothing else to be.
+
+@ trigger=zone_enter where=naxxramas
+renault: Naxxramas. The dragons say the Horseman who rode here... is gone.
+> sylvanas: Rivendare rides in his place. A lord of Stratholme who sold his city to Kel'Thuzad. He has come up in the world.
+> renault: And the one before him?
+> sylvanas: Freed, I am told. Some are granted that. Most of us must take it.
+> renault: Did you? Take it?
+> sylvanas: From Arthas himself. Nobody handed it to me, Commander. If someone hands you yours, do not waste it.

@@ -1,0 +1,43 @@
+# Jaina and Thrall: old friends across the line between Alliance and
+# Horde, with her father's death between them and a peace they both work at.
+
+@ trigger=idle
+thrall: Varian has not written to me since the Undercity, Jaina. Has he said anything of me to you?
+> jaina: A great deal. None of it fit for a letter.
+> thrall: I would have fought him, that day. I am not proud of it.
+> jaina: He'd have fought you too. That's why I didn't give either of you the chance.
+> thrall: You took a king away mid-sentence. I have never seen a braver piece of diplomacy.
+> jaina: Or a ruder one. He's still sulking.
+
+@ trigger=idle
+jaina: Thrall, I hear you and Garrosh nearly came to blows in Grommash Hold.
+> thrall: Word travels quickly to Theramore.
+> jaina: It travels quickly everywhere when the Warchief agrees to a duel in the Ring of Valor.
+> thrall: It was not fought. Garrosh is Grom's son. He has his father's fire and none of his father's regret.
+> jaina: Then I hope he lives long enough to learn some. For all our sakes.
+
+@ trigger=idle
+thrall: Do you remember Zmodlor, Jaina? The demon who very nearly made enemies of us.
+> jaina: I remember how close he came. Theramore and Durotar at each other's throats, and neither of us saw his hand in it.
+> thrall: Aegwynn saw it.
+> jaina: Aegwynn sees everything, and tells you about a third of it. I still owe her a letter.
+> thrall: Then write it. Old friends are not so many that we can afford to neglect them.
+
+@ trigger=idle
+jaina: The elements have been strange in Dustwallow lately, Thrall. Storms out of a clear sky. My weather mages are baffled.
+> thrall: Mine are not baffled. They are frightened. Something deep is angry, and it will not say why.
+> jaina: Is it Northrend? The Lich King?
+> thrall: I do not think so. It is older than him, and lower. I will tell you when I know its name.
+
+@ trigger=zone_enter where=theramore,dustwallow
+thrall: This is where your father died, Jaina. The Horde came for him, and I sent it.
+> jaina: I know where he died, Thrall. I let it happen.
+> thrall: You tried to stop it first. I have never forgotten that.
+> jaina: He was my father. He was also wrong. I've learned to say both without choking on either.
+> thrall: Then you are stronger than most kings I have known.
+
+@ trigger=zone_enter where=durnholde,old_hillsbrad
+jaina: Durnholde. You grew up here?
+> thrall: I grew up in a cell and a fighting pit here. Taretha lived in the keep above, a servant's daughter.
+> jaina: You don't speak of her often.
+> thrall: She wrote to me, Jaina, in letters hidden in books, when no one else would speak to me as a person. Every peace I make, I make partly for her.

@@ -1,0 +1,23 @@
+# Alexstrasza and Moira: two mothers, one of them very much older, and the
+# mountain full of fire and black dragons that Moira calls home.
+
+@ trigger=idle
+alexstrasza: Neltharion's son made his lair at the top of your mountain, Moira. Nefarian bred abominations from my children's blood.
+> moira: Aye. We could hear him up there, some nights. The whole spire shook.
+> alexstrasza: Did your husband never think to stop him?
+> moira: Dagran had the Firelord under his feet and a black dragon over his head, Your Majesty. He chose not to pick a fight upwards.
+> alexstrasza: ...That was wise of him. I am sorry I never knew him.
+
+@ trigger=idle
+moira: How did you manage it, Your Majesty? Raising so many little ones at once?
+> alexstrasza: With a great deal of help, child, and very little sleep. In that, dragons and dwarves are not so very different.
+> moira: Little Dagran cries every night at the third bell. Like clockwork. Gnomish clockwork, mind, so it's wrong half the time.
+> alexstrasza: Then he is strong, and he knows you will come. That is all a child's crying is for.
+> moira: Hm. Tell that to my ears.
+
+@ trigger=zone_enter where=blackrock_mountain,blackrock_depths,molten_core
+alexstrasza: The Firelord's heat beats up through this rock like a second heart. You live on top of it, Moira?
+> moira: Every day. You get used to it. The ale's always warm, at least.
+> alexstrasza: Fire is meant to clear the way for new life, Princess. His only wants to burn.
+> moira: That's what I tell the old priests. They don't listen. He's been their god for a long time.
+> alexstrasza: Then be patient with them. I have outlived a great many gods.

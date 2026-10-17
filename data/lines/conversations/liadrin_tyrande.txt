@@ -1,0 +1,18 @@
+# Liadrin and Tyrande: the exiles' daughter and the priestess who watched them leave.
+
+@ trigger=idle
+liadrin: The Amani took my parents when I was a child. Did your people ever fight trolls, High Priestess?
+> tyrande: Long before my birth, my people drove the troll empires out of these lands. The old soldiers still spoke of it when I was young.
+> liadrin: And how did it end?
+> tyrande: It did not end, Liadrin. It changed shape. Make sure your knights know that, so they are never surprised.
+
+@ trigger=zone_enter where=ashenvale
+liadrin: So these are the forests my ancestors left. They are greener than I imagined.
+> tyrande: They were greener still, before the Horde's axes. You fight beside those axes, Matriarch.
+> liadrin: I do. I will not pretend otherwise. But I will not cut a tree here, and neither will my knights.
+> tyrande: That is a small promise. I will hold you to it all the same.
+
+@ trigger=combat_start rank=notable
+tyrande: Hold their eyes, Matriarch. Elune and I will keep you standing.
+> liadrin: Then I will give them a great deal to look at.
+> tyrande: Not too much. Even the goddess has her limits.

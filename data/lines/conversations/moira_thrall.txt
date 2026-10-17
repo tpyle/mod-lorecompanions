@@ -1,0 +1,25 @@
+# Moira and Thrall: a mountain with orcs upstairs, and sons who never knew their fathers.
+
+@ trigger=zone_enter where=blackrock_mountain
+thrall: Upstairs, the Dark Horde, and Rend Blackhand calling himself Warchief. Downstairs, you. A crowded mountain, Princess.
+> moira: Noisy neighbours. They drum all night and throw their rubbish down the chain.
+> thrall: Has Rend troubled your people?
+> moira: Rend troubles everyone, Warchief. If you ever want him dealt with, I'd lend you a few hammers.
+> thrall: An orc who stole my title, and a dwarf who offers to help me keep it. Strange days.
+
+@ trigger=kill foe=Warchief_Rend_Blackhand
+thrall: There is one Warchief of the Horde, Rend. It was never you.
+> moira: Noisiest neighbour I ever had.
+> thrall: He is quiet now.
+
+@ trigger=idle
+thrall: Your son will never know his father, Princess. I never knew mine. I used to think that was the cruellest thing in the world.
+> moira: And now?
+> thrall: Now I think it is crueller to grow up with no one to tell you who he was. Tell your son everything. Even the parts that make you angry.
+> moira: ...Especially those, I'd think. Thank you, Warchief.
+
+@ trigger=idle
+moira: Mind if I look at that hammer, Warchief? ...Good balance. Ugly as sin. Orcs don't polish anything, do they?
+> thrall: It was Orgrim Doomhammer's before it was mine. He did not polish it either.
+> moira: Then I won't mention the nick in the haft. Bring it to Shadowforge some day and we'll fix it properly.
+> thrall: Orgrim's spirit would never let me hear the end of it. But thank you, Princess.

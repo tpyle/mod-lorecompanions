@@ -1,0 +1,30 @@
+# Argent Confessor Paletress and High Inquisitor Whitemane.
+
+@ trigger=idle
+paletress: You flinch when someone comes up behind you, Whitemane. Every time.
+> whitemane: The dead come from behind, Confessor. The living announce themselves, if they wish to keep their throats.
+> paletress: That sounds like something you learned the hard way.
+> whitemane: From my mother. After she rose. She was the one behind me.
+> paletress: Oh. I'm so sorry.
+> whitemane: Do not be. I was quicker.
+
+@ trigger=zone_enter where=trial_of_the_champion
+whitemane: Your arena of memories, Confessor. Whose memories did you set upon the champions?
+> paletress: Whoever they'd faced before. Hogger, more often than you'd think. Once, a man called Herod.
+> whitemane: Herod of my Armory. You made a Scarlet into a monster for your champions to beat.
+> paletress: I didn't make him anything. Someone remembered him that way. The memories in my arena are only what the living carry.
+> whitemane: Then they carry him badly. He was the bravest man I knew.
+
+@ trigger=idle
+whitemane: Confessor. You hear the sins of orcs and Forsaken and nod as if they were the same as ours.
+> paletress: Sins are mostly the same, Whitemane. Anger, fear, someone they should have saved. Only the accents change.
+> whitemane: And what would you say if I knelt behind your screen?
+> paletress: I'd say take your time. I'd also say I'm not going to tell anyone.
+> whitemane: ...I will not kneel. But I will remember that you offered.
+
+@ trigger=revived
+paletress: Back on my feet. Thank you. Whitemane, you're glaring.
+> whitemane: You fell shielding a stranger, Confessor. The Light does not reward carelessness.
+> paletress: It just did. Here I am.
+> whitemane: Then the Light is more patient than I am.
+> paletress: Most things are, Whitemane. I'd still do it again.

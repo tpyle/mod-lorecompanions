@@ -1,0 +1,20 @@
+# Tyrande and Whitemane: ten thousand years of patience against a young woman's fire.
+
+@ trigger=idle
+whitemane: Your people lived forever, I am told. That is a heresy against the order the Light ordains.
+> tyrande: We gave it up, Inquisitor. Willingly. To destroy a demon who would have ended your world.
+> whitemane: Then the Light made you mortal to humble you.
+> tyrande: No. We made ourselves mortal to save you. You may thank us or not. Elune does not keep accounts.
+
+@ trigger=idle
+tyrande: You are very young to carry so much anger, Inquisitor. Who did you lose?
+> whitemane: Everyone. My whole family. I burned them myself when they rose.
+> tyrande: Then I am sorry. I have buried more sisters than you have met people. It never grew easier. Only quieter.
+> whitemane: I do not want it quieter, night elf. I want it purged.
+> tyrande: I know. That is what frightens me for you.
+
+@ trigger=idle
+whitemane: You are no friend of the Horde, night elf. Help me purge the Forsaken from Tirisfal, and your moon may share the glory.
+> tyrande: I do not trust the Horde. I do not trust their dead queen. And still I do not burn villages, Inquisitor.
+> whitemane: Then you will lose to those who do.
+> tyrande: I have outlived a great many people who told me that.

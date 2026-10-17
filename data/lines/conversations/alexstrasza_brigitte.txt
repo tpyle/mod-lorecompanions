@@ -1,0 +1,22 @@
+# Alexstrasza the Life-Binder and High General Brigitte Abbendis. Westwind
+# is suspected here, never exposed.
+
+@ trigger=idle
+alexstrasza: You heal well, Brigitte. Gently, even. Then you speak as though mercy were a weakness.
+> brigitte: Healing is discipline, Life-Binder. I mend the soldier so the soldier can fight. That is not mercy. That is logistics.
+> alexstrasza: Logistics does not hold a hand while it works, child. I have watched you.
+> brigitte: ...The wounded grip. It is easier if I let them.
+> alexstrasza: Yes. That is how it begins.
+
+@ trigger=idle
+alexstrasza: Your admiral walks the walls of New Hearthglen at night, Brigitte. My flight sees him from the sky. He does not seem to feel the cold.
+> brigitte: Westwind is a hard man. The north suits him.
+> alexstrasza: The north suits very few living things. I say it only because I would want someone to say it to me.
+> brigitte: You are not my confessor, dragon.
+> alexstrasza: I am not, Brigitte. I am only someone who trusted the wrong friend once, and paid for it with her children.
+
+@ trigger=zone_enter where=wrathgate
+brigitte: The Wrathgate. Your flight burned it all, Life-Binder. Plague and dead together. I never admired a dragon until that day.
+> alexstrasza: Do not admire it. Those flames took brave soldiers who deserved to be carried home.
+> brigitte: They were tainted. Fire was the cleanest grave they could have.
+> alexstrasza: The cleanest, yes. I wept as I gave the order. If you ever find yourself enjoying the fire, child, put it out.

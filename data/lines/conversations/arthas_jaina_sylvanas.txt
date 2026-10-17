@@ -1,0 +1,32 @@
+# Arthas, Jaina and Sylvanas: the prince, the woman who loved him, and the
+# woman he killed, together on the road.
+
+@ trigger=zone_enter where=culling_of_stratholme
+arthas: Stratholme. The grain's been given out. If we don't act now, the whole city turns.
+> sylvanas: Listen to him, Proudmoore. It is almost convincing.
+> jaina: It was convincing. That was the worst of it.
+> arthas: You're both talking as if I'm the one who poisoned the grain. Mal'Ganis did this, not me!
+> sylvanas: Mal'Ganis gave them the plague, boy. You will give them the sword. Ask the dead which one they remember.
+> jaina: Sylvanas. Enough. He hasn't done it yet.
+> sylvanas: No. And you are still trying to save him, after everything. I find that more frightening than him.
+
+@ trigger=zone_enter where=quelthalas,eversong,silvermoon
+sylvanas: Quel'Thalas, Proudmoore. Had you ever seen it, before?
+> jaina: No. Kael'thas always meant to show me. I never went.
+> arthas: I've been. As a boy. It was beautiful.
+> sylvanas: It was. You saw it whole, little prince. The next time, you come with the dead behind you.
+> arthas: I keep telling everyone. I won't.
+> jaina: Then don't, Arthas. That's all any of us has ever wanted. That you simply wouldn't.
+
+@ trigger=idle
+arthas: What happened to you both? Really. Not the dragons' version.
+> jaina: I built a city on the other side of the world, and I spend my days trying to stop wars.
+> sylvanas: I died, and I came back, and I built a city out of the place you broke.
+> arthas: ...So you both built cities.
+> jaina: That's one way of putting it.
+> sylvanas: It is the kindest way. Leave it there, boy, while it is still kind.
+
+@ trigger=combat_start foe=Mal'Ganis
+arthas: Mal'Ganis! Face me, demon!
+> sylvanas: Kill him well, boy. It will not save you.
+> jaina: Arthas, whatever he says to you, don't listen to it.

@@ -1,0 +1,42 @@
+# Thrall and Tyrande: allies of Hyjal, and everything since that has strained it.
+
+@ trigger=zone_enter where=demon_fall_canyon
+tyrande: You raised a monument here, Thrall. To the orc who killed Cenarius.
+> thrall: To the friend who killed Mannoroth and freed my people from his blood. It is the same orc, High Priestess. I know.
+> tyrande: Cenarius taught Malfurion everything he knew. The forest still mourns him.
+> thrall: And my people still mourn Grom. I will not ask you to honour him. Only to let me.
+> tyrande: ...I let you. I do not join you. That is the most I can give.
+
+@ trigger=zone_enter where=hyjal,hyjal_summit
+thrall: Hyjal. I can still hear the wisps, the night the World Tree took Archimonde.
+> tyrande: The spirits of my ancestors, Thrall. They gave themselves so that you and I could stand here and argue.
+> thrall: Then we should argue well.
+> tyrande: Or we could, once, not argue at all. In their honour.
+> thrall: ...I would like that, Tyrande.
+
+@ trigger=idle
+tyrande: Grom's son commands your army in Northrend, I hear.
+> thrall: Garrosh has his father's courage, and his father's temper. I am still waiting to see the rest.
+> tyrande: Then watch him closely. Ashenvale is full of young orcs who want to be Grom, and not one remembers how he ended.
+> thrall: He ended a hero.
+> tyrande: He ended, Thrall. That is what I am trying to tell you.
+
+@ trigger=idle
+thrall: The earth has been restless lately, High Priestess. The spirits will not say why. Do your druids feel it?
+> tyrande: Some do. Fandral tells me it is nothing. Malfurion would have known.
+> thrall: You miss him.
+> tyrande: Every night. Do not tell anyone I said so. A High Priestess is not permitted to be lonely.
+> thrall: Then I will tell only the spirits. They keep secrets better than orcs.
+
+@ trigger=combat_start
+tyrande: Stand still, Warchief. I cannot heal a target that keeps charging off.
+> thrall: The Doomhammer does not stand still.
+> tyrande: Then the Doomhammer can bleed. Elune guide you.
+
+@ trigger=idle
+thrall: Jaina has written to me again. She hopes we can still make peace, even after the Undercity.
+> tyrande: Proudmoore always hopes. It is the bravest thing about her, and the most tiring.
+> thrall: Do you share her hope?
+> tyrande: I share her road. Whether it ends in peace depends on whether your Horde can keep its dead queen on a leash.
+> thrall: I am watching her.
+> tyrande: So is every soldier who stood at the Wrathgate. Watch harder.

@@ -1,0 +1,24 @@
+# Sylvanas and Tyrande: two archers and two commanders, ten thousand years
+# and one death apart.
+
+@ trigger=idle
+sylvanas: Your Sentinels draw well, Whisperwind. They hold the bow a finger too low.
+> tyrande: My Sentinels were drawing bows before your people had crossed the sea, Windrunner.
+> sylvanas: And in all that time, nobody corrected them.
+> tyrande: Shall we settle it, then? One arrow each, at a hundred paces.
+> sylvanas: I do not miss, High Priestess. I would hate to embarrass your goddess.
+> tyrande: Then do not miss, Windrunner. My goddess has a very long memory, and so do I.
+
+@ trigger=idle
+tyrande: My people gave up their immortality to destroy Archimonde. Now we age, and sicken, and fear it.
+> sylvanas: And you think I have the opposite of your problem.
+> tyrande: I think you have it worse. You do not age, and you do not live.
+> sylvanas: I can do one thing very well, Whisperwind. I can wait. When you are dust, I will still be waiting.
+> tyrande: For what?
+> sylvanas: When I know, you will be the first I fail to tell.
+
+@ trigger=idle
+sylvanas: You walk by night and pray to the moon, Whisperwind. You are halfway to being one of mine.
+> tyrande: The night is Elune's, Sylvanas. It was never the grave's.
+> sylvanas: The grave does not ask permission. It simply moves in.
+> tyrande: Then I shall leave a lamp burning. Elune keep you, Windrunner, whether you wish it or not.

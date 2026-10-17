@@ -1,0 +1,51 @@
+# Illidan and Jaina: the Kirin Tor mage, and the demon who tore at the world from Dalaran's ruins.
+
+@ trigger=idle
+jaina: You had Kael'thas at your side in Outland. I knew him in Dalaran. He used to bring me flowers.
+> illidan: That sounds like him. He gave me his loyalty in much the same way. Prettily, and not for very long.
+> jaina: He's dead now. Magisters' Terrace. He went over to Kil'jaeden in the end.
+> illidan: So I am told. I would like to say I am surprised.
+> jaina: Are you sad, Illidan?
+> illidan: I am inconvenienced. It is the most I can offer him.
+
+@ trigger=zone_enter where=hyjal_summit
+jaina: This is where we stopped Archimonde. Nordrassil gave its life to do it, and your Well was right beneath it.
+> illidan: My Well. So, in a manner of speaking, I killed Archimonde.
+> jaina: That is not even slightly what happened.
+> illidan: It is the version I will be telling.
+> jaina: You weren't even here.
+> illidan: An excellent reason to be modest about it. I am not.
+
+@ trigger=zone_enter where=dalaran
+illidan: So this is Dalaran now. Floating. When last I saw it, it was rubble in the hills, and I was tearing at the world from its ruins.
+> jaina: Rhonin and the Kirin Tor raised it, and brought it all the way here. The Kirin Tor don't do anything by halves.
+> illidan: And you? You were one of them. You did not stay.
+> jaina: I had a city to build. My people needed a home more than Dalaran needed another archmage.
+> illidan: A sensible answer. I have never trusted those.
+
+@ trigger=idle
+jaina: You fought Arthas at Icecrown. What was he like?
+> illidan: Cold. Patient. Laughing at something only he could hear.
+> jaina: He used to laugh at everything. Bad jokes, mostly.
+> illidan: He still does, I suspect. They are worse now.
+> jaina: ...Thank you. That's somehow the kindest thing anyone's said about him in years.
+
+@ trigger=idle
+jaina: I'd love to know how your sight works. Do you see magic as colour? Shape? Sound?
+> illidan: I see everything, Proudmoore. Your mana, your pulse, the lie you are about to tell. It all burns.
+> jaina: I wasn't going to lie.
+> illidan: You were going to say your interest was purely academic.
+> jaina: ...All right. Mostly academic.
+
+@ trigger=idle
+illidan: You know Tyrande. Is she happy?
+> jaina: She rules a people alone, with Malfurion lost in the Dream. I don't think happy comes into it.
+> illidan: She waits for him.
+> jaina: Every day. You know she does.
+> illidan: Then she is a fool, and I am another, and you, Proudmoore, will tell no one I asked.
+> jaina: Asked what?
+
+@ trigger=zone_enter where=black_temple
+illidan: The Black Temple. I would show you around, Proudmoore, but I am told I die in the next room.
+> jaina: That isn't funny.
+> illidan: It is a little funny.

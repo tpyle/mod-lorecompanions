@@ -1,0 +1,21 @@
+# Illidan and Grand Inquisitor Isillien, both told the day they die.
+
+@ trigger=idle
+isillien: You draw on fel, and I on shadow. The others look at us both the same way.
+> illidan: They look at you worse, priest. They expect a demon to be a demon.
+> isillien: And they expect the Light's servant to be gentle. A failure of imagination.
+> illidan: On that, at least, we agree. I find that I dislike it.
+
+@ trigger=idle
+illidan: Your Grand Crusader was a dreadlord, priest. Did the dragons tell you?
+> isillien: They told me. He gave me an order, and I would have carried it out. That much I know.
+> illidan: Even knowing what he was?
+> isillien: An order to purge a traitor is the Light's will, whatever mouth speaks it. The mouth is a detail.
+> illidan: I have heard demons say the same, almost word for word. They meant it too.
+
+@ trigger=idle
+illidan: We have something in common, Inquisitor. We both know the day we die.
+> isillien: I know what the dragons claim. A traitor's sword on the Hearthglen road.
+> illidan: Mine is a jailer's blade in my own temple. Do you intend to change yours?
+> isillien: I intend to be better prepared. I will bring guards, and I will not turn my back on Fordring.
+> illidan: That is what everyone says. I said it too.

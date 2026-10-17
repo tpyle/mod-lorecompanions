@@ -1,0 +1,21 @@
+# Grand Inquisitor Isillien and Lady Sylvanas Windrunner.
+
+@ trigger=idle
+sylvanas: Your Grand Crusader, Inquisitor. Dathrohan. Did you know I had his own kind kill him once?
+> isillien: I was told he was a dreadlord. I was not told he had been killed.
+> sylvanas: I made Varimathras put a blade in Balnazzar, in Lordaeron. It did not take. The demon simply found a fresh human to wear.
+> isillien: So the man who gave me my orders was a coat on a demon's back.
+> sylvanas: A coat you saluted. I wonder which of us he fooled worse.
+> isillien: You, Banshee. I would have obeyed him anyway.
+
+@ trigger=zone_enter where=undercity
+isillien: The Undercity. I always wondered where the Crusade's missing prisoners went.
+> sylvanas: Some came here. They tell very interesting stories about your Hearthglen cells.
+> isillien: I hope they were accurate. I take pride in my work.
+> sylvanas: They were. My people remember everything, Inquisitor. Death is very good for the memory.
+
+@ trigger=idle
+isillien: Tell me, Banshee. When you close your eyes, what do you see?
+> sylvanas: The elfgates of Quel'Thalas, Inquisitor, and a prince with a runeblade riding through them. Every time.
+> isillien: That prince walks with us some days. A boy still. Does it trouble you?
+> sylvanas: It amuses me. The boy has not yet done it. I have not yet forgiven it. We understand each other.

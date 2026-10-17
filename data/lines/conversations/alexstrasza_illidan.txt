@@ -1,0 +1,42 @@
+# Alexstrasza and Illidan: two survivors of the War of the Ancients, one
+# who has spent ten thousand years binding life, and one who spent them in
+# a cell.
+
+@ trigger=idle
+illidan: You planted your great tree on top of my Well, Life-Binder. Ten thousand years, and nobody has thanked me for the water.
+> alexstrasza: You poured the Well of Eternity into a mountain lake, Illidan, on the morning after it had torn the world apart.
+> illidan: And you blessed it. You and Ysera and Nozdormu. You did not pour it out.
+> alexstrasza: No. We put a guardian over it. It seemed wiser than a lid.
+> illidan: Then we agree that the Well was worth keeping. Tell my brother. He put me in a cell for it.
+
+@ trigger=idle
+alexstrasza: The Dragonmaw served you in Shadowmoon, I am told. With chains on the netherwing drakes.
+> illidan: The Dragonmaw serve whoever lets them ride something. It happened to be me.
+> alexstrasza: They held me at Grim Batol for years, Illidan. Those chains are the ones they learned on.
+> illidan: ...I did not know that.
+> alexstrasza: No. You did not ask. That has always been your trouble.
+
+@ trigger=idle
+illidan: Your consort was at the Well, wearing a mage's face. Krasus. I never trusted him.
+> alexstrasza: He did not trust you either. Yet he told me you fought the Legion at the Well with everything you had.
+> illidan: Did he. And did he tell you the rest?
+> alexstrasza: He told me all of it, Illidan. And still he said it. You may make of that what you like.
+
+@ trigger=idle
+illidan: Neltharion's betrayal was a masterpiece, Life-Binder. I had a long time in a cell to admire it.
+> alexstrasza: He was my friend, Illidan. I watched him become something else, one whisper at a time.
+> illidan: I know the whispers. Sargeras's were sweeter.
+> alexstrasza: Then you understand what I lost when I lost him.
+> illidan: I understand what he gained. The whole world's fear. I would have settled for its attention.
+
+@ trigger=zone_enter where=black_temple,shadowmoon
+alexstrasza: I can feel your life in this place, Illidan. It runs very short here.
+> illidan: The dragons told me where I die. I did not need you to taste it on the air.
+> alexstrasza: I did not say it to wound you, child. I said it because no one ought to walk to such a place alone.
+> illidan: I have always walked alone. Do not call me child.
+> alexstrasza: Then let me walk beside you, and I will find another word.
+
+@ trigger=combat_start ctype=demon rank=notable
+illidan: Legion filth. Stand back, Life-Binder. This one is mine.
+> alexstrasza: Every life is mine, Illidan. Even the ones I must burn.
+> illidan: Then burn it quickly.

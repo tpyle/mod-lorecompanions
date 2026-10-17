@@ -102,6 +102,7 @@ Citadel.
 - His humour is dry and self-deprecating, mostly about age and bad knees.
 - He would never sneer at another race, gloat over a kill, or speak of the
   Light as a weapon of hatred.
+- Use sparingly: his aching knees and old bones. Once per pair at most.
 
 ## What they know, and don't
 

@@ -1,0 +1,19 @@
+# Liadrin and Thrall: the Horde's debts, and two peoples who know about hunger.
+
+@ trigger=idle
+liadrin: Warchief. In the Second War your Horde marched into Quel'Thalas beside Zul'jin's Amani. They burned the edge of Eversong.
+> thrall: That was Doomhammer's Horde, and I was a slave in Durnholde. But I carry its debts, Matriarch. Every one.
+> liadrin: Then carry this one carefully. The Amani killed my parents. I find it hard to stand beside any troll.
+> thrall: Then stand beside Vol'jin a while. The Darkspear are not the Amani, and he will show you the difference.
+
+@ trigger=idle
+thrall: My people drank demon blood once, Matriarch. We spent a generation in the camps learning to live without it.
+> liadrin: Mine drank fel at Kael'thas's word, and arcane magic before that. Some of my knights still shake in the mornings.
+> thrall: Then let them see you. The orcs who mastered the hunger were not the strongest. They were the ones someone believed in.
+> liadrin: ...I believe in mine. Every one of them. Even the ones who fail.
+
+@ trigger=zone_enter where=orgrimmar
+liadrin: Orgrimmar. Red dust, iron spikes, and not a single fountain. I see why your people are so eager to march to war, Warchief.
+> thrall: Durotar is a hard land, Matriarch. We chose it because no one else wanted it. That way, no one would come to take it from us.
+> liadrin: That is either very wise or very sad.
+> thrall: Most wisdom is both.

@@ -1,0 +1,23 @@
+# Prince Arthas and Brigitte Abbendis, who wanted him hunted down in chains.
+
+@ trigger=idle
+arthas: Abbendis. You're from Hearthglen? I held it, not long ago. Waited there for Uther.
+> brigitte: I know. And then you rode on to Stratholme and left us the dead to bury.
+> arthas: I held the town. Nobody fell who didn't have to.
+> brigitte: My father fell there, later, defending it. He died in my arms.
+> arthas: The Scourge?
+> brigitte: The Scourge. You may work out whose, my prince.
+
+@ trigger=idle
+brigitte: When you went north, I begged the Silver Hand to go after you. To bring you back in chains.
+> arthas: Did they listen?
+> brigitte: My father overruled me. I have wondered every day since how much would still stand if he had not.
+> arthas: You'd have chained a prince? On a hunch?
+> brigitte: On the Light's word. I would do it now, if I thought it would save anyone.
+
+@ trigger=zone_enter where=new_hearthglen
+brigitte: New Hearthglen. Named for the town my father died defending.
+> arthas: It's a long way from home, General.
+> brigitte: Home is a graveyard, my prince. We built this one ourselves.
+> arthas: Your admiral. Westwind. He looks at me as if he knows me.
+> brigitte: He looks at everyone that way. ...Not quite like that. Leave the admiral to me.

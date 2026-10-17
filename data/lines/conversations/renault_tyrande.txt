@@ -1,0 +1,20 @@
+# Renault and Tyrande: she sees more than he wants her to, without knowing why.
+
+@ trigger=idle
+tyrande: You flinch whenever someone speaks of your brother, Commander.
+> renault: I do not flinch.
+> tyrande: I have watched one brother envy another for ten thousand years. I know the look. It ends badly for both of them.
+> renault: Keep your fables to yourself, priestess. My family is my own affair.
+
+@ trigger=idle
+renault: Your army is all women, I'm told. In Lordaeron we would call that desperation.
+> tyrande: In Kalimdor we called it the Long Vigil. Our men slept for thousands of years, and we held the forests.
+> renault: And held them well, I suppose.
+> tyrande: Well enough that you are speaking to me, Mograine, and not to a demon.
+
+@ trigger=idle
+tyrande: How many times have you died, Commander?
+> renault: Enough. Whitemane raises me. I get up.
+> tyrande: And each time you come back a little angrier. I have seen that before, Commander. It is rarely the dying that does it.
+> renault: It is duty, night elf. You would not understand.
+> tyrande: I have kept my vigil longer than your kingdom has stood, Mograine. I have never once needed to die for it.

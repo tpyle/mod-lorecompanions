@@ -1,0 +1,28 @@
+# Jaina and Liadrin: a Kirin Tor mage and the Matriarch of the Blood
+# Knights, on magic, hunger and a prince they both knew.
+
+@ trigger=idle
+liadrin: The Kirin Tor think my people are addicts, Lady Proudmoore. Do you?
+> jaina: I think your people lost the Sunwell overnight and nobody in Dalaran offered them anything better.
+> liadrin: That is a kinder answer than I expected.
+> jaina: It isn't kind. It's an accusation, and some of it's aimed at me.
+> liadrin: Then I accept it on behalf of both of us. The Sunwell burns again. We are learning to live on less.
+
+@ trigger=idle
+jaina: Liadrin, what was he like, at the end? Kael'thas. I only knew the prince in Dalaran, who argued theory with me until the candles burned out.
+> liadrin: I did not see him at the end. Those who did say he was gaunt and fel-eyed, and spoke of saving us while he fed us to the Legion.
+> jaina: He used to say that Quel'Thalas would outlast every human kingdom.
+> liadrin: It may yet, Lady Proudmoore. But not because of him. I renounced his house, and I would do it again.
+
+@ trigger=idle
+liadrin: I watched your Alliance knights at the tournament, Proudmoore. They fight well. They pray badly.
+> jaina: Badly?
+> liadrin: Loudly. As if the Light were a servant who had not heard the bell.
+> jaina: You've just described half the Silver Hand. Please never say that to Tirion.
+> liadrin: I said it to Tirion. He laughed. Then he did not deny it.
+
+@ trigger=zone_enter where=quel_danas,sunwell_plateau
+jaina: The Sunwell. I've read every description of it. None of them mention how warm it is.
+> liadrin: It was colder the day Arthas came. I was here, Lady Proudmoore. I fought on this isle.
+> jaina: I'm sorry. I keep saying that to your people, and it keeps not being enough.
+> liadrin: Then stop saying it. Stand here a while with me instead. That is enough.

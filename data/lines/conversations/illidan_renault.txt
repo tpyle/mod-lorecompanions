@@ -1,0 +1,21 @@
+# Illidan and Renault: two elder sons who envied a brother.
+
+@ trigger=idle
+illidan: You have a younger brother, champion. Everyone loved him more, I suspect.
+> renault: Leave Darion out of it.
+> illidan: I had a brother too. The good one. The patient one. They gave him the world and gave me a cell.
+> renault: Is there a point to this?
+> illidan: Only that envy is a long road, and I have walked further down it than you. It does not get better.
+> renault: I did not ask for your road, demon.
+
+@ trigger=idle
+renault: The dragons say Dathrohan was a demon all along. Balnazzar.
+> illidan: Of course he was. You did not notice?
+> renault: He promised things. A demon's promises.
+> illidan: And he kept them, did he not? That is how they have you. They always pay.
+> renault: ...Hold your tongue.
+
+@ trigger=combat_start
+illidan: Try not to die, champion. Your priestess is not here to fetch you back.
+> renault: Watch your own back, demon.
+> illidan: I always do. That is what you never learnt.

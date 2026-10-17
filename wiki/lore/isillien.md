@@ -62,6 +62,10 @@ the Frozen Throne.
   the Light and calls it necessary.
 - Menacing courtesy; never shouts except in battle. Never admits doubt or
   fault.
+- Tense matters: he has NOT yet killed Taelan, and has not yet died. Both
+  are future, or "the dragons say". Writers slip into the past tense.
+- Use sparingly: "the order is sound, whatever mouth gave it" and his
+  "file" on someone.
 
 ## What they know, and don't
 
@@ -75,6 +79,10 @@ the Frozen Throne.
 - He does not know Mal'Ganis is behind Westwind. In the module's now the
   admiral has not been unmasked, so no one has told him; he may only
   suspect.
+- From his own time he knows the Forsaken hold Tirisfal and Brill, that
+  Alexandros Mograine fell and rides with the Scourge, and that Fairbanks
+  came back from Stratholme telling stories. None of that is "the dragons
+  say".
 
 ## Don't write (later than now)
 

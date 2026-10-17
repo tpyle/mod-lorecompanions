@@ -84,6 +84,8 @@ Dark Iron background she would know:
   you" and the like rather than invoking the Light.
 - She would never call her marriage a kidnapping, apologise for marrying a
   Dark Iron, or describe herself as having been enchanted.
+- Use sparingly: Ironforge thinking she was bewitched or enchanted, and her
+  son in the Shadowforge nursery.
 
 ## What they know, and don't
 

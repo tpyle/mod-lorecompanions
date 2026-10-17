@@ -1,0 +1,46 @@
+# Grand Inquisitor Isillien and High Inquisitor Whitemane.
+
+@ trigger=idle
+isillien: Fairbanks. Your predecessor. Do you visit him, down in his little room?
+> whitemane: That chamber is sealed, Grand Inquisitor.
+> isillien: Sealed is not empty. He saw something near Stratholme that he would not keep quiet about. Did you ever ask him what?
+> whitemane: He was a blasphemer. I do not take questions from blasphemers.
+> isillien: How restful that must be. I take questions from everyone.
+
+@ trigger=idle
+isillien: I inducted your champion, you know. I kept a file on him. Everyone has a file.
+> whitemane: Then burn Mograine's.
+> isillien: You have not even asked what is in it.
+> whitemane: I do not need to. I know the man.
+> isillien: That, High Inquisitor, is what everyone says before they read the file.
+
+@ trigger=idle
+whitemane: In my time, Fordring's son is long dead by your hand. In yours, he still lives. Does that weigh on you?
+> isillien: Weigh? Taelan has always been soft where his father is concerned. The dragons only confirm my judgement.
+> whitemane: He was a Highlord of the Crusade.
+> isillien: And I hear his confession every week. You saw the tabard, High Inquisitor. I see the man inside it.
+> whitemane: And still you will kill him.
+> isillien: Not still, Whitemane. Therefore.
+
+@ trigger=idle
+whitemane: You use shadow, Isillien. In the Light's name. I can smell it on you.
+> isillien: A scalpel does not care whose hand holds it.
+> whitemane: The Light is not a scalpel.
+> isillien: No. The Light is the candle I read the confession by. The shadow is how I obtain it.
+> whitemane: One day someone will question you, Grand Inquisitor.
+> isillien: The dragons say Fordring does. With a sword. It is a short interview.
+
+@ trigger=zone_enter where=hearthglen
+isillien: Hearthglen. My town. The dragons say the Crusade still holds it, after everything.
+> whitemane: It does. It held without you. That should trouble you.
+> isillien: Nothing that holds troubles me, High Inquisitor. Only what gives way.
+
+@ trigger=combat_start foe=Grand_Crusader_Dathrohan
+whitemane: That is the Grand Crusader. Stay your hands!
+> isillien: Look closer, High Inquisitor. His shadow has wings.
+> whitemane: Then it is a demon wearing his face. Purge it!
+
+@ trigger=kill foe=Balnazzar
+isillien: So the dragons were right. I took my orders from that.
+> whitemane: You took them from the Grand Crusader. That thing wore his face.
+> isillien: Whitemane. Which of them do you suppose was the mask?

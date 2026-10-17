@@ -1,0 +1,20 @@
+# High General Brigitte Abbendis and Lady Liadrin.
+
+@ trigger=idle
+liadrin: Abbendis. How do you drill your healers? Mine break formation to reach the fallen.
+> brigitte: Mine do not. The line comes first. A healer who runs to one man leaves twenty to die.
+> liadrin: Twenty who are still standing. The one in the snow is the one who needs us.
+> brigitte: That is how you lose a war, Blood Knight.
+> liadrin: Perhaps. I have seen what my people became winning the other way. I would rather lose.
+
+@ trigger=idle
+liadrin: Your Light comes thin lately, Abbendis. I felt it in the last fight, like a candle in a draught.
+> brigitte: My Light is as it has always been.
+> liadrin: I said the same for years, after Quel'Thalas fell. I was lying. When the Light leaves, you feel the cold where it was.
+> brigitte: The Light has not left me.
+> liadrin: Then I am glad. But if it ever does, do not do what I did. Do not go looking for something to take its place.
+
+@ trigger=combat_start rank=notable
+brigitte: Matriarch, take it. I will keep you on your feet.
+> liadrin: See that you do. Light, give us strength!
+> brigitte: Hold. Hold. Good.

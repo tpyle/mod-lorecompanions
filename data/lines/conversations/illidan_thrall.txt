@@ -1,0 +1,28 @@
+# Illidan and Thrall: two who took the Legion's power, one by choice and one by deceit.
+
+@ trigger=zone_enter where=demon_fall_canyon
+thrall: Demon Fall Canyon. Grom Hellscream killed Mannoroth here, and died doing it. He freed us all.
+> illidan: Mannoroth. I knew him at the Well of Eternity, ten thousand years ago. He was a brute then too.
+> thrall: Then you know what Grom faced.
+> illidan: I do. Your friend did what armies of my people could not. I would not have wagered on him.
+> thrall: Few did. Orcs have a habit of disappointing those who wager against them, Illidan.
+
+@ trigger=idle
+thrall: The Lich King was an orc once. Ner'zhul. Kil'jaeden made him into that thing.
+> illidan: I know. Kil'jaeden sent me to break his throne. I failed, and I have been hiding from Kil'jaeden ever since.
+> thrall: You bargained with the same master who enslaved my people.
+> illidan: I bargained. Your people were deceived. There is a difference.
+> thrall: The difference is that my people did not know what they were bargaining with. You did.
+> illidan: I did. That is why I am still my own, orc. Barely.
+
+@ trigger=zone_enter where=hellfire_citadel
+thrall: Hellfire Citadel. Where Magtheridon's blood made beasts of my people.
+> illidan: And where I chained him beneath it, like a dog in a cellar. You are welcome.
+> thrall: Chained, and bled. Your servants went on making fel orcs from him.
+> illidan: A pit lord's blood is too useful to waste. I never claimed to be kind, orc. Only better than him.
+
+@ trigger=zone_enter where=nagrand
+illidan: Nagrand. The one corner of my Outland the fel never quite touched.
+> thrall: My grandmother lives in Garadar. Geyah. She remembers my father as a boy.
+> illidan: I ruled this world, and never once troubled myself about an old orc woman in a hut.
+> thrall: And still she has outlived you, Stormrage. That is no small thing.

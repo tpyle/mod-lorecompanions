@@ -1,0 +1,37 @@
+# Scarlet Commander Renault Mograine, Highlord Tirion Fordring and High
+# Inquisitor Whitemane: the Monastery's two masters, the Ashbringer, and the
+# man who carries it.
+
+@ trigger=idle
+whitemane: Fordring. That blade was Alexandros Mograine's. His son stands beside you. Give it to him.
+> tirion: If he wants it, it's his. I've told him so.
+> renault: I do not want it.
+> whitemane: Mograine. It is your birthright. The Crusade would follow the Ashbringer anywhere.
+> renault: Then let them follow Fordring. I will not touch that sword, Sally. Do not ask again.
+> tirion: Leave it, Whitemane. Some things a man carries are heavier than a sword.
+> whitemane: ...You know something I do not, Fordring.
+> tirion: I know grief when I see it. That's all.
+
+@ trigger=zone_enter where=scarlet_monastery
+whitemane: The Monastery. You are in my house now, Fordring. Mind your manners.
+> tirion: I always do. Fine cathedral. Very red.
+> renault: Leave him be, Sally. He has walked into worse houses than ours.
+> whitemane: Name one.
+> tirion: The Hall of Justice in Stratholme, the day they tried me. Better manners, worse intentions.
+> whitemane: ...We shall see about our intentions.
+
+@ trigger=idle
+tirion: Alexandros used to sing on the march. Badly. Did either of you ever hear him?
+> whitemane: Once, when I was small. A hymn, so loudly that the priest stopped to let him finish.
+> tirion: That sounds right. He only ever knew the first verse of anything.
+> renault: He knew all of them. He only liked the first verse best. ...I am going to scout ahead.
+> whitemane: Mograine...
+> tirion: Let him go, Whitemane. He loved his father. It's the loving that hurts.
+
+@ trigger=idle
+renault: Sally. When you raise me, does it cost you anything?
+> whitemane: That is not a question a champion asks.
+> tirion: It's a question a friend asks. She's tired after, son. Every time.
+> whitemane: I am not tired, Fordring.
+> renault: She is. She sleeps after. Badly.
+> whitemane: ...Both of you, be silent.

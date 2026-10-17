@@ -1,0 +1,21 @@
+# Paletress and Tyrande: two priestesses, one who listens and one who has been listening a long time.
+
+@ trigger=idle
+tyrande: Confessor. I am told that in your trial you called up Illidan, for champions to fight.
+> paletress: A memory of him, High Priestess. Only for those who'd faced him before.
+> tyrande: Did they win?
+> paletress: Most of them. It's a kindness, really. You get to beat the thing that hurt you, and it doesn't get up again.
+> tyrande: Mine always gets up again. That is the trouble with Stormrages.
+
+@ trigger=idle
+paletress: Have you ever confessed, High Priestess? I imagine ten thousand years would take a while.
+> tyrande: I speak to the moon, Paletress, and the moon does not repeat me.
+> paletress: That sounds lonely.
+> tyrande: ...It can be. Perhaps I will sit at your screen one day. Have a great deal of tea ready.
+> paletress: I'll keep the pot on. Take as long as you need.
+
+@ trigger=idle
+tyrande: You preach compassion to soldiers who are about to march on the Lich King. Does it reach them?
+> paletress: Some of them. It doesn't bring them home more often. But the ones it reaches come home as themselves.
+> tyrande: That is a better reason than most I have heard from generals.
+> paletress: It's the only one I've got. I try to make it last.

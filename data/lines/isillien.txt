@@ -125,8 +125,8 @@ Fordring. You are holding that sword very tightly.
 > tirion: I'm holding it so I don't do something I'll regret, Isillien. Walk on. Please. Just walk on.
 
 @ trigger=idle with=tirion
-Your son begged, you know. At the end. Not for his life. For yours.
-> tirion: ...I know. I was there. I heard it. Don't you dare speak his name again.
+The dragons say your son begged, at the end. Not for his life. For yours. I have not reached that day yet. I find I look forward to it.
+> tirion: ...I was there. I heard him. Don't you dare speak his name again.
 
 @ trigger=idle with=brigitte
 Abbendis. A vision told you to sail north. Have you ever wondered who sent it?

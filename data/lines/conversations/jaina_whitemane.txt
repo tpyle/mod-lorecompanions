@@ -1,0 +1,22 @@
+# Lady Jaina Proudmoore and High Inquisitor Whitemane.
+
+@ trigger=zone_enter where=stratholme,culling_of_stratholme
+whitemane: Stratholme. You were here, Proudmoore, the day the prince put it to the sword.
+> jaina: I was. I left before he began. I've spent years wondering if I should have stayed and stopped him.
+> whitemane: You could not have stopped him.
+> jaina: That's... surprisingly kind of you, Whitemane.
+> whitemane: It is not kindness. The grain was already in the bread. Someone had to burn it. I only wish it had been someone else.
+
+@ trigger=idle
+whitemane: Theramore sits beside the orcs, I am told. You trade with them.
+> jaina: We do. Fish, timber, the occasional apology.
+> whitemane: The orcs began all of this. The camps, the portal, the demons.
+> jaina: And an orc saved Tirion Fordring's life, and Thrall's people bled beside mine at Hyjal. History's longer than you'd like it to be.
+> whitemane: History is short where I stand, Proudmoore. It ends at the plague.
+
+@ trigger=idle
+jaina: You've been kinder to the prince than I expected, Whitemane.
+> whitemane: He is not yet the Lich King. I do not purge the innocent.
+> jaina: You've purged a great many people you weren't sure of.
+> whitemane: I was sure of every one, Proudmoore. That is the burden.
+> jaina: No. That's the danger. He was sure, too.

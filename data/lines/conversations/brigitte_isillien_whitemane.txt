@@ -1,0 +1,35 @@
+# High General Brigitte Abbendis, Grand Inquisitor Isillien and High
+# Inquisitor Whitemane: the Scarlet leadership. Whitemane refuses that
+# Dathrohan was Balnazzar; nobody knows what Westwind is.
+
+@ trigger=idle
+whitemane: The Crusade's leaders, together on one road. Hearthglen, the Monastery, and Northrend.
+> isillien: Hearthglen is the Crusade's heart, High Inquisitor. The Monastery its voice. Northrend is where Abbendis took its feet.
+> brigitte: The Crusade is over, Isillien. I ended it. There is only the Onslaught now.
+> whitemane: You did not end it, Abbendis. You left it. I am still holding the cathedral in Tirisfal.
+> isillien: Ladies. You quarrel over who leads it. I keep the files on all of you. Which of us do you suppose leads it?
+
+@ trigger=idle
+brigitte: Dathrohan was Balnazzar. A dreadlord at the head of our Crusade. I will not pretend otherwise.
+> whitemane: Demon lies, Abbendis. The Grand Crusader was a saint. They slander him to break us.
+> isillien: The dragons told me the same tale. I confess I find it tiresome.
+> brigitte: Tiresome? He will order you to kill Taelan.
+> isillien: And I shall. An order does not grow less sound because the hand that signs it has claws.
+> whitemane: There. You see? Even Isillien keeps the faith.
+> brigitte: That is not what he said, Whitemane. Light help me, that is not what he said.
+
+@ trigger=idle
+isillien: Abbendis's admiral came back from a lost fleet. Alone. Without a scratch.
+> whitemane: Then he was preserved. The Light returns its champions. I see it done every week.
+> brigitte: You see Mograine, Whitemane. Westwind needed no altar.
+> isillien: A man who comes back from the dead, alone, ought to be questioned by someone. I volunteer.
+> brigitte: Touch my admiral and I will hang you from the walls of New Hearthglen myself.
+> whitemane: She is sure of him, Isillien. Let it rest. Faith is not a crime.
+> isillien: No. But it is so very often evidence.
+
+@ trigger=zone_enter where=scarlet_monastery
+whitemane: My Monastery. Mind the carpets, Abbendis. You trod mud all through the cathedral the last time you came south.
+> brigitte: That was blood, Whitemane.
+> whitemane: It was both. And Isillien, your inquisitors left my library in disarray again.
+> isillien: My inquisitors left it as they found it. Your librarians are the ones who keep confessing.
+> brigitte: Light save me. I crossed an ocean to be rid of this.

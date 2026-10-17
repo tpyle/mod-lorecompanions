@@ -1,0 +1,24 @@
+# High General Brigitte Abbendis and Argent Confessor Paletress.
+
+@ trigger=idle
+paletress: You pray with your eyes open, High General.
+> brigitte: Habit. Soldiers do.
+> paletress: Soldiers close them when they think no one's looking. You keep yours open, as if you're waiting for something.
+> brigitte: The Light spoke to me once. Clearly. It has been quiet since.
+> paletress: Since when?
+> brigitte: ...That is enough questions, Confessor.
+
+@ trigger=zone_enter where=new_hearthglen
+brigitte: New Hearthglen. Keep that Argent tabard covered, Confessor. My sentries shoot first.
+> paletress: Then I'll walk slowly and smile a lot.
+> brigitte: That will not help.
+> paletress: It always helps a little. Even sentries were children once.
+> brigitte: ...Fine. Walk behind me.
+
+@ trigger=idle
+brigitte: You heal Forsaken in your pavilion, Confessor. I have seen it.
+> paletress: I heal anyone who bleeds. Forsaken bleed. Slowly, but they do.
+> brigitte: Mercy to the dead is weakness.
+> paletress: Mercy isn't weakness, Brigitte. It's the hardest thing I do. Try it once, and then tell me it was easy.
+> brigitte: I heal my soldiers every day.
+> paletress: That's duty. Mercy is when they aren't your soldiers.

@@ -1,0 +1,21 @@
+# Liadrin and Paletress: courage, blame, and the three virtues.
+
+@ trigger=idle
+paletress: You had an apprentice once, didn't you, Matriarch? Galell.
+> liadrin: He fell to the hunger. I could not hold him. I taught him everything except how to stop.
+> paletress: Do you think he blames you?
+> liadrin: I do not know. I blame myself. That is enough for both of us.
+> paletress: It isn't, you know. Blame doesn't share well. Someday you should give him back his half.
+
+@ trigger=idle
+liadrin: I saw you face the Val'kyr twins, Confessor. My knights still argue over whether it was courage or madness.
+> paletress: Neither. They'd come to hurt people who'd come to me for comfort. I wasn't going to let them.
+> liadrin: That is courage, then.
+> paletress: It's a confessor's job. You'd be surprised how much of courage is just not leaving the room.
+
+@ trigger=idle
+paletress: Tenacity, respect, compassion. Which of the three is hardest for you, Matriarch?
+> liadrin: Respect. Tenacity I learned from the Scourge. Compassion I learned from a naaru.
+> paletress: And respect?
+> liadrin: I am still learning it. Mostly from people like you, who give it before it is earned.
+> paletress: That's the only way it ever gets earned, I think.

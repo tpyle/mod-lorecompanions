@@ -1,0 +1,24 @@
+# Lady Jaina Proudmoore and Highlord Tirion Fordring.
+
+@ trigger=idle
+jaina: When you reach the top of the Citadel, Tirion... will you let me speak to him first?
+> tirion: If there's time. There won't be much.
+> jaina: I know. I don't even know what I'd say.
+> tirion: Say his name. Not the title. I'd like to know if anything in there still answers to it.
+> jaina: And if it does?
+> tirion: Then I'll be sorry while I do it. That's the most I can promise you.
+
+@ trigger=zone_enter where=theramore
+tirion: Theramore. Orcs on the road and nobody running. You did this, Lady Proudmoore.
+> jaina: Thrall did half of it. A great many patient people did the rest.
+> tirion: Took me one orc and my whole career. You've managed thousands and kept your city.
+> jaina: Ask me again in ten years, Highlord. Peace is mostly paperwork and nerve.
+> tirion: Then you've plenty of both.
+
+@ trigger=idle
+jaina: I'm told he came to the Coliseum himself, at the end of the Trial. Walked right in.
+> tirion: He did. I told him he was outnumbered, and offered him a just death if he'd lay down the sword.
+> jaina: And?
+> tirion: He laughed. Then he broke the ice under the champions and dropped them to Anub'arak.
+> jaina: That laugh. I used to love that laugh.
+> tirion: I know, lass. I'm sorry. It isn't his any more.

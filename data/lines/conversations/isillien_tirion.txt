@@ -1,0 +1,49 @@
+# Grand Inquisitor Isillien and Highlord Tirion Fordring.
+
+@ trigger=idle
+isillien: The dragons say you kill me on the Hearthglen road, Fordring. Over the boy.
+> tirion: I did. I'm not going to do it twice.
+> isillien: How generous. Or is it that you cannot?
+> tirion: It's that I'm tired, Isillien. Killing you didn't bring him back the first time.
+> isillien: Perhaps it would be more satisfying with practice.
+> tirion: Walk ahead of me. I'd rather see where you are.
+
+@ trigger=zone_enter where=mardenholde
+isillien: Mardenholde. Your old keep, Fordring. The Crusade keeps it better than you did.
+> tirion: You hang men from my battlements.
+> isillien: Only the guilty.
+> tirion: And who decides that?
+> isillien: I do. That is rather the point of me.
+
+@ trigger=idle
+tirion: The order to kill my son came from Dathrohan. Dathrohan was Balnazzar. You took your orders from a demon, Isillien.
+> isillien: So the dragons tell me. I find it changes nothing.
+> tirion: Nothing?
+> isillien: A traitor is a traitor, whoever signs the warrant. Taelan would have died by my hand with or without a dreadlord's blessing.
+> tirion: ...You know, I think that's the first honest thing you've ever said to me.
+> isillien: I am always honest, Fordring. It is why people dislike me.
+
+@ trigger=combat_start ctype=undead
+isillien: The dead. Shall we, Fordring? I will try not to mistake you for one of them.
+> tirion: Keep your shadow off my back.
+> isillien: I never strike from behind. I like them to see me.
+
+@ trigger=idle
+tirion: Paletress says no one's beyond redemption. I've been trying to believe it about you.
+> isillien: And?
+> tirion: Some days I manage. Today isn't one of them.
+> isillien: Then we understand each other. I have never once tried to believe it about you.
+> tirion: That's the difference between us, Isillien. I try.
+
+@ trigger=zone_enter where=hearthglen
+tirion: Hearthglen. The tower's just down that road.
+> isillien: I know the tower. In my time, I have not yet walked to it.
+> tirion: You will. Everyone keeps telling me the dragons don't lie.
+> isillien: Then I will meet him there, and you will be late. You are always late, Fordring.
+> tirion: ...Not this time. This time I'm walking beside you, and you're going nowhere near that road.
+
+@ trigger=idle
+isillien: You heal with the Light and kill with it. I do both with shadow. Our sermons differ only in the lighting.
+> tirion: The Light asks me to be sorry when I kill. Does yours?
+> isillien: Mine asks for a report, in triplicate.
+> tirion: ...Light help me, that was very nearly funny.

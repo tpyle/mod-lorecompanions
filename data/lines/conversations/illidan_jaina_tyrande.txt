@@ -1,0 +1,35 @@
+# Illidan, Jaina and Tyrande: Hyjal, the Third War, Illidan's release, and Malfurion still lost in the Dream.
+
+@ trigger=zone_enter where=hyjal_summit
+jaina: Hyjal. Tyrande, do you remember the wisps? Thousands of them, rising out of the trees?
+> tyrande: I remember every one. Malfurion called them, and they gave themselves to bring Archimonde down.
+> illidan: I was not invited to that.
+> tyrande: You were banished, Illidan. By then you had devoured the Skull of Gul'dan and grown a demon's horns.
+> illidan: And still I was the only one of us who killed a dreadlord that year.
+> jaina: Tichondrius. He's right, you know. It's maddening.
+> tyrande: Do not encourage him, Jaina. He feeds on it.
+
+@ trigger=idle
+jaina: Tyrande, you freed him. I've never asked you why.
+> tyrande: Because the Legion had come, and I believed we needed every weapon. And because he had been in the dark for ten thousand years.
+> illidan: She means pity. She is too gracious to say pity.
+> tyrande: I mean what I said. You are the one who keeps hearing pity.
+> jaina: Do you regret it?
+> tyrande: Every day, and not once. Do not ask me to explain that, Jaina.
+
+@ trigger=zone_enter where=moonglade
+illidan: Moonglade. My brother's body lies near, does it not? In some barrow, while he wanders the Dream.
+> tyrande: You will not go near him.
+> illidan: I was not going to. I was going to say he has a talent for being absent when it matters.
+> jaina: Illidan.
+> illidan: What? It is a compliment. I have tried for millennia, and never managed it so gracefully.
+> tyrande: He fights for all of us in there. You only ever fought for yourself. That is the difference, and it always was.
+
+@ trigger=idle
+illidan: Proudmoore. You stood with her at the end of the world. Did she fight well?
+> jaina: You've seen her fight. Better than either of us.
+> illidan: I saw her fight at the Well of Eternity. I wondered whether time had softened her.
+> tyrande: Ask me, not her.
+> illidan: You would only tell me the truth. I wanted something flattering.
+> jaina: She was magnificent, Illidan. Happy now?
+> illidan: Unbearably.

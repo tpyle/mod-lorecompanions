@@ -42,8 +42,10 @@ drawn with his Warchief model and carrying the Doomhammer.
   again in Ashenvale and killed Cenarius; Thrall and Jaina freed him, and Grom
   killed Mannoroth in Demon Fall Canyon, dying in the act.
 - Fought beside Jaina, Tyrande and Malfurion against Archimonde at Hyjal.
-- Founded Durotar (named for his father) and Orgrimmar (for Doomhammer). With
-  Cairne, killed Admiral Daelin Proudmoore at Theramore; befriended Rexxar.
+- Founded Durotar (named for his father) and Orgrimmar (for Doomhammer). When
+  Admiral Daelin Proudmoore attacked Durotar, Thrall sent the Horde against
+  him at Theramore with Jaina's consent; Rexxar killed Daelin there.
+  Befriended Rexxar.
 - Purged the Burning Blade from the Horde (Cycle of Hatred).
 - Accepted the Forsaken and later the blood elves into the Horde; allied
   with Bolvar Fordragon against C'Thun.
@@ -77,6 +79,7 @@ drawn with his Warchief model and carrying the Doomhammer.
 - Speaks often of honour, choice, and the orcs' debt for the blood curse.
 - Would never boast of cruelty, despair of peace, or speak of the Horde as
   only orcs.
+- Use sparingly: Taretha, and "Lok'tar".
 
 ## What they know, and don't
 

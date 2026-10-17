@@ -60,6 +60,21 @@ Gilneas is still behind the Greymane Wall; worgen are not a known people.
 Teldrassil stands, Theramore stands, the Undercity stands, and Ironforge has
 no Council of Three Hammers.
 
+## Places that mislead
+
+- `stratholme` and `stratholme_city` are the ruined city of today.
+  `culling_of_stratholme` is the Caverns of Time replay of the day of the
+  purge. A scene set on that day belongs only to the last.
+- `hyjal` (Mount Hyjal) cannot be reached on a 3.3.5 realm, so lines for it
+  never play. `hyjal_summit` is the Caverns of Time replay of the battle.
+- `old_hillsbrad` is the Caverns of Time replay of Thrall's escape;
+  `durnholde` is the keep as it stands today, in Hillsbrad.
+
+## Rumours
+
+- Muradin Bronzebeard's survival is a 3.3 reveal. Before then it may only
+  be a rumour ("they say", "dwarves talk"), never a fact.
+
 ## Don't write
 
 A line is wrong if it needs any of these to be true.

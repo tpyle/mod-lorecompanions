@@ -1,0 +1,52 @@
+# High General Brigitte Abbendis and Highlord Tirion Fordring.
+
+@ trigger=idle
+tirion: I served with your father, Brigitte. In the Silver Hand, before my exile.
+> brigitte: Then you know what he thought of orcs.
+> tirion: I do. We argued about it for years. He never once let me win.
+> brigitte: He never let anyone win. He called that love.
+> tirion: He called you Brig. I heard him, at a muster once. He was beaming.
+> brigitte: ...Do not do that, Fordring. Not in front of the soldiers.
+
+@ trigger=idle
+brigitte: When the prince sailed north, I begged my father to let me hunt him. He said no.
+> tirion: He was right to. You'd have died on the Northrend shore with the rest of his men.
+> brigitte: Perhaps. And perhaps Lordaeron would still stand.
+> tirion: I've played that game too, Brigitte. Every road I try ends at the same throne.
+> brigitte: Then we take the throne. It is the one road left.
+> tirion: That we agree on.
+
+@ trigger=idle
+tirion: Your admiral, Westwind. My scouts say he walks the walls at New Hearthglen all night.
+> brigitte: Grand Admiral Westwind is no concern of the Argent Crusade.
+> tirion: Anything in Northrend that doesn't sleep is a concern of mine, Brigitte.
+> brigitte: He keeps vigil. He is devout.
+> tirion: Then he won't mind if I keep it with him.
+> brigitte: ...Leave him to me, Fordring. If something is wrong, I will be the one to find it.
+
+@ trigger=idle
+brigitte: When you march on the Citadel, the Onslaught marches too. Under my banner. Not yours.
+> tirion: I don't care whose banner it is, so long as it's pointing up the hill.
+> brigitte: You say that now.
+> tirion: I've said it to orcs and Forsaken and death knights. You're the easiest yet.
+> brigitte: That is not the compliment you think it is.
+
+@ trigger=zone_enter where=hearthglen
+brigitte: Hearthglen. My father died on those walls. In my arms.
+> tirion: I governed this town once. I'm sorry, Brigitte. I didn't know it happened here.
+> brigitte: By the gate. He asked whether we had held. We had.
+> tirion: Then he went knowing. That's more than most of us get.
+> brigitte: It is why I named the new city for it. So he would know again.
+
+@ trigger=zone_enter where=tyrs_hand
+tirion: Tyr's Hand. You were gone before the Ebon Blade came for the Scarlet Enclave.
+> brigitte: The Light called me north. I took the faithful with me.
+> tirion: And the ones you left behind?
+> brigitte: My orders to Galvar went astray. A courier lied. Every sentry in New Hearthglen knows his face.
+> tirion: That courier was a death knight, Brigitte. Darion's people would tell you as much, if you asked.
+> brigitte: I will ask the Ebon Blade for nothing.
+
+@ trigger=combat_start foe=Grand_Admiral_Westwind
+brigitte: Westwind? Stand down! That is an order!
+> tirion: Brigitte, look at him. That's no man.
+> brigitte: Light help me. I knew. I knew.

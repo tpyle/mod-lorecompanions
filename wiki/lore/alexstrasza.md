@@ -63,6 +63,7 @@ mage, drawn at 0.68 scale so she stands about as tall as Jaina and Sylvanas.
 - Fire, for her, cleanses so life can return; "to protect life, there are
   times when we must destroy that which seeks to end it."
 - Would never gloat, despise a whole people, or treat death as nothing.
+- Use sparingly: "No, child" and "little one".
 
 ## What they know, and don't
 

@@ -1,0 +1,41 @@
+# Liadrin and Sylvanas: the priestess who lost her faith when Quel'Thalas
+# fell, and the Ranger-General who died trying to stop it.
+
+@ trigger=idle
+liadrin: Where were you, Windrunner, when the second gate opened? I have heard a dozen versions.
+> sylvanas: On the wall, with what was left of my rangers. Then on the ground. Then I was something else.
+> liadrin: I was in Silvermoon, praying for you. I prayed until the Light stopped answering.
+> sylvanas: Then we both learned something that day, Matriarch. You that the Light can go silent. I that it was never listening.
+> liadrin: It answers me again now.
+> sylvanas: I am glad for you. I do not envy you.
+
+@ trigger=idle
+sylvanas: You were the first of the Blood Knights, Matriarch. Who gave you the idea?
+> liadrin: Rommath. Kael'thas had sent us a captive naaru from Outland, and Rommath asked who would take its Light by force.
+> sylvanas: And you said yes before he finished the question.
+> liadrin: I did. I was hungry, and angry, and I believed no one would ever give us anything again.
+> sylvanas: You were wrong, as it happens. Something did give you everything in the end. It only had to die first.
+
+@ trigger=idle
+liadrin: The Horde took my people in because you asked them to, Windrunner. Lor'themar has never forgotten it.
+> sylvanas: I asked because the Horde needed mages, and I needed a vote in Orgrimmar that was not an orc's.
+> liadrin: That is a cold way to describe a kindness.
+> sylvanas: It is the only way I can describe one. Accept it, and do not make me say it twice.
+
+@ trigger=zone_enter where=windrunner_spire,windrunner_village
+sylvanas: My family's house. I have not set foot in it since the day I died.
+> liadrin: The Scourge still crawl through the halls. My knights have cleared it three times.
+> sylvanas: And it fills again. Ghosts know their way home better than the living, Matriarch.
+> liadrin: Shall we go in?
+> sylvanas: No. Let them keep it. There is nothing in there I want to see with these eyes.
+
+@ trigger=zone_enter where=deatholme,ghostlands
+liadrin: Dar'Khan Drathir opened these lands to Arthas. I hunted his creatures here for years.
+> sylvanas: I remember Dar'Khan. A clever, small, jealous man. I should have shot him the first time he smiled at me.
+> liadrin: You would have saved us all a great deal.
+> sylvanas: Very few of my regrets are about arrows I fired, Matriarch. Most are about the ones I did not.
+
+@ trigger=kill foe=Kel'Thuzad
+sylvanas: The last time I saw this one, Arthas was pouring him into the Sunwell. I watched, and could do nothing.
+> liadrin: I was on Quel'Danas that day. I could feel it from the shore, the Light curdling.
+> sylvanas: Well. Neither of us is only watching today.

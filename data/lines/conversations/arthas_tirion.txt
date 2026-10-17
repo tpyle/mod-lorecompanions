@@ -1,0 +1,41 @@
+# Prince Arthas and Tirion: the juror and the exile, and the Highlord who means to face the king.
+
+@ trigger=idle
+arthas: Fordring. I sat on your jury, with Antonidas and the others. I never asked whether you hated me for it.
+> tirion: Hated you? You were a boy, and I'd broken the law. I told the truth and took what came.
+> arthas: You had a son. Taelan, wasn't it? He'd be grown now. Is he a knight?
+> tirion: He was. A good one. He's dead, son.
+> arthas: I'm sorry. Was it the plague?
+> tirion: It was men who said they served the Light. ...Let's walk, Arthas. I don't want to talk about it today.
+
+@ trigger=idle
+tirion: I was in the Cathedral of Light the day you knelt. Uther gave you his shoulder plates. Gavinrad gave you that great hammer.
+> arthas: Light's Vengeance. I nearly dropped it. It weighed more than I did.
+> tirion: You didn't, though. You held it up so the whole cathedral could see, grinning like a farm boy at a fair.
+> arthas: I was not grinning.
+> tirion: Son, I've got bad knees, not bad eyes.
+
+@ trigger=idle
+arthas: That's the Ashbringer. Alexandros Mograine's blade. Why have you got it?
+> tirion: Alexandros is gone, Arthas. His boy brought it to me, and the Light made it clean again.
+> arthas: Clean again? What happened to it?
+> tirion: A great deal, and most of it after your time. The short of it is that blades remember what's done with them. So do men.
+
+@ trigger=zone_enter where=uthers_tomb
+arthas: Uther's Tomb? Uther isn't dead. He's on the road to Stratholme, shouting at me.
+> tirion: Not here, Arthas. Here he's been in the ground a good while.
+> arthas: The dragons said it was me. At Andorhal.
+> tirion: I know what they said. Kneel a minute with me anyway. He'd want to see you here, the way you are now.
+> arthas: ...All right.
+
+@ trigger=zone_enter where=lights_hope
+tirion: Light's Hope. The Lich King came here himself, with an army at his back. The Light threw him out.
+> arthas: You fought him? Here?
+> tirion: For a moment. Long enough to look him in the eye.
+> arthas: And?
+> tirion: And I'll look him in the eye again, at the top of his Citadel. I'd rather not talk about it with you, son. Not with that face.
+
+@ trigger=combat_start
+tirion: Stay at my side, son!
+> arthas: Try and keep up, old man!
+> tirion: Cheeky. For the Light!

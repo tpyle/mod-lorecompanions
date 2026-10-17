@@ -1,0 +1,25 @@
+# Illidan and Moira: two people the world calls cursed, needling each other.
+
+@ trigger=kill foe=Ragnaros
+illidan: Your landlord, Princess.
+> moira: Evicted. For now. He'll be back; he always is.
+> illidan: So am I, it seems.
+
+@ trigger=idle
+moira: I was a prisoner in Shadowforge once. Then I married the jailer. You might try that with your warden, Stormrage.
+> illidan: Maiev does not marry. Maiev hunts. The dragons tell me she catches me in the end, and I doubt vows are involved.
+> moira: Sounds like my father. Hm. Maybe you should marry him.
+> illidan: I have lived a very long time, dwarf, and that is the worst idea I have ever heard.
+
+@ trigger=idle
+illidan: Your Dark Irons called a Firelord into the world and could not send it back. Sloppy work, Princess.
+> moira: This from the elf who ate a warlock's skull to see what would happen.
+> illidan: I knew exactly what would happen. That was the point.
+> moira: Aye. I'd guess Thaurissan said much the same, right before the mountain caught fire.
+
+@ trigger=idle
+illidan: Your shadows are thin, Princess. Borrowed. I can see the seams in them.
+> moira: They're Dark Iron shadows, and they've held well enough so far.
+> illidan: So did my prison. Things hold, Princess, until they do not.
+> moira: Was that a threat or a confession?
+> illidan: With me it is usually both.

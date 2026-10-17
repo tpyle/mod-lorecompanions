@@ -1,0 +1,24 @@
+# Alexstrasza the Life-Binder and Argent Confessor Paletress.
+
+@ trigger=idle
+alexstrasza: Child, I am told your arena once summoned Onyxia for a champion to fight.
+> paletress: Her memory. Did that offend you, Life-Binder?
+> alexstrasza: No. I only wondered whether it was a true memory. She was a hatchling once. Deathwing's, but a hatchling.
+> paletress: The champions only remember the dragon in the lair.
+> alexstrasza: That is the sorrow of memory, little one. It keeps the worst hour and calls it the whole life.
+
+@ trigger=idle
+paletress: May I ask about Grim Batol, Life-Binder? Or is it a door you keep shut?
+> alexstrasza: You may ask. Few do. They fear I will burn them for it.
+> paletress: Would you?
+> alexstrasza: No. I was chained there for years, child, and my young were taken to be ridden to war. I do not forgive it easily. But I forgive.
+> paletress: How?
+> alexstrasza: One orc at a time. It is slow. I have time.
+
+@ trigger=zone_enter where=wyrmrest
+paletress: Wyrmrest. I've never stood so close to so many dragons. I think I'm meant to be frightened.
+> alexstrasza: Most mortals are, at first.
+> paletress: I'm not. Is that foolish?
+> alexstrasza: It is rare. You look at a dragon the way you look at a penitent, as if you are waiting for us to say something true.
+> paletress: And will you?
+> alexstrasza: Here, child, we say very little else.

@@ -1,0 +1,24 @@
+# Grand Inquisitor Isillien and Princess Moira Thaurissan, both shadow
+# priests.
+
+@ trigger=zone_enter where=blackrock_depths
+isillien: Real cells, Princess. Iron doors, deep under a mountain. I am almost moved.
+> moira: Don't get comfortable. There's a free one at the end, and the warden owes me a favour.
+> isillien: You would imprison the Grand Inquisitor?
+> moira: I'd charge you rent. Dark Iron hospitality has its limits.
+
+@ trigger=idle
+isillien: You and I share a discipline, Princess. The shadow, put to the Light's ends.
+> moira: We share nothing. Mine's Dark Iron craft, and my son's the only end I put it to.
+> isillien: Every heretic I ever questioned said much the same. They loved someone, and so the rules were for others.
+> moira: And who do you love, Inquisitor?
+> isillien: The Crusade.
+> moira: Hm. Poor Crusade.
+
+@ trigger=idle
+isillien: Your son, Princess. Half Bronzebeard, half Thaurissan. The Inquisition would want to know which blood wins.
+> moira: The Inquisition can come to Shadowforge and ask him. He bites. He's teething.
+> isillien: I meant later.
+> moira: So did I. Touch a hair on him, and the last thing you hear will be a dwarf laughing.
+> isillien: I have been threatened by better.
+> moira: No, you haven't.

@@ -1,0 +1,44 @@
+# High General Brigitte Abbendis and High Inquisitor Whitemane.
+
+@ trigger=idle
+brigitte: You still call Dathrohan the Grand Crusader, Whitemane. He was Balnazzar. A dreadlord wore him.
+> whitemane: Lies of the Scourge, Abbendis. You were too quick to believe them.
+> brigitte: I was quick because I had already felt it. The Light went cold around him. I simply never said so.
+> whitemane: You are saying a great deal now.
+> brigitte: Because I have felt it again.
+
+@ trigger=idle
+whitemane: Your admiral. Westwind. Tell me about him.
+> brigitte: Grand Admiral Westwind is my adviser. He has served the Onslaught well.
+> whitemane: That is a report, Abbendis. I asked about the man.
+> brigitte: ...He never takes the field. He never eats at the men's table. They say it is piety.
+> whitemane: The men say a great many things. What do you say?
+> brigitte: I say we have a Citadel to take. Leave it.
+
+@ trigger=idle
+whitemane: You declared the Crusade ended, Abbendis. Your couriers said so in Tirisfal. Some of my novices wept.
+> brigitte: The Crusade was rotten from the Grand Crusader down. I kept the faith and threw away the name.
+> whitemane: The name is the faith. Scarlet is the colour of what we bled.
+> brigitte: Then my soldiers bleed the same colour in Northrend. Call them what you like.
+
+@ trigger=idle
+whitemane: Your father died in your arms at Hearthglen, they say.
+> brigitte: On the walls. I was still giving orders while he bled. He would have expected nothing less.
+> whitemane: And after?
+> brigitte: After, I built walls of my own. That is how I grieve, Whitemane. In stone.
+> whitemane: I grieve in fire. Neither of us is very good at it.
+
+@ trigger=zone_enter where=new_hearthglen
+whitemane: New Hearthglen. So this is what you took the faithful away to build.
+> brigitte: Walls above the Forgotten Shore. A harbour, a chapel, an army. Inspect it, if you like.
+> whitemane: The walls are adequate. The chapel is too quiet.
+> brigitte: ...You noticed that.
+> whitemane: A chapel should hum with the Light, Abbendis. Yours sounds like an empty room.
+> brigitte: It did not, when we built it.
+
+@ trigger=idle
+brigitte: Mograine follows you about like a hound, Whitemane.
+> whitemane: My champion goes where he is needed.
+> brigitte: He goes where you are. I used to think you kept him for the raising. Now I think he keeps you.
+> whitemane: Careful, Abbendis. That very nearly sounded kind.
+> brigitte: Report it to no one.

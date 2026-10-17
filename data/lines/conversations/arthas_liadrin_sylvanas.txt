@@ -1,0 +1,29 @@
+# Arthas, Liadrin and Sylvanas: the fall of Quel'Thalas, faced across a campfire by the prince who hasn't done it yet.
+
+@ trigger=zone_enter where=windrunner_spire
+sylvanas: Windrunner Spire. My family's house, before your Scourge came through it. Look at it, little prince.
+> arthas: I wouldn't march an army on a family's house, my lady. I'm not that kind of man.
+> liadrin: The dragons will have told him otherwise. He chooses not to listen.
+> sylvanas: Good. Let him choose. I would rather he believed it right up until the day the world proves him wrong.
+> arthas: You both talk as though I'm already gone.
+> liadrin: To us, Prince, you are. You are a ghost who has not died yet.
+
+@ trigger=idle
+arthas: How would anyone even get into Quel'Thalas? The gates are enchanted. Father says no army has ever broken them.
+> sylvanas: You break the first. You open the second with a key.
+> liadrin: The Key of the Three Moons. Made to keep our enemies out, and used to let them in.
+> sylvanas: It does not matter how. It matters that I was standing behind it.
+> arthas: ...I don't want to hear any more.
+> sylvanas: No. You never did.
+
+@ trigger=idle
+liadrin: Ranger-General. When you fell, the king still lived. Did you see him at the Sunwell?
+> sylvanas: I saw. I was already Arthas's creature by then. He made me watch Anasterian die.
+> arthas: Anasterian? The old king? He was patient with me when I visited, and I was not an easy boy.
+> liadrin: He was old, and the sword was not. He stood against you anyway, Prince.
+> sylvanas: It did not save him. Remember that, little prince, when you think courage will be enough.
+
+@ trigger=combat_start ctype=undead
+arthas: Scourge! For Lordaeron!
+> sylvanas: Shout it louder, boy. They might remember you.
+> liadrin: Enough. They are coming, and they do not care who he was.

@@ -1,0 +1,48 @@
+# Arthas and Sylvanas: the prince, before any of it, and the woman he will
+# murder and enslave. She knows; he refuses to.
+
+@ trigger=idle
+arthas: They tell me you've killed dreadlords, my lady. Mal'Ganis's kind.
+> sylvanas: Three. Detheroc I killed myself. Varimathras I made kill his brother Balnazzar, and much later I killed him too.
+> arthas: Light. I've been chasing Mal'Ganis across half of Lordaeron. How did you corner them?
+> sylvanas: I let them think I belonged to them. Dreadlords never imagine their servants can think.
+> arthas: ...That's good advice. Thank you.
+> sylvanas: Do not thank me, boy. Remember it. You will need it more than you know.
+
+@ trigger=idle
+arthas: I went to Quel'Thalas once, as a boy. I remember the trees were gold, and everyone was taller than me and very polite about it.
+> sylvanas: Everyone is taller than human boys. We were polite because your father was a king.
+> arthas: I don't remember you there.
+> sylvanas: I was on the border, keeping the Amani away from a very important little visitor.
+> arthas: Then I owe you for that, I suppose.
+> sylvanas: Oh, you do, little prince. You have no idea how much.
+
+@ trigger=idle
+sylvanas: Do you still believe it is all a lie, boy? What the dragons told you?
+> arthas: I believe it's a test. Or a trick of Mal'Ganis. I'd never do those things.
+> sylvanas: You said "never" very quickly.
+> arthas: Because it's true!
+> sylvanas: Most men say it slowly, after thought. You say it like a door you are holding shut.
+
+@ trigger=idle
+arthas: You're the best shot I've ever seen, my lady. Uther would have wanted you for the Silver Hand's rangers.
+> sylvanas: The Silver Hand does not have rangers.
+> arthas: Well, no. He'd have made some, for you.
+> sylvanas: Charm, from a Menethil. I had forgotten how easily it came to your family.
+> arthas: Is that a yes?
+> sylvanas: It is a no, boy. But it is the kindest no you will ever get from me.
+
+@ trigger=zone_enter where=undercity,ruins_of_lordaeron
+arthas: This is Lordaeron. This is my home. What happened to the city?
+> sylvanas: You did, little prince. Your father's throne room still stands, up there. He died in it, at your hand.
+> arthas: Stop. Stop saying that.
+> sylvanas: My people live beneath it now. We are what grows in the ruins you leave.
+> arthas: ...I'll fix this. Whatever this is, I'll find a way to fix it.
+> sylvanas: You never fix anything, Menethil. You only end it.
+
+@ trigger=zone_enter where=eversong,ghostlands
+sylvanas: Look at the scar running through the forest, boy. The Dead Scar, they call it. That is the road you will march down.
+> arthas: I'd never march on Quel'Thalas. They're our allies.
+> sylvanas: They were. Until a prince of Lordaeron came to the gates with the dead marching behind him.
+> arthas: And you stood on the wall.
+> sylvanas: I stood on the wall. Remember that, when you find yourself at the gate.

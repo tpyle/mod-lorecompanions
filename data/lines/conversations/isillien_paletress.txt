@@ -1,0 +1,23 @@
+# Grand Inquisitor Isillien and Argent Confessor Paletress.
+
+@ trigger=idle
+paletress: You were Taelan Fordring's confessor, weren't you? What did he talk about?
+> isillien: The seal of confession binds me, Confessor. Surely you of all people respect that.
+> paletress: I do. I'm only surprised that you do.
+> isillien: I respect anything that can be used later. ...He spoke of a man who taught him to ride. He could not remember the face.
+> paletress: His father. You knew, and you never told him who it was.
+> isillien: Of course I knew. Knowing is the job. Telling is a different job, and I never applied for it.
+
+@ trigger=idle
+isillien: Your little arena of memories. Whose would you raise against me, Confessor?
+> paletress: I don't choose. The memory comes from you.
+> isillien: Then it would be Fordring. Holding a sword over a road.
+> paletress: Is that what you fear?
+> isillien: I fear nothing. I merely know which way the road goes.
+
+@ trigger=idle
+isillien: Do you think I can be redeemed, Confessor? Be honest. You are always so honest.
+> paletress: Yes.
+> isillien: How tiresome.
+> paletress: You asked. People rarely ask unless some part of them hopes.
+> isillien: Or unless some part of them wishes to watch your face as you answer. ...It did not move. Remarkable.

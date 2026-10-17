@@ -1,0 +1,28 @@
+# Lady Sylvanas Windrunner and High Inquisitor Whitemane.
+
+@ trigger=idle
+sylvanas: Varimathras once sent heroes to your Cathedral for your head, Inquisitor. And Mograine's. They went often.
+> whitemane: And still the Cathedral stands. Your demon is dead, Banshee. I am not.
+> sylvanas: I killed him myself, in my own throne room. But the errand was mine, not his. It still stands.
+> whitemane: Then come and run it in person.
+> sylvanas: Patience. I have a Lich King to see to first.
+
+@ trigger=zone_enter where=tirisfal
+whitemane: Tirisfal. My Crusade drove your people from these glades once.
+> sylvanas: You drove them a little way. Then you ran back to your Monastery and barred the door.
+> whitemane: We will open it again.
+> sylvanas: Do. It will save my soldiers the trouble of breaking it.
+
+@ trigger=idle
+sylvanas: Your family rose, Inquisitor. I am told you put them down yourself.
+> whitemane: Who told you that?
+> sylvanas: The dead talk. Even mine. Did they know you, at the end?
+> whitemane: No. They knew nothing. They were not my family any more.
+> sylvanas: Then they were not like me. I knew everything. I always knew everything.
+> whitemane: ...That is worse. I will not say I am sorry, Banshee.
+> sylvanas: I would not believe you if you did.
+
+@ trigger=combat_start ctype=undead
+whitemane: The dead. Stand aside, Banshee, or be purged with them.
+> sylvanas: Aim at the ones trying to eat you, Inquisitor. It is a simple rule.
+> whitemane: It is the only one of yours I follow.

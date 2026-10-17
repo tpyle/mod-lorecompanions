@@ -1,0 +1,21 @@
+# Thrall and High General Brigitte Abbendis of the Scarlet Onslaught.
+
+@ trigger=idle
+thrall: General. Your admiral, Westwind. My shamans in the Dragonblight say the spirits go quiet around him.
+> brigitte: Your shamans talk to rocks, orc.
+> thrall: And the rocks are seldom wrong. You have felt it too. I see it in your face when his name comes up.
+> brigitte: ...The Light has been quiet. That is a trial of faith, not a sign.
+> thrall: Then I hope your faith is stronger than my rocks. Truly.
+
+@ trigger=zone_enter where=wrathgate
+thrall: The Wrathgate. Saurfang's son died here, with Bolvar and thousands more.
+> brigitte: I know. We heard of it at New Hearthglen within the day.
+> thrall: Would your Onslaught have helped them?
+> brigitte: We were not asked, and they would not have accepted. Still. I prayed for Fordragon. He was a paladin, whatever banner he stood under.
+> thrall: Then we have that in common, General. I asked the spirits to guide him home.
+
+@ trigger=revived
+thrall: The spirits sent me back.
+> brigitte: The spirits had help. No one under my command stays down.
+> thrall: Not even an orc?
+> brigitte: Do not push it. On your feet, Warchief. Report.

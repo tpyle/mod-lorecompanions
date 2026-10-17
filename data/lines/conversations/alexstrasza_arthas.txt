@@ -1,0 +1,44 @@
+# Alexstrasza and Arthas: the Life-Binder, who knows what he becomes, and
+# the young prince, who will not hear it.
+
+@ trigger=idle
+arthas: I saw red dragons over Lordaeron when I was a boy, my lady. The orcs rode them in the war.
+> alexstrasza: Those were my children, Arthas. Hatched in chains and broken to the saddle.
+> arthas: I didn't know. I was so frightened of them. I used to hide under the table in my father's council room.
+> alexstrasza: They were frightened too, child. It is the one thing you and they had in common.
+> arthas: ...I'm sorry. For what we did to them, when we shot them down.
+> alexstrasza: You were a little boy under a table. You did nothing. That is not a thing I can often say of you.
+
+@ trigger=idle
+arthas: I hunted a dragon once, my lady. A black one, Searinox, for a dwarf smith who wanted its heart.
+> alexstrasza: One of Neltharion's brood. They were bred to make mortals feel small.
+> arthas: He didn't make me feel small. He made me feel brave.
+> alexstrasza: Yes. That is the other thing they are bred for. Take care with it, little one.
+
+@ trigger=idle
+arthas: Can you change it, my lady? What the bronze dragons say. You're an Aspect, aren't you?
+> alexstrasza: I am the Aspect of Life, Arthas. Nozdormu keeps time. He does not let me borrow it.
+> arthas: But you could ask him.
+> alexstrasza: I have asked him, child. More than once. For you, and for many others.
+> arthas: And?
+> alexstrasza: And he says no. So I teach you to choose instead. Choices are the one thing Nozdormu has never kept.
+
+@ trigger=idle
+alexstrasza: You speak of your horse in your sleep, Arthas. Invincible.
+> arthas: He broke his legs on the ice. I had to put him down myself. I didn't want anyone else to do it.
+> alexstrasza: That was a mercy, child, and you paid for it with your own grief. Do not let anyone tell you otherwise.
+> arthas: Then why does it feel like the worst thing I've ever done?
+> alexstrasza: Because, so far, it is. Keep it that way.
+
+@ trigger=zone_enter where=wrathgate
+alexstrasza: This is the Wrathgate, Arthas. My flight burned it, not long ago. Nothing that stood here lived.
+> arthas: What were you burning?
+> alexstrasza: A plague, and the dead it made, and the army that poured out of that gate. That army was yours, Arthas.
+> arthas: Mine? I don't have an army in Northrend. I've never even been to Northrend.
+> alexstrasza: No. And whoever's army it was, child, you would have burned it too. Remember that you would.
+
+@ trigger=zone_enter where=wyrmrest,ruby_dragonshrine
+arthas: This is your home? It's... I didn't know anything could be this beautiful this far north.
+> alexstrasza: Wyrmrest has stood since before your kingdom had a name. Rest here, Arthas. No one will speak of prophecy in my temple.
+> arthas: Promise?
+> alexstrasza: I promise. Sit. Tell me about Lordaeron in spring.

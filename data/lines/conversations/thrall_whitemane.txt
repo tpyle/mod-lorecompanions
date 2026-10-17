@@ -1,0 +1,21 @@
+# Thrall and High Inquisitor Whitemane, who grew up in the hills around his prison.
+
+@ trigger=zone_enter where=hillsbrad
+whitemane: Hillsbrad. I was a child in these hills. We were told the orcs in Durnholde were beasts in a pen.
+> thrall: I was one of them. The one they let out to fight.
+> whitemane: Then you are Blackmoore's runaway. My mother bolted the shutters at the very rumour of you.
+> thrall: Your mother had more to fear from Blackmoore than from me.
+> whitemane: My mother is dead, orc. Do not tell me what she should have feared.
+
+@ trigger=idle
+whitemane: You took the Forsaken into your Horde. The dead walk under your banner.
+> thrall: They fight the Lich King, as you do. Their queen hates him more than any of us.
+> whitemane: Some of them made the plague that killed your orcs at the Wrathgate.
+> thrall: Putress's people did. Putress is dead. I do not hang a whole people for one traitor, Inquisitor.
+> whitemane: That is why your Horde will rot from within.
+
+@ trigger=idle
+thrall: You healed me in that last fight. You did not have to.
+> whitemane: Your blood was on my robes either way. Better it stayed inside you.
+> thrall: Thank you, Inquisitor.
+> whitemane: Do not thank me. I would do the same for a mule.

@@ -1,0 +1,41 @@
+# Jaina and Sylvanas: two women Arthas ruined, on opposite sides of a war
+# that has just nearly restarted in Sylvanas's own throne room.
+
+@ trigger=idle
+sylvanas: You brought Varian's army into my city, Proudmoore. Through my sewers, past my people, to my throne.
+> jaina: Varimathras held your throne at the time. We came for him and for Putress, not for you.
+> sylvanas: And when they were dead, your king kept walking.
+> jaina: Yes. And I took him home before he could draw on you. You might remember that part too.
+> sylvanas: I remember it. I have not yet decided what it is worth.
+
+@ trigger=idle
+jaina: When we reach the Citadel, Sylvanas, do you mean to let anyone else near him?
+> sylvanas: Do you mean to ask him something, Proudmoore, before the end?
+> jaina: ...I don't know. Whether any of him is left. Whether he'd even know me.
+> sylvanas: He knew me. He smiled while he did it. Ask your question quickly.
+
+@ trigger=idle
+sylvanas: Your Kirin Tor keep a very fine city, Proudmoore. My sister walks its streets in Silver Covenant blue.
+> jaina: The Silver Covenant. Vereesa believes in them. I believe in Vereesa.
+> sylvanas: And do the Covenant believe the Sunreavers should be in Dalaran at all?
+> jaina: No. I've told them they're wrong. Loudly, and more than once.
+> sylvanas: Then for once, Proudmoore, you and I agree on something. Do not tell anyone.
+
+@ trigger=idle
+jaina: Your apothecaries are still working, Sylvanas. I've seen the reports from Vengeance Landing.
+> sylvanas: My apothecaries are always working. That is what apothecaries do.
+> jaina: Putress was working too. Right up until the Wrathgate.
+> sylvanas: Putress worked for himself. Those who remain work for me. If you wish to see the difference, Proudmoore, keep watching.
+
+@ trigger=idle
+sylvanas: Kael'thas wanted you, they tell me. The prince of Quel'Thalas, and you chose the prince of Lordaeron.
+> jaina: I was very young. Neither of them asked me to choose. They both simply assumed.
+> sylvanas: Look where both princes are now. One dead on the Magisters' Terrace. One on a throne of ice.
+> jaina: You're saying I have poor taste in princes.
+> sylvanas: I am saying you have survived them both. That is not nothing.
+
+@ trigger=zone_enter where=undercity
+jaina: I first met Arthas in the palace above us. I was a girl, here with my father for some summit or other.
+> sylvanas: And now it is my house, and he is a king of corpses. Lordaeron was always generous to its guests, Proudmoore. I am less so.
+> jaina: I'm not asking for generosity. Only that the lift keeps working while I'm on it.
+> sylvanas: It will. Probably.

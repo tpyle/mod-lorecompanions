@@ -1,0 +1,27 @@
+# High General Brigitte Abbendis and Scarlet Commander Renault Mograine.
+
+@ trigger=idle
+brigitte: I was in the chapel the day you were named Commander, Mograine. You did not look at anyone.
+> renault: I was looking at the altar.
+> brigitte: You were looking at the floor. My father noticed. He said a man who cannot look at the altar on the day he is honoured has paid too much for the honour.
+> renault: Your father said a great many things, High General. Most of them about elves.
+> brigitte: Most of them were true. So was that one.
+
+@ trigger=idle
+renault: Your admiral. Westwind. He smiles when he speaks of the Light.
+> brigitte: Many men do, Commander. You might try it.
+> renault: I took counsel once from a man who smiled like that. Dathrohan. I have regretted it since.
+> brigitte: Regretted what?
+> renault: Nothing. Forget I spoke. Watch your admiral, High General. That is all.
+
+@ trigger=zone_enter where=scarlet_monastery
+brigitte: Your cathedral, Mograine. The dragons told you this is where you die. Then do not go into the chapel.
+> renault: I asked them that. They said it does not work that way.
+> brigitte: I have never yet let a prophecy give me orders.
+> renault: You let a vision march you to Northrend.
+> brigitte: That was not a prophecy, Commander. That was the Light. Now hold the door.
+
+@ trigger=combat_start ctype=undead
+brigitte: Mograine, front! I have your back.
+> renault: Infidels! They must be purified!
+> brigitte: Less shouting. More shield.

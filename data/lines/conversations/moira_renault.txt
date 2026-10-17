@@ -1,0 +1,23 @@
+# Princess Moira Thaurissan and Scarlet Commander Renault Mograine.
+
+@ trigger=zone_enter where=blackrock_depths
+moira: Shadowforge City. Wipe your boots, Mograine, and keep that mace low near the nursery.
+> renault: A nursery. In this furnace.
+> moira: My son sleeps better here than I ever did in Ironforge. Heir to two thrones, and not a brother to fight him for either.
+> renault: Keep it that way.
+> moira: That's the most heartfelt thing you've said all day, Mograine.
+
+@ trigger=idle
+moira: You don't drink, do you, Mograine?
+> renault: The Crusade frowns on it.
+> moira: The Crusade frowns on everything. I've a flask of Dark Iron ale that'd take the frown off a gargoyle.
+> renault: One cup. For the cold.
+> moira: For the cold. Aye. That's what my father says too. Every night.
+
+@ trigger=idle
+moira: Half of Ironforge thinks I was bewitched into marrying. Your lot would agree, I expect.
+> renault: The Inquisition would test you for it.
+> moira: And what would you do?
+> renault: Believe you. Nobody chooses the Dark Irons by accident. Nor anything else worth regretting.
+> moira: I don't regret him, Mograine. Sounds like you've got something you do.
+> renault: Walk on, Princess.

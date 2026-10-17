@@ -1,0 +1,42 @@
+# Argent Confessor Paletress and Highlord Tirion Fordring.
+
+@ trigger=idle
+paletress: I still think about the Black Knight. The herald never saw him coming.
+> tirion: He was a message, Paletress. Arthas wanted us to know he could reach into the Coliseum.
+> paletress: He reached in twice. The second time he came himself.
+> tirion: And the champions went down into the pit after Anub'arak and came back up. That's our message.
+
+@ trigger=idle
+paletress: You never come to my screen, Tirion. Everyone else does.
+> tirion: I'm the Highlord. I'd hate to frighten the recruits by joining the queue.
+> paletress: That's a joke. You make jokes when you're hiding something.
+> tirion: ...There's a boy on a road outside Hearthglen. I see him most nights. I don't need to confess it. I need to stop dreaming it.
+> paletress: Then come anyway. Sometimes we just sit with them a while. The dreams get lighter.
+
+@ trigger=zone_enter where=zuldrak
+tirion: Zul'Drak. Eitrigg's holding the Argent Stand out here. Stubborn old orc.
+> paletress: He came to my screen once, you know.
+> tirion: Did he? I'd never have taken him for the confessing sort.
+> paletress: I can't tell you what he said. I can tell you he left lighter than he came.
+> tirion: ...Good. He's carried enough for the both of us.
+
+@ trigger=idle
+tirion: Where did you learn to listen like that, Paletress? Not in any cathedral.
+> paletress: A village chapel. Small. Farmers, mostly. They didn't have much to confess but the weather.
+> tirion: Farmers confess the worst things. I was one, in the exile years. You don't want to hear what I said to that horse.
+> paletress: I'm sure Mirador forgave you.
+> tirion: He bit me twice a week. That's how I knew.
+
+@ trigger=idle
+tirion: Lightbane and Darkbane. You beat them both on the tournament grounds, and I never thanked you properly.
+> paletress: You sent them on to the Coliseum in chains. I'm still not sure that was kind.
+> tirion: Kinder than what the Lich King would have done with them.
+> paletress: I apologised to them, you know. Before the shackles.
+> tirion: Of course you did.
+
+@ trigger=zone_enter where=icecrown_citadel
+paletress: The Citadel. Do you know what you'll say to him, Tirion?
+> tirion: Arthas? I've thought about it for months. Nothing I come up with is worth saying.
+> paletress: Then don't make a speech. Tell him the truth. It's what you do.
+> tirion: The truth is I'm sorry for the boy and I'll kill the man. Doesn't fit on a banner.
+> paletress: It fits on you. That's enough.

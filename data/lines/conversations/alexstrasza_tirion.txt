@@ -1,0 +1,23 @@
+# Alexstrasza the Life-Binder and Highlord Tirion Fordring.
+
+@ trigger=idle
+alexstrasza: Your blade burns the dead, paladin. It burns the way my flight's fire does: to clear the ground.
+> tirion: I hadn't thought of it like that.
+> alexstrasza: Fire is not only an ending, Tirion. After the burning, the grass returns.
+> tirion: After this war, I'd like to see some grass. Plain, green, and nothing on fire.
+> alexstrasza: Then I will find you a hill of it, when this is done.
+
+@ trigger=zone_enter where=wrathgate
+tirion: The Wrathgate. Your flight burned it clean after the plague, Life-Binder.
+> alexstrasza: We did. Nothing was left alive there to save, and much lay there that should not rise again.
+> tirion: That can't have been an easy order to give.
+> alexstrasza: It was the hardest I have given in an age, child, and the quickest.
+> tirion: I've given a few like it. You don't get any faster at them.
+> alexstrasza: No. Only quieter.
+
+@ trigger=idle
+alexstrasza: You call yourself old, Tirion. You say it often.
+> tirion: Because it's true. My knees have opinions.
+> alexstrasza: I was old when your kingdoms were forest and marsh. You are a fledgling.
+> tirion: Well. That's the nicest thing anyone's said to me all war.
+> alexstrasza: Then sit a while, fledgling. The Citadel will wait an hour.

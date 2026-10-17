@@ -1,0 +1,35 @@
+# Prince Arthas Menethil, Argent Confessor Paletress and Highlord Tirion
+# Fordring: the Crusade's confessor, its Highlord, and the prince who will be
+# the Lich King they are about to assault.
+
+@ trigger=idle
+paletress: Tirion, you were at Arthas's induction, weren't you? What was he like?
+> tirion: Nineteen and shining. Uther gave him his own shoulder plates.
+> arthas: You don't have to tell her everything, Lord Fordring.
+> tirion: He couldn't stop grinning through the oath. Uther had to clear his throat twice.
+> arthas: That's not how I remember it!
+> paletress: You're blushing, Arthas. It suits you.
+
+@ trigger=idle
+arthas: Lord Fordring. When you climb that Citadel... will you hesitate? Because he's me?
+> tirion: No.
+> arthas: Good. ...That's good.
+> paletress: Is it, Arthas? You look as if he'd struck you.
+> arthas: I asked for an honest answer and I got one. That's what I wanted.
+> tirion: I didn't say I wouldn't grieve, son. Only that I won't stop.
+
+@ trigger=idle
+paletress: Arthas, you sat on Tirion's jury. Have you ever told him what you thought of it?
+> arthas: I thought he was a fool. A brave one. I never said so, either way.
+> tirion: You were barely a man, and Daelin was shouting. I wouldn't have spoken up either.
+> paletress: Tirion. Let him finish.
+> arthas: ...I think you were right, and I think I knew it then. I wanted my father to be proud of me more than I wanted to be right.
+> tirion: That's the most dangerous thing about you, son. It always was.
+> paletress: And it's honest. Both of you, sit with that for a moment.
+
+@ trigger=zone_enter where=icecrown_citadel
+arthas: That's it, isn't it? Where I end.
+> tirion: Where he ends. You're standing down here with me.
+> paletress: Arthas. Whatever happens up there, you can come to my screen afterwards.
+> arthas: Will there be an afterwards? For me?
+> paletress: There's always an afterwards. I don't know what it looks like. I'll be there anyway.

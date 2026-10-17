@@ -1,0 +1,23 @@
+# Illidan and Highlord Tirion: the one who lost to Arthas, and the one who goes to face him.
+
+@ trigger=idle
+illidan: You go to fight Arthas, Highlord. I fought him, at the foot of his glacier.
+> tirion: I know. I heard how it ended.
+> illidan: I did. He is faster than he looks, and he does not tire. The sword does not let him.
+> tirion: Anything else?
+> illidan: Do not let him talk. Every word he says is meant to be the one you remember.
+> tirion: ...That's good advice, Stormrage. Thank you.
+> illidan: I am not doing it for you.
+
+@ trigger=idle
+tirion: Folk say you're past saving. They said that about me, once.
+> illidan: You defended an orc. I set a world on fire. The scales do not compare, old man.
+> tirion: Maybe. But the Light's no merchant. It doesn't weigh things the way we do.
+> illidan: Then it is a poor merchant. I would never buy what it is selling.
+> tirion: That's all right. It gives it away.
+
+@ trigger=zone_enter where=black_temple
+illidan: The Black Temple. My seat. Where I die, I am told.
+> tirion: I'm sorry, Illidan. Truly.
+> illidan: Save it. I spent my pity on myself long ago. There is none left over.
+> tirion: Then have some of mine. I've plenty, and I'm too old to carry it all.

@@ -1,0 +1,22 @@
+# Moira and Sylvanas: two queens of peoples the world would rather were
+# gone, neither of whom takes advice well.
+
+@ trigger=idle
+sylvanas: Your husband was killed by the men your father sent, Bronzebeard. My whole people were killed by a prince whose father loved him.
+> moira: Was that sympathy, Windrunner? From you?
+> sylvanas: It was an observation. We both keep thrones for the dead.
+> moira: I keep mine for a living boy. That's the difference, and I'd thank you to remember it.
+> sylvanas: I will. Guard him well, Princess. The world takes children first.
+
+@ trigger=idle
+moira: Your Undercity's built in old Lordaeron's crypts, aye? My father's engineers would weep at that stonework.
+> sylvanas: Your father's engineers may come and weep at it whenever they like. My deathguards would enjoy the visit.
+> moira: Ha. I'll pass that on. Word for word.
+> sylvanas: Do. It is the warmest invitation an Ironforge dwarf has had from me.
+
+@ trigger=idle
+moira: Do the Forsaken drink, Windrunner? I've a keg of Dark Iron ale that would wake the dead.
+> sylvanas: Most of my people have little use for taste any more.
+> moira: Then they're missing nothing. It tastes like a forge floor.
+> sylvanas: And you drink it anyway.
+> moira: I'm a Thaurissan now. We drink it to prove we can.

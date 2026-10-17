@@ -1,0 +1,20 @@
+# Liadrin and Whitemane: two kinds of Light found in the ashes.
+
+@ trigger=idle
+liadrin: Inquisitor. When Mograine falls and you call him back, does he ever ask you to let him rest?
+> whitemane: My champion does not ask. He rises, because the Light is not finished with him.
+> liadrin: I once drew the Light from a creature that could not refuse me. Make very sure he could, if he wished.
+> whitemane: Do not compare a holy rite to your theft, elf.
+> liadrin: I do not compare. I only recognise.
+
+@ trigger=idle
+whitemane: Lordaeron burned, and I found the Light in its ashes. Quel'Thalas burned, and you lost it. Why, elf?
+> liadrin: Because you had someone to blame, Inquisitor. I had only the Light, and it had not saved my people.
+> whitemane: The Light does not fail. People fail it.
+> liadrin: That is what my teacher told me. I did not believe him for years. Now I think the Light was grieving with me.
+
+@ trigger=idle
+whitemane: Your Blood Knights stand with the Horde. With the Forsaken. You fight beside the very dead who burned your city.
+> liadrin: I fight beside those who freed themselves from the one who burned it. There is a difference.
+> whitemane: There is no difference. The dead are dead.
+> liadrin: Then you and the Lich King agree on something, Inquisitor. I would think about that.

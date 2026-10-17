@@ -1,0 +1,22 @@
+# Illidan and High Inquisitor Whitemane: the demon who sees, and the priestess who will not look.
+
+@ trigger=idle
+illidan: Your little rite in the Cathedral. "Arise, my champion." I have watched demons do it with less ceremony.
+> whitemane: It is the Light's mercy. Nothing a demon could understand.
+> illidan: Every time he gets up, priestess, a little less of him comes with him. I can see it. Can you?
+> whitemane: Speak of my champion again, and we will see how many times you get up.
+
+@ trigger=idle
+whitemane: Ten thousand years in a cell. I am told you were guilty.
+> illidan: Of everything they charged me with, and more. Their mistake was thinking a cell would hold.
+> whitemane: The Crusade does not lock up the guilty.
+> illidan: No. You burn them and call it mercy. I have known jailers. You would have been one of the better ones.
+> whitemane: That is not the compliment you think it is.
+> illidan: I know exactly what it is.
+
+@ trigger=zone_enter where=scarlet_monastery
+illidan: So this is your Cathedral. It is crawling with ghosts, priestess.
+> whitemane: The dead of the Monastery rest in the Light.
+> illidan: Some of them rest beneath your floor. One is still awake down there. Your predecessor, I think.
+> whitemane: Fairbanks was a heretic. He is nothing to you, demon.
+> illidan: He is nothing to anyone. That is why he is so very angry.

@@ -1,0 +1,22 @@
+# Alexstrasza and Liadrin: the Life-Binder and the Blood Knight, on hunger,
+# second chances and very small dragons.
+
+@ trigger=idle
+liadrin: Our dragonhawks are said to be distant kin of your flight, Life-Binder. Is that true?
+> alexstrasza: Kin is generous, child. They are rather like a cousin's very excitable pets.
+> liadrin: My knights will be crushed. They were hoping for a blessing.
+> alexstrasza: Tell them they have one. Anything that flies that bravely with so small a brain deserves it.
+
+@ trigger=idle
+alexstrasza: Your people still hunger, Liadrin. I can feel it in them, the way one feels a fever in a child.
+> liadrin: Less than they did. The Sunwell feeds us cleanly now. Some still reach for more than they need.
+> alexstrasza: And you? You fed on a naaru once.
+> liadrin: I did. Some days I still wake thirsty. I do not drink. That is the whole of my victory, Life-Binder.
+> alexstrasza: It is a larger victory than most kings ever win.
+
+@ trigger=zone_enter where=quel_danas,sunwell_plateau
+alexstrasza: The Sunwell. I remember it before the Scourge, and after. This is better than either.
+> liadrin: Velen rekindled it with M'uru's heart. I stood where you stand, and wept like a novice.
+> alexstrasza: A blue dragon wept here too, child. Kalecgos loved the girl who was the Sunwell's living heart. He grieves her still.
+> liadrin: Anveena, who gave herself to drive Kil'jaeden back. I have heard the story, but never from one of your kind.
+> alexstrasza: Then sit, child, and I will tell it to you properly. It is a story about love, not magic.

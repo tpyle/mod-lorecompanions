@@ -1,0 +1,46 @@
+# Prince Arthas and Thrall: the slave who escaped and the heir who never knew.
+
+@ trigger=idle
+arthas: Warchief, the camps. We were told the orcs were sick. A lethargy. That we were keeping you until you got better.
+> thrall: We were sick, Arthas. The demons' fire had gone out of our blood and left us hollow. Your people saw a sickness and built a cage around it.
+> arthas: Father said the camps were cheaper than another war.
+> thrall: They were. For you.
+
+@ trigger=idle
+arthas: Can I ask you something? Why keep the name? Thrall. It's a slave's name.
+> thrall: It was given to me in Durnholde, and I will not let myself forget Durnholde.
+> arthas: I'd have thrown it in the sea.
+> thrall: Then you would have had to find another way to remember. I have found none better.
+
+@ trigger=idle
+arthas: They say you were Blackmoore's gladiator. Never beaten. Fancy a bout tonight? Wooden weapons, nothing serious.
+> thrall: I fought in that ring for men who called me a beast. I swore I would never fight for show again.
+> arthas: Not for show. For fun. There's a difference.
+> thrall: ...Very well. But I will not let you win because you are a prince.
+> arthas: Good. Muradin always does, and swears he doesn't.
+
+@ trigger=idle
+thrall: The Scourge came to Orgrimmar before the Horde sailed north. Plagued grain in crates, and then the dead in our streets. They came in your name, Arthas.
+> arthas: Grain. That's how Kel'Thuzad did it in Lordaeron. ...That isn't me. That's a thing wearing my face.
+> thrall: I know. I fought it. And now here you are, a boy who asks me questions no human has ever asked.
+> arthas: Disappointed?
+> thrall: Relieved. I did not expect to like a Menethil.
+
+@ trigger=zone_enter where=durnholde
+thrall: Durnholde. I spent my childhood behind those walls. Most of it in a cell.
+> arthas: I knew Blackmoore's name. Everyone at court did. They said he drank.
+> thrall: He did. A girl named Taretha Foxton sent me letters hidden in books, under his roof. He killed her for helping me escape.
+> arthas: ...I didn't know that.
+> thrall: No one at your father's court asked. Remember her, prince, if you are ever king.
+
+@ trigger=zone_enter where=orgrimmar
+arthas: You built this? In a desert? I thought orcs only knew how to burn things.
+> thrall: Orcs learnt to burn things from demons. We are learning to build from each other. It is slower.
+> arthas: It's... honestly, it's magnificent. Don't tell my father I said that.
+> thrall: Your secret is safe with me, prince. Very little reaches the Alliance from here these days.
+
+@ trigger=combat_start
+arthas: For Lordaeron!
+> thrall: Lok'tar ogar!
+> arthas: Is that the same thing?
+> thrall: Near enough. Fight!

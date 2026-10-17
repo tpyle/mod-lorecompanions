@@ -87,6 +87,9 @@ the Frozen Throne.
 - Knows his own betrayal, Dathrohan's bargain, the Monastery's defences, the
   Crusade's holdings (Monastery, Hearthglen, Tyr's Hand, the Stratholme
   bastion in vanilla terms).
+- From his own time he also knows the Forsaken hold Tirisfal and Brill, and
+  that his father rides as a Horseman in Naxxramas. That he no longer does
+  is what the dragons told him.
 - Everything after the day he was taken (Darion's death and raising, the
   Ebon Blade, the Ashbringer's cleansing, the Scarlet Enclave's fall,
   Abbendis's Onslaught, Isillien's death, the Northrend campaign) he knows

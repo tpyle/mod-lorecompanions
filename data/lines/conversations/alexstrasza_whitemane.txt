@@ -1,0 +1,23 @@
+# Alexstrasza and Whitemane: two women who burn things, for very different
+# reasons.
+
+@ trigger=idle
+whitemane: Your flight burned the Wrathgate, dragon. Plague, Scourge and Forsaken together. I approve.
+> alexstrasza: I did not do it for your approval, child. I did it so that something might grow there again.
+> whitemane: Purging is purging. The reason does not matter.
+> alexstrasza: The reason is the only thing that matters. Without it, fire is only hunger.
+> whitemane: Then we are both hungry, dragon. I simply do not pretend otherwise.
+
+@ trigger=idle
+alexstrasza: You call your champion back from death, Whitemane. I have felt it from a long way off. It is a very strange thing to feel.
+> whitemane: It is the Light's gift. Nothing strange about it.
+> alexstrasza: When you raise him, do you ever ask whether he wished to come?
+> whitemane: He is my champion. He always comes when I call.
+> alexstrasza: Yes. That is what I feared you would say.
+
+@ trigger=idle
+alexstrasza: You were very young when you lost them, I think. Your family.
+> whitemane: I did not lose them. I put them down myself, one by one, when they rose. That is not losing.
+> alexstrasza: It is, child. It is the worst kind of losing there is.
+> whitemane: ...Do not do that, dragon. Do not be kind at me. I have no use for it.
+> alexstrasza: Then I will only stand nearby. You may use that, or not.

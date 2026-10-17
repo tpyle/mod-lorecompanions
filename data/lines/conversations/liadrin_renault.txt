@@ -1,0 +1,20 @@
+# Lady Liadrin and Scarlet Commander Renault Mograine, both shields.
+
+@ trigger=combat_start
+liadrin: Behind me, Mograine.
+> renault: Behind you? I hold the line. You get behind me.
+> liadrin: Then we both hold it. Try to keep up.
+
+@ trigger=idle
+liadrin: I will say it plainly, Mograine. My order chained a naaru and bled it for the Light. I did that, and I will not pretend otherwise.
+> renault: Why tell me?
+> liadrin: Because you carry something the way I carried that. I know the weight of it by how a man stands.
+> renault: You know nothing about how I stand.
+> liadrin: Then stand straighter, Commander, and prove me wrong.
+
+@ trigger=zone_enter where=silvermoon,eversong
+renault: Silvermoon. The Crusade said the elves were finished. Your city looks finished in only a few places.
+> liadrin: The Scourge cut a scar through Eversong. We have spent years closing it. We are not done.
+> renault: The Dead Scar. And you leave it open?
+> liadrin: We leave it where all of us can see it. A wound you hide does not heal, Commander. It festers.
+> renault: Spare me the sermon, Blood Knight.

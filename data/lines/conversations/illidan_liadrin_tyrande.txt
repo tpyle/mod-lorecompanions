@@ -1,0 +1,32 @@
+# Illidan, Liadrin and Tyrande: Kael'thas, the naaru, the Black Temple, and ten thousand years.
+
+@ trigger=idle
+tyrande: Liadrin. Do you know where the Sunwell's first water came from?
+> liadrin: A vial from the Well of Eternity. Dath'Remar carried it out of Kalimdor.
+> tyrande: A vial confiscated from Illidan. Your exiles stole it from us on their way out.
+> illidan: So the Sunwell is mine. I had wondered why I liked it.
+> liadrin: It is not yours. It never was.
+> illidan: Your whole kingdom began with something I took, Matriarch. Pour it out if you like. You will still have been drinking from me.
+> tyrande: Enough, Illidan. A thief does not get to boast of what was stolen from him.
+
+@ trigger=idle
+liadrin: High Priestess. Illidan led my prince to the Legion. Do you hold yourself responsible for freeing him?
+> tyrande: Every day, Liadrin. I opened his cell. Everything he touched afterwards passed through my hands first.
+> illidan: You flatter yourself, Tyrande. Kael'thas would have found me, cell or no cell. He was looking for someone to follow.
+> liadrin: He found someone, Betrayer. He simply never stopped looking.
+> illidan: ...That is truer than I would like.
+
+@ trigger=zone_enter where=black_temple
+illidan: My temple. The dragons say this is where I die. Look at it, Tyrande. I made it beautiful.
+> tyrande: You made it a prison. For Akama's people first, and then for yourself.
+> liadrin: It was Karabor before you, Betrayer. The draenei's holy place. You only borrowed it.
+> illidan: Then let them have it back. The throne room too. It has a remarkable view of the end of me.
+
+@ trigger=idle
+illidan: Ten thousand years, Tyrande. What did you do with them, while I sat in the dark?
+> tyrande: I led the Sentinels. I watched the forests while the druids slept. I waited.
+> liadrin: In that time my people built a kingdom, lost it, and began another from the ashes.
+> illidan: And I counted stones. We each spent our time as well as we were allowed.
+> tyrande: You were allowed nothing because of what you did, Illidan. Do not dress up your cell as a hermitage.
+> liadrin: ...I would not have thought anyone could make him look ashamed, High Priestess.
+> illidan: She cannot. It is a trick of the light.

@@ -1,0 +1,24 @@
+# High General Brigitte Abbendis and Lady Jaina Proudmoore.
+
+@ trigger=idle
+brigitte: You took the refugees west, Proudmoore. Some of us stayed and fought for every village.
+> jaina: And how many of those villages are still standing, High General?
+> brigitte: ...Hearthglen. Tyr's Hand. The Monastery.
+> jaina: I'm not mocking you. I'd have stayed too, if I'd thought it would save anyone. I didn't. I still don't.
+> brigitte: Then we disagree on what saving means.
+
+@ trigger=idle
+brigitte: I wanted to hunt him down, you know. Arthas. After Terenas, after Uther. My father overruled me.
+> jaina: Would it have changed anything?
+> brigitte: He would be dead. Lordaeron might not be.
+> jaina: Or you would be. By then he had that sword, Brigitte, and an army of the dead behind it.
+> brigitte: You did not chase him.
+> jaina: No. I left him at Stratholme. I've wondered every day since whether I should have stayed and stopped him.
+
+@ trigger=zone_enter where=theramore
+brigitte: Theramore. Orc envoys at your gate, and your guards nod to them.
+> jaina: They're envoys. Nodding is the least we can do.
+> brigitte: My father would have hanged them from the walls.
+> jaina: Mine tried something like it. It killed him, and it nearly took this city down with him.
+> brigitte: He was a soldier. So was mine. We seem to have learned different lessons from them.
+> jaina: Then learn something from mine, Brigitte. Please. Before your Onslaught teaches someone else's daughter the same one.

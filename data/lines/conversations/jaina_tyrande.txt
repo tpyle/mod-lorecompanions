@@ -1,0 +1,40 @@
+# Jaina and Tyrande: allies of Hyjal and neighbours in Kalimdor, who agree
+# on almost everything except the Horde.
+
+@ trigger=idle
+tyrande: The Warsong cut another grove in Ashenvale this month, Jaina. Your friend Thrall says he cannot stop them.
+> jaina: He's trying. Garrosh's people answer to Garrosh first, and Thrall is in Orgrimmar.
+> tyrande: Then Thrall should come to Ashenvale and look at the stumps. Some of those trees were saplings when the Well burned.
+> jaina: I'll tell him. Though I suspect he'd rather hear it from you.
+> tyrande: He shall. Elune willing, before the next grove falls, and not after.
+
+@ trigger=idle
+jaina: Do you sleep, Tyrande? I've never once seen you do it.
+> tyrande: I keep the goddess's hours. I rest by day, when I can. It is seldom.
+> jaina: That explains the night elves I meet in Theramore, wandering about the docks at midnight looking puzzled that the shops are shut.
+> tyrande: Your shops keep very short hours, Jaina. We have noticed.
+
+@ trigger=idle
+tyrande: You were barely more than a girl at Hyjal, Jaina. Leading refugees, holding a line with orcs. I did not expect you to live.
+> jaina: Neither did I, most days.
+> tyrande: I spoke to Elune for you the night before the end. I have never told you that.
+> jaina: ...Then I suppose I owe the goddess a thank-you letter. Or you a very good dinner.
+> tyrande: The dinner. Elune does not read letters.
+
+@ trigger=idle
+jaina: Any word from Malfurion, Tyrande?
+> tyrande: The Dream holds him still. His body lies in Moonglade, and the druids tell me he is only sleeping.
+> jaina: And do you believe them?
+> tyrande: I believe him. He has never yet failed to come back to me. He has only ever been late.
+
+@ trigger=zone_enter where=darnassus
+tyrande: Welcome to Darnassus, Jaina. Mind the edges. It is a long way down.
+> jaina: It's beautiful. And very high. I'm trying not to look.
+> tyrande: You held the slopes of Hyjal while Archimonde climbed them. I think you can manage a branch.
+> jaina: That was different. I was too busy being terrified of him to notice the height.
+
+@ trigger=zone_enter where=hyjal_summit
+jaina: The bronze dragons kept all of it. The camps, the fires, the sound of him coming up the mountain.
+> tyrande: I hoped never to hear that sound again. Nordrassil gave everything it had here.
+> jaina: Your people gave it, Tyrande. Your immortality, all of it, to stop him.
+> tyrande: And yours gave their homes and their dead. Hyjal took from everyone. That is why it held.

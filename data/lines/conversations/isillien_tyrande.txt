@@ -1,0 +1,20 @@
+# Grand Inquisitor Isillien and Tyrande Whisperwind.
+
+@ trigger=idle
+isillien: Ten thousand years in a cell for the Betrayer. Your people understand the Inquisition better than you admit, priestess.
+> tyrande: Our wardens kept him. They took no joy in it.
+> isillien: Joy is incidental. And yet you freed him.
+> tyrande: I did. I have regretted what he became. I have never regretted that I chose mercy once.
+> isillien: I have never chosen it, and I regret nothing.
+> tyrande: That is not the boast you think it is, Inquisitor.
+
+@ trigger=zone_enter where=darnassus
+isillien: Darnassus. So many priestesses, and not a single confessional.
+> tyrande: Elune hears what is spoken in the open, Inquisitor. She has no need of little rooms.
+> isillien: Then your people must be very sure of their innocence.
+> tyrande: No. Very sure of her. It is not the same thing, and I think you know it.
+
+@ trigger=combat_start ctype=demon
+tyrande: Demons. I fought their kind before your kingdoms had names.
+> isillien: And I was commanded by one, it seems. I should like a word with its relatives.
+> tyrande: Elune, guide my hand.

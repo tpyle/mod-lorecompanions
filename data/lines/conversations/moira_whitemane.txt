@@ -1,0 +1,19 @@
+# Moira and Whitemane: a Dark Iron's princess and a High Inquisitor.
+
+@ trigger=idle
+moira: You raise your commander every time he falls, Inquisitor. Where I come from that's got another name.
+> whitemane: It is called resurrection, dwarf. The Light's gift to the faithful.
+> moira: Looks a lot like necromancy to me. Better tailored.
+> whitemane: Say that again, and you will learn whether my gift works on dwarves.
+
+@ trigger=idle
+whitemane: The plague took my family on the road north, and I put them down myself. You lost a husband. You do not know loss until you have burned it.
+> moira: Mine was killed by my father's men, Inquisitor. I didn't get to burn anything. I just got told I'd been rescued.
+> whitemane: ...Then you were robbed even of the burning. That is its own cruelty.
+> moira: Aye. Don't get sentimental, Inquisitor. It doesn't suit the robes.
+
+@ trigger=zone_enter where=scarlet_monastery
+moira: So this is your Monastery. A lot of red. Is that the dye, or what's been spilt on the floors?
+> whitemane: It is the colour of the Crusade, dwarf. Of the blood shed for the living.
+> moira: Hm. In Shadowforge we'd call that a cleaning problem.
+> whitemane: Then pray you never become part of it.

@@ -1,0 +1,20 @@
+# Illidan and High General Brigitte Abbendis, and the admiral he can see through.
+
+@ trigger=zone_enter where=new_hearthglen
+illidan: Your city, General. Something in it smells of my old masters. I caught it at the gate.
+> brigitte: You smell your own kind everywhere.
+> illidan: I do. That is rather my point.
+> brigitte: If you mean Westwind, he has done nothing but serve. He has never failed me.
+> illidan: Their kind rarely fail the people they are using. Not until the end.
+
+@ trigger=idle
+illidan: Your vision, the one that brought you north. Did it speak to you, or did it only feel like an order?
+> brigitte: It was the Light. I know the Light.
+> illidan: And since Westwind came? Does it still speak?
+> brigitte: ...That is none of your concern.
+> illidan: That was an answer, General. Not the one you meant to give.
+
+@ trigger=kill ctype=demon
+brigitte: Good. One fewer of them.
+> illidan: Of my kind, you mean.
+> brigitte: You said it, demon. Not I.

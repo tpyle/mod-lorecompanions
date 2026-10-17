@@ -1,0 +1,24 @@
+# Lady Jaina Proudmoore and Scarlet Commander Renault Mograine. Jaina does
+# not know what Renault did to his father.
+
+@ trigger=idle
+renault: Proudmoore. Your father died at Theramore. You stood aside.
+> jaina: I did. He wouldn't stop, and I couldn't let him start a war on my doorstep.
+> renault: And you sleep?
+> jaina: Not always. Some nights I'd give anything to argue with him one more time. Why do you ask, Mograine?
+> renault: No reason, Proudmoore.
+
+@ trigger=zone_enter where=dalaran
+renault: The dragons said Dalaran floats. I took it for one of their jokes.
+> jaina: Rhonin would be delighted you find it funny. It took the whole Kirin Tor to lift it.
+> renault: And the old city, in the Alterac hills?
+> jaina: A crater, mostly. We had to leave the foundations behind. Some things you can't bring with you.
+> renault: No. I suppose not.
+
+@ trigger=idle
+jaina: I've read the Ebon Blade's reports, Mograine. Your brother leads them well.
+> renault: Does he mention me?
+> jaina: Not to me. Should he?
+> renault: No. He should not. ...Is he whole? As whole as the dead get?
+> jaina: He fights the Lich King harder than anyone I know. Whatever lies between you two, he hasn't let it make him smaller.
+> renault: That would be Darion.

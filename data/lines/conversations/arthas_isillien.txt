@@ -1,0 +1,48 @@
+# Prince Arthas Menethil and Grand Inquisitor Isillien, both time-displaced.
+# Arthas comes from the road to Stratholme, before the purge, and does not
+# know the Scarlet Crusade; Isillien comes from years after the Culling, and
+# admires it.
+
+@ trigger=zone_enter where=hearthglen
+arthas: Hearthglen. I held these walls only days ago. Days for me, I mean. I waited here for Uther.
+> isillien: And Uther came, and lectured you, I expect. He lectured everyone.
+> arthas: He did. ...Whose banners are these? Red. I don't know them.
+> isillien: Mine, my prince. The Scarlet Crusade. We are what your Lordaeron leaves behind.
+> arthas: Then Lordaeron should have left something kinder.
+
+@ trigger=idle
+isillien: You sat on Fordring's jury, my prince. It is the one verdict of yours I would have framed.
+> arthas: I voted with the others. He'd sheltered an orc. The law was clear.
+> isillien: It was. And now the dragons say Fordring is the man who ends you, at the top of a tower of ice.
+> arthas: The dragons say a lot of things.
+> isillien: They say he ends me too, on a road out of Hearthglen. Exiles keep coming back, my prince. I would not exile the next one.
+> arthas: What would you do instead?
+> isillien: Something more permanent.
+
+@ trigger=zone_enter where=stratholme,stratholme_city,culling_of_stratholme
+isillien: Stratholme. Dathrohan told us what you did here. Half the order wept. The other half took notes.
+> arthas: Which half were you in?
+> isillien: I have never wept, my prince.
+> arthas: I haven't done it. Not yet. The grain's in their bellies, but I haven't...
+> isillien: You will. And some of us will call it the bravest thing a prince of Lordaeron ever did.
+> arthas: Don't. Don't you dare make me into your saint.
+
+@ trigger=idle
+isillien: You keep looking at the road behind us, my prince. Waiting for someone?
+> arthas: No.
+> isillien: Lady Proudmoore leaves you at Stratholme, in every account I have read. She does not argue for long.
+> arthas: Keep her name out of your mouth.
+> isillien: As you wish. But I have a file on everyone, my prince. Yours is the only one with a sequel.
+
+@ trigger=idle
+arthas: Fordring had a son, didn't he? Taelan. He'd be grown, by your time.
+> isillien: He is my pupil. The dragons say he will turn traitor, and that I will kill him for it on the road.
+> arthas: You'd kill your own student?
+> isillien: You are told you will kill your own teacher, my prince. Uther, at Andorhal. Shall we compare our reasons?
+> arthas: I'd never... Light, I'd never.
+> isillien: Taelan would say the same, I expect. The dragons tell me he says it all the way down the road.
+
+@ trigger=combat_start foe=mal'ganis
+arthas: Mal'Ganis! You're mine!
+> isillien: So that is a dreadlord. Dathrohan never introduced me to his friends.
+> arthas: Less talk, Inquisitor!

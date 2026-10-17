@@ -1,0 +1,44 @@
+# Arthas and Moira: Muradin's pupil and Muradin's niece.
+
+@ trigger=idle
+moira: You asked me about Uncle Muradin once, and I didn't answer. There's talk he's alive, Arthas. Up in the Storm Peaks.
+> arthas: Alive? The dragons said I left him for dead. Left. They never said he was dead.
+> moira: It's talk. Dwarves talk. Uncle Brann's up there asking questions.
+> arthas: Then I'll believe it when he's cuffing my ear again. ...I'd like that. I'd like that very much.
+
+@ trigger=idle
+arthas: Does your father still shout, Moira? Mine never shouts. He just goes quiet, and you'd rather he shouted.
+> moira: Mine shouts. Then he sends soldiers. Then my husband's dead and he wonders why I won't write.
+> arthas: ...I'm sorry. I didn't know.
+> moira: Don't be sorry. Be different. You've been told how it goes with your father, haven't you?
+> arthas: I've been told a lot of lies. Change the subject, Princess.
+
+@ trigger=idle
+moira: So. You and Proudmoore. Even Ironforge heard about that.
+> arthas: There's nothing to hear. We agreed duty came first.
+> moira: I married for love and they called it a spell. You gave it up for duty and they called it noble. Funny old world.
+> arthas: Are you saying I should have married her?
+> moira: I'm saying stop waiting for permission. Nobody gave me any, and I've a son to show for it.
+
+@ trigger=idle
+arthas: You stand like a Bronzebeard when you fight. Feet wide, chin down. Muradin used to kick my feet until I did it right.
+> moira: Father kicked mine. He wanted a son, so he trained the daughter he had.
+> arthas: Then we were taught by brothers. We're practically cousins.
+> moira: Don't. I've enough family trying to rescue me as it is.
+
+@ trigger=zone_enter where=blackrock_depths
+arthas: Muradin always said the Dark Irons were the worst of the dwarves. Sorry. He did say it.
+> moira: Uncle Muradin said a lot of things in his cups. He also said you'd make a fine king.
+> arthas: ...Did he?
+> moira: He did. So you see, he's not always right. Wipe your boots, Prince. This is my home.
+
+@ trigger=zone_enter where=ironforge
+moira: Ironforge. Keep your hood up, Arthas. Half these people want me locked up for my own good, and the other half would hang you.
+> arthas: Me? I'm Muradin's pupil. They'd buy me a drink.
+> moira: That was before. Now you're the Lich King's face with the frost wiped off.
+> arthas: ...I'll keep my hood up.
+
+@ trigger=combat_start ctype=undead
+moira: Dead ones. Stay near me, Prince. Shadow bites them harder than you'd think.
+> arthas: The Light bites harder. Watch.
+> moira: Aye, very pretty. Shadow take them, then, and the Light can tidy up after.

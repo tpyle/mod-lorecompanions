@@ -1,0 +1,48 @@
+# Grand Inquisitor Isillien and Scarlet Commander Renault Mograine. Both are
+# time-displaced. Isillien suspects; he never states the betrayal.
+
+@ trigger=idle
+isillien: I arranged your induction, Mograine. Do you remember who asked me to?
+> renault: The Grand Crusader.
+> isillien: Dathrohan himself. A Grand Crusader taking an interest in a grieving son. I thought it a kindness at the time.
+> renault: It was.
+> isillien: The dragons say Dathrohan was a demon, Commander. Demons are seldom kind. I wonder what he was paying you for.
+> renault: For my sword, Isillien. The same as you.
+
+@ trigger=idle
+isillien: Fairbanks rode with your father on his last day, did he not? He came back to Hearthglen, and the Crusade found him a blasphemer.
+> renault: Fairbanks was a heretic. He wore Sally's title before her. That is all he was.
+> isillien: I was away that week. I should very much like to know what he said, before the Crusade stopped his mouth.
+> renault: Then go and ask him.
+> isillien: I am told he still walks, in a sealed room of your own cathedral. I may do exactly that.
+
+@ trigger=idle
+renault: The dragons told you how you die?
+> isillien: Fordring's sword, on the Hearthglen road. And you?
+> renault: Alexandros. What is left of him. In my own chapel.
+> isillien: Then we are both to be struck down by fathers. How very tidy of the Light.
+> renault: You think it is the Light?
+> isillien: I think it is a story, Commander. I have never let a story decide a verdict.
+
+@ trigger=idle
+isillien: Your brother is a death knight now, they tell me. Highlord of the Ebon Blade. Your father's name, on a corpse's banner.
+> renault: Darion was always the one they watched. It seems they still are.
+> isillien: Jealousy, Mograine? In a Commander of the Crusade? I shall have to make a note.
+> renault: Make it. Then burn it.
+
+@ trigger=zone_enter where=scarlet_monastery
+isillien: Whitemane's cathedral. Tell me, Mograine, how many times has she raised you now?
+> renault: I do not count.
+> isillien: I do. It is my calling. A man the Light sends back so often must be very precious to it. Or very hard to judge.
+> renault: Or Sally simply refuses to let me go. Leave her out of your files.
+> isillien: Nobody is out of my files, Commander. Hers is thicker than yours.
+
+@ trigger=combat_start foe=balnazzar,grand_crusader_dathrohan
+isillien: Our Grand Crusader. Or the thing that wore him.
+> renault: He made me promises. Kill him!
+> isillien: I took his orders for years. Let us see how he likes taking mine.
+
+@ trigger=kill ctype=undead
+renault: Down. Stay down.
+> isillien: They never do. I have stopped taking it personally.
+> renault: I have not.

@@ -1,0 +1,24 @@
+# Lady Jaina Proudmoore and Argent Confessor Paletress.
+
+@ trigger=idle
+paletress: You don't talk about your father, Lady Proudmoore.
+> jaina: There's not much to say that isn't a eulogy or an argument.
+> paletress: Which would you rather say?
+> jaina: Both. He died at Theramore, attacking the Horde, and I stood aside and let it happen. I'd do it again. I hate that I would.
+> paletress: Holding both of those at once is the hardest confession there is. You're doing it very well.
+
+@ trigger=zone_enter where=argent_tournament
+jaina: The tournament grounds. Quieter, now the jousting's done.
+> paletress: Quiet's my favourite time. People come to the pavilion when there's no crowd to hide in.
+> jaina: Did Varian ever come?
+> paletress: I couldn't possibly tell you, Lady Proudmoore.
+> jaina: That's a yes.
+> paletress: It's a "he's a good father, and you should leave it at that."
+
+@ trigger=idle
+jaina: Arthas went behind your screen last night. I saw him come out. He looked... younger.
+> paletress: He is younger.
+> jaina: You know what I mean. Lighter. I haven't seen him like that since before the plague.
+> paletress: People are lighter after they say something true. It doesn't last. It doesn't need to.
+> jaina: Will it change what he becomes?
+> paletress: I don't know. But it changed last night. I count those.

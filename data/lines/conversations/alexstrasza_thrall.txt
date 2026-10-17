@@ -1,0 +1,23 @@
+# Alexstrasza and Thrall: the dragon the old Horde enslaved, and the
+# Warchief of the new one.
+
+@ trigger=idle
+thrall: Varok Saurfang lost his son at the Wrathgate, Life-Binder. He asks me whether your flight saw him fall.
+> alexstrasza: We came after, Thrall. When we reached the field, there was only the plague, and the dead it had made.
+> thrall: He will want more than that. He is a father.
+> alexstrasza: Then tell him that a mother set that fire, and that she knew whose children lay on that field.
+
+@ trigger=idle
+alexstrasza: The spirits answer you, Thrall. Do they ever speak of me?
+> thrall: The fire spirits do. They grow quiet when you pass, the way warriors grow quiet when their chieftain walks by.
+> alexstrasza: How very flattering. And the others?
+> thrall: The winds say your flight flies too low over the tundra and frightens the taunka's herds.
+> alexstrasza: ...The winds are terrible gossips, Thrall.
+> thrall: They are. It is why I never stop listening to them.
+
+@ trigger=zone_enter where=wyrmrest
+thrall: Your temple keeps the Horde's envoys and the Alliance's in the same hall, Life-Binder, and they have not yet killed each other.
+> alexstrasza: They would not dare. It is very hard to start a war in a room full of dragons.
+> thrall: I have wondered whether I should keep a dragon in Grommash Hold. For the next time Garrosh and I disagree.
+> alexstrasza: I would lend you one, Thrall. But I suspect young Hellscream would only try to fight it.
+> thrall: He would. And I would let the dragon win.

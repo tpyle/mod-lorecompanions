@@ -1,0 +1,43 @@
+# Scarlet Commander Renault Mograine and Highlord Tirion Fordring.
+
+@ trigger=zone_enter where=blackrock_spire
+tirion: Blackrock Spire. I killed an ogre here once, just as it swung at your father. Did he ever tell you?
+> renault: Every winter. He made it sound as if you had saved the kingdom.
+> tirion: He made everything sound like that. In his version, I'm taller.
+> renault: In his version you were a giant. I hated you a little, as a boy.
+> tirion: ...Only a little? I'll take it.
+
+@ trigger=idle
+tirion: Darion told me some things at Light's Hope, Renault. Not everything.
+> renault: What things.
+> tirion: That your father was proud of you both. That he'd have said so more, if he'd known how.
+> renault: That is not what Darion told you.
+> tirion: No. It's what I'm telling you. The rest stays between me and the Light.
+> renault: ...Then keep it there, Fordring. I am asking you.
+
+@ trigger=idle
+tirion: Here. Hold it. Just for a moment.
+> renault: Put it away, Fordring.
+> tirion: It's clean now, son. It won't hurt you.
+> renault: You do not know that. You do not know what it remembers.
+> tirion: I know it remembers your father. That ought to count for something.
+> renault: It does. That is exactly the problem.
+
+@ trigger=zone_enter where=brill
+renault: Brill. I was born here. Now the dead keep the inn.
+> tirion: They do. The beds aren't bad.
+> renault: You have slept in a Forsaken inn.
+> tirion: I've slept in worse. Your mother used to bring Alexandros his supper out to the yard here, and scold us both for being late.
+> renault: ...I do not remember her voice. I remember the scolding. That is something.
+
+@ trigger=combat_start ctype=undead
+tirion: Renault, shield up. Left side.
+> renault: I know where my shield goes, Fordring.
+> tirion: Your father said the same. Left side, son.
+
+@ trigger=zone_enter where=naxxramas
+renault: Naxxramas. My father rides for the Lich King in there. Or he did, the dragons say.
+> tirion: He did. Darion and the Argent Dawn put him down here, and Darion freed his soul at Light's Hope. It cost him his life.
+> renault: Of course it was Darion. It was always going to be Darion.
+> tirion: Would you have wanted it to be you?
+> renault: ...The dragons say I had my chance. Leave it, Fordring.

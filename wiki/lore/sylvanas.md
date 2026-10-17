@@ -68,6 +68,8 @@ In the module she joins as a Forsaken marksmanship hunter with a bat
   "Life-Binder"). Never invokes the Light; scorns it.
 - Dark, dry humour. Would never beg, profess love, or speak of herself as
   alive.
+- Use sparingly: the ominous one-word reply ("Yet.", "Today."). Never let
+  one hint at events after now, such as Theramore's fate.
 
 ## What they know, and don't
 

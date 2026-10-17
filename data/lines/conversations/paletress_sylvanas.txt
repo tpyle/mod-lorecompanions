@@ -1,0 +1,24 @@
+# Argent Confessor Paletress and Lady Sylvanas Windrunner.
+
+@ trigger=idle
+sylvanas: Your arena raises the memories of a champion's enemies, priestess. Could it raise Arthas?
+> paletress: Only the Arthas you remember. Not the one on the throne.
+> sylvanas: I remember him very well. I would kill the memory. Again and again.
+> paletress: I won't do it, Lady Sylvanas. It wouldn't feed you. It would only feed him.
+> sylvanas: Everything feeds him, priestess. That is why he must die.
+
+@ trigger=idle
+paletress: Some of your people come to my pavilion, you know. Forsaken.
+> sylvanas: To confess? To you?
+> paletress: Mostly to talk about who they were. A baker. A fisherman. A schoolteacher from Brill.
+> sylvanas: ...And you listen.
+> paletress: Every word. Someone ought to remember them both ways.
+> sylvanas: Do not expect me to thank you, priestess. But do not stop.
+
+@ trigger=idle
+paletress: You have sisters, haven't you?
+> sylvanas: Had. One went through the Dark Portal and never came back. One wears the Silver Covenant's colours in Dalaran.
+> paletress: Vereesa. I met her once. She stands very straight whenever a Sunreaver walks past.
+> sylvanas: She always did. Even as a child, when she was angry.
+> paletress: You smiled, just now.
+> sylvanas: You are mistaken, priestess. The dead do not smile.

@@ -174,7 +174,7 @@ Stand back. This one is mine.
 
 @ trigger=combat_start ctype=demon
 Demon. I hunt your kind. I have consumed your kind. You will not be the first.
-The Legion. Ten thousand years, and I still hate you most of all.
+The Legion. After everything, I still hate you most of all.
 
 @ trigger=combat_start ctype=undead
 The Scourge. His puppets. I will cut your strings.
@@ -232,4 +232,4 @@ Back. Did you think I would let a mere death stop me?
 Power. More power. I could get used to this. I already have.
 I am stronger. The Legion should be very worried.
 My glaives are lighter. My sight is clearer. Good.
-More strength. Ten thousand years in a cage teaches you to appreciate it.
+More strength. A cage teaches you to appreciate it.

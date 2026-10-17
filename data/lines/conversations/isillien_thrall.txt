@@ -1,0 +1,22 @@
+# Thrall and Grand Inquisitor Isillien, who keeps very good notes.
+
+@ trigger=idle
+isillien: Tell me, orc. In Durnholde, did they ever question you properly?
+> thrall: Blackmoore's men beat me when I lost and when I won, if that is what you mean.
+> isillien: Crude. Pain is a tool, not a temper. Blackmoore never understood the difference.
+> thrall: And you do.
+> isillien: I keep very good notes.
+> thrall: The spirits keep better ones, Inquisitor. You will find that out.
+
+@ trigger=zone_enter where=hearthglen
+isillien: Hearthglen. My town. Keep your voice down, orc. The faithful shoot first here.
+> thrall: Is this where it happens? The road. The boy.
+> isillien: It has not happened. Not to me. I have only the dragons' word, and dragons have their own reasons.
+> thrall: You speak of it as if it were weather.
+> isillien: Everything is weather, orc, until someone is made to answer for it.
+
+@ trigger=idle
+thrall: The earth does not like you, Inquisitor. It goes still where you walk.
+> isillien: How fortunate that I do not require its approval.
+> thrall: It is not disapproval. It is caution. I have felt it do the same around warlocks.
+> isillien: The Light uses many tools, orc. Shadow is one of them. Your rocks may draw their own conclusions.

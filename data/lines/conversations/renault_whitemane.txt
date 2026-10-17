@@ -1,0 +1,50 @@
+# Scarlet Commander Renault Mograine and High Inquisitor Whitemane.
+
+@ trigger=zone_enter where=hillsbrad,southshore,old_hillsbrad
+whitemane: Hillsbrad. Do you remember, Mograine? You were the champion, and Jimmy was the dragon.
+> renault: Jimmy was always the dragon. He liked to lose.
+> whitemane: And you died beautifully. Every time.
+> renault: And you raised me. Every time. Some things do not change, Sally.
+> whitemane: Some things should not.
+
+@ trigger=idle
+whitemane: The dragons told you how you die, Mograine. You have not told me.
+> renault: No.
+> whitemane: I raise you. If there is a death I cannot undo, I have a right to know it.
+> renault: There is. You cannot undo it. That is all you get.
+> whitemane: ...Then I will be there regardless. Whatever the dragons say.
+> renault: Sally. Please. For once in your life, do not.
+
+@ trigger=idle
+renault: When you raise me, you always say the same thing. "Arise, my champion."
+> whitemane: It works. Why would I change it?
+> renault: You could try "Get up, you oaf." Just once.
+> whitemane: You would lie there out of spite.
+> renault: ...I would, yes.
+
+@ trigger=idle
+whitemane: Your brother leads the death knights at Acherus now. Does it grieve you?
+> renault: I do not have a brother.
+> whitemane: You had one when we were children. He trailed after us everywhere, and you sent him home every time.
+> renault: Then he learned early. Leave it, Sally.
+> whitemane: As you wish. But I remember him, even if you will not.
+
+@ trigger=zone_enter where=scarlet_monastery
+renault: The Monastery. Home, such as it is.
+> whitemane: Such as it is? I have kept it for you, Mograine. Every stone.
+> renault: I know. I just do not care for the chapel any more.
+> whitemane: You have prayed in that chapel for years.
+> renault: The dragons told me something about it. Do not ask me what.
+> whitemane: ...Then I will pray in it for both of us.
+
+@ trigger=idle
+whitemane: Little Jimmy asked after you, before I came away. He sends his regards.
+> renault: Vishas? He still questions the prisoners in the graveyard?
+> whitemane: He has a gift for it. I would not have guessed it of the boy who wept at our pretend funerals.
+> renault: We all became what we pretended to be, Sally. You raise me. I fall down.
+> whitemane: And Jimmy makes people talk. Childhood is a cruel prophet.
+
+@ trigger=ally_down
+whitemane: %summoner is down. Mograine, cover me.
+> renault: Covering. Raise them, Sally. Quickly.
+> whitemane: I raise whom I choose. Today I choose %summoner.

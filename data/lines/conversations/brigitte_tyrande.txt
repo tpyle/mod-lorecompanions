@@ -1,0 +1,22 @@
+# High General Brigitte Abbendis and Tyrande Whisperwind.
+
+@ trigger=idle
+tyrande: I lived under a queen, General, who trusted a counsellor with a sweet voice. Xavius.
+> brigitte: And?
+> tyrande: And he opened the door to the Legion, and she walked through it gladly. He never once told her no. That was her undoing.
+> brigitte: Is there a lesson you want me to take, night elf?
+> tyrande: Only that the most dangerous advisers do not whisper. They agree with you.
+> brigitte: ...Westwind argues with me constantly.
+> tyrande: Then I am glad, General. Truly.
+
+@ trigger=zone_enter where=darnassus
+brigitte: Darnassus. Your sentries are all women.
+> tyrande: For ten thousand years the druids slept in the Dream while we kept the watch. We grew used to it.
+> brigitte: My father's knights never quite grew used to me.
+> tyrande: Then they were fools, and you outlived their foolishness. Shandris would like you. She would also argue with every word you said.
+> brigitte: Good. I would think less of her otherwise.
+
+@ trigger=combat_start ctype=undead
+tyrande: Elune, light our way.
+> brigitte: The Light will suffice.
+> tyrande: Let them both shine, General. The dead do not care whose.

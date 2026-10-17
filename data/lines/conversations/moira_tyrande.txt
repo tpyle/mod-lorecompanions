@@ -1,0 +1,19 @@
+# Moira and Tyrande: a dwarf under the mountain and a priestess under the moon.
+
+@ trigger=zone_enter where=darnassus
+moira: A tree the size of a mountain, and a city up in its branches. And not one decent tunnel in the whole thing.
+> tyrande: We prefer to see the sky, Princess.
+> moira: Aye, I've noticed. Your sky's lovely. Your stairs are going to kill me.
+> tyrande: Then I shall have a priestess carry you. She will be honoured and you will be furious. A fair trade.
+
+@ trigger=idle
+moira: High Priestess, you raised a girl who wasn't yours, didn't you? Shandris. How'd you know you were doing it right?
+> tyrande: I did not. I knew only that she was alive, and that she was angry, and that both were good signs.
+> moira: Mine's too small to be angry yet. Dagran mostly just bites.
+> tyrande: Then he is well on his way. Elune keep him, Moira. Hold him close, and let him go when he asks.
+
+@ trigger=idle
+moira: Your Malfurion's asleep in a dream, I'm told. Mine's dead. I'll take your odds.
+> tyrande: I do not know my odds, Princess. Some nights I think a grave would at least be honest.
+> moira: ...Aye. I've had that thought myself. Don't say it where your priestesses can hear you.
+> tyrande: They have heard me say worse, Princess, for longer than your mountain has had a city in it.

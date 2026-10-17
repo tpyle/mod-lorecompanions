@@ -1,0 +1,39 @@
+# Illidan and Liadrin: the fel he gave her people, the naaru they took, and Kael'thas between them.
+
+@ trigger=idle
+liadrin: You taught Kael'thas to feed on fel, Betrayer. He sent it home to my people and called it a cure.
+> illidan: It was a cure. Your people were starving for magic, and I handed them a meal.
+> liadrin: A meal that ate them back. I still see it in my knights' eyes. Green, where there was gold.
+> illidan: I said it was a cure. I never said it was a kind one.
+> liadrin: No. You never say anything kind. It spares you the trouble of meaning it.
+
+@ trigger=idle
+illidan: The naaru. Pompous lanterns. Kael'thas sent one home to Silvermoon in chains, and I thought it a waste of good chains.
+> liadrin: That lantern gave me back the Light. Twice: once when we stole it, and once when it gave itself freely.
+> illidan: And you are grateful. How very convenient for the naaru.
+> liadrin: You do not understand gratitude, Illidan. That is not a flaw in the naaru.
+
+@ trigger=zone_enter where=sunwell_plateau
+liadrin: Here at the Sunwell, Kil'jaeden reached into our world. Kael'thas began the summoning.
+> illidan: Kil'jaeden. Here. ...The dragons left that out. How far did he come?
+> liadrin: Halfway out of the well. Champions drove him back before I arrived with Velen. Then Velen made it burn clean again.
+> illidan: Mortals turned back the Deceiver. I have spent years hiding from him. Do not expect me to say that twice.
+> liadrin: I did not expect you to say it once.
+
+@ trigger=kill foe=Kil'jaeden
+illidan: Go home, Kil'jaeden. I will not be following.
+> liadrin: For Quel'Thalas. For the Sunwell.
+> illidan: For myself. But I will allow you yours.
+
+@ trigger=combat_start rank=notable
+liadrin: Behind me, Betrayer.
+> illidan: I have never stood behind anyone in my life.
+> liadrin: Then stand beside me, and try not to bleed on my tabard.
+
+@ trigger=idle
+liadrin: The champions who went into the Black Temple came back with stories about you, Betrayer.
+> illidan: Did they. Which ones?
+> liadrin: That you fought to the end. That you told them they were not prepared.
+> illidan: ...It is good to know I stay consistent. Did they tell you who opened the gates for them?
+> liadrin: Akama.
+> illidan: Akama. Years of patience, and the dragons say I never saw it coming. Remind me of that, Matriarch, should I ever grow fond of anyone.

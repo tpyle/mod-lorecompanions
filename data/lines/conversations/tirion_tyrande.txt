@@ -1,0 +1,21 @@
+# Tirion and Tyrande: an old man, an older priestess, and the battle ahead.
+
+@ trigger=idle
+tirion: My knees don't take kindly to the cold any more, High Priestess. I don't know how you manage it, at your age. Begging your pardon.
+> tyrande: Night elves do not complain of their knees, Highlord.
+> tirion: No?
+> tyrande: Not where humans can hear. That is not the same thing.
+
+@ trigger=idle
+tirion: You fought Archimonde at Hyjal. What did you learn there that I ought to know, before the Citadel?
+> tyrande: That you will not win by holding a wall. We fell back, and back again, and let him come to the place we chose.
+> tirion: Fall back, and choose the ground.
+> tyrande: And be ready to spend the thing you love most when you get there. We gave up our immortality. Know what you will give.
+> tirion: ...I've given most of it already. There's not much left but an old man and a sword.
+> tyrande: Then guard the old man, Highlord. The sword can look after itself.
+
+@ trigger=idle
+tyrande: They say you gave up everything for one orc, Highlord. Was he worth it?
+> tirion: Eitrigg? He saved my life. Then he saved my soul, though he'd laugh to hear me say it.
+> tyrande: I have watched the Horde cut down my forests. It is hard for me to see what you saw.
+> tirion: It was hard for me too. I only had to see it in one orc. That was enough to start.

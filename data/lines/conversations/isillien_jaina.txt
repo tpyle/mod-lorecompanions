@@ -1,0 +1,22 @@
+# Grand Inquisitor Isillien and Lady Jaina Proudmoore.
+
+@ trigger=idle
+isillien: You conjure bread from the air, Lady Proudmoore. In Hearthglen we burned women for less.
+> jaina: In Dalaran we call it breakfast. It's a first-year spell, Inquisitor.
+> isillien: So was necromancy, I expect, for Kel'Thuzad. Your city taught him both.
+> jaina: And cast him out for the second. We were too slow. I know that better than you ever will.
+> isillien: A confession, my lady. I shall file it under "promising".
+
+@ trigger=zone_enter where=dalaran
+isillien: Dalaran, in the sky. Your Kirin Tor have always floated a little above the questions, Lady Proudmoore.
+> jaina: We answer plenty of questions. We just don't do it with hot irons.
+> isillien: A pity. Antonidas would have made a fascinating subject. I hear he did not survive the prince.
+> jaina: He didn't. And if you say his name in that tone again, you'll learn exactly how far down it is from up here.
+> isillien: Noted, my lady. I shall save the tone for people who cannot fly.
+
+@ trigger=zone_enter where=theramore
+isillien: Theramore. Humans and orcs sharing a harbour. I count three separate heresies from here alone.
+> jaina: Only three? You're slipping.
+> isillien: I am being polite. I am told you are well liked here.
+> jaina: I am. It's a strange feeling, being liked. You should try it sometime.
+> isillien: I tried it once. I did not care for the company.

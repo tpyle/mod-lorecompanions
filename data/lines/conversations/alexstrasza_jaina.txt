@@ -1,0 +1,31 @@
+# Alexstrasza and Jaina: the Dragonqueen and the Kirin Tor mage who once
+# sat in council with her consort without knowing it.
+
+@ trigger=idle
+jaina: Your Majesty, may I ask something as a scholar? What does a frost spell feel like, to a red dragon?
+> alexstrasza: Like a draught under a door, child. Not unpleasant. Rather sweet, in fact.
+> jaina: Sweet. Antonidas spent four years teaching me that spell.
+> alexstrasza: Then he taught you well. Very few things are able to make me feel a draught at all.
+
+@ trigger=idle
+alexstrasza: Malygos hunted your Kirin Tor across this land, Jaina. Did you hate him?
+> jaina: I was frightened of him. Hating him felt like a luxury when he was tearing the sky open over Coldarra.
+> alexstrasza: I hated him for a little while. Then I remembered him young, and it would not hold.
+> jaina: Is that why you grieve him? Even now?
+> alexstrasza: I grieve him because I was the one who had to end it. One may do a right thing and still be sorry for it.
+
+@ trigger=idle
+alexstrasza: I hear from friends in Dalaran that you once corrected a member of the Council of Six on a point of portal theory. In front of the council.
+> jaina: Who told you that? Light, I was seventeen and insufferable.
+> alexstrasza: They said you were right.
+> jaina: I was. That's what made me insufferable.
+
+@ trigger=zone_enter where=onyxias_lair
+alexstrasza: Onyxia. Neltharion's daughter, wearing a mortal face in a mortal court.
+> jaina: She sat at the Stormwind council table for years as Lady Prestor. I helped unmask her, but it took us far too long.
+> alexstrasza: Do not blame yourself, Jaina. My kind have been fooled by her father for ten thousand years.
+
+@ trigger=kill foe=Onyxia
+jaina: That's twice now. I'd like to think it's the last time.
+> alexstrasza: Her father's line does not die easily, child. But it dies. Remember that.
+> jaina: I'll write it down.

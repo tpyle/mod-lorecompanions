@@ -1,0 +1,44 @@
+# Sylvanas and Thrall: the Warchief and the Banshee Queen, allies who have
+# trusted each other less since the Wrathgate.
+
+@ trigger=idle
+sylvanas: Your Kor'kron followed me to the Undercity's gates again, Warchief. They are very bad at hiding.
+> thrall: They are not meant to hide, Sylvanas. They are meant to be seen.
+> sylvanas: So that I know I am watched.
+> thrall: So that the Alliance knows I am watching. After the Wrathgate, I need them to believe it.
+> sylvanas: And you? Do you need to believe it?
+> thrall: I need to believe I will not have to. Help me, Sylvanas.
+
+@ trigger=idle
+sylvanas: Hellscream calls my people corpses, Warchief. In front of his warriors.
+> thrall: I have spoken to him about it.
+> sylvanas: Speak louder. The next time, one of my rangers may answer him with something sharper than words.
+> thrall: And then I would have to answer your ranger. Do not make me choose, Sylvanas. You will not like how I choose.
+> sylvanas: Then teach your Overlord some manners. It would save us both a great deal of trouble.
+
+@ trigger=idle
+thrall: When the Lich King is dead, Sylvanas, what will the Forsaken do?
+> sylvanas: Survive, Warchief. We are good at that. It is all we have ever been allowed to do.
+> thrall: And you?
+> sylvanas: I have not looked past his death. I am not certain there is anything there to look at.
+> thrall: There is. A people who need a queen and not a weapon. I hope you find them waiting.
+
+@ trigger=idle
+thrall: I remember the day Cairne brought me your envoy. Hamuul had vouched for you. I almost refused.
+> sylvanas: Why did you not?
+> thrall: Because my people were once hated for a curse that others laid on them. I could not hate yours for the same.
+> sylvanas: A generous reason, Warchief. I came to you because I needed allies against the Scourge.
+> thrall: I know. Both things can be true. That is usually how alliances are made.
+
+@ trigger=zone_enter where=undercity
+thrall: The last time I walked these halls, the floor was green with Putress's plague and Varimathras sat your throne.
+> sylvanas: The halls are clean again. My apothecaries scrubbed them by hand, and I made certain they understood why.
+> thrall: And the throne?
+> sylvanas: I sit it myself, Warchief. Varimathras taught me what becomes of a throne left empty for an afternoon.
+> thrall: Then sit it well. The Horde bled to give it back to you.
+
+@ trigger=zone_enter where=orgrimmar
+sylvanas: The last time I came to Orgrimmar, I came running, with traitors on my throne.
+> thrall: You came to the Horde for help, and the Horde answered. That is what it is for.
+> sylvanas: Hellscream still tells the story as though I came begging.
+> thrall: Garrosh was in Northrend. I was here. I remember a queen who came to ask for an army, and got one.

@@ -1,0 +1,22 @@
+# Alexstrasza the Life-Binder and Grand Inquisitor Isillien.
+
+@ trigger=zone_enter where=grim_batol
+alexstrasza: Grim Batol. I was chained beneath this mountain for years, Isillien. They asked me nothing. They only took.
+> isillien: Then they were poor jailers. A prisoner is a library, dragon. One reads them.
+> alexstrasza: You say that as though it were gentler.
+> isillien: It is far crueller. That is what makes it honest.
+> alexstrasza: It is not honest, child. It is only yours.
+
+@ trigger=idle
+isillien: Ten thousand years, dragon. What is the worst thing you have ever done? Confess it. I will keep it to myself.
+> alexstrasza: I left my old friend Malygos to his madness for too long, because I hoped he would come back to us. In the end he had to be destroyed.
+> isillien: ...You answered.
+> alexstrasza: You expected a lie. That is the trouble with questioning only the guilty, child. You forget what an answer sounds like.
+
+@ trigger=idle
+alexstrasza: You have a pupil, Isillien. A young man you taught to pray. The bronze ones told you what you will do to him. What do you feel?
+> isillien: Disappointment.
+> alexstrasza: I can hear more than that beneath it.
+> isillien: Then you hear a dragon's imagination. He will choose his father. I chose the Crusade. The road will settle the rest.
+> alexstrasza: The road will do nothing, child. You will. I would like to hear you say it once, even if only to me.
+> isillien: I am a patient man, Life-Binder. You will have to be a more patient dragon.

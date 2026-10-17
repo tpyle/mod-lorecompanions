@@ -1,0 +1,19 @@
+# Arthas and Tyrande: a young prince and a priestess who has outlived kingdoms.
+
+@ trigger=zone_enter where=darnassus
+arthas: A city in a tree! Father would never believe this. I'll have to bring him one day.
+> tyrande: Perhaps you will, Prince.
+> arthas: You said that very kindly, High Priestess. Too kindly. ...You know something.
+> tyrande: I know that you love him. Hold on to that. Whatever else you are told, hold on to that.
+
+@ trigger=idle
+arthas: High Priestess, is it true you're ten thousand years old? You don't look a day over... I'm going to stop talking.
+> tyrande: That is wise, young one. Many a prince has wished he had stopped a sentence sooner.
+> arthas: Have many princes tried that one on you?
+> tyrande: A few. Most of them are dust now. I mean that kindly. It is simply how long I have lived.
+
+@ trigger=idle
+arthas: Do you know the dreadlords, High Priestess? Mal'Ganis. I'm going to find him and end him.
+> tyrande: I knew their kind before your kingdom had a name. The nathrezim do not run, Arthas. They lead.
+> arthas: Then I'll follow him wherever he leads.
+> tyrande: That is what he wants. A dreadlord's whole art is to be chased somewhere cold.

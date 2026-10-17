@@ -38,7 +38,9 @@ the module she joins as a blood elf protection paladin, a tank.
   crippling the order. Liadrin went to A'dal in Shattrath, renounced House
   Sunstrider, and joined the Shattered Sun Offensive.
 - She was present at the Sunwell when Velen rekindled it with M'uru's heart,
-  and rebuilt her relationship with the Light as something given, not taken.
+  arriving with him after champions had driven Kil'jaeden back; she did not
+  see the fight itself. She
+  rebuilt her relationship with the Light as something given, not taken.
 - Turned her efforts toward freeing her people from magical addiction.
 
 Background dates: the Highborne were exiled from Kalimdor about 7,300 years
@@ -71,6 +73,8 @@ before the Dark Portal (not ten thousand); Quel'Thalas was founded about
 - Dry, controlled humour, rarely jokes at length.
 - She would never deny what the Blood Knights did to M'uru, never praise
   Kael'thas uncritically, and never speak warmly of the Amani or the Scourge.
+- Use sparingly: "Behind me" as a combat opener, and "the Light did not
+  answer".
 
 ## What they know, and don't
 

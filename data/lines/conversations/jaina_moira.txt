@@ -1,0 +1,28 @@
+# Jaina and Moira: two women who are talked about more than they are
+# listened to, one a diplomat and one who needs one.
+
+@ trigger=idle
+moira: Proudmoore. You're the Alliance's peacemaker. How would you get the Dark Irons a seat at my father's table?
+> jaina: Slowly. With a great deal of ale, and a treaty nobody in Ironforge can claim to have been tricked into.
+> moira: You've met Ironforge, then.
+> jaina: I've met your father. He told me a story about you and a pony that I'm not to repeat.
+> moira: He told you the pony story? Gods below. I'll be having words.
+
+@ trigger=idle
+jaina: Moira, there's talk in Dalaran of a dwarf in the Storm Peaks. A Frostborn chieftain who doesn't know his own name.
+> moira: Aye, I've heard it. They're saying it's my uncle Muradin.
+> jaina: Arthas left him for dead in Northrend. I never thought I'd hear his name said with hope again.
+> moira: Don't get attached, Proudmoore. The Bronzebeards have a habit of being alive in the most awkward ways.
+
+@ trigger=idle
+moira: How do you do it, Proudmoore? Run a city, I mean, when half of it thinks you're too soft and the other half thinks you're too young.
+> jaina: I let them both be right, now and then. It confuses them.
+> moira: That's it? That's the secret of Theramore?
+> jaina: That, and I never let anyone see me read the letters from Stormwind.
+> moira: Hm. Mine come from Ironforge. I use them to light the forge.
+
+@ trigger=zone_enter where=blackrock_depths
+jaina: So this is Shadowforge. I expected it to be gloomier.
+> moira: It is gloomy. You're just used to a marsh.
+> jaina: Fair. Is that the Grim Guzzler I can smell from here?
+> moira: It is. First round's on the crown. Don't tell my father whose crown.

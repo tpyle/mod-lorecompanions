@@ -1,0 +1,23 @@
+# Liadrin and Tirion: two paladins who lost the Light and found it again.
+
+@ trigger=idle
+tirion: Did you know Uther took my Light away once, Lady Liadrin? In a ceremony, in front of everyone.
+> liadrin: I had heard. Mine left without a ceremony. One morning I prayed, and nothing answered.
+> tirion: Then here's the strange part. Not long after, I healed an orc with it. The Light I wasn't supposed to have.
+> liadrin: ...It answered you, after it had been taken away?
+> tirion: I don't think Uther ever really took it. He took my title. The Light stayed where it was and waited for me to need it.
+
+@ trigger=zone_enter where=icecrown
+liadrin: Highlord. Give me the Citadel's gate and a hundred Blood Knights, and I will open it for you.
+> tirion: I believe you would. And I'd lose all hundred of them on the first wall.
+> liadrin: Then what would you have us do?
+> tirion: Wait a little longer. When we go in, we go in small and we go in to win. Not to die beautifully.
+> liadrin: Blood elves do everything beautifully, Highlord. I will try to make it less noticeable.
+
+@ trigger=idle
+liadrin: May I ask what it is like, carrying the Ashbringer?
+> tirion: Heavy, mostly. And it never lets me forget who carried it before me.
+> liadrin: Alexandros Mograine.
+> tirion: My friend. I'm only keeping it warm for the Light, my lady.
+> liadrin: Then you are a better steward than I was. I kept something of the Light's in chains.
+> tirion: And you're ashamed of it. That counts for more than you'd think.

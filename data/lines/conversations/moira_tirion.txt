@@ -1,0 +1,22 @@
+# Princess Moira Bronzebeard and Highlord Tirion Fordring.
+
+@ trigger=idle
+moira: Highlord. My uncle Brann's been poking about Ulduar, they say. Is he still in one piece?
+> tirion: Last I heard he was arguing with a titan's door and sounded happy about it. That's all I know, Princess.
+> moira: Hm. Ironforge would be the last to tell me.
+> tirion: Then I'll tell you first, if I hear more. Family ought to hear things from someone kind.
+> moira: ...You're a soft old thing, aren't you?
+
+@ trigger=idle
+tirion: I was exiled for sparing one orc, Princess. You married a Dark Iron. I think we've a good deal in common.
+> moira: Except my lot still say I was ensorcelled. Nobody ever said you were enchanted.
+> tirion: Oh, they did. They said the orc had bewitched me. It's what people say when they can't imagine you meant it.
+> moira: ...I meant it. Every word, at the altar.
+> tirion: I know. It shows whenever you talk about him.
+
+@ trigger=zone_enter where=blackrock_depths
+moira: Welcome to Shadowforge, Highlord. Wipe your boots. The Grim Guzzler's that way, and I'm buying.
+> tirion: I'm too old for Dark Iron ale, Princess.
+> moira: Nobody's too old for it. Some are too dead after it, mind.
+> tirion: ...One. Just the one.
+> moira: That's what they all say, Highlord. Half the Guzzler's floor is people who said "just the one".

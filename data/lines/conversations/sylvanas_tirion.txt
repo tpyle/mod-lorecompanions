@@ -1,0 +1,22 @@
+# Lady Sylvanas Windrunner and Highlord Tirion Fordring.
+
+@ trigger=idle
+sylvanas: When you reach the Frozen Throne, Fordring, I intend to be standing beside you.
+> tirion: I'd be glad of your bow, my lady.
+> sylvanas: Not my bow. My claim. His death is mine. I have earned it.
+> tirion: Nobody's earned it more. But it isn't yours or mine. It belongs to everyone he took.
+> sylvanas: Then let them stand in line behind me.
+
+@ trigger=idle
+sylvanas: Forsaken serve under your banner, Highlord. You permit it.
+> tirion: I don't permit it. They volunteer. Same as everyone.
+> sylvanas: The Scarlets would burn them for wearing your tabard.
+> tirion: The Scarlets would burn me for wearing it. We're in good company.
+> sylvanas: You are a strange man, Fordring. I find I do not dislike it.
+
+@ trigger=zone_enter where=eastern_plaguelands
+sylvanas: The Plaguelands. You lived out here alone for years, they say. In a hut by a river.
+> tirion: A cottage. Built it myself. The roof leaked.
+> sylvanas: Among the Scourge. Why?
+> tirion: Nobody else would have me, and the dead never asked questions.
+> sylvanas: No. They do not. That is the best and the worst of them.

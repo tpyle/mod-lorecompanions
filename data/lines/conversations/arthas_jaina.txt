@@ -1,0 +1,53 @@
+# Arthas and Jaina: the young prince, lifted from the eve of Stratholme,
+# and the woman who has spent years grieving what he became.
+
+@ trigger=idle
+arthas: Is Kael'thas still trailing after you, Jaina? Reading you sonnets in the library?
+> jaina: Kael'thas is dead, Arthas.
+> arthas: Dead? How? He never left Dalaran unless he had to.
+> jaina: He left. He lost his people's home, and he went looking for power to fill the hole. It ate him.
+> arthas: ...I used to wish he'd fall off a balcony. I didn't mean it.
+> jaina: I know. He'd have said the same about you, and meant it a little more.
+
+@ trigger=idle
+arthas: Varian's still king in Stormwind, they tell me. Varian! He used to cheat at quarterstaffs.
+> jaina: He still does, in his way. He's had a hard few years, and he came out of them angrier.
+> arthas: Angrier than Varian? I didn't think there was room.
+> jaina: There was. I spend half my time standing between him and his next war.
+> arthas: Light. Then he's lucky it's you standing there. I'd only have handed him a staff.
+
+@ trigger=idle
+jaina: They told you about Dalaran? That it floats now, over Northrend?
+> arthas: They told me. They told me Antonidas is dead, too. That I... No. I won't say it.
+> jaina: You don't have to say it.
+> arthas: He used to look at me as if I'd tracked mud into his tower. I'd never hurt him, Jaina. Never.
+> jaina: He'd want you to remember that you said so. So would I.
+
+@ trigger=idle
+arthas: Do you still have that awful grey cat? The one that sat on your spellbooks?
+> jaina: Arthas, that was years ago. For me.
+> arthas: Years. Right. Sorry. ...What was its name?
+> jaina: I'm not telling you. You'll only laugh again.
+> arthas: I didn't laugh. I made a noise. It was a respectful noise.
+
+@ trigger=zone_enter where=lordamere,alterac
+arthas: There was a camp near here. The night I talked you into sneaking past the watchtowers to see the orcs.
+> jaina: Lordamere. I remember. You wanted to show me monsters.
+> arthas: And you came out of it sorry for them. I never understood that.
+> jaina: There were children behind that fence, Arthas. The person I trust most in this world grew up a slave in Durnholde.
+> arthas: Thrall? The one who broke out? You trust an orc?
+> jaina: With my life. More than once.
+
+@ trigger=zone_enter where=culling_of_stratholme
+arthas: Jaina. Before you say anything: the grain is already in their bellies. You know what they'll become.
+> jaina: I know. I knew then, too.
+> arthas: Then you know I'm right.
+> jaina: I know you were sure. I've spent years learning they aren't the same thing.
+> arthas: ...Stay this time. Please.
+> jaina: I'm here, Arthas. I came so you could see it from where I stood.
+
+@ trigger=kill foe=Kel'Thuzad
+arthas: I killed him. At Andorhal, I killed him. How is he still here?
+> jaina: You did. He was brought back afterwards, at the Sunwell, as a lich.
+> arthas: By whom?
+> jaina: ...Let's go, Arthas. He's dead again. That's enough for today.

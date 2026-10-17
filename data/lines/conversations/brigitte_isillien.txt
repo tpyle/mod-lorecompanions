@@ -1,0 +1,43 @@
+# High General Brigitte Abbendis and Grand Inquisitor Isillien. She is of
+# the "now"; he is time-displaced, and she knows he is dead in her time.
+
+@ trigger=zone_enter where=southshore,old_hillsbrad
+isillien: Southshore. The inn. Mograine's crystal on the table, and all of us pretending we were not afraid of it.
+> brigitte: My father told it differently. He said you tried to Smite it.
+> isillien: And it drank the Light like water. I remember the look on Doan's face.
+> brigitte: He said the look on yours was better. The only time anyone ever saw you surprised.
+> isillien: He exaggerated. But treasure it, Abbendis. It will not come again.
+
+@ trigger=zone_enter where=new_hearthglen
+brigitte: New Hearthglen. You told the others I stole the name, Isillien. I heard.
+> isillien: I said theft or flattery. I am still waiting to learn which.
+> brigitte: Neither. My father died on the walls of Hearthglen, in my arms. I named it so I would have to read his death every morning.
+> isillien: ...I remember him. He called you Brig in front of the whole chapter. You hated it.
+> brigitte: I did. I would give a great deal to hear it again.
+
+@ trigger=idle
+isillien: Tell me, Abbendis. When I died, who mourned me?
+> brigitte: The Inquisition filed a report.
+> isillien: Only a report?
+> brigitte: A long one. Most of it was a list of people relieved to read it.
+> isillien: Was it alphabetical? I like to think it was alphabetical.
+
+@ trigger=idle
+isillien: You prayed for an hour last night, Abbendis. I listened. Nobody answered.
+> brigitte: You were spying on my prayers.
+> isillien: Listening to them. It is a professional habit. When did the Light go quiet?
+> brigitte: The Light is not quiet. It is patient.
+> isillien: I would guess it went quiet about the time your admiral arrived.
+> brigitte: Enough, Isillien. One more word on it and I will forget you are on my side.
+
+@ trigger=zone_enter where=tyrs_hand
+isillien: Tyr's Hand. You commanded from here once. The dragons say you were gone when the Enclave fell.
+> brigitte: I was called north.
+> isillien: On the very night the death knights came. What fortunate timing your visions keep.
+> brigitte: I sent orders. They never arrived. Pureblood's men died waiting for them, and I have carried that every day since.
+> isillien: Then someone stopped your courier. Whoever it was, Abbendis, they knew exactly where you would be looking.
+
+@ trigger=combat_start foe=grand_admiral_westwind
+isillien: Your admiral, Abbendis. Drawing steel on us.
+> brigitte: Barean? No. No, this is... Light, what is he?
+> isillien: I did say. Strike now. Grieve later.

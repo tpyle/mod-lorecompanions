@@ -1,0 +1,33 @@
+# Prince Arthas and Illidan, two of the bronze flight's displaced, with the Aspect who knows what they become.
+
+@ trigger=idle
+arthas: Illidan. Do you believe what the dragons told you?
+> illidan: Every word. They have no reason to lie, and they are very bad at it.
+> arthas: I don't. Not a word of it. I'll prove them wrong.
+> alexstrasza: Child, the bronze flight do not tell such stories to be believed. They tell them so that you know what you are choosing.
+> illidan: Which is a gentle way of saying it changes nothing.
+> alexstrasza: It is a gentle way of saying it might. I have lived long enough to hope, Illidan. You might try it.
+
+@ trigger=zone_enter where=grim_batol
+alexstrasza: Grim Batol. The orcs held me in chains beneath this mountain for years.
+> arthas: I remember the dragons. Red dragons with orcs on their backs. When I was a boy we were told to hide under the tables.
+> alexstrasza: Those were my children, little one, bred in chains. I am sorry they frightened you.
+> illidan: It was the Demon Soul that held you, was it not? Neltharion's disc. I watched him raise it the first time.
+> alexstrasza: You did. You were there when the world first learnt what it could do. Neither of us has forgotten.
+> arthas: Is everyone here ten thousand years old except me?
+
+@ trigger=zone_enter where=icecrown
+illidan: The glacier, Life-Binder. Where he beat me. Where he sits now, waiting.
+> alexstrasza: Where he sits, and where he will fall, if the champions are strong enough.
+> arthas: Stop talking about him as if I'm not standing here.
+> alexstrasza: Forgive me, Arthas. I speak of the king. You are the prince. I have not forgotten which of them walks beside me.
+> illidan: She is kinder than I am. I would not have apologised.
+
+@ trigger=zone_enter where=wyrmrest
+alexstrasza: Wyrmrest Temple. Every flight that would stand against the Scourge meets here.
+> illidan: Every flight but the blue. Their absence is like a missing tooth.
+> alexstrasza: Malygos is gone. I grieve him, though I was the one who ended him.
+> arthas: You killed a friend?
+> alexstrasza: To protect life, child, there are times we must destroy what would end it. Even what we once loved.
+> illidan: Take note, prince. She means you.
+> arthas: I know who she means.

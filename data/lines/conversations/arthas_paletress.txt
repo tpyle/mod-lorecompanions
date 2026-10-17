@@ -1,0 +1,42 @@
+# Prince Arthas and the Argent Confessor, who has seen the king he becomes.
+
+@ trigger=zone_enter where=argent_tournament
+paletress: I was in the stands at the Coliseum when he came, Arthas. The Lich King. He broke the floor out from under the champions.
+> arthas: What did he look like?
+> paletress: Tall. Cold. He spoke with your voice, but older, and very tired of everything.
+> arthas: ...Why are you telling me?
+> paletress: Because you asked, in your way. You've been looking toward his Citadel since we got here.
+
+@ trigger=idle
+paletress: In the Trial I call up memories for the champions to face. Hogger. VanCleef. Archimonde. Even Illidan.
+> arthas: Never me?
+> paletress: Never you. I'm not sure the Light would let me. And I'm not sure which one would come.
+> arthas: The prince or the king.
+> paletress: Yes. I'd like to go on thinking it might be the prince.
+
+@ trigger=idle
+arthas: Your sermon. Tenacity, respect, compassion. Uther gives the same one, only longer.
+> paletress: Which of the three do you find hardest?
+> arthas: Respect. When people are wrong, I want to tell them. Loudly.
+> paletress: Then we'll start with respect. You've tenacity to spare, and compassion we can find. Shall we work on it together?
+> arthas: You sound like a schoolmistress.
+> paletress: I'll take that. Schoolmistresses get results.
+
+@ trigger=idle
+arthas: Jaina's alive, here. Older. Ruling a city across the sea. Did she ever... marry?
+> paletress: Not that I've heard. You could ask her yourself, you know.
+> arthas: And say what? Sorry about the thing I haven't done yet?
+> paletress: That's a fine start. Most of the men who come to my tent can't manage half of it.
+
+@ trigger=idle
+paletress: Is there something you've never told anyone, Arthas? Something old?
+> arthas: There was a horse. Invincible. I pushed him to jump in a snowstorm, and he broke his legs on the ice. I put him down myself.
+> paletress: And you've carried that since.
+> arthas: It was my fault. I wanted the jump. He'd have done anything I asked.
+> paletress: Then learn this from him. Love that asks too much stops being love. Learn where that line is, Arthas, before it costs you more than a horse.
+
+@ trigger=quest_complete
+arthas: Done! Clean, quick, and nobody hurt.
+> paletress: Well done. Though you were rather enjoying yourself near the end.
+> arthas: Is that wrong?
+> paletress: Not today. Just notice it. That's all I'll ever ask.

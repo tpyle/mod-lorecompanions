@@ -1,0 +1,32 @@
+# Jaina, Sylvanas and Thrall: the three people who were standing in the
+# Undercity's throne room when the war nearly started again.
+
+@ trigger=zone_enter where=wrathgate
+thrall: The Wrathgate. Saurfang's son died here, and Bolvar with him.
+> jaina: And Putress stood on that ridge and watched it happen.
+> sylvanas: Putress stood on that ridge and betrayed me, Proudmoore. The plague was his. The shame is mine to answer.
+> thrall: Then answer it, Sylvanas, by making certain there is never another Putress.
+> sylvanas: There will not be. I have the rest of eternity to make sure of it.
+> jaina: That's a long time to be watched, Sylvanas. I hope you mean it.
+
+@ trigger=zone_enter where=undercity
+thrall: My Kor'kron stand in your halls, Sylvanas, and I see your deathguards counting them.
+> sylvanas: And Proudmoore counting both. Everyone in this city is counting something, Warchief.
+> jaina: I'm counting the exits. An old habit, from the last time I was here.
+> thrall: There is no need today. Today, nobody here is anyone's enemy.
+> sylvanas: Today. I will hold you to that, Warchief.
+
+@ trigger=idle
+sylvanas: Tell me, Warchief, how many of your orcs know you write letters to the Lady of Theramore?
+> thrall: All of them who need to. Fewer than Garrosh would like.
+> jaina: And how many in Theramore know I write back? About the same, I'd say.
+> sylvanas: Two leaders keeping a peace in secret, from their own people. How very romantic.
+> thrall: It is not romance, Sylvanas. It is work.
+> jaina: Hard, dull, endless work. You should try it. You'd hate it.
+
+@ trigger=zone_enter where=theramore
+sylvanas: Theramore. Small. Damp. Badly defended from the sea.
+> jaina: Thank you, Sylvanas. I'll pass that on to the harbourmaster.
+> thrall: Theramore has never needed walls against Durotar. That is worth more than stone.
+> sylvanas: I was speaking of the sea, Warchief. You were the one who thought of the Horde.
+> jaina: ...She has you there, Thrall.

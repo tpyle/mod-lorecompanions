@@ -1,0 +1,20 @@
+# Thrall and the Argent Confessor.
+
+@ trigger=idle
+paletress: Warchief, may I ask whose name you say before you sleep?
+> thrall: How do you know that I say one?
+> paletress: Your lips move. I've heard confessions a long time.
+> thrall: Taretha. A human girl who freed me, and died for it. I never thanked her as I should have.
+> paletress: You say her name every night. I think she's been thanked.
+
+@ trigger=idle
+paletress: Your Overlord Hellscream has never once come to my tent.
+> thrall: Garrosh does not believe he has anything to confess.
+> paletress: Those are usually the ones with the most.
+> thrall: I know, Confessor. I fear I will be the one who hears it one day, and I will not like it.
+
+@ trigger=zone_enter where=argent_tournament
+thrall: The tournament grounds. Orcs and humans breaking lances on each other for sport, and everyone goes home alive.
+> paletress: Mostly alive. I've set a few collarbones.
+> thrall: It is more peace than the Alliance and the Horde have managed in a generation.
+> paletress: Then let's not tell anyone it's working. They'd only spoil it.

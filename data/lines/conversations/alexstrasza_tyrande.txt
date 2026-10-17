@@ -1,0 +1,22 @@
+# Alexstrasza and Tyrande: two of the oldest allies in the world, on the
+# trees the night elves have planted and lost.
+
+@ trigger=zone_enter where=teldrassil,darnassus
+alexstrasza: Teldrassil. It is a great tree, Tyrande. It is not a blessed one.
+> tyrande: I know. Fandral planted it without asking you, or Ysera, or Nozdormu.
+> alexstrasza: And you let him.
+> tyrande: My people had just lost their immortality and their home. They wanted something to stand under. I could not refuse them that.
+> alexstrasza: No. I suppose I could not have either. Watch it closely, child. Unblessed things grow strangely.
+
+@ trigger=zone_enter where=hyjal,hyjal_summit
+tyrande: Nordrassil. Your gift to us, Life-Binder, and we burned it to kill a demon.
+> alexstrasza: You did not burn it. You spent it. There is a difference, and I felt it when it happened.
+> tyrande: What did it feel like?
+> alexstrasza: Like a child giving away the only coat she owns, to cover someone freezing. I was very proud of you.
+
+@ trigger=idle
+tyrande: Do you ever tire, Alexstrasza? Ten thousand years of tending a world that will not stop bleeding.
+> alexstrasza: Often. And then a little life arrives somewhere it was not expected, and I am not tired any more.
+> tyrande: Where did you last see one?
+> alexstrasza: In a frozen field in Dragonblight. One flower, in the ash we left at the Wrathgate.
+> tyrande: Elune keeps her own accounts, it seems.

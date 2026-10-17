@@ -1,0 +1,24 @@
+# High General Brigitte Abbendis and Lady Sylvanas Windrunner.
+
+@ trigger=zone_enter where=venomspite
+sylvanas: Venomspite. My outpost, General, and a short ride from your walls. We watch you.
+> brigitte: And we watch you. My scouts count your apothecaries every morning.
+> sylvanas: Count carefully. I have recently had trouble with apothecaries myself.
+> brigitte: Putress. At the Wrathgate. Your own man.
+> sylvanas: Was. Varian's soldiers saw to him in my Undercity. For once the Alliance did me a kindness.
+
+@ trigger=idle
+brigitte: I argued to hunt Arthas down, Banshee, before he reached your forests. They told me no.
+> sylvanas: I was still alive when they told you no, I expect. I have often wished someone had listened.
+> brigitte: A compliment. From you.
+> sylvanas: A fact, Abbendis. Do not grow fond of it. When he is dead, your Onslaught and my Forsaken will have nothing in common.
+> brigitte: We have nothing in common now.
+> sylvanas: Then why do you keep looking at Icecrown the way I do?
+
+@ trigger=zone_enter where=ruins_of_lordaeron,undercity
+brigitte: The capital. I rode through these ruins once, scouting your kind. You were fewer then.
+> sylvanas: And you were more, General. Time is kinder to the dead than to crusades.
+> brigitte: This was the capital of Terenas Menethil, and you rule beneath it like a crypt-spider.
+> sylvanas: I leave it up there in the rubble, where Arthas left his father. I keep it as a reminder.
+> brigitte: Of what?
+> sylvanas: That kings die, General. Even the ones who are sure the Light is with them.

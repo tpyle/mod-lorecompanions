@@ -1,0 +1,44 @@
+# Two of the bronze flight's displaced: the rival who lost at the glacier, and the prince who has not won yet.
+
+@ trigger=idle
+arthas: Until the dragons brought me here, I didn't know your people existed. Ten thousand years, and nobody across the sea thought to write?
+> illidan: We did not think of you at all, boy. For most of those years your kind lived in mud huts.
+> arthas: Charming.
+> illidan: Accurate. Do not sulk. It is the most interesting thing about you, how quickly you burn.
+
+@ trigger=idle
+arthas: I'm hunting a dreadlord called Mal'Ganis. You know demons. How do I kill one?
+> illidan: A nathrezim? Not with that mace. They die hard, they lie well, and they are never where you think they are.
+> arthas: Then I'll find a better weapon.
+> illidan: Yes. You will. That is rather the problem, little prince.
+
+@ trigger=idle
+arthas: The fight at the glacier. Yours and mine. Was it fair?
+> illidan: Fair? You had a sword that ate souls and an army of the dead. I had a few naga, some elves and a master in a hurry.
+> arthas: So I cheated.
+> illidan: You won. In my experience, the two are rarely told apart afterwards.
+
+@ trigger=idle
+arthas: They told you how you die, too. Doesn't it make you want to scream?
+> illidan: I screamed for ten thousand years, prince. It changed nothing. I intend to make my death expensive instead.
+> arthas: I intend to make mine not happen.
+> illidan: Then we are the same kind of fool. Mine at least has the decency to know it.
+
+@ trigger=zone_enter where=icecrown
+illidan: There. The foot of the glacier. That is where you put me on my knees.
+> arthas: Not me.
+> illidan: The same face. A little paler. It smiled the same way when it won.
+> arthas: I don't want to hear it, Illidan.
+> illidan: No one ever does. Walk on, then. The ice is not going anywhere.
+
+@ trigger=zone_enter where=felwood
+illidan: These woods were green when we first met. We fought to a standstill, and then you offered me advice with the Skull of Gul'dan dangling from it.
+> arthas: I'd never bargain with a demon.
+> illidan: You did not call it a bargain. You wanted Tichondrius dead, and I was cheaper than doing it yourself.
+> arthas: A dreadlord. Like Mal'Ganis. ...So I get him in the end.
+> illidan: You get all of them, prince. In the end you get everything. Ask yourself whether you will like it.
+
+@ trigger=kill ctype=demon rank=notable
+arthas: Light! That one nearly had me.
+> illidan: Nearly. You are getting better at this.
+> arthas: From you, that's practically a medal.

@@ -1,0 +1,21 @@
+# Thrall and Scarlet Commander Renault Mograine, who does not talk about his family.
+
+@ trigger=zone_enter where=tirisfal
+renault: Tirisfal. Your Forsaken hang their lanterns in the windows of houses I grew up in.
+> thrall: They are not mine, Mograine. They are their own. They chose the Horde, and the Horde chose them.
+> renault: You chose corpses.
+> thrall: I chose people who had nothing left but their will. I know something about that.
+> renault: You know nothing about it, orc. Walk on.
+
+@ trigger=idle
+thrall: You do not speak of your family, Mograine. Every human here speaks of their family, sooner or later.
+> renault: Not every human.
+> thrall: Your brother, then. Darion Mograine is your brother, is he not?
+> renault: Darion. A death knight now, they tell me. The Lich King's hound off its leash.
+> thrall: Highlord Darion sent his knights to Orgrimmar, and I took them into the Horde. He is no hound. He chose his side.
+> renault: Then he chose better than I did. That would be a first. Drop it, orc.
+
+@ trigger=combat_start
+renault: Infidels! Stand with me or stand aside, orc!
+> thrall: I stand with you, Mograine. Mind your flank.
+> renault: Fine. Do not make me save you.

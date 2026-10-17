@@ -1,0 +1,45 @@
+# Highlord Tirion Fordring and High Inquisitor Whitemane.
+
+@ trigger=idle
+whitemane: I stood among the witnesses when your son was inducted into the Crusade, Fordring. Did you know that?
+> tirion: No. I didn't. ...How did he look?
+> whitemane: Proud. Certain. Like a man who had found his father's faith without his father.
+> tirion: Then he found it somewhere better than me. I'd have liked to give it to him myself.
+
+@ trigger=zone_enter where=hearthglen
+tirion: Hearthglen. My boy learned to ride in that square, before the exile. Before your Crusade.
+> whitemane: It is where we hang plague-carriers now, Fordring.
+> tirion: I know. I've watched from the hills. Some of them weren't sick, Whitemane.
+> whitemane: Some of them were. That is the arithmetic of this land, and I did not write it.
+> tirion: No. But you keep checking the sum, like you're afraid it's wrong.
+
+@ trigger=idle
+whitemane: Your Crusade marches beside the Forsaken. You let them wear the Argent tabard.
+> tirion: I let anyone wear it who'll stand between the Lich King and the living.
+> whitemane: They are the plague in armour, Fordring.
+> tirion: They're what the plague left behind. So are you, Whitemane. So am I. We're all leftovers.
+> whitemane: Do not presume to put me in their company.
+> tirion: I'm not. I'm putting them in yours. There's a difference, and one day you'll see it.
+
+@ trigger=idle
+whitemane: You are limping, Fordring.
+> tirion: Knees. They've been carrying armour since before you were born.
+> whitemane: I could heal them.
+> tirion: Would you? That's the kindest thing you've ever said to me.
+> whitemane: Do not mistake it. I need you upright until the Lich King is dead. After that, limp as you please.
+> tirion: Ha. There's the Whitemane I know.
+
+@ trigger=idle
+whitemane: Fordring. You believe anyone can be redeemed. Even the dead.
+> tirion: I believe the Light doesn't give up on people as quick as we do.
+> whitemane: My family rose. All of them. I put them down with my own hands. Tell me they could have been redeemed.
+> tirion: ...No. Not those. The plague took them before they rose, Whitemane. What you put down was the disease wearing their faces.
+> whitemane: Say it again. Slowly. No one has ever said it to me.
+> tirion: You didn't kill your family. The plague did. You set them free.
+
+@ trigger=zone_enter where=icecrown
+whitemane: Icecrown. Your champions are chosen, Fordring. Am I among them?
+> tirion: You're here, aren't you?
+> whitemane: That is not an answer.
+> tirion: It's the only one I've got. I'll take anyone who walks up that Citadel with me. Scarlet included.
+> whitemane: Then the Crusade will be at the top when it falls. See that it is remembered.

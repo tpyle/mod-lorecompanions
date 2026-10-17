@@ -66,6 +66,11 @@ the assault on Icecrown Citadel.
 - Her humour, when it shows, is dry and cold.
 - She would never admit doubt about the Crusade's cause, show warmth to the
   Forsaken, or sound casual.
+- Renault, her childhood friend, calls her "Sally". Tirion, who knew her
+  family, may slip into it now and then; Paletress tries it and is rebuked.
+  Everyone else says Whitemane, High Inquisitor or Inquisitor.
+- Use sparingly: her family's death on the road, and raising Mograine
+  "every time he falls".
 
 ## What they know, and don't
 

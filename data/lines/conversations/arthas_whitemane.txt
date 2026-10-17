@@ -1,0 +1,41 @@
+# Prince Arthas and the High Inquisitor, who has burnt her own family and thinks the Culling was right.
+
+@ trigger=idle
+arthas: Where are you from, Inquisitor? Before all this.
+> whitemane: Hillsbrad. My family took the north road when the plague began. They did not reach the end of it.
+> arthas: I'm sorry. I'm trying to stop it. That's why I'm out here.
+> whitemane: I know how it is stopped, my prince. I had to stop my own family that way.
+> arthas: ...Inquisitor, I...
+> whitemane: Do not. I have never asked anyone for pity. I will not begin with you.
+
+@ trigger=idle
+whitemane: You are on the road to Stratholme, my prince. I know what you do there. The whole world knows. You purge it before the grain can turn them.
+> arthas: I haven't decided anything. Uther would call it murder. Jaina would never forgive me.
+> whitemane: Then they would be wrong. The Crusade has purged a hundred villages since Stratholme burned, and the Light was with us in every one.
+> arthas: Is that meant to make me feel better?
+> whitemane: It is meant to be true, my prince. I am not in the business of comfort.
+
+@ trigger=idle
+arthas: Your commander. Mograine. I watched you bring him back from the dead.
+> whitemane: The Light brought him back. I asked.
+> arthas: Kel'Thuzad's plague raised the dead too. In Andorhal. I killed him for it.
+> whitemane: My champion rises because the Light wills it. Kel'Thuzad's dead rose because he did. Do not confuse the two again.
+
+@ trigger=idle
+arthas: Do you ever smile, Inquisitor?
+> whitemane: When the impure burn.
+> arthas: That isn't funny.
+> whitemane: It was not a joke. ...Your face, however, was amusing.
+
+@ trigger=zone_enter where=scarlet_monastery
+whitemane: The Cathedral. The last true house of the Light in Lordaeron.
+> arthas: I've ridden past this monastery a hundred times. It was monks and bells.
+> whitemane: Now it is the Crusade's. We hold it against the dead, and against the Forsaken who squat in your father's city.
+> arthas: Squat? Inquisitor, my father's city is at the end of this road.
+> whitemane: Then walk to the end of this road, my prince, and see what lives there now.
+
+@ trigger=revived
+arthas: Was I... was I dead just then?
+> whitemane: Briefly. Do not make a habit of it. I already have one champion who does.
+> arthas: Thank you, Inquisitor.
+> whitemane: Thank the Light. And stay out of reach of their blades next time.

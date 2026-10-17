@@ -1,0 +1,25 @@
+# High General Brigitte Abbendis and Princess Moira Thaurissan.
+
+@ trigger=idle
+brigitte: My clerks tell me you returned the Onslaught's letter, Princess. In ashes.
+> moira: Thought you'd want it back. Waste not.
+> brigitte: The next letter will be sealed with lead.
+> moira: Lovely. Lead doesn't burn, but it melts beautifully at the Black Forge.
+> brigitte: You are very tiresome.
+> moira: I'm a princess, General. It's most of the job.
+
+@ trigger=idle
+brigitte: My father never once praised me in front of his knights. He said it would make them think less of me.
+> moira: Mine put an axe in my hands because he'd wanted a lad. I was the son he didn't have.
+> brigitte: Did it make him proud?
+> moira: For a while. Then I married someone he didn't choose, and he sent soldiers to fetch me home. You?
+> brigitte: He died before I had the chance to disappoint him.
+> moira: Hm. Not sure which of us got the worse bargain.
+
+@ trigger=zone_enter where=blackrock_depths
+brigitte: The Dark Iron capital. I can smell the sulphur in my armour.
+> moira: That's the Firelord's breath. He's under our feet. Mind you don't wake him with your praying.
+> brigitte: You hold court above Ragnaros himself, and you call that ruling?
+> moira: I call it a lease. The Firelord's only a lodger, General. We'll evict him one day.
+> brigitte: The Light could help you with that.
+> moira: The Light's welcome to try. Tell it to bring a bucket.

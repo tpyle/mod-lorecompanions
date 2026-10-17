@@ -1,0 +1,23 @@
+# Illidan and Sylvanas: two rebels who both lost to Arthas, and who have
+# no wish to be compared.
+
+@ trigger=idle
+illidan: Your soul burns oddly in my sight, Banshee. Torn loose, and nailed back in the wrong way round.
+> sylvanas: How flattering. Do you look at everyone's soul, Betrayer, or only the women's?
+> illidan: Only the interesting ones. Most mortals are a single dull candle.
+> sylvanas: And yours? What does it look like, to those fel eyes?
+> illidan: Like a fire that has been told when it goes out. Ask me something else.
+
+@ trigger=idle
+sylvanas: Your Kael'thas was the last prince of my people, Betrayer. You took him to Outland and sent him back as a madman.
+> illidan: I took a prince who had been thrown away by his own allies, and gave him a cause. The madness was his own.
+> sylvanas: The Legion's, I hear.
+> illidan: Kil'jaeden is very persuasive to the hungry. I would know. I was hungry once.
+> sylvanas: Once?
+
+@ trigger=idle
+illidan: Arthas broke my forces at the foot of his glacier. You put a poisoned arrow in him and his lich carried him off. We are a sorry pair.
+> sylvanas: I am not your pair, Betrayer.
+> illidan: No. You may yet see him fall. I am told I will not.
+> sylvanas: ...Then I will tell him you sent your regards. Just before the end.
+> illidan: Do. He will not understand it. That is the best part.

@@ -1,0 +1,48 @@
+# Thrall and Tirion: Eitrigg's two friends, the Warchief and the Highlord.
+
+@ trigger=zone_enter where=zuldrak
+thrall: Zul'Drak. Eitrigg is at your Argent Stand, they tell me.
+> tirion: He is. Holding the line against the Drakkari with his bad back and his worse temper.
+> thrall: He left Orgrimmar to fight for you, Tirion. I did not try to stop him.
+> tirion: He didn't leave you, Warchief. He'd skin me for saying so. He just goes where the debt is.
+> thrall: Then the debt is yours. Repay it by keeping him alive.
+> tirion: I'm trying. The old goat won't sit still.
+
+@ trigger=idle
+thrall: I heard about your son. Taelan. I am sorry, Tirion.
+> tirion: Thank you. ...I had him back for an hour, on the road out of Hearthglen. An hour.
+> thrall: I had a friend, Taretha, who died helping me out of a human's prison. I did not even get the hour.
+> tirion: Then we're two old fools who were loved by better people than we deserved.
+> thrall: I am not old, Tirion.
+> tirion: Give it time, lad. Give it time.
+
+@ trigger=idle
+tirion: Your Hellscream and Varian nearly came to blows in my Coliseum. Twice.
+> thrall: Only twice? Garrosh must have been on his best behaviour.
+> tirion: I'm serious. If they go for each other's throats in the Citadel, Arthas wins without lifting his sword.
+> thrall: I know. Garrosh is Grom's son. He has his father's fire, and none of his father's regrets. Not yet.
+> tirion: Regrets come with age. I'd not wish them on the boy, but he'll need a few.
+
+@ trigger=idle
+tirion: You've gone quiet, Warchief. Something wrong?
+> thrall: The elements are restless. The earth answers me, but slowly, as if it were listening for something else.
+> tirion: The Scourge?
+> thrall: I do not think so. Something older. I cannot name it, and I do not like what I cannot name.
+> tirion: Then we deal with the one we can name first. One war at a time, friend.
+
+@ trigger=idle
+thrall: In the Second War you fought my people, Tirion. Before you knew any of us.
+> tirion: I did. Killed my share. I'm not proud of all of it, and I won't pretend I'm ashamed of all of it either.
+> thrall: Good. I would not trust a human who claimed either.
+> tirion: Your people were burning Lordaeron. Mine built the camps afterwards. There's no clean side to that ledger.
+> thrall: No. But there is a next page, and you and I are writing on it.
+
+@ trigger=idle
+thrall: When you march on the Citadel, the Horde will march with you. Whatever Garrosh says.
+> tirion: I was hoping you'd say that. I wasn't sure you could.
+> thrall: I am Warchief, Tirion. Some days that means I can say very little. Today it means I can say this.
+
+@ trigger=combat_start
+tirion: Ready, Warchief?
+> thrall: Always. For the Horde!
+> tirion: And for the Light. They'll have to do together today.

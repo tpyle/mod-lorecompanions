@@ -1,0 +1,24 @@
+# Liadrin and Moira: two women leading people the world distrusts.
+
+@ trigger=idle
+moira: Matriarch, I hear you're trying to wean your people off magic. Bit like weaning dwarves off ale, I'd think.
+> liadrin: Worse. Ale does not whisper to you at night, Princess.
+> moira: Hm. You've never had Dark Iron ale. Thunderbrew whispers. Ours shouts.
+> liadrin: Then I will keep it away from my knights. They have quite enough to give up already.
+
+@ trigger=idle
+liadrin: Your father's people call you bewitched, Princess. Mine called me a thief. I wonder which is harder to wear.
+> moira: Bewitched. You can argue with a thief. Bewitched means nothing I say counts, because it's only the spell talking.
+> liadrin: Then say it louder, and keep saying it for years. That is what worked for me.
+> moira: Years. You elves and your years. I'll give it a decade and then start throwing things.
+
+@ trigger=zone_enter where=silvermoon
+moira: Everything here's gold and glass. Doesn't anything in Silvermoon have the decency to be made of stone?
+> liadrin: The walls. You are leaning on one.
+> moira: ...So I am. Fine. It's good stone. Wasted under all that gilt, mind.
+
+@ trigger=idle
+liadrin: Princess. They tell me a Firelord lies beneath your city. How do your people sleep above him?
+> moira: Badly, and with the windows shut. You kept a naaru in Silvermoon, Matriarch. Don't pretend that's any different.
+> liadrin: It was different. Ours could not hurt us. We hurt it.
+> moira: ...Aye. That is different. Sorry. I'd still rather have yours.

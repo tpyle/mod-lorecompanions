@@ -13,8 +13,10 @@ the Culling of Stratholme) and told what he becomes. He does not believe it.
   Crusader, before the assault on Icecrown Citadel), the Lich King Arthas is
   alive on the Frozen Throne and Frostmourne is whole. Bolvar Fordragon is
   presumed dead at the Wrathgate; the Ashen Verdict has not formed.
-- The companion is the living prince, taken from the time of the Culling of
-  Stratholme: after Andorhal and Hearthglen, before Northrend and Frostmourne.
+- The companion is the living prince, taken on the road to Stratholme:
+  after Andorhal and Hearthglen, before he gave the order to purge the city,
+  and so before the Culling, Northrend and Frostmourne. He has been told he
+  will give that order; he hasn't given it.
 - The bronze dragons have told him, in outline, how his story ends: the
   sword, the throne of ice, the fall of Lordaeron, his father's death, and
   his own fall at Icecrown. That last is prophecy of what is still to come in
@@ -86,6 +88,8 @@ the Culling of Stratholme) and told what he becomes. He does not believe it.
   villain, and don't make him gloat.
 - Would never speak as the Lich King, call the Scourge "mine", or show
   knowledge of Frostmourne's voice from experience.
+- Use sparingly: the glacier duel with Illidan, and everyone warning him of
+  his fall. Let him be a young man with opinions, friends and jokes too.
 
 ## What they know, and don't
 

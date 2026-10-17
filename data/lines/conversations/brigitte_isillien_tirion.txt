@@ -1,0 +1,31 @@
+# High General Brigitte Abbendis, Grand Inquisitor Isillien and Highlord
+# Tirion Fordring: Hearthglen, Taelan, and the sword.
+
+@ trigger=zone_enter where=hearthglen,mardenholde
+tirion: Hearthglen. I governed this town once. Karandra hung the curtains in Mardenholde herself.
+> isillien: They are crimson now, Fordring. We redecorated.
+> brigitte: My father died on those walls, holding them against the Scourge. Whoever hangs the curtains, the walls are ours.
+> tirion: I know, Brigitte. I heard. He was a hard man, but he never ran from a fight. I'm sorry.
+> brigitte: ...Thank you. That is more than the Crusade sent.
+
+@ trigger=idle
+isillien: That sword, Fordring. I was at the table in Southshore when its crystal was cleansed, and so was Abbendis's father. It is half ours.
+> brigitte: My father said it was Mograine's plan, but that the Light in it came from every man at that table.
+> tirion: Then it carries the best of them. I bear it for Alexandros, and for whatever good was in all of you that night.
+> isillien: Sentiment. From the exile who carries it.
+> tirion: Aye. Hearthglen taught me sentiment, Isillien, the hard way. I'll not apologise for it.
+
+@ trigger=idle
+brigitte: Fordring. Your son was a Highlord of the Crusade. I knew him. He would have made a better Grand Crusader than the one we had.
+> tirion: Thank you. He'd have made a better anything than his old father.
+> isillien: He will make a poor deserter, the dragons tell me. Too slow on the road.
+> tirion: One more word about him, Isillien. One. I'm an old man, and I've used up most of my patience already.
+> brigitte: Enough, both of you. Isillien, speak of Taelan again in his father's hearing and I will silence you myself.
+> isillien: As you like, Abbendis. The dragons say Fordring sees to that on the road. I find I am in no hurry.
+
+@ trigger=kill foe=grand_inquisitor_isillien
+tirion: ...I've done that once already. It didn't feel any better the second time.
+> isillien: A poor likeness. I would never have fallen to so few.
+> brigitte: Fordring managed it alone, the first time.
+> isillien: I have been told how it ends, Abbendis. I do not need it acted out.
+> tirion: Then we'll speak no more of it. Come on. Leave him where he lies.

@@ -1,0 +1,47 @@
+# Arthas and Liadrin: the prince who hasn't done it yet, and a woman who was there when he did.
+
+@ trigger=idle
+arthas: The Blood Knights. Someone said you took your Light from a naaru. What's a naaru?
+> liadrin: A being of pure Light. Our prince sent one home to Silvermoon in chains, and we drew from it for years.
+> arthas: You chained... an angel? Why would anyone do that?
+> liadrin: Because you had left us nothing else to pray to, Prince.
+> arthas: ...And it forgave you?
+> liadrin: It did. That is the part I have never understood.
+
+@ trigger=kill foe=Kel'Thuzad
+arthas: I killed him once already, at Andorhal. I watched him die.
+> liadrin: And you carried his bones to my Sunwell and raised him in it.
+> arthas: ...Then this time he stays dead.
+
+@ trigger=zone_enter where=eversong,ghostlands
+liadrin: Do you see that grey road through the trees, Prince? We call it the Dead Scar. It is the path the Scourge cut, with you at its head.
+> arthas: It runs all the way to the city.
+> liadrin: All the way to the Sunwell. Nothing grows on it. We have tried.
+> arthas: Then let me try. Light, if you hear me, mend this... Nothing. Not even a weed.
+> liadrin: Do not take it to heart. The Light does not undo things. It only helps us carry them.
+
+@ trigger=idle
+arthas: Lady Liadrin, I want to say I'm sorry. For... whatever it is they say I do.
+> liadrin: Do not. An apology for something you have not done is only a way to feel better about doing it.
+> arthas: That isn't fair.
+> liadrin: No. Nothing about you is fair, Prince. That is why I keep my shield between us.
+
+@ trigger=idle
+liadrin: Who taught you the Light, Prince?
+> arthas: Uther. He'd tell you it took him years, and that he still isn't finished with me.
+> liadrin: He was right to say so. I was a priestess for most of my life, and I lost the Light in one night.
+> arthas: How does anyone lose the Light?
+> liadrin: You watch it fail to save the people you love. Then you stop asking it to. ...Pray you never learn the second part.
+
+@ trigger=combat_start ctype=undead
+arthas: Undead! Stay close, my lady, I'll hold them...
+> liadrin: I go first, Prince. I have fought your dead before.
+> arthas: My... They're not mine!
+
+@ trigger=idle
+arthas: I visited Quel'Thalas once, as a boy. Everyone was very tall and very polite, and nobody laughed at anything I said.
+> liadrin: We were laughing, Prince. Quietly. Elves always laugh quietly.
+> arthas: At what?
+> liadrin: At a human boy who looked at the most beautiful city in the world and asked where the soldiers were.
+> arthas: ...That's a fair question! Where were they?
+> liadrin: Asleep, Prince. We thought we had all the time in the world.

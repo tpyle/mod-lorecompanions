@@ -1,0 +1,24 @@
+# Argent Confessor Paletress and Scarlet Commander Renault Mograine.
+
+@ trigger=idle
+paletress: You don't hate your brother, Renault. I've seen men who hate. You're something else.
+> renault: Enlighten me, Confessor.
+> paletress: Jealous. Still. Even now, with him dead and risen and far away.
+> renault: ...He was the one our father looked at. You would be jealous too.
+> paletress: Probably. I'd also be sorry. Are you?
+> renault: Walk on, Confessor.
+
+@ trigger=idle
+renault: Confessor. You bandaged my shield arm while I slept.
+> paletress: You'd been favouring it for three days.
+> renault: I did not ask you to.
+> paletress: No. You never ask. That's why I don't wait.
+> renault: ...It is better. Thank you. Do not tell Whitemane.
+
+@ trigger=zone_enter where=argent_tournament
+renault: The Argent pavilion. You sit behind that screen all day and let strangers pour their filth on you?
+> paletress: Their grief, mostly. Filth is rarer than you'd think.
+> renault: And when they have finished, you simply forgive them.
+> paletress: No. I'm not the one who forgives. I just help them carry it to the one who does.
+> renault: And if that one is dead?
+> paletress: Then they've usually forgiven you already. The dead are very patient, Renault.

@@ -69,6 +69,8 @@ elf holy priest, a healer, in her Darnassus outfit.
 - Patient with the young races, but does not suffer fools.
 - Would never invoke the Light as her own faith, speak of the Horde warmly
   without reservation, or treat Illidan's crimes lightly.
+- Use sparingly: "ten thousand years". It is true, and tiresome by the
+  third time.
 
 ## What they know, and don't
 
