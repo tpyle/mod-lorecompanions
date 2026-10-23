@@ -41,9 +41,10 @@ LoreCompanions.AccountName = LORECOMPANIONS
 
 #
 #    LoreCompanions.FollowSummonerSide
-#        Description: Put a companion on her summoner's side (Alliance or Horde)
-#                     before she logs in, through mod-factionchoice, so that city
-#                     guards and quest givers treat her as one of the party.
+#        Description: Put a companion on her summoner's side (Alliance, Horde
+#                     or neither) before she logs in, through mod-factionchoice,
+#                     so that city guards and quest givers treat her as one of
+#                     the party.
 #                     Without mod-factionchoice this does nothing.
 #        Default:     1 - (Enabled)
 

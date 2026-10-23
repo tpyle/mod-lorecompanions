@@ -704,7 +704,8 @@ namespace
     // companion logs in is what lets Sylvanas walk through Stormwind behind an
     // Alliance character without the guards cutting her down. The first value
     // is the side; the rest belongs to mod-factionchoice and is kept as it is.
-    void PrepareSide(ObjectGuid guid, TeamId team)
+    // A summoner who walks with neither side (3) takes her along to that too.
+    void PrepareSide(ObjectGuid guid, TeamId team, bool neutral)
     {
         std::vector<std::string> values;
         if (QueryResult result = CharacterDatabase.Query(
@@ -714,7 +715,7 @@ namespace
         if (values.empty())
             values.push_back("0");
 
-        values[0] = team == TEAM_ALLIANCE ? "1" : "2";
+        values[0] = neutral ? "3" : (team == TEAM_ALLIANCE ? "1" : "2");
 
         std::string data;
         for (std::string const& value : values)
@@ -1325,7 +1326,8 @@ namespace
             companionAccountId, masterAccount);
 
         if (cfg.FollowSummonerSide)
-            PrepareSide(def.guid, player->GetTeamId());
+            PrepareSide(def.guid, player->GetTeamId(),
+                player->GetPlayerSetting("mod-factionchoice", 0).value == 3);
 
         PlaceAt(def.guid, player);
 
