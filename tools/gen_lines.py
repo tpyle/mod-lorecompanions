@@ -122,7 +122,8 @@ PLACES = {
     "nighthaven": 2361, "feralas": 357, "felwood": 361, "winterspring": 618, "azshara": 16,
     "silithus": 1377, "ahnqiraj": 3428, "tanaris": 440, "caverns_of_time": 1941,
     "hyjal_summit": 3606, "valley_of_trials": 363, "razor_hill": 362, "echo_isles": 368,
-    "demon_fall_canyon": 435,
+    "demon_fall_canyon": 435, "mulgore": 215, "stonetalon": 406, "desolace": 405,
+    "thousand_needles": 400, "ungoro": 490, "azuremyst": 3524, "bloodmyst": 3525,
     # Eastern Kingdoms
     "dun_morogh": 1, "kharanos": 131, "gnomeregan": 133, "loch_modan": 38, "thelsamar": 144,
     "aerie_peak": 348, "ruins_of_thaurissan": 250, "molten_core": 2717, "tranquillien": 3488,
@@ -139,12 +140,14 @@ PLACES = {
     "blackrock_spire": 1583, "blackrock_depths": 1584, "quelthalas": 2037,
     "eversong": 3430, "sunstrider_isle": 3431, "silvermoon": 3487, "ghostlands": 3433,
     "windrunner_village": 3491, "windrunner_spire": 3492, "quel_danas": 4080,
-    "sunwell_plateau": 4075,
+    "sunwell_plateau": 4075, "redridge": 44, "stranglethorn": 33, "swamp_of_sorrows": 8,
+    "blasted_lands": 4, "deadwind": 41, "deeprun_tram": 2257,
     # Outland
     "hellfire": 3483, "shattrath": 3703, "netherstorm": 3523, "shadowmoon": 3520,
     "exodar": 3557, "tempest_keep": 3845, "aldor_rise": 3896, "scryers_tier": 3898,
     "black_temple": 3959, "karabor": 3756, "hellfire_citadel": 3545, "nagrand": 3518,
-    "garadar": 3613, "throne_of_elements": 3615,
+    "garadar": 3613, "throne_of_elements": 3615, "zangarmarsh": 3521, "terokkar": 3519,
+    "blades_edge": 3522,
     # Northrend
     "borean": 3537, "coldarra": 4024, "nexus": 4265, "howling_fjord": 495,
     "vengeance_landing": 4000, "new_agamand": 3991, "dragonblight": 65,
@@ -157,6 +160,7 @@ PLACES = {
     "scarlet_monastery": 796, "crusaders_pinnacle": 4580, "trial_of_the_champion": 4723,
     "warsong_hold": 4129, "naxxramas": 3456, "mardenholde": 203, "ebon_hold": 4281,
     "scarlet_enclave": 4298, "utgarde_keep": 3983, "frozen_throne": 4859, "halls_of_reflection": 4820,
+    "wintergrasp": 4197, "hrothgars_landing": 4742,
 }
 
 CREATURE_TYPES = {

@@ -63,6 +63,230 @@ The Argent Tournament. Jousting. With the Lich King a mile away. I despair.
 @ trigger=zone_enter where=stormwind,ironforge
 %zone. They still do not test their grain. They will learn, as we did.
 
+# One line for every zone, by continent.
+
+@ trigger=zone_enter where=durotar
+Lordaeron taxed its people to keep the orcs in camps. Now they keep a kingdom of red dust, and Lordaeron keeps nothing.
+
+@ trigger=zone_enter where=orgrimmar
+Named for the warlord who led the Horde across Lordaeron. They raise monuments to their butchers. We raise ours to our martyrs.
+
+@ trigger=zone_enter where=mulgore
+Open plains, as far as the eye can see. Nowhere for the plague to hide. I almost envy the tauren that.
+
+@ trigger=zone_enter where=thunder_bluff
+High ground, lifts and no walls. The tauren have never had to hold a city against their own dead. It shows.
+
+@ trigger=zone_enter where=barrens
+Dry grass to every horizon. The Light is everywhere, we are taught. Here it is very thinly spread.
+
+@ trigger=zone_enter where=teldrassil
+A tree the size of a kingdom, and the elves live in it. I will reserve judgement until I have seen what they keep in the roots.
+
+@ trigger=zone_enter where=darnassus
+The night elves pray to the moon here, beneath a roof of leaves. Heathen, but disciplined. The Crusade has known worse congregations.
+
+@ trigger=zone_enter where=darkshore
+A grey coast, a grey sea, and even the bear-men gone mad. I could almost feel at home.
+
+@ trigger=zone_enter where=ashenvale
+The orcs cut this forest for their war, and the elves kill them for it. Let them bleed each other. The Scourge will not wait for either.
+
+@ trigger=zone_enter where=stonetalon
+Goblins stripping the mountains bare for coin. Greed is not the plague, but it opens the same doors.
+
+@ trigger=zone_enter where=desolace
+A grey waste, and centaurs killing each other for the right to own it. Whatever they are fighting for, I cannot see it.
+
+@ trigger=zone_enter where=feralas
+An elven city rots somewhere in this jungle, I am told, full of ghosts and worse. Old empires never stay buried.
+
+@ trigger=zone_enter where=thousand_needles
+Stone spires, salt flats, and goblins racing machines for sport. If I hear an engine, I shall assume it is hostile.
+
+@ trigger=zone_enter where=dustwallow
+Proudmoore built her refuge in a swamp. Half of Lordaeron fled here with her. I stayed. Someone had to.
+
+@ trigger=zone_enter where=tanaris
+The bronze dragons keep the past in a cave here, I am told. Let them. I have seen enough of mine.
+
+@ trigger=zone_enter where=ungoro
+Great lizards, poisoned pools and a mountain of fire in the middle. Is there anything in Kalimdor that does not wish to eat us?
+
+@ trigger=zone_enter where=silithus
+Insects the size of horses, and a wall built to hold back worse. In Lordaeron the plague came in grain. Here it comes on legs.
+
+@ trigger=zone_enter where=felwood
+Fel in the water, rot in the trees. The demons did here what the plague did to Lordaeron. The druids think they can heal it. Fire is quicker.
+
+@ trigger=zone_enter where=winterspring
+Snow, silence, and a goblin town selling furs at robbers' prices. The snow, at least, is clean.
+
+@ trigger=zone_enter where=azshara
+This coast bears the name of the elf queen who first opened the world to demons, I am told. Every ruin begins with one proud ruler.
+
+@ trigger=zone_enter where=moonglade
+A sanctuary where every druid must keep the peace, whatever their banner. I am expected to keep it too, I suppose. I shall try.
+
+@ trigger=zone_enter where=azuremyst
+The draenei fell from the sky in a ship and lit this island with crystals. They speak of the Light very prettily. Prettily is not proof.
+
+@ trigger=zone_enter where=bloodmyst
+The water runs red from their crystals. After the plague, I do not trust any river that changes colour.
+
+@ trigger=zone_enter where=exodar
+A ship of crystal with a naaru at its heart. The draenei served the Light before Lordaeron was founded. Let us see whether they ever learned to purge.
+
+@ trigger=zone_enter where=dun_morogh
+The gnomes poisoned their own city to drive out an enemy. Whatever else I think of them, I understand the choice.
+
+@ trigger=zone_enter where=ironforge
+A city carved into a mountain, with no fields to poison and stone on every side. Perhaps the dwarves are wiser than they look.
+
+@ trigger=zone_enter where=deeprun_tram
+A carriage under the sea. Built by gnomes. Say nothing to me until we are out.
+
+@ trigger=zone_enter where=loch_modan
+One dam holding back a whole lake. One crack, and the valley drowns. The dwarves sleep soundly regardless. Enviable.
+
+@ trigger=zone_enter where=wetlands
+Rain, bog and raiders in the hills. The harbour bears the Menethil name. It deserves better company.
+
+@ trigger=zone_enter where=badlands
+Scorched rock, dragons overhead, and dwarves digging for the Titans' leavings. Nothing here grows, so nothing here can rot. I approve.
+
+@ trigger=zone_enter where=searing_gorge
+Dark Iron dwarves, slaves and slag. They serve a lord of fire beneath the mountain, I am told. At least it is a heretic one can see.
+
+@ trigger=zone_enter where=burning_steppes
+Ash to the horizon, and the Blackrock orcs still raiding as though the Second War never ended. For them, perhaps, it did not.
+
+@ trigger=zone_enter where=elwynn
+Monks at Northshire, children in the fields, an inn at every crossroads. Lordaeron looked like this once. I pray it never learns what we learned.
+
+@ trigger=zone_enter where=stormwind
+The Cathedral of Light, and its doors open to anyone who walks in. Stormwind has never had to purge its own.
+
+@ trigger=zone_enter where=westfall
+Farmers who turned bandit when the crown forgot them. Hunger breeds heresy. Ask any inquisitor.
+
+@ trigger=zone_enter where=redridge
+Gnolls, orcs, and a lakeside town that never seems to get any help from its king. I know the feeling.
+
+@ trigger=zone_enter where=duskwood
+Night without end, and a town that buries its dead only to find them walking. Darkshire would make fine Crusaders.
+
+@ trigger=zone_enter where=deadwind
+Medivh's tower. A Guardian named for my own glades, and he opened the door for the orcs. Any man can be corrupted. Any man.
+
+@ trigger=zone_enter where=swamp_of_sorrows
+A troll temple sunk in a swamp, and a Horde camp beside it. Sorrows is a fair name. I would have chosen something stronger.
+
+@ trigger=zone_enter where=blasted_lands
+The Dark Portal. Every sorrow since the First War came through that gate. And still they leave it open.
+
+@ trigger=zone_enter where=stranglethorn
+Jungle, pirates, and trolls who worship blood gods. Booty Bay's goblins trade with all of them. Corruption has many faces. Most of them grin.
+
+@ trigger=zone_enter where=tirisfal
+Home, or what the Forsaken have left of it. Listen. The Monastery's bells still carry across the glades. They ring for us.
+
+@ trigger=zone_enter where=undercity
+The Banshee Queen's apothecaries brewed a plague and loosed it at the Wrathgate. I said they would, for years. No one listened.
+
+@ trigger=zone_enter where=silverpine
+Pine, fog and Forsaken. Arugal holds the keep to the south, a Dalaran mage gone mad. The Kirin Tor make their monsters and leave them for others.
+
+@ trigger=zone_enter where=hillsbrad
+I was a girl in these hills. Renault, Jimmy and I played at knights. Renault died a hundred times, and I raised him every one.
+
+@ trigger=zone_enter where=alterac
+Perenolde sold Lordaeron to the Horde from these mountains. Treason in a crown is still treason. The Crusade has a long memory.
+
+@ trigger=zone_enter where=arathi
+Stromgarde. The first kingdom of men, and its walls are full of ogres. Remember that, all of you. Nothing endures without vigilance.
+
+@ trigger=zone_enter where=hinterlands
+Wildhammer, gryphons and trolls in the hills. At least the trolls here are honest about wanting us dead.
+
+@ trigger=zone_enter where=eastern_plaguelands
+The heart of the blight. Every road here was once someone's road home. Keep to the middle of it, and drink from no well.
+
+@ trigger=zone_enter where=scarlet_enclave
+New Avalon was ours. The death knights of Acherus put it to the sword, and now they call themselves free. The dead do not get to choose.
+
+@ trigger=zone_enter where=eversong
+Golden woods, with the Scar cut through them where the Scourge marched on the Sunwell. Even the elves' beauty carries the mark.
+
+@ trigger=zone_enter where=silvermoon
+Half a city gleaming, half still scarred where the Scourge broke through. The elves paint over the wound. We burn it clean.
+
+@ trigger=zone_enter where=ghostlands
+The Scourge's road through Quel'Thalas, still rotting. The Banshee Queen fell defending these woods. A pity she did not stay fallen.
+
+@ trigger=zone_enter where=quel_danas
+The Sunwell, restored by the draenei's prophet. Prince Kael'thas died here for a demon's promises. Men who bargain with demons always do.
+
+@ trigger=zone_enter where=hellfire
+Red, broken earth. So this is what the orcs did to their own world. And we let them into ours.
+
+@ trigger=zone_enter where=zangarmarsh
+Mushrooms taller than cathedrals. The Light made all things, I am taught. It was in a peculiar mood when it made this.
+
+@ trigger=zone_enter where=terokkar
+Bone fields and the broken tombs of the draenei. Orc warlocks did here what the Cult of the Damned did to us. Darkness has one trade, and it is death.
+
+@ trigger=zone_enter where=nagrand
+Green fields and floating stones. The orcs had a paradise, and they traded it for demon blood. I will not pity them.
+
+@ trigger=zone_enter where=blades_edge
+A land of stone thorns, giants and ogres. Whatever made it this way did not want visitors. On that, the land and I agree.
+
+@ trigger=zone_enter where=netherstorm
+The world simply ends at the edges here, and Prince Kael'thas's forges drank what was left. Mages always take until nothing remains.
+
+@ trigger=zone_enter where=shadowmoon
+The Betrayer's temple. He has fallen, they tell me, but I smell fel on every stone. This valley wants burning.
+
+@ trigger=zone_enter where=shattrath
+Every race under a naaru's light, and no one asking the right questions. They call it a refuge. I call it a sieve.
+
+@ trigger=zone_enter where=borean
+The blue dragons made war on the world over magic, here. Let the mages have their wars. Ours is with the dead.
+
+@ trigger=zone_enter where=howling_fjord
+Vrykul in their halls, Forsaken on the cliffs. One wants us dead, the other wants us dead and walking. I know which I hate more.
+
+@ trigger=zone_enter where=dragonblight
+Dragon bones, the Wrathgate, and Naxxramas hanging over it all. Fordragon died here of Forsaken poison. And still the Horde lets them march.
+
+@ trigger=zone_enter where=grizzly_hills
+Pine forest, like Lordaeron before the plague. Then I see Drak'Tharon on the ridge, and remember where I am.
+
+@ trigger=zone_enter where=zuldrak
+Trolls who slaughtered their own gods for power, and the Scourge took them anyway. Even their blasphemy was outdone.
+
+@ trigger=zone_enter where=sholazar
+Warm and green and untouched by the plague, in the middle of Northrend. Either the Light has blessed this place, or something else has.
+
+@ trigger=zone_enter where=crystalsong
+A forest turned to glass, and the mages floating above it all. They always did think themselves above the rest of us.
+
+@ trigger=zone_enter where=dalaran
+The Kirin Tor kept Kel'Thuzad in their councils for years before he found the plague. Now they float over Northrend as if none of it were theirs.
+
+@ trigger=zone_enter where=storm_peaks
+Something old and hungry lay beneath Ulduar, they tell me, until it was put down. The Light is not the only power in this world. Only the right one.
+
+@ trigger=zone_enter where=icecrown
+There is the Citadel. Somewhere inside sits the thing that made my family walk. I mean to see it fall.
+
+@ trigger=zone_enter where=wintergrasp
+The Alliance and the Horde killing each other for a fortress, within sight of the Lich King's glacier. If the Scourge could laugh, it would laugh here.
+
+@ trigger=zone_enter where=hrothgars_landing
+Sea-raiders on Icecrown's own shore, and the Argent Crusade riding out to joust with them. The Lich King must be delighted.
+
 @ trigger=zone_enter
 %zone. Let us see whether the plague has reached it.
 %zone. Stay alert. The taint hides in the most ordinary places.

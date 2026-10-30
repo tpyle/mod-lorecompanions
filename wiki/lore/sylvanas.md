@@ -55,6 +55,8 @@ In the module she joins as a Forsaken marksmanship hunter with a bat
 - Garrosh — open contempt.
 - Varimathras — the dreadlord she used and killed; Putress — the traitor.
 - Nathanos Marris — her champion.
+- Lor'themar Theron — served under her as a ranger-lord of Silvermoon;
+  now regent lord of Quel'Thalas.
 - Jaina — Arthas's lost love; an Alliance leader Sylvanas mistrusts.
 - Kel'Thuzad — the necromancer she watched reborn at the Sunwell.
 
@@ -106,3 +108,4 @@ In the module she joins as a Forsaken marksmanship hunter with a bat
 ## Sources
 
 - https://warcraft.wiki.gg/wiki/Sylvanas_Windrunner
+- https://warcraft.wiki.gg/wiki/Lor%27themar_Theron

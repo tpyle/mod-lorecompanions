@@ -79,6 +79,212 @@ Undercity. Sylvanas's halls. We took it back from Varimathras and Putress, Varia
 @ trigger=zone_enter where=stormwind
 Stormwind. Varian's city. I have never walked these streets in peace. Perhaps one day.
 
+# One line for every zone, by continent.
+
+@ trigger=zone_enter where=durotar
+Every wall in Razor Hill was raised by hands that once knew only chains. Look at it, friend. That is what freedom builds.
+
+@ trigger=zone_enter where=mulgore
+When I met Cairne, the centaur were hounding his people across the Barrens. Now look at them. Mulgore is what peace grows, given room.
+
+@ trigger=zone_enter where=teldrassil
+A tree the size of a mountain. The spirits here are uneasy, as if the tree was planted without being asked. I will keep that to myself in Darnassus.
+
+@ trigger=zone_enter where=darnassus
+Tyrande's city. I stood beside her at Hyjal. I doubt the Sentinels at the gate will count that in my favour. Keep your hands where they can see them.
+
+@ trigger=zone_enter where=darkshore
+Grey shores and old ruins. The furbolgs here were a gentle people once, I am told. Something is driving them mad. I wish I knew what.
+
+@ trigger=zone_enter where=stonetalon
+The Venture Company is stripping these mountains bare. The earth spirits here are angry, and for once I cannot tell them they are wrong.
+
+@ trigger=zone_enter where=desolace
+A grey, dying land, and the centaur clans warring over what is left of it. Their feud is the only thing that grows well here.
+
+@ trigger=zone_enter where=feralas
+Rain and green, at last. Our people at Camp Mojache say the ruins of Dire Maul are full of ogres and worse. Ogres I understand. It is the worse that concerns me.
+
+@ trigger=zone_enter where=thousand_needles
+Stone needles and salt flats. The goblins race their machines across the Shimmering Flats. I once asked who wins. Nobody, it seems, and loudly.
+
+@ trigger=zone_enter where=dustwallow
+Theramore is across this marsh. Jaina's father died there, attacking my people, and she let it happen to keep the peace. I owe her more than I can repay.
+
+@ trigger=zone_enter where=tanaris
+Gadgetzan's goblins would sell a thirsty man his own water back. I admire their nerve. I also keep a hand on my purse.
+
+@ trigger=zone_enter where=ungoro
+The earth is alive here, and very loud. The Fire Plume speaks louder than any spirit in Kalimdor. The world was young here once, and never quite grew up.
+
+@ trigger=zone_enter where=silithus
+Bolvar and I sent our people here together, against the qiraji. He is gone now, at the Wrathgate. I hope this sand remembers we once stood side by side.
+
+@ trigger=zone_enter where=felwood
+The Legion's poison is in these trees. I know what it is to be poisoned so. The druids say this forest can be healed. I believe them. I must.
+
+@ trigger=zone_enter where=winterspring
+Snow like the Frostwolf hills. Drek'Thar would like it here. He would complain about the goblins in Everlook, but he would like it.
+
+@ trigger=zone_enter where=azshara
+The night elves named this coast for the queen who first called the Legion into this world. So my people were not the first to be fooled. That is little comfort.
+
+@ trigger=zone_enter where=moonglade
+Tauren and night elf druids keep the peace together in this glade. If they can manage it here, the rest of us have no excuse.
+
+@ trigger=zone_enter where=azuremyst
+The draenei came down here in fire. On Draenor my people hunted theirs almost to nothing. I do not ask their forgiveness. I only try to deserve it.
+
+@ trigger=zone_enter where=bloodmyst
+Blood elves still lurk on this isle, working against the draenei. Not Lor'themar's people, but the draenei will hardly care for the difference. I cannot ask them to.
+
+@ trigger=zone_enter where=exodar
+A city that fell from the sky, and a people who made a home of the wreck. Orcs know something of starting again on a strange shore. The guards will watch me. They have reason.
+
+@ trigger=zone_enter where=dun_morogh
+Snow and dwarves. The cold I like. The dwarves remember the Second War better than I do, since I spent it in a cage. They may tell you so.
+
+@ trigger=zone_enter where=ironforge
+In all the Second War, the Horde never took this mountain. Standing before those gates, I understand why.
+
+@ trigger=zone_enter where=deeprun_tram
+A cart under the sea, pulled by gnomish engines. Drek'Thar taught me to trust the earth. He said nothing about trusting the water over it.
+
+@ trigger=zone_enter where=loch_modan
+A dwarven wall of stone, holding back a whole lake. The earth spirits tolerate it. I think they are a little impressed.
+
+@ trigger=zone_enter where=wetlands
+Grim Batol lies in these hills, where the Dragonmaw held the Dragonqueen in chains. Some of them still haunt this marsh, and they do not answer to me.
+
+@ trigger=zone_enter where=badlands
+Dry, burnt and full of black dragons. Even the earth here seems to have given up arguing with the sun.
+
+@ trigger=zone_enter where=searing_gorge
+The Dark Irons dug so deep here that the earth bleeds fire. I can hear the spirits of flame under the slag, bound and raging.
+
+@ trigger=zone_enter where=burning_steppes
+Blackrock orcs still serve the black dragons on that mountain. Orcs who never learned that they were free. That is the saddest kind of slavery.
+
+@ trigger=zone_enter where=elwynn
+The Horde burned these fields in the First War. The farmers rebuilt them. I hope their grandchildren never have to.
+
+@ trigger=zone_enter where=westfall
+Farms gone wild and farmers turned to bandits. Stormwind's nobles would not pay the masons who rebuilt their city, I am told. Unpaid debts sow strange crops.
+
+@ trigger=zone_enter where=redridge
+The people of Lakeshire see an orc and reach for a pitchfork. Given who raids them from those hills, I would do the same.
+
+@ trigger=zone_enter where=duskwood
+The sun does not reach this forest, and the spirits here are muffled. Something dead lies under the trees, and wolves walk like men. I do not like it.
+
+@ trigger=zone_enter where=deadwind
+Medivh's tower. He opened the Portal for the Horde, and years later he warned me to lead my people west. He undid his mistake as best he could. So must we.
+
+@ trigger=zone_enter where=swamp_of_sorrows
+A temple of the Atal'ai lies sunk in that lake. Vol'jin says they tried to call their blood god into the world there. Trolls have their own demons, it seems.
+
+@ trigger=zone_enter where=blasted_lands
+The Dark Portal. The Horde marched out of it into this world, and the land around it never recovered. Neither, for a long time, did we.
+
+@ trigger=zone_enter where=stranglethorn
+Booty Bay's goblins trade with the Horde, the Alliance and the pirates robbing them both. I envy the simplicity of their loyalties.
+
+@ trigger=zone_enter where=tirisfal
+This was the heart of Lordaeron, the kingdom that kept my people in camps. Now the Forsaken hold it. The world turns in ways I would never have guessed.
+
+@ trigger=zone_enter where=silverpine
+Gilneas lies beyond the wall to the south. Genn Greymane shut his gates on Horde and Alliance alike. I wonder what his people think is happening out here.
+
+@ trigger=zone_enter where=hillsbrad
+Tarren Mill and Southshore, a short ride apart, raiding each other for years. I ask for peace in Dalaran, and here they answer with torches.
+
+@ trigger=zone_enter where=arathi
+Orgrim Doomhammer fell near here, freeing our people from the camps. With his last breath he gave me his armour and the Horde. Hammerfall keeps his memory.
+
+@ trigger=zone_enter where=hinterlands
+The Revantusk trolls stand with the Horde in these hills. The Wildhammer dwarves do not care for it. Their gryphons care for it even less.
+
+@ trigger=zone_enter where=western_plaguelands
+Uther the Lightbringer is buried in these hills, struck down by his own prince. The Horde feared his name once. I would have liked to meet him without a war between us.
+
+@ trigger=zone_enter where=eastern_plaguelands
+Somewhere in these lands Tirion Fordring spared Eitrigg's life and lost everything for it. The Horde owes that man a debt, and so do I.
+
+@ trigger=zone_enter where=scarlet_enclave
+The Ebon Blade broke from the Lich King on this ground. When their knights came to my hall, I gave them a place in the Horde. Let them earn it.
+
+@ trigger=zone_enter where=eversong
+The Dead Scar runs through this golden forest, where Arthas marched on the Sunwell. The elves leave it bare so no one forgets. My people understand that.
+
+@ trigger=zone_enter where=silvermoon
+Lor'themar asked for a place in the Horde when the Alliance would not help his people. Some orcs still grumble. Look at this city, and tell me we made a poor bargain.
+
+@ trigger=zone_enter where=ghostlands
+Sylvanas grew up in these woods, before the Scourge came. She has never spoken of it to me. Seeing what is left, I understand why.
+
+@ trigger=zone_enter where=quel_danas
+Kael'thas died here, trying to give his people to the Legion. Velen gave them back their Sunwell instead. A draenei did that, for elves. Remember it.
+
+@ trigger=zone_enter where=hellfire
+Thrallmar. They named a fortress after me. I asked them not to. I suspect it only made them build faster.
+
+@ trigger=zone_enter where=zangarmarsh
+The naga were draining this marsh, the Cenarion Expedition says. The water spirits still sound thin, like a voice after a long fever.
+
+@ trigger=zone_enter where=terokkar
+Auchindoun lies in these woods, a draenei tomb, torn open by the Shadow Council's rituals. In those days my people defiled everything they touched.
+
+@ trigger=zone_enter where=nagrand
+Grass to the horizon, and the Mag'har riding it as our ancestors did before Gul'dan. When I am weary of being Warchief, I think of this wind.
+
+@ trigger=zone_enter where=blades_edge
+The Thunderlord clan still holds a stronghold in these crags. A clan that has survived everything Draenor could throw at it. Stubborn. I like them already.
+
+@ trigger=zone_enter where=netherstorm
+The world itself is coming apart here. Ner'zhul tore Draenor open with his portals, and this is what was left. He has much to answer for, and soon he will.
+
+@ trigger=zone_enter where=shadowmoon
+Ner'zhul's clan took its name from this valley, and Gul'dan made a draenei temple here into his Shadow Council's seat. Every wrong road my people took seems to start in Shadowmoon.
+
+@ trigger=zone_enter where=shattrath
+Draenei, elves, orcs and stranger folk, sheltering together under the naaru. A'dal asks only that they stand against the Legion. I could learn from that.
+
+@ trigger=zone_enter where=borean
+The blue dragons tore this land in their war on magic. Malygos is dead now. I hope the earth here can rest, though it does not sound like it yet.
+
+@ trigger=zone_enter where=howling_fjord
+The Forsaken hold Vengeance Landing on this coast. Since the Wrathgate, I find myself counting their plague barrels.
+
+@ trigger=zone_enter where=dragonblight
+Dragons have come here to die since before my people had a name. Now the Scourge raises their bones, and even Wyrmrest must stand guard. Nothing rests in Northrend.
+
+@ trigger=zone_enter where=grizzly_hills
+Pine and rain. This is the closest Northrend comes to feeling like home. Naturally, we are fighting over it.
+
+@ trigger=zone_enter where=zuldrak
+The Drakkari are killing their own gods for strength. Vol'jin spits when he speaks of it. My people did much the same, once, when we drank the blood.
+
+@ trigger=zone_enter where=sholazar
+A jungle in the middle of the ice. The spirits here are so young and so loud I can barely hear myself think. Something has kept this place from the cold.
+
+@ trigger=zone_enter where=crystalsong
+The trees have turned to crystal, and they sing. The Sunreavers and the Silver Covenant camp beneath them, glaring at each other. The trees sing louder.
+
+@ trigger=zone_enter where=dalaran
+Jaina brought Varian and me together in these towers to talk. We talked. Nobody drew steel. These days, that counts as progress.
+
+@ trigger=zone_enter where=storm_peaks
+Ulduar is in these peaks. They say something terrible slept beneath it, and that it is dead now. The earth here has not quite stopped shivering.
+
+@ trigger=zone_enter where=icecrown
+Ner'zhul was a shaman of my people once, a teacher of shamans. Now he sits up there in the ice. Whatever he has become, I mean to see it ended.
+
+@ trigger=zone_enter where=wintergrasp
+Horde and Alliance bleed each other for this fortress while the Lich King watches from the north. He could not ask for better allies.
+
+@ trigger=zone_enter where=hrothgars_landing
+Sea-raiders, attacking the Crusade's camp while it readies for the Citadel. Tirion asked for every sword he could find. He has mine.
+
 @ trigger=zone_enter
 %zone. The elements are different here. Listen. They have their own voices.
 %zone. Let us see what it asks of us.

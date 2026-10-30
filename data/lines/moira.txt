@@ -70,6 +70,227 @@ Icecrown. They say Uncle Muradin's alive. That he's up there on that flying ship
 @ trigger=zone_enter where=dalaran
 Dalaran. Floating. Of course it's floating. Mages can't leave anything on the ground where it belongs.
 
+# One line for every zone, by continent.
+
+@ trigger=zone_enter where=durotar
+Red dust in everything, ale included. The orcs don't seem to mind, which tells you all you need to know about orc ale.
+
+@ trigger=zone_enter where=orgrimmar
+Named for Doomhammer, whose Horde took Blackrock Spire from my husband's people. Thrall's orcs are different, I'm told. I'll watch and see.
+
+@ trigger=zone_enter where=mulgore
+All this grass and not a hill worth tunnelling into. The tauren must sleep very soundly.
+
+@ trigger=zone_enter where=thunder_bluff
+Everyone up here is three times my height and they put the city on top of a cliff. I'm taking that personally.
+
+@ trigger=zone_enter where=barrens
+The Barrens. Well named. Whoever charts these places has a gift for honesty I'd like at court.
+
+@ trigger=zone_enter where=teldrassil
+They live in a tree. A very large tree, granted. Dwarves would have built in the roots and called it sensible.
+
+@ trigger=zone_enter where=darnassus
+Darnassus. Our two peoples have only known each other since the Third War. Tread lightly, and don't mention how much timber Ironforge burns.
+
+@ trigger=zone_enter where=darkshore
+Darkshore. The Explorers' League has diggers on this coast. Show a dwarf a ruin and a shovel and he'll forget he ever had a home.
+
+@ trigger=zone_enter where=ashenvale
+Ancient forest, and the Warsong are cutting it down for timber. Night elves and orcs. Neither will ever bend, so I expect it'll be loud.
+
+@ trigger=zone_enter where=stonetalon
+Mountains at last. Shame the Venture Company got here first and started chewing them up.
+
+@ trigger=zone_enter where=desolace
+Desolace. Grey earth, grey sky, centaurs killing each other over the scraps. It's like a wedding feast in Shadowforge, minus the ale.
+
+@ trigger=zone_enter where=feralas
+Dire Maul's out in these woods, they say. An elven city older than Ironforge. I'll believe it when I've seen the stonework.
+
+@ trigger=zone_enter where=thousand_needles
+All these stone spires and nobody's thought to put a hold in one. Kalimdor wastes good rock.
+
+@ trigger=zone_enter where=dustwallow
+Theramore's out on this marsh, and Onyxia's lair. She sat in Stormwind's court for years calling herself a lady. I've met a few like her.
+
+@ trigger=zone_enter where=tanaris
+Sand. Goblins. And somewhere out there, the bronze dragons fiddling with time. Two of the three I can bargain with.
+
+@ trigger=zone_enter where=ungoro
+The Explorers' League would sell their mothers for a month in this crater. Titan work, they say. The lizards here are bigger than my father's ego.
+
+@ trigger=zone_enter where=silithus
+Ironforge sent ore and soldiers here for the war on Ahn'Qiraj. Bugs the size of rams. I'll keep my distance from the Scarab Wall.
+
+@ trigger=zone_enter where=felwood
+The trees here are sick. You can feel it in the shadow, like a forge that's been fed something it shouldn't.
+
+@ trigger=zone_enter where=winterspring
+Snow. Proper snow. Finally, a corner of Kalimdor with sense.
+
+@ trigger=zone_enter where=azshara
+Named for a queen who drowned her own kingdom. People say I've made poor choices. I've a long way to go before I'm Azshara.
+
+@ trigger=zone_enter where=moonglade
+The druids' sanctuary. Everyone's very calm. It makes me want to start an argument.
+
+@ trigger=zone_enter where=azuremyst
+The draenei came down in a burning ship and simply got on with it. I respect people who don't wait to be rescued.
+
+@ trigger=zone_enter where=bloodmyst
+Red trees, red water. Their crashed ship's crystals did all this. Messes spread. Thaurissan's did, and look at the Steppes.
+
+@ trigger=zone_enter where=exodar
+The Exodar. A ship that flies between worlds, and it still crashed. Makes me feel better about my own landings.
+
+@ trigger=zone_enter where=dun_morogh
+The Thunderbrew distillery's in Kharanos. Every princess needs one honest institution, and that was mine.
+
+@ trigger=zone_enter where=deeprun_tram
+Under the sea in a gnome contraption. The water's right up there. I'll thank you not to point at it.
+
+@ trigger=zone_enter where=loch_modan
+The mountaineers in Thelsamar used to salute me. Let's see whether they still remember how.
+
+@ trigger=zone_enter where=wetlands
+Dark Iron raiders still come up through these marshes. Not on my orders. Not everyone in Shadowforge listens to me yet.
+
+@ trigger=zone_enter where=badlands
+Uldaman's out here. The Explorers' League opened it and found things nobody in Ironforge wanted to explain. Dust, mostly. And answers.
+
+@ trigger=zone_enter where=searing_gorge
+The Thorium Brotherhood work these slag pits. Dark Irons who stopped kneeling to the Firelord. I'd call that a promising start.
+
+@ trigger=zone_enter where=burning_steppes
+I was riding through the Steppes to help Lakeshire when the Dark Irons took me. Best thing that ever happened to me, though it didn't feel it at the time.
+
+@ trigger=zone_enter where=elwynn
+Elwynn. Fields, fences and farmers. Humans really will plant a turnip anywhere you leave them alone long enough.
+
+@ trigger=zone_enter where=stormwind
+Stormwind. King Varian's back on his throne. He's a hard man. I'd sooner deal with a hard man than a soft council.
+
+@ trigger=zone_enter where=westfall
+The Defias were stonemasons once, the ones who rebuilt Stormwind and never got paid. I'm not saying they were right. I'm saying pay your masons.
+
+@ trigger=zone_enter where=redridge
+Redridge. Lakeshire's been fighting off Blackrock orcs for years. Stormwind sends them a captain and a pat on the head.
+
+@ trigger=zone_enter where=duskwood
+It's always dark in Duskwood. The dark doesn't bother me. Whatever's howling out there in it does a little.
+
+@ trigger=zone_enter where=deadwind
+Karazhan. Medivh's tower. The shadow here is thick enough to chew, and it tastes old. Let's not linger.
+
+@ trigger=zone_enter where=swamp_of_sorrows
+There's a troll temple sunk under that lake. Some things are drowned for a reason. Leave it be.
+
+@ trigger=zone_enter where=blasted_lands
+The Dark Portal. Every war in my lifetime came through that thing or went out through it. It ought to charge a toll.
+
+@ trigger=zone_enter where=stranglethorn
+Jungle, pirates, and a bay full of goblins selling rum at robbers' prices. I've been to worse parties, but not many.
+
+@ trigger=zone_enter where=tirisfal
+Lordaeron. Arthas came home to this kingdom and killed his own father. My father and I quarrel, but we've never gone that far.
+
+@ trigger=zone_enter where=undercity
+Undercity, so soon after Putress and his plague. The Forsaken took it back. I'd keep my mouth shut and my hands off the potions.
+
+@ trigger=zone_enter where=silverpine
+The Greymane Wall is down south. Gilneas shut its gates on the whole world. Even I've never sulked that hard.
+
+@ trigger=zone_enter where=hillsbrad
+Southshore and Tarren Mill, close enough to spit at each other and doing it daily. You'd think the Lich King would put people off small wars.
+
+@ trigger=zone_enter where=alterac
+Alterac. Perenolde sold the Alliance to the orcs. Up in the valley the Stormpikes are digging in. Ironforge never could leave a mountain alone.
+
+@ trigger=zone_enter where=arathi
+Stromgarde. Arathor began here, the first human kingdom. Young, by dwarven reckoning. They've done well for latecomers.
+
+@ trigger=zone_enter where=hinterlands
+Gryphons overhead. If one of the Wildhammers drops something on me, it won't be an accident.
+
+@ trigger=zone_enter where=western_plaguelands
+Andorhal's granaries started all of this. A plague in the bread. Makes you grateful for a people who mostly drink their grain.
+
+@ trigger=zone_enter where=eastern_plaguelands
+Light's Hope. The death knights turned on their master here, in front of the Argent Dawn. Folk can change sides. I'd know.
+
+@ trigger=zone_enter where=scarlet_enclave
+Acherus is above us, and New Avalon's below, full of Scarlets who'd burn us both. I'm not sure which is the worse neighbour.
+
+@ trigger=zone_enter where=eversong
+Pretty. Everything here's gold and spires and tidy lawns. I keep waiting for someone to tell me to wipe my boots.
+
+@ trigger=zone_enter where=silvermoon
+Lor'themar rules here for a king who isn't coming back. I rule for a king who's still in nappies. We'd have a lot to talk about.
+
+@ trigger=zone_enter where=ghostlands
+The Dead Scar runs straight on through here. Arthas cut it. Hard to believe Uncle Muradin once called that man a friend.
+
+@ trigger=zone_enter where=quel_danas
+The Sunwell. Kael'thas died here trying to feed it to a demon. Princes. They all think they know better than their fathers.
+
+@ trigger=zone_enter where=hellfire
+Red sky, burning ground, fel orcs in a fortress. Put a roof over it and I'd feel right at home.
+
+@ trigger=zone_enter where=zangarmarsh
+Mushrooms the size of Ironforge's gates. Shadowforge's cooks would weep. I'm not sure if with joy.
+
+@ trigger=zone_enter where=terokkar
+Auchindoun's ruins are out there. Someone worked a dark ritual in a holy place, and look what it left. The Dark Irons know a little about that.
+
+@ trigger=zone_enter where=nagrand
+The rocks float here. Every dwarf instinct I have says they're about to fall on my head.
+
+@ trigger=zone_enter where=blades_edge
+Blade's Edge. Stone, at least. All of it pointed straight up, as if it's angry. I can appreciate that.
+
+@ trigger=zone_enter where=netherstorm
+The edges of the world are coming off like old slag. And the goblins built a town on it. Of course they did.
+
+@ trigger=zone_enter where=shadowmoon
+The Black Temple. Stormrage fell there, they say, and now the bronze dragons have fetched him back from before it. Time's gone soft in the head.
+
+@ trigger=zone_enter where=shattrath
+Every race under one roof, and nobody's knifed anybody yet. I'd love to bring the Shadowforge council here for lessons.
+
+@ trigger=zone_enter where=borean
+The Borean Tundra. Malygos is dead and his dragons are still sulking over Coldarra. I'd keep our heads down.
+
+@ trigger=zone_enter where=howling_fjord
+Cliffs, fog and vrykul. The Explorers' League's here too, naturally. Wherever there's a ruin and a good chance of dying, you'll find a dwarf with a shovel.
+
+@ trigger=zone_enter where=dragonblight
+Bolvar Fordragon fell at the Wrathgate, out there. Ironforge drank to him for a week. Putress had better be burning somewhere hot.
+
+@ trigger=zone_enter where=grizzly_hills
+Pines, bears and furbolgs. It's as if Dun Morogh wandered off and grew a forest.
+
+@ trigger=zone_enter where=zuldrak
+The Drakkari are killing their own gods for power. And people call the Dark Irons reckless.
+
+@ trigger=zone_enter where=sholazar
+A jungle in the middle of Northrend. Titan work. The titans clearly had a sense of humour, or a very bad map.
+
+@ trigger=zone_enter where=crystalsong
+Even the trees are crystal. A jeweller in Ironforge would sell his own grandmother for one branch.
+
+@ trigger=zone_enter where=storm_peaks
+The Frostborn live up here. Dwarves who've never heard of Ironforge. Brann says they're friendly. Brann says that about everything.
+
+@ trigger=zone_enter where=icecrown
+That's the Citadel. The Lich King's sat in there waiting. Let's make sure he doesn't have to wait much longer.
+
+@ trigger=zone_enter where=wintergrasp
+The Lich King's next door, and the Alliance and Horde are fighting over a fortress. Kings and warchiefs. Never could see past their own walls.
+
+@ trigger=zone_enter where=hrothgars_landing
+Sea raiders off the coast of Icecrown, as if the Scourge weren't enough. Northrend never does anything by halves.
+
 @ trigger=zone_enter
 %zone. Hm. Not enough stone in it for my liking.
 %zone. I'd heard about it. The reports, as usual, were wrong.

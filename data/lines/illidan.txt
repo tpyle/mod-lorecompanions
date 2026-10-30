@@ -68,6 +68,223 @@ Dalaran. I came here once for the Eye of Sargeras. Your mages still hoard spells
 @ trigger=zone_enter where=azshara
 Azshara. They named a wilderness of ruins after the queen who tried to give the world to the Legion. Elves have a poor sense of humour.
 
+# One line for every zone, by continent.
+@ trigger=zone_enter where=durotar
+Thrall named this dust after his father. The orcs crossed a world to escape their demons and settled on the one patch of it that looks most like Hellfire.
+
+@ trigger=zone_enter where=orgrimmar
+A hall named for Hellscream, who killed Cenarius and then Mannoroth. By orcish reckoning that squares his account. By my brother's, it does not.
+
+@ trigger=zone_enter where=mulgore
+Tauren. Huln Highmountain's people fought the Legion beside us before the Sundering. They have grazed in peace ever since. I could almost envy them.
+
+@ trigger=zone_enter where=thunder_bluff
+Cairne built his city on cliffs, where nothing can creep up on him. Sensible. A great many things have crept up on me.
+
+@ trigger=zone_enter where=barrens
+Somewhere under this grass a druid lay down to dream the land green and woke a nightmare. Every druid should take it as a warning. One in particular will not.
+
+@ trigger=zone_enter where=teldrassil
+My Well fed Nordrassil, and Nordrassil made my people immortal. Now they plant a tree of their own to win it back. Nobody thanked me the first time.
+
+@ trigger=zone_enter where=darnassus
+Tyrande's city. I swore never to trouble her people again. I am merely walking through it. Walking is not trouble. Usually.
+
+@ trigger=zone_enter where=darkshore
+Old elven ruins all along this shore, and the furbolgs gone mad in the woods. Something here is souring. I know the smell of it better than most.
+
+@ trigger=zone_enter where=ashenvale
+Somewhere under these hills is the barrow where Maiev kept me. Tyrande cut through her wardens to reach me. I have never thanked her properly. Do not mention it.
+
+@ trigger=zone_enter where=stonetalon
+Goblins felling these mountains by the cartload. The orcs cut Ashenvale for the Legion and needed a war to do it. The Venture Company needs only a contract.
+
+@ trigger=zone_enter where=desolace
+The centaur are Zaetar's children, grandsons of Cenarius, and they spend their days killing one another. Every family has its embarrassments. Mine put me in a cage.
+
+@ trigger=zone_enter where=feralas
+Eldre'Thalas. Highborne who kept their magic by chaining a demon beneath their city and drinking from it. And they call me the Betrayer.
+
+@ trigger=zone_enter where=thousand_needles
+Stone spires, salt flats and goblins racing machines across them. I can see almost no magic here at all. It is oddly restful.
+
+@ trigger=zone_enter where=dustwallow
+Deathwing's daughter keeps a lair in this marsh, I hear. I watched her father betray every flight at the Well. The family has not changed its habits.
+
+@ trigger=zone_enter where=tanaris
+The bronze dragons keep their caverns under this sand. They took me out of my own time, and they mean to put me back. I have not yet agreed.
+
+@ trigger=zone_enter where=ungoro
+The titans shaped this crater by hand. I can see their work under the soil, like veins under skin. The lizards have not noticed.
+
+@ trigger=zone_enter where=silithus
+Something old sleeps beyond that wall. Not the Legion. Older. The night elves fought its insects while I sat in my cage, I am told. A war I missed. Pity.
+
+@ trigger=zone_enter where=winterspring
+Hyjal's slopes, just there, and snow to the knee. The last time I marched through snow it ended at Icecrown with my army broken. Forgive me if I do not admire the view.
+
+@ trigger=zone_enter where=moonglade
+Every druid in the world, tauren and elf alike, keeping the peace in one glade. They are all terribly polite to me. It is unnerving.
+
+@ trigger=zone_enter where=azuremyst
+The draenei stole one of Kael'thas's ships out from under him and drove it into this island. Kael never mentioned that to me. I wonder why.
+
+@ trigger=zone_enter where=bloodmyst
+The ship's crystals bled into the soil and stained the whole isle red. Kael's saboteurs are still out there. Persistence was always his best quality.
+
+@ trigger=zone_enter where=exodar
+Velen has outrun Kil'jaeden for twenty-five thousand years. I have managed a few. I would ask the prophet his secret, if he would speak to me.
+
+@ trigger=zone_enter where=dun_morogh
+Snow, dwarves, and gnomes who flooded their own city with poison. Of all the ways a people can lose a home, that is the most efficient.
+
+@ trigger=zone_enter where=ironforge
+The Great Forge. The whole mountain rings with it. Dwarves seem to think that if they hammer loudly enough, nothing bad will ever get in.
+
+@ trigger=zone_enter where=deeprun_tram
+A gnomish cart in a tunnel under the sea. I spent ten thousand years underground. I do not care to be shut in again. Hurry.
+
+@ trigger=zone_enter where=loch_modan
+A dam holding back a whole valley of water. I once watched a Well give way and take a continent with it. I would keep an eye on that wall.
+
+@ trigger=zone_enter where=wetlands
+Grim Batol. The orcs chained the red flight there with Neltharion's Demon Soul, I hear. I watched him forge the thing. Some trinkets refuse to stay lost.
+
+@ trigger=zone_enter where=badlands
+Uldaman. The titans sealed their secrets in this rock, and the dwarves keep digging for them. Some vaults are sealed for good reason. I was one.
+
+@ trigger=zone_enter where=searing_gorge
+The Dark Iron called a fire lord up to win them a war and became his slaves. Calling the thing is easy. Holding the leash is the art.
+
+@ trigger=zone_enter where=burning_steppes
+The orcs of Blackrock took their orders from Deathwing's son in that spire, I hear. Orcs have a gift for choosing the wrong master. I would know. I was one.
+
+@ trigger=zone_enter where=elwynn
+The orcs burned all of this once, on the Legion's leash. The humans simply planted it again. Wheat is stubborn. I respect stubbornness.
+
+@ trigger=zone_enter where=stormwind
+Varian's city. Burned to the ground by orcs and built again, whiter than before. Humans do love a fresh coat of paint.
+
+@ trigger=zone_enter where=westfall
+The masons who rebuilt Stormwind were never paid, I am told, so they took to banditry. I have seen wars start for worse reasons. Not many.
+
+@ trigger=zone_enter where=redridge
+Humans and Blackrock orcs, still fighting over these hills since the First War. Neither side has thought to stop. I almost admire them.
+
+@ trigger=zone_enter where=duskwood
+Karazhan lies past those hills, and whatever festered in Medivh's tower has seeped into these woods. It is not the dark that troubles me. It is what I see in it.
+
+@ trigger=zone_enter where=deadwind
+Medivh carried Sargeras inside him and opened the Dark Portal from that tower. I carry only a little of the Destroyer, and I kept my wits. Barely.
+
+@ trigger=zone_enter where=swamp_of_sorrows
+The green dragons sank a troll temple in this swamp to keep a blood god from crawling out of it. Drowning gods. I approve of the instinct.
+
+@ trigger=zone_enter where=blasted_lands
+The Dark Portal. Kazzak waits on the far side, in Hellfire. I shut every gate on that peninsula once. The Legion has never respected a closed door.
+
+@ trigger=zone_enter where=stranglethorn
+Trolls. My people drove theirs out of half of Kalimdor before the world broke. They have built new temples since. They have not otherwise improved.
+
+@ trigger=zone_enter where=tirisfal
+When last I passed through Lordaeron, the dead walked it in their thousands. Now the dead have a queen and a city. Progress, of a kind.
+
+@ trigger=zone_enter where=undercity
+Sylvanas defied the master who made her. So did I. I took a temple. She took the sewers. Each to their own.
+
+@ trigger=zone_enter where=silverpine
+A Dalaran mage called wolf-beasts out of nowhere to fight the Scourge here. They went mad, and so did he. Summoning without a leash. Amateurs.
+
+@ trigger=zone_enter where=hillsbrad
+Thrall was a slave in Durnholde, I am told, and broke himself out. I spent ten thousand years under a hill and needed Tyrande to open the door. I try not to dwell on it.
+
+@ trigger=zone_enter where=alterac
+Old Dalaran lies under that dome. I stood there with the Eye of Sargeras and very nearly split Northrend open. Then my brother arrived. He always arrives.
+
+@ trigger=zone_enter where=arathi
+Here the humans of Arathor and the high elves stood together against the trolls. The elves paid for their help in magic lessons. I hear it went wonderfully.
+
+@ trigger=zone_enter where=hinterlands
+One of the green dragons' gates into the Dream stands in these hills. My brother could step out of it any day. He will not. He never visits.
+
+@ trigger=zone_enter where=western_plaguelands
+There is a school on that lake island where mortals study death as a subject. And they put me in a cage for a little sorcery.
+
+@ trigger=zone_enter where=eastern_plaguelands
+Stratholme. Arthas purged a whole city to deny it to the dreadlord Mal'Ganis, I hear. I would have simply killed the demon. It is quicker.
+
+@ trigger=zone_enter where=scarlet_enclave
+Death knights who turned on the master who made them. I approve. It is the one virtue I have practised all my life.
+
+@ trigger=zone_enter where=eversong
+Dath'Remar's exiles crossed the sea with a vial of the Well and built a kingdom on it. The Highborne never could live without their magic. Nor could I.
+
+@ trigger=zone_enter where=silvermoon
+Kael'thas's city. I promised his people an end to their hunger. He promised them a prince. We were both lying, but I was better at it.
+
+@ trigger=zone_enter where=ghostlands
+Arthas's road to the Sunwell still runs through here, dead to the root. I can see it plainly. A wound that has given up trying to close.
+
+@ trigger=zone_enter where=quel_danas
+Kil'jaeden tried to climb into this world through that well, they tell me, and mortals threw him back. I would have paid well to see his face.
+
+@ trigger=zone_enter where=hellfire
+I shut every portal on this peninsula. Then the Legion opened the great one again, and the Alliance and Horde marched through it to stare at me. Rude.
+
+@ trigger=zone_enter where=zangarmarsh
+Vashj drained these waters for me at Coilfang. They tell me she died in her reservoir. She never once betrayed me. I cannot say that of anyone else.
+
+@ trigger=zone_enter where=terokkar
+Gul'dan's warlocks tore Auchindoun open in this forest and let something hungry out of the dark. They never understood their tools. I do.
+
+@ trigger=zone_enter where=nagrand
+The Mag'har. The only orcs on Draenor who never drank Mannoroth's blood. Brown-skinned, proud, and none the worse for refusing. Mortals should take note.
+
+@ trigger=zone_enter where=blades_edge
+Gruul's mountains. Gronn, ogres, and stone growing out sideways like broken bones. Even I never wanted to rule this.
+
+@ trigger=zone_enter where=netherstorm
+The manaforges are eating what little is left of this land. Kael built them to feed his people. Then he offered the lot to Kil'jaeden.
+
+@ trigger=zone_enter where=shadowmoon
+Karabor, the draenei called it, before the orcs took it from them. Akama's people always wanted it back. I hear they get it. I should have watched him more closely.
+
+@ trigger=zone_enter where=shattrath
+The Scryers left Kael'thas to serve a naaru. Kael'thas left me to serve Kil'jaeden. In Outland, loyalty is a fashion.
+
+@ trigger=zone_enter where=borean
+Malygos. I knew him when he still had a flight, before Neltharion's Demon Soul burned it away. They say he went mad and died here. He was owed better.
+
+@ trigger=zone_enter where=howling_fjord
+The Forsaken have dug in on these cliffs, and the vrykul want them gone. Giants and corpses. I wish both sides the very worst.
+
+@ trigger=zone_enter where=dragonblight
+Wyrmrest. Four flights at one table, with Alexstrasza at its head. Ten thousand years ago they could not manage that without someone betraying them. Give it time.
+
+@ trigger=zone_enter where=grizzly_hills
+Old trees, deep moss, and someone cutting them down. It almost smells like Ashenvale. I find I do not care for the reminder.
+
+@ trigger=zone_enter where=zuldrak
+Trolls carving up their own gods for power. I understand them better than I would like.
+
+@ trigger=zone_enter where=sholazar
+A titan garden the Legion has never touched. I can see the old work humming in every vine. No wonder it hides behind mountains.
+
+@ trigger=zone_enter where=crystalsong
+A forest turned to glass, and Dalaran hanging over it like a lamp. Even through these eyes it is beautiful. I will deny saying so.
+
+@ trigger=zone_enter where=storm_peaks
+Under these peaks, they tell me, an old god lay chained, and mortals went down and beat it. I spent years plotting against Sargeras alone. I should have recruited here.
+
+@ trigger=zone_enter where=icecrown
+The Crusade camps at the foot of his glacier, where my army broke. I hope they have brought more than I did. I brought everything.
+
+@ trigger=zone_enter where=wintergrasp
+The Alliance and the Horde, fighting over a fortress in sight of the Lich King's throne. If I served him, I could not have planned it better.
+
+@ trigger=zone_enter where=hrothgars_landing
+Fog, ghost-raiders from the sea, and the Crusade jousting at the edge of the world. Mortals have a strange idea of how to prepare for a war.
+
 @ trigger=zone_enter
 %zone. Uninspiring.
 %zone. I can see the magic in this place. It is very faint, and very tired.

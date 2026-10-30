@@ -53,6 +53,232 @@ New Hearthglen. Abbendis named her little fortress after my city. Flattery, or t
 @ trigger=zone_enter where=icecrown,argent_tournament,crusaders_pinnacle
 The Argent Crusade, under Fordring. The bronze dragons tell me he leads the world now. I am told many absurd things.
 
+# One line for every zone, by continent.
+@ trigger=zone_enter where=durotar
+Orc country, named for the warchief's father. Sentiment in a savage. I find that worth studying.
+
+@ trigger=zone_enter where=orgrimmar
+Somewhere in this city is the orc Fordring threw away his title for. I should like to meet him. Briefly.
+
+@ trigger=zone_enter where=mulgore
+Grass, cattle, and very large people who talk to the earth. Heathens, but tidy ones.
+
+@ trigger=zone_enter where=thunder_bluff
+They build on top of mesas so nothing can climb up to them. I understand the instinct. It never works.
+
+@ trigger=zone_enter where=barrens
+So much open ground. Nowhere to hide out here, and still everyone looks as if they are trying.
+
+@ trigger=zone_enter where=teldrassil
+A tree the size of a mountain, planted for the elves' gods. I would ask whether the gods were consulted.
+
+@ trigger=zone_enter where=darnassus
+A city of priestesses and not a single inquisitor. I wonder how they know who is lying.
+
+@ trigger=zone_enter where=darkshore
+Grey shore, ruined temples, bear-men going mad. The elves let their land rot quietly. In Lordaeron we burn what rots.
+
+@ trigger=zone_enter where=ashenvale
+An orc killed a demigod in this forest, I am told, and the trees have not forgiven it. Good. Neither should they.
+
+@ trigger=zone_enter where=stonetalon
+Goblins felling a mountain one tree at a time. Greed is the most honest sin. It never pretends to be faith.
+
+@ trigger=zone_enter where=desolace
+Grey earth, and centaurs killing one another over it. The land has given up. The centaurs, I admit, are diligent.
+
+@ trigger=zone_enter where=feralas
+Rain and ruins. There was an elven city here once, and something in it is still awake. There always is.
+
+@ trigger=zone_enter where=thousand_needles
+Stone needles and salt. A fine place to see who is following us. I always assume someone is.
+
+@ trigger=zone_enter where=dustwallow
+Proudmoore's daughter keeps her city among orcs, and her father lies dead not far from it. I note both.
+
+@ trigger=zone_enter where=tanaris
+Sand, goblins, and somewhere under it the dragons who brought me here. I have a few questions for them myself.
+
+@ trigger=zone_enter where=ungoro
+A crater full of beasts the world forgot. Nothing here has ever heard of the Light. I find that restful, briefly.
+
+@ trigger=zone_enter where=silithus
+Insects the size of horses, and a wall to keep worse ones in. Some heresies are older than people.
+
+@ trigger=zone_enter where=felwood
+The demons touched this forest and it rotted. Lordaeron's plague did the same. Corruption always looks like this from inside.
+
+@ trigger=zone_enter where=winterspring
+Snow, silence, and goblins selling furs. Even at the top of the world someone is profiting. Someone always is.
+
+@ trigger=zone_enter where=azshara
+Ruins named for a queen who opened her kingdom to demons. Her people still whisper her name. Nobody questioned her early enough.
+
+@ trigger=zone_enter where=moonglade
+Druids of every race at peace, by agreement. A truce is only a list of people waiting to break it.
+
+@ trigger=zone_enter where=azuremyst
+The draenei fell out of the sky here, they tell me. Strangers who arrive with that much confidence always have something to confess.
+
+@ trigger=zone_enter where=bloodmyst
+An island bled red by a crashed ship, and blood elves hiding in its woods. A crowded file.
+
+@ trigger=zone_enter where=exodar
+A ship of the Light, crashed. If the Light was steering, I should like to know why it could not land.
+
+@ trigger=zone_enter where=dun_morogh
+The gnomes poisoned their own city, and the dwarves took them in anyway. Charity is so easily abused.
+
+@ trigger=zone_enter where=ironforge
+A king under a mountain, and his daughter gone off to the Dark Irons. Magni should have had her watched.
+
+@ trigger=zone_enter where=deeprun_tram
+A gnomish cart under the sea. If it fails, we drown in the dark. I prefer to choose how I die. I am told I do not.
+
+@ trigger=zone_enter where=loch_modan
+One dam holding back a whole lake. A single crack and it all comes down. Faith works the same way.
+
+@ trigger=zone_enter where=wetlands
+Menethil Harbor. Half of Lordaeron fled south through here when the plague came. I wonder how many brought it with them.
+
+@ trigger=zone_enter where=badlands
+Scorched rock, dragons overhead, dwarves digging for ruins. Everything here is dead or looking for something buried.
+
+@ trigger=zone_enter where=searing_gorge
+Rivers of slag, and Dark Irons who worship a lord of fire. Their heresy, at least, is easy to see.
+
+@ trigger=zone_enter where=burning_steppes
+Orcs, black dragons and Dark Irons, all sharing one mountain and plotting against each other. It reminds me of the Crusade's council.
+
+@ trigger=zone_enter where=elwynn
+Green fields, and not one farmer here has watched a neighbour climb out of his grave. It shows.
+
+@ trigger=zone_enter where=stormwind
+Stormwind sent Lordaeron very little when it burned. It did find the stone for a cathedral. A lovely cathedral.
+
+@ trigger=zone_enter where=westfall
+Stormwind cheated its masons, and the masons became bandits. Every heresy starts with an unpaid debt.
+
+@ trigger=zone_enter where=redridge
+Orcs and gnolls at the border, and Stormwind sends adventurers instead of soldiers. Kingdoms fray at the edges first.
+
+@ trigger=zone_enter where=duskwood
+Endless night, and the dead walking out of the graveyard. Lordaeron in miniature. They have no idea what is coming.
+
+@ trigger=zone_enter where=deadwind
+Medivh's tower. A guardian who let the orcs in. Every tower has a traitor at the top, if you climb far enough.
+
+@ trigger=zone_enter where=swamp_of_sorrows
+A troll temple lies drowned in this swamp, and its priests still pray to what is inside. Some heresies will not stay underwater.
+
+@ trigger=zone_enter where=blasted_lands
+The Dark Portal. Where the orcs came from. I am told it stands open again. Of course it does.
+
+@ trigger=zone_enter where=stranglethorn
+Jungle, trolls and pirates, and Booty Bay sells to all of them. I would very much like to read its ledgers.
+
+@ trigger=zone_enter where=tirisfal
+Lordaeron's oldest glades, and the dead keep shops in them now. Brill sells ale to corpses. We will take it back, one door at a time.
+
+@ trigger=zone_enter where=undercity
+Terenas's throne room sits empty overhead while the Banshee rules from the cellar. I find empty thrones very interesting.
+
+@ trigger=zone_enter where=silverpine
+The Banshee's sentries in the pines, and Arugal's wolves in the keep. Dalaran made monsters here and blamed the forest.
+
+@ trigger=zone_enter where=hillsbrad
+Southshore. The men who would make the Crusade sat together in this town once, before any of us knew what we were for.
+
+@ trigger=zone_enter where=alterac
+Perenolde sold his kingdom to the orcs from these hills. Treason always picks a view.
+
+@ trigger=zone_enter where=arathi
+The first human kingdom, and ogres sleep in its towers now. Strength without faith never lasts.
+
+@ trigger=zone_enter where=hinterlands
+Dwarves on gryphons and trolls in the hills. I never trust anyone who lives above everyone else. Present company excepted.
+
+@ trigger=zone_enter where=western_plaguelands
+Home. Hearthglen on the hill, Andorhal rotting below it. I have always found the view instructive.
+
+@ trigger=zone_enter where=eastern_plaguelands
+Tyr's Hand holds for Abbendis. And somewhere by the road, Fordring lives in a hut like a hermit. I know exactly where.
+
+@ trigger=zone_enter where=scarlet_enclave
+New Avalon. The dragons say death knights burned it, then turned on their master. Scourge with consciences. I would question every one.
+
+@ trigger=zone_enter where=eversong
+Golden woods, and a dead road straight through them where Prince Arthas walked. Pretty forests make poor walls.
+
+@ trigger=zone_enter where=silvermoon
+Half a city rebuilt in gold, half still ash. The elves always finish the pretty part first.
+
+@ trigger=zone_enter where=ghostlands
+The Banshee's family home is in these woods, I am told. I should like to search her old room.
+
+@ trigger=zone_enter where=quel_danas
+The dragons say an elf prince died here, and a draenei prophet relit the Sunwell for his people. Every story I am told now ends in forgiveness. Tiresome.
+
+@ trigger=zone_enter where=hellfire
+So this is where the orcs came from. Red ruin, demons on the hills, a citadel built on hate. The Light was never here. It shows.
+
+@ trigger=zone_enter where=zangarmarsh
+Mushrooms as tall as towers, and naga draining the swamp for their mistress. The dragons say she is dead. The mushrooms are not.
+
+@ trigger=zone_enter where=terokkar
+The draenei buried their dead here, I am told, and someone tore the tombs open with shadow. I use shadow myself. I am more careful with it.
+
+@ trigger=zone_enter where=nagrand
+Islands in the sky, and orcs who never drank the demon's blood, or so the dragons say. Innocent orcs. I will believe it after the questioning.
+
+@ trigger=zone_enter where=blades_edge
+Rock sharpened into blades, and giants who eat ogres. This land was made to keep people out. I take the hint.
+
+@ trigger=zone_enter where=netherstorm
+The world comes apart at the edges here, and the elves' machines drank what was left. Elves never know when to stop.
+
+@ trigger=zone_enter where=shadowmoon
+The Black Temple. A draenei holy place, they say, then a demon's seat. Every temple ends up with the wrong master, sooner or later.
+
+@ trigger=zone_enter where=shattrath
+Every race in one city, living in peace under a naaru. Somebody here is lying. I will find them.
+
+@ trigger=zone_enter where=borean
+Orcs, soldiers and blue dragons all on one coast. The dragons tell me the blue Aspect is dead. That still leaves a great many blue dragons.
+
+@ trigger=zone_enter where=howling_fjord
+New Agamand, the Forsaken call their camp. They name their plague works after our dead towns. I will add that to their file.
+
+@ trigger=zone_enter where=dragonblight
+They tell me Fordragon died at the Wrathgate, poisoned by Forsaken chemists. I have always said the dead cannot be trusted. Nobody listens.
+
+@ trigger=zone_enter where=grizzly_hills
+Pines like Lordaeron's, before the plague. I dislike how much I like it.
+
+@ trigger=zone_enter where=zuldrak
+Trolls killing their own gods for power, and the Argent Crusade camped in the middle of it. Of course they are.
+
+@ trigger=zone_enter where=sholazar
+A jungle in the middle of the ice. Someone built this. I should like to know who, and whether they asked.
+
+@ trigger=zone_enter where=crystalsong
+Even the trees have turned to glass. And Dalaran hangs overhead, so the mages can look down on everyone. They always did.
+
+@ trigger=zone_enter where=dalaran
+The Kirin Tor let Kel'Thuzad study necromancy under their own roof. And they wonder why I keep files.
+
+@ trigger=zone_enter where=storm_peaks
+Mountains holding up the sky, and something old buried beneath them. I am told it is dead now. I am told many things are dead.
+
+@ trigger=zone_enter where=icecrown
+There it is. The thing that took Lordaeron sits on that throne. I would very much like to be the one to ask it why.
+
+@ trigger=zone_enter where=wintergrasp
+Alliance and Horde fighting over a fortress while the Lich King watches from the next valley. I have seen this before. It was called Lordaeron.
+
+@ trigger=zone_enter where=hrothgars_landing
+Sea raiders out of the mist, and Fordring's champions fighting them on the shore. Practice on pirates. Sensible, for once.
+
 @ trigger=zone_enter
 %zone. I wonder who here is hiding something. Everyone, I expect.
 %zone. Tell me about the people here. Who are the troublemakers?

@@ -65,6 +65,230 @@ Stormwind. Varian's city. We sparred in my father's yard when we were boys. He h
 @ trigger=zone_enter where=ironforge,dun_morogh
 Ironforge. Muradin taught me to swing a sword here. Well, to swing it properly. I'd been swinging it improperly for years.
 
+# One line for every zone, by continent.
+
+@ trigger=zone_enter where=durotar
+Red dirt, open sky, and orcs walking free. Thrall named this land for his father, I'm told. I spent months chasing his kind out of my father's fields.
+
+@ trigger=zone_enter where=orgrimmar
+They named it for Orgrim Doomhammer. He escaped from my father's own prison, you know. Nobody at court likes to talk about it.
+
+@ trigger=zone_enter where=mulgore
+Grass to the horizon and cattle the size of houses. Oh. Those are people. ...I'll keep my voice down.
+
+@ trigger=zone_enter where=thunder_bluff
+A city on the cliff tops, and hardly a wall in sight. The tauren must not fear much. I'd like to know how that feels.
+
+@ trigger=zone_enter where=barrens
+Miles of yellow grass and nothing. The prophet wanted us to sail west for this? I'd have marched the whole army out here to die of thirst.
+
+@ trigger=zone_enter where=teldrassil
+A tree the size of a mountain, with people living in it. Jaina would want to know how it's done. I want to know why it hasn't fallen over.
+
+@ trigger=zone_enter where=darnassus
+Night elves. I'd never heard of them until the dragons took me. They've been here ten thousand years, and they still make me feel like the guest.
+
+@ trigger=zone_enter where=darkshore
+Grey sea, grey sand, broken white towers. Even the bears look sad. Someone lost a great deal here, a long time ago.
+
+@ trigger=zone_enter where=ashenvale
+These trees are older than Lordaeron. They say an orc killed the forest's demigod here. I'd have said that couldn't be done. I say that a lot lately.
+
+@ trigger=zone_enter where=stonetalon
+Mountains, and goblins cutting the trees off them as fast as they can. My father would have had them hanged. Or hired them.
+
+@ trigger=zone_enter where=desolace
+Nothing grows here. It isn't the plague, at least; I'd know the smell. Just old, tired ground.
+
+@ trigger=zone_enter where=feralas
+Ruins in the jungle, older than anything in Lordaeron. Every kingdom thinks it'll last forever. I suppose these people did too.
+
+@ trigger=zone_enter where=thousand_needles
+Stone spires and salt flats. Invincible would have loved those flats. Flat and open, and nothing to slip on.
+
+@ trigger=zone_enter where=dustwallow
+Jaina built a city here? On the far side of the world from Lordaeron. ...I suppose I know why.
+
+@ trigger=zone_enter where=tanaris
+The bronze dragons' caverns are somewhere out in this sand. They talk about my life as if it were a road they'd already walked.
+
+@ trigger=zone_enter where=ungoro
+Are those lizards? Those are enormous lizards. Nobody in Lordaeron is going to believe a word of this.
+
+@ trigger=zone_enter where=silithus
+Insects the size of horses, and a wall to keep worse ones in. Whoever built that wall knew exactly how afraid to be.
+
+@ trigger=zone_enter where=felwood
+This forest is sick, but not with the plague I know. Something fouler. Demons, they say. Uther would know what to do.
+
+@ trigger=zone_enter where=winterspring
+Snow, and quiet, and frozen rock underfoot. Ride carefully here. I mean it.
+
+@ trigger=zone_enter where=azshara
+Red leaves and drowned ruins, named for a queen who ruled here once. I'd hate to have a ruin named after me.
+
+@ trigger=zone_enter where=moonglade
+A truce ground, where nobody's allowed to fight? Uther would love it here. I'd last about an hour.
+
+@ trigger=zone_enter where=azuremyst
+They came here in a ship that fell out of the sky. Out of the sky! And I thought being dragged through time was a long journey.
+
+@ trigger=zone_enter where=bloodmyst
+Red trees, red water, red beasts. The crystals from that fallen ship did it, they say. It's the least strange thing I've heard all week.
+
+@ trigger=zone_enter where=exodar
+A city that sailed between the stars, and its people still pray to the Light. Odd, to feel at home somewhere like this.
+
+@ trigger=zone_enter where=dun_morogh
+The gnomes' city is under these hills somewhere. Poisoned now, they say. The gnomes I knew could talk of nothing else but how clever it was.
+
+@ trigger=zone_enter where=ironforge
+The Great Forge never goes out, the dwarves told me once. I was eight and believed them. I still half do.
+
+@ trigger=zone_enter where=deeprun_tram
+A cart that runs under the sea. Under the sea. If this thing springs a leak, I want it known I was against it.
+
+@ trigger=zone_enter where=loch_modan
+A dam holding up a whole lake. I'd not stand too close to it, but I'll admit the dwarves do handsome work.
+
+@ trigger=zone_enter where=wetlands
+Menethil Harbor's on this coast. My family's name, on a port full of mud and soggy dwarves. Father was so proud of it.
+
+@ trigger=zone_enter where=badlands
+Dry rock and black dragons. I drove one off at Strahnbrad, you know. Searinox. I think he was smaller than these.
+
+@ trigger=zone_enter where=searing_gorge
+Hot enough to cook a man in his armour. The Dark Irons live here by choice. Muradin never had a kind word for them, and now I see why.
+
+@ trigger=zone_enter where=burning_steppes
+Blackrock Mountain. The Horde's fortress in the Second War. We lost good men breaking it. Seems it didn't stay broken.
+
+@ trigger=zone_enter where=elwynn
+Goldshire. Varian always swore the inn here served the best stew in the world. He'd never been to Brill.
+
+@ trigger=zone_enter where=stormwind
+Varian vanished for years and came back a king again, they tell me. Of course he did. He never could stay where he was put.
+
+@ trigger=zone_enter where=westfall
+Empty farms and bandits in masks. Westfall used to feed Stormwind. This is what happens when nobody looks after the farmers.
+
+@ trigger=zone_enter where=redridge
+Orcs raiding Lakeshire? Still? We won that war before I was old enough to lift a sword.
+
+@ trigger=zone_enter where=duskwood
+It's always night here, they say. Wolves that walk like men, and graves that won't stay shut. I could almost be home.
+
+@ trigger=zone_enter where=deadwind
+Karazhan. Medivh's tower. The Guardian let the orcs into this world, Uther says. I keep thinking how much everyone must have trusted him.
+
+@ trigger=zone_enter where=swamp_of_sorrows
+A swamp called Sorrows. Somebody had a sense of humour. Or none at all.
+
+@ trigger=zone_enter where=blasted_lands
+The Dark Portal. I was a boy when our heroes went through it to end the war, and they never came home. It's open again. I'd hoped it would stay a story.
+
+@ trigger=zone_enter where=stranglethorn
+Hot, green, and full of trolls who'd like me dead. Almost restful. At least here I know why.
+
+@ trigger=zone_enter where=tirisfal
+The air's wrong. Tirisfal used to smell of rain and fresh-cut hay. Now it smells like a crypt someone forgot to close.
+
+@ trigger=zone_enter where=undercity
+My family's crypts are down there. My grandfather, and his father before him. Someone's moved in among them. Who gave them leave?
+
+@ trigger=zone_enter where=silverpine
+Greymane's wall. He shut Gilneas away from the Alliance after the war, and my father never forgave him. What's he hiding back there?
+
+@ trigger=zone_enter where=hillsbrad
+Durnholde, in ruins. I was at court when word came that Blackmoore's orc had come back for it. Nobody laughed. Well. I did, a little.
+
+@ trigger=zone_enter where=alterac
+Perenolde sold us to the orcs, and my father took his kingdom for it. Dalaran should be across the lake. Why can't I see the towers?
+
+@ trigger=zone_enter where=arathi
+Arathor was the first human kingdom, Uther says, and he made me learn the kings of Arathor by heart. I always forget the third.
+
+@ trigger=zone_enter where=hinterlands
+Wildhammer country. One of their riders let me sit on his gryphon once, when I was small. I lasted about four heartbeats.
+
+@ trigger=zone_enter where=western_plaguelands
+I held Hearthglen until Uther came. I thought I'd saved it. Whose banners are those over it now?
+
+@ trigger=zone_enter where=eastern_plaguelands
+These are the roads to Stratholme. I rode them with an army behind me, only days ago by my reckoning. They don't look like roads any more.
+
+@ trigger=zone_enter where=scarlet_enclave
+Knights in black, and every one of them staring at me. They say they served me once, and broke free. I've never been hated by men I haven't met.
+
+@ trigger=zone_enter where=eversong
+I got lost in these woods as a boy, and an elf ranger had to fetch me back. I'd rather remember that than whatever they say I did here.
+
+@ trigger=zone_enter where=silvermoon
+Half of it gleaming, half of it scaffolding. I remember all of it gleaming. I'm told whose fault the rest is.
+
+@ trigger=zone_enter where=ghostlands
+Windrunner Spire is in these woods. Lady Sylvanas's family home. They tell me what I do to her. I've decided they're wrong.
+
+@ trigger=zone_enter where=quel_danas
+The Sunwell. Kael'thas died on this island, they say, trying to hand it to a demon. And I thought I was the worst prince in this story.
+
+@ trigger=zone_enter where=hellfire
+So this is Draenor. Turalyon and Khadgar marched through to finish the orcs, and never came home. I hope they found somewhere better than this.
+
+@ trigger=zone_enter where=zangarmarsh
+Mushrooms taller than my father's towers. If anyone offers you something from one to eat, say no. That's royal advice.
+
+@ trigger=zone_enter where=terokkar
+Pale trees, bone-white flats, and birds that talk back. Rudely. Someone fought a war here and the land hasn't forgiven them.
+
+@ trigger=zone_enter where=nagrand
+This was the orcs' world? It's beautiful. I'd always pictured them crawling out of a pit.
+
+@ trigger=zone_enter where=blades_edge
+Every rock here is trying to stab someone. Ogres, giants and spikes. I like Lordaeron's hills better.
+
+@ trigger=zone_enter where=netherstorm
+The ground just stops, and there's sky underneath. Kael'thas came here to play with stolen machines, I'm told. He always did need to be the cleverest in the room.
+
+@ trigger=zone_enter where=shadowmoon
+Illidan ruled from that temple, they say. The dragons tell me I beat him one day. I'd rather not find out how they know.
+
+@ trigger=zone_enter where=shattrath
+A city kept by a being of pure Light. Uther would weep to see it. I nearly am.
+
+@ trigger=zone_enter where=borean
+Hellscream's son leads the orcs here, I'm told. I remember when the name Hellscream was enough to empty a village.
+
+@ trigger=zone_enter where=howling_fjord
+Giants who sail longships and worship something under the ice. Keep your back to a wall here.
+
+@ trigger=zone_enter where=dragonblight
+Kel'Thuzad hid in a fortress over this plain, they say. I killed him at Andorhal. Then I brought him back, apparently. Why would I do that?
+
+@ trigger=zone_enter where=grizzly_hills
+Pine, and bears, and honest timber. If it weren't so cold, I'd swear we were in Silverpine.
+
+@ trigger=zone_enter where=zuldrak
+Trolls killing their own gods for power. That's a terrible bargain. Who'd make a bargain like that?
+
+@ trigger=zone_enter where=sholazar
+A jungle, in Northrend. Warm, green, and full of things that bite. I'll take it over the snow.
+
+@ trigger=zone_enter where=crystalsong
+Even the leaves have turned to crystal. Lovely, and dead. I'm starting to think that's the way of things up here.
+
+@ trigger=zone_enter where=storm_peaks
+Brann Bronzebeard's been up in these peaks, they say. Muradin's brother. If there's any word of Muradin, I'd give anything to hear it.
+
+@ trigger=zone_enter where=icecrown
+Tirion Fordring is gathering an army here. The man I helped exile. He's going to march up that glacier and... no. Let's not finish that.
+
+@ trigger=zone_enter where=wintergrasp
+Alliance and Horde fighting over a fortress, with that glacier in plain sight. My father fought one war at a time. Is that so hard?
+
+@ trigger=zone_enter where=hrothgars_landing
+Raiders from the sea in longboats, and Tirion's knights out to meet them. Uther would call it vanity. I'd call it practice.
+
 @ trigger=zone_enter
 %zone. I don't know this place. That's becoming a theme.
 %zone. Well, the Light's here too, at least.

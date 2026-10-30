@@ -54,6 +54,226 @@ The Undercity. The Forsaken have their own priests, you know. Their own confessi
 @ trigger=zone_enter where=stormwind,ironforge,orgrimmar,thunder_bluff,darnassus,silvermoon
 %zone. So many people, so many stories. I could listen here for years.
 
+# One line for every zone, by continent.
+@ trigger=zone_enter where=durotar
+Thrall named this land for his father, I'm told. A son's tribute, in red dust. I think Durotan would be pleased.
+
+@ trigger=zone_enter where=orgrimmar
+Some of the most honest confessions I've heard came from orcs. They don't waste breath on excuses. I wish more people didn't.
+
+@ trigger=zone_enter where=mulgore
+Such wide, quiet grass. The tauren at the tournament were always calmer than the rest of us. Now I see where they learned it.
+
+@ trigger=zone_enter where=thunder_bluff
+Cairne Bloodhoof's city. They say he has led his people longer than most of us have lived, and never once cruelly. That's rarer than it should be.
+
+@ trigger=zone_enter where=barrens
+Everyone crossing the Barrens seems to be on the way somewhere else. I wonder how many of them ever stop to look at it.
+
+@ trigger=zone_enter where=teldrassil
+A tree the size of a mountain, with a whole people living in it. I keep wanting to whisper, as if I'm in a cathedral.
+
+@ trigger=zone_enter where=darnassus
+I'd like to sit in the Temple of the Moon a while. Elune's priestesses keep vigil through the night. So do confessors. We'd get on.
+
+@ trigger=zone_enter where=darkshore
+A grey, sad coast. Everything here seems to be waiting for something. I hope it isn't waiting for anything unkind.
+
+@ trigger=zone_enter where=ashenvale
+Such old trees. The sentinels and the Warsong loggers have fought over them for years. Neither side ever seems to ask the forest.
+
+@ trigger=zone_enter where=stonetalon
+These mountains were green once, I'm told, before the goblins came for the timber. I wonder if anyone ever asked them to stop. Kindly, I mean.
+
+@ trigger=zone_enter where=desolace
+Bones, dust and centaur, and the centaur fight each other more than anyone. Even a wasteland can't stop people quarrelling.
+
+@ trigger=zone_enter where=feralas
+All this rain and green. There are old Highborne ruins in these woods, and they say the Highborne never quite left. Some sins outlast the sinners.
+
+@ trigger=zone_enter where=thousand_needles
+All these stone spires and salt. It's like walking along the bottom of a sea someone forgot to fill.
+
+@ trigger=zone_enter where=dustwallow
+Lady Proudmoore's Theramore is out on this marsh, and Onyxia's lair is somewhere beyond it. I couldn't sleep with a neighbour like that.
+
+@ trigger=zone_enter where=tanaris
+The bronze dragons keep their caverns somewhere in this desert, guarding every moment that ever was. I don't envy them all those memories.
+
+@ trigger=zone_enter where=ungoro
+The whole world must have looked like this once. Before any of us were here to make mistakes in it.
+
+@ trigger=zone_enter where=silithus
+I've heard confessions from soldiers who fought at Ahn'Qiraj. Years later, they still dream of insects. Stay close here.
+
+@ trigger=zone_enter where=felwood
+The Legion was driven off years ago, and the forest is still sick. That's what corruption does. It stays after whoever brought it has gone.
+
+@ trigger=zone_enter where=winterspring
+Snow. I'd hoped to get away from it outside Northrend. Still, at least these drifts aren't full of Scourge.
+
+@ trigger=zone_enter where=azshara
+Named for the queen whose pride nearly ended the world, and still it's beautiful. Pride often leaves very lovely ruins.
+
+@ trigger=zone_enter where=moonglade
+Moonglade. The druids keep the peace here, Horde and Alliance alike. It's the tournament's truce without the jousting. I approve.
+
+@ trigger=zone_enter where=azuremyst
+The draenei fell out of the sky in a burning ship, and the first thing they did was set about healing what the crash had hurt. I think about that often.
+
+@ trigger=zone_enter where=bloodmyst
+The Exodar's crystals turned all this red. The draenei have spent a long while making amends for an accident. That's a kind of penance too.
+
+@ trigger=zone_enter where=exodar
+The Exodar. Velen's people have been fleeing the Legion for longer than we've had kingdoms, and they never set down their faith once.
+
+@ trigger=zone_enter where=dun_morogh
+Snow, stone and dwarves. The gnomes lost Gnomeregan in these hills. They're still grieving it. They're simply more cheerful about it than most.
+
+@ trigger=zone_enter where=ironforge
+The dwarves at the tournament drank, sang and confessed, in roughly that order. I expect Ironforge keeps the same schedule.
+
+@ trigger=zone_enter where=deeprun_tram
+We're under the sea, aren't we? And the gnomes built this. I'm choosing to have faith.
+
+@ trigger=zone_enter where=loch_modan
+That dam holds back the whole loch. Dwarves don't build anything they wouldn't bet their lives on. I find that comforting.
+
+@ trigger=zone_enter where=wetlands
+Wet. Very wet. And that dark fortress in the hills is Grim Batol, where the Life-Binder was held captive. Some places wear their sins in plain sight.
+
+@ trigger=zone_enter where=badlands
+Nothing grows here. The dwarves dug Uldaman out of these hills and found something older than all of us waiting inside.
+
+@ trigger=zone_enter where=searing_gorge
+The Dark Irons have worked slaves to death in these pits for years. Someone should pray for them. I will.
+
+@ trigger=zone_enter where=burning_steppes
+Ash and cinders as far as I can see. Blackrock Mountain sits in the middle of it like a wound nobody lets heal.
+
+@ trigger=zone_enter where=elwynn
+Golden fields, and Northshire Abbey somewhere through the trees. So many priests began there. It's a good place to begin.
+
+@ trigger=zone_enter where=stormwind
+The Cathedral of Light is here. I think every priest feels like a novice again under that roof, waiting to be told to stand up straight.
+
+@ trigger=zone_enter where=westfall
+These farms failed, and the people who lost them turned to the Defias. It's easy to judge them. It's harder to ask who let them go hungry.
+
+@ trigger=zone_enter where=redridge
+Blackrock raids, gnolls, and a bridge forever under repair. The people of Lakeshire have patience that would shame a saint.
+
+@ trigger=zone_enter where=duskwood
+It's always dusk here. The Night Watch keep their lamps lit in Darkshire anyway. I think that's the bravest thing a town can do.
+
+@ trigger=zone_enter where=deadwind
+Karazhan is up this pass. Medivh's tower. A great mind turned against everything it loved. I pray for him, when I remember to.
+
+@ trigger=zone_enter where=swamp_of_sorrows
+The trolls' temple to Hakkar lies drowned in this swamp, and the green dragons still guard it. Some evils you can't sink deep enough.
+
+@ trigger=zone_enter where=blasted_lands
+The Dark Portal. The Horde came through it, and so did a great deal of grief. Now we send our own sons and daughters back the other way.
+
+@ trigger=zone_enter where=stranglethorn
+Jungle, pirates, trolls, hunters and Booty Bay. Everyone comes to Stranglethorn wanting something. I've yet to meet anyone who left content.
+
+@ trigger=zone_enter where=tirisfal
+The heart of Lordaeron, once. The Silver Hand was founded in this kingdom. Grief is a very quiet thing here. Let's be quiet with it.
+
+@ trigger=zone_enter where=silverpine
+Pines, fog, and a great grey wall to the south that nobody comes through. Whatever Gilneas is keeping to itself, it's kept it a long time.
+
+@ trigger=zone_enter where=hillsbrad
+At the tournament, Horde and Alliance eat at the same fires. Here, Southshore and Tarren Mill can't share a hillside. It makes me sad.
+
+@ trigger=zone_enter where=alterac
+Lord Perenolde sold his kingdom to the Horde, years ago. A terrible thing, to betray everyone who trusted you. Someone ought still to pray for him.
+
+@ trigger=zone_enter where=arathi
+Arathor began here, the first kingdom of men. Now there are ogres in Stromgarde's walls. Every kingdom believes it will last for ever.
+
+@ trigger=zone_enter where=hinterlands
+The Wildhammer don't care for strangers. In my experience, people who don't care for strangers just haven't met enough of them.
+
+@ trigger=zone_enter where=western_plaguelands
+Uther's tomb is in these hills. The first of the Silver Hand. If we pass it, I'd like to stop a moment. Some debts are paid in prayers.
+
+@ trigger=zone_enter where=eastern_plaguelands
+The plague went deepest here, and still the Argent Dawn held on, year after year, with nothing but faith and stubbornness. Mostly stubbornness.
+
+@ trigger=zone_enter where=scarlet_enclave
+The Lich King made his death knights here, and here they learned to hate him. The ones who ride with us remember this valley. Be gentle with them.
+
+@ trigger=zone_enter where=eversong
+Eversong is so lovely, right up to the Dead Scar. Arthas cut that road to the Sunwell, and the forest still won't grow over it.
+
+@ trigger=zone_enter where=silvermoon
+Half of it gleaming, half still rebuilding. The Blood Knights at the tournament were proud, and hurting. Here I can see why.
+
+@ trigger=zone_enter where=ghostlands
+The Scourge took this land on its way to the Sunwell. Windrunner Spire is out here, Lady Sylvanas's old home. Let's tread gently.
+
+@ trigger=zone_enter where=quel_danas
+The Sunwell. Prophet Velen rekindled it with a naaru's light. Arcane and holy at once, now. I don't think the elves saw that coming either.
+
+@ trigger=zone_enter where=hellfire
+Honor Hold and Thrallmar have held this peninsula side by side for years. Neither will admit the other has ever been the slightest help.
+
+@ trigger=zone_enter where=zangarmarsh
+Mushrooms taller than towers. The Cenarion Expedition works so hard to save this marsh. I'd like to meet a druid who isn't tired.
+
+@ trigger=zone_enter where=terokkar
+Auchindoun is out there. The draenei laid their dead to rest in it, and the Shadow Council tore it open. I can feel the restless ones from here.
+
+@ trigger=zone_enter where=nagrand
+The one place on this broken world that still looks like a world. The Mag'har here never drank the demons' blood, I'm told. It shows.
+
+@ trigger=zone_enter where=blades_edge
+Everything here is sharp. The rocks, the ogres, the gronn. I begin to see where the name came from.
+
+@ trigger=zone_enter where=netherstorm
+The ground stops and the sky starts, just there. Kael'thas drained this land for power. He's gone, and it's still dying.
+
+@ trigger=zone_enter where=shadowmoon
+The Black Temple was Karabor once, a draenei temple of the Light. Akama's people have it back now. Places can be redeemed too.
+
+@ trigger=zone_enter where=shattrath
+A'dal's light, and refugees of every people sheltering under it. This is what the Crusade wants to be, when it grows up.
+
+@ trigger=zone_enter where=borean
+The blue dragons nearly tore the world apart from Coldarra. Malygos is dead now. Grief made him mad, I think. It so often does.
+
+@ trigger=zone_enter where=howling_fjord
+The vrykul here have given themselves to the Lich King, and proudly. Pride is the hardest sin to hear confessed. Nobody thinks it is one.
+
+@ trigger=zone_enter where=dragonblight
+The Wrathgate is in this land. Bolvar fell there, and young Saurfang, and so many more. I pray for them by name, the names I know.
+
+@ trigger=zone_enter where=grizzly_hills
+Such tall pines. If not for the war I'd sit under one all afternoon and do nothing at all. Imagine that.
+
+@ trigger=zone_enter where=zuldrak
+The Drakkari are killing their own gods for power. To murder what you worship... I don't know what confession could hold that.
+
+@ trigger=zone_enter where=sholazar
+Warm, in the middle of Northrend. The titans made a garden here and nobody told the snow. I like it already.
+
+@ trigger=zone_enter where=crystalsong
+A whole forest turned to crystal, with Dalaran hanging over it like a lantern. It's very beautiful, and very still. Too still.
+
+@ trigger=zone_enter where=storm_peaks
+Ulduar is up in those peaks. They say what lay beneath it whispered to everyone who came near. I'm glad it's quiet now.
+
+@ trigger=zone_enter where=icecrown
+The Lich King's own land, and our banners fly in it. The Crusade has come this far. We'll go the rest of the way.
+
+@ trigger=zone_enter where=wintergrasp
+Alliance and Horde fighting over a fortress, with the Lich King a short ride away. I'll hear their confessions afterwards. Both sides.
+
+@ trigger=zone_enter where=hrothgars_landing
+The Kvaldir raid this shore, and the tournament's champions practise on them. I suspect the Kvaldir don't think of it as practice.
+
 @ trigger=zone_enter
 %zone. Let's see what memories it holds.
 %zone. Every place has its own history. Most of it unwritten.
