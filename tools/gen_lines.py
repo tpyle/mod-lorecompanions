@@ -113,6 +113,9 @@ TRIGGERS = {
 
 # Zone and area ids from AreaTable.dbc. A line written for a zone also fires in
 # all of its areas, because a companion's zone is checked as well as her area.
+# A tuple names one place made of several ids: an instance's own zone (the
+# AreaTable row with no parent on the instance's map) together with the area
+# around its entrance, or several instances under one name.
 PLACES = {
     # Kalimdor
     "durotar": 14, "orgrimmar": 1637, "barrens": 17, "dustwallow": 15, "theramore": 513,
@@ -125,9 +128,9 @@ PLACES = {
     "demon_fall_canyon": 435, "mulgore": 215, "stonetalon": 406, "desolace": 405,
     "thousand_needles": 400, "ungoro": 490, "azuremyst": 3524, "bloodmyst": 3525,
     # Eastern Kingdoms
-    "dun_morogh": 1, "kharanos": 131, "gnomeregan": 133, "loch_modan": 38, "thelsamar": 144,
+    "dun_morogh": 1, "kharanos": 131, "gnomeregan": (133, 721), "loch_modan": 38, "thelsamar": 144,
     "aerie_peak": 348, "ruins_of_thaurissan": 250, "molten_core": 2717, "tranquillien": 3488,
-    "deatholme": 3500, "magisters_terrace": 4095, "zulaman": 3805, "durnholde": 275,
+    "deatholme": 3500, "magisters_terrace": (4095, 4131), "zulaman": 3805, "durnholde": 275,
     "old_hillsbrad": 2367, "uthers_tomb": 196, "tyrs_hand": 2266, "ruins_of_lordaeron": 153,
     "elwynn": 12, "northshire": 9, "goldshire": 87, "stormwind": 1519, "westfall": 40,
     "duskwood": 10, "ironforge": 1537, "wetlands": 11, "grim_batol": 1037,
@@ -145,7 +148,7 @@ PLACES = {
     # Outland
     "hellfire": 3483, "shattrath": 3703, "netherstorm": 3523, "shadowmoon": 3520,
     "exodar": 3557, "tempest_keep": 3845, "aldor_rise": 3896, "scryers_tier": 3898,
-    "black_temple": 3959, "karabor": 3756, "hellfire_citadel": 3545, "nagrand": 3518,
+    "black_temple": 3959, "karabor": 3756, "hellfire_citadel": (3545, 3535, 3562, 3713, 3714, 3836), "nagrand": 3518,
     "garadar": 3613, "throne_of_elements": 3615, "zangarmarsh": 3521, "terokkar": 3519,
     "blades_edge": 3522,
     # Northrend
@@ -159,8 +162,24 @@ PLACES = {
     "halls_of_lightning": 4272, "ulduar": 4273, "argent_tournament": 4658,
     "scarlet_monastery": 796, "crusaders_pinnacle": 4580, "trial_of_the_champion": 4723,
     "warsong_hold": 4129, "naxxramas": 3456, "mardenholde": 203, "ebon_hold": 4281,
-    "scarlet_enclave": 4298, "utgarde_keep": 3983, "frozen_throne": 4859, "halls_of_reflection": 4820,
+    "scarlet_enclave": 4298, "utgarde_keep": (3983, 206), "frozen_throne": 4859, "halls_of_reflection": 4820,
     "wintergrasp": 4197, "hrothgars_landing": 4742,
+    # Instances: each one's own zone
+    "ragefire_chasm": 2437, "wailing_caverns": 718, "deadmines": 1581,
+    "shadowfang_keep": 209, "blackfathom_deeps": 719, "stockade": 717,
+    "razorfen_kraul": 491, "razorfen_downs": 722, "uldaman": 1337, "zulfarrak": 1176,
+    "maraudon": 2100, "sunken_temple": (1417, 1477), "dire_maul": 2557,
+    "scholomance": 2057, "blackwing_lair": 2677, "zulgurub": 1977,
+    "ruins_of_ahnqiraj": 3429, "hellfire_ramparts": 3562, "blood_furnace": 3713,
+    "shattered_halls": 3714, "slave_pens": 3717, "underbog": 3716, "steamvault": 3715,
+    "mana_tombs": 3792, "auchenai_crypts": 3790, "sethekk_halls": 3791,
+    "shadow_labyrinth": 3789, "black_morass": 2366, "mechanar": 3849, "botanica": 3847,
+    "arcatraz": 3848, "karazhan": 3457, "gruuls_lair": 3923, "magtheridons_lair": 3836,
+    "serpentshrine": 3607, "utgarde_pinnacle": 1196, "oculus": 4228,
+    "azjol_nerub": 4277, "ahnkahet": 4494, "drak_tharon": 4196, "violet_hold": 4415,
+    "gundrak": 4416, "forge_of_souls": 4809, "pit_of_saron": 4813,
+    "obsidian_sanctum": 4493, "eye_of_eternity": 4500, "vault_of_archavon": 4603,
+    "trial_of_the_crusader": 4722, "ruby_sanctum": 4987,
 }
 
 CREATURE_TYPES = {
@@ -264,6 +283,12 @@ def check_text(path, number, text):
         fail(path, number, "a line may not name a level number")
 
 
+def place_ids(name):
+    """The AreaTable ids a PLACES name stands for, as a tuple."""
+    ids = PLACES[name]
+    return ids if isinstance(ids, tuple) else (ids,)
+
+
 def parse_header(path, number, text):
     filters = {"trigger": None, "places": "", "ctypes": "", "foes": "", "rank": -1,
                "side": -1, "with": "", "channel": 0, "weight": 1}
@@ -280,7 +305,7 @@ def parse_header(path, number, text):
             for v in values:
                 if v not in PLACES:
                     fail(path, number, f"unknown place {v!r} - add it to PLACES")
-            filters["places"] = ",".join(str(PLACES[v]) for v in values)
+            filters["places"] = ",".join(str(i) for v in values for i in place_ids(v))
         elif key == "ctype":
             for v in values:
                 if v not in CREATURE_TYPES:

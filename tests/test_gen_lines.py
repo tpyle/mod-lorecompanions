@@ -70,6 +70,13 @@ class ParseLinesTest(unittest.TestCase):
         self.assertEqual(rows[0]["with"], "")
         self.assertEqual(rows[0]["places"], str(gen_lines.PLACES["stratholme"]))
 
+    def test_place_of_several_ids_expands_to_all_of_them(self):
+        rows = parse("""
+            @ trigger=zone_enter where=durotar,hellfire_citadel
+            One.
+        """)
+        self.assertEqual(rows[0]["places"], "14,3545,3535,3562,3713,3714,3836")
+
     def test_reply_after_header_is_refused(self):
         with self.assertRaisesRegex(gen_lines.LineError, "must follow the line"):
             parse("""

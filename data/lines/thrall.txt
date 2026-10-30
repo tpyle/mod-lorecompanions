@@ -285,6 +285,230 @@ Horde and Alliance bleed each other for this fortress while the Lich King watche
 @ trigger=zone_enter where=hrothgars_landing
 Sea-raiders, attacking the Crusade's camp while it readies for the Citadel. Tirion asked for every sword he could find. He has mine.
 
+# One line for every dungeon and raid.
+
+@ trigger=zone_enter where=ragefire_chasm
+Cultists whispering to demons, under my own city. I purged the Burning Blade once. It seems the cellar needs sweeping again.
+
+@ trigger=zone_enter where=wailing_caverns
+The only green in the Barrens, and it moans. A druid sleeps in here, lost in a nightmare, and his disciples have grown fangs. Walk softly.
+
+@ trigger=zone_enter where=deadmines
+Smelters, cannon and a ship, hidden inside a mountain. Whoever leads these bandits has real ambition. A pity he spends it on robbery.
+
+@ trigger=zone_enter where=shadowfang_keep
+A Dalaran wizard called wolf-beasts here to fight the Scourge, and they ate his reason first. The Forsaken give this keep a wide berth. I see why.
+
+@ trigger=zone_enter where=blackfathom_deeps
+The Twilight's Hammer were an orc clan once, under Cho'gall. Whatever they kneel to in this drowned temple, no orc should kneel to it.
+
+@ trigger=zone_enter where=stockade
+Cells, bars, a gaoler's keys. I spent my youth behind doors like these. Forgive me if I do not enjoy putting anyone back behind them.
+
+@ trigger=zone_enter where=gnomeregan
+The gnomes lost their city to troggs and to one of their own. The air tastes of metal. Breathe no more of it than you must.
+
+@ trigger=zone_enter where=razorfen_kraul
+These thorns grew from the blood of a dying demigod, the tauren say. The quilboar worship them, and raid Cairne's people from behind them.
+
+@ trigger=zone_enter where=scarlet_monastery
+The Scarlet Crusade judges every orc a monster on sight. In here, let us not prove them right by accident.
+
+@ trigger=zone_enter where=razorfen_downs
+A lich among the quilboar barrows, a few days' march from Orgrimmar. The Scourge reaches further than I would like. Let us shorten its arm.
+
+@ trigger=zone_enter where=uldaman
+The dwarves say the records of their makers lie in this vault. Drek'Thar would say the earth already remembers. Let us see who is right.
+
+@ trigger=zone_enter where=zulfarrak
+The Sandfury keep a great hydra in their sacred pool and feed it the unwary. I would rather not be fed to anything today.
+
+@ trigger=zone_enter where=maraudon
+Theradras of the earth and Zaetar, son of Cenarius. Their children are the centaur. The earth here is furious, and I cannot calm it. Stay close.
+
+@ trigger=zone_enter where=sunken_temple
+Green dragons guard these drowned halls so the Atal'ai's god stays buried. Some of the guards have grown strange in the dark. Even dragons have nightmares.
+
+@ trigger=zone_enter where=blackrock_depths
+The Dark Irons called Ragnaros up and became his servants for it. Thaurissan is dead, they say, and Moira rules. Someone still sits on that throne, though.
+
+@ trigger=zone_enter where=blackrock_spire
+Rend's Dark Horde. Every orc in this fortress could have come home to Durotar. They chose this. Remember that when they charge.
+
+@ trigger=zone_enter where=dire_maul
+Highborne who stayed behind, still drinking power from a chained demon after ten thousand years. My people knew that thirst for one generation. It nearly ended us.
+
+@ trigger=zone_enter where=scholomance
+They teach death here the way Drek'Thar taught me the spirits: patiently, to the young. I can think of nothing fouler.
+
+@ trigger=zone_enter where=stratholme
+The city where Arthas began. The dead hold half of it and the Scarlet Crusade the other half. Neither will thank us for coming.
+
+@ trigger=zone_enter where=molten_core
+The Firelord's realm. Every flame spirit I have ever spoken with fears him. Fire answers me, friend, but down here it answers him first.
+
+@ trigger=zone_enter where=onyxias_lair
+Deathwing's daughter, alive again, a short flight from Theramore and Orgrimmar both. She once sat at Stormwind's court as a noblewoman. Dragons are patient.
+
+@ trigger=zone_enter where=blackwing_lair
+Nefarian breeds dragons of every colour up here and uses orcs for his hands. He learned that from his father: let others do your bleeding.
+
+@ trigger=zone_enter where=zulgurub
+Blood is the only offering Hakkar accepts. I know what a blood god does to the people who serve it. Let us leave him none of ours.
+
+@ trigger=zone_enter where=ruins_of_ahnqiraj
+Insects the size of kodo, and a general made of sand and stone. The qiraji make me miss the honest ugliness of ogres.
+
+@ trigger=zone_enter where=ahnqiraj
+Something ancient lies beneath this temple, and the earth itself shrinks from it. I have never heard the spirits so quiet.
+
+@ trigger=zone_enter where=naxxramas
+Necropolises like this one hung over Orgrimmar when the Scourge came to my door. Now we walk into one. I prefer it this way round.
+
+@ trigger=zone_enter where=hellfire_ramparts
+Fel orcs on the walls, bred for nothing but war. That was nearly all of us, once. They know no other way. Strike true.
+
+@ trigger=zone_enter where=blood_furnace
+Here they pour a pit lord's blood into orcs, vat by vat. Mannoroth gave us the first cup. This place is a brewery for it. Burn it down.
+
+@ trigger=zone_enter where=shattered_halls
+Kargath Bladefist cut off his own hand to put a blade in its place, and his whole clan followed him. Some orcs would rather be weapons than people.
+
+@ trigger=zone_enter where=slave_pens
+Slaves in pens, worked by masters who think them less than beasts. I have never been here, friend, and I know this place. Free whoever you can.
+
+@ trigger=zone_enter where=underbog
+Even the mushrooms have teeth down here. The water spirits are sick and mutter in their sleep. Watch where you step.
+
+@ trigger=zone_enter where=steamvault
+So this is where the naga drink the marsh dry. The water spirits scream in these pipes. Let us shut the pumps and give them back their voice.
+
+@ trigger=zone_enter where=mana_tombs
+Ethereals, robbing the draenei dead. My people desecrated these tombs first. I will not stand by while others finish the work.
+
+@ trigger=zone_enter where=auchenai_crypts
+The draenei priests who kept these dead have gone mad among them. Some of that madness is my people's doing. I will carry it, and do what I can.
+
+@ trigger=zone_enter where=sethekk_halls
+The arakkoa worship a raven god in these halls. I understand little of it, except that they do not want us here, and they have very large beaks.
+
+@ trigger=zone_enter where=shadow_labyrinth
+The Shadow Council. Gul'dan's warlocks, who sold my people to the Legion, still meet in the dark here as if nothing has changed. Let us change it.
+
+@ trigger=zone_enter where=old_hillsbrad
+Durnholde, the day I escaped it. Taretha is alive in this memory. I know it is only a memory. I will look at her anyway.
+
+@ trigger=zone_enter where=black_morass
+Medivh, opening the Portal. Without it my people would never have come to this world, nor been free in it. I cannot wish it undone. Keep him alive.
+
+@ trigger=zone_enter where=mechanar
+Naaru machines, run by elves who never asked how they worked. Kael'thas thought he could master anything he could steal. He was wrong.
+
+@ trigger=zone_enter where=botanica
+Gardens the naaru grew, twisted by Kael's mages. Even the trees are angry in here. I cannot blame them.
+
+@ trigger=zone_enter where=arcatraz
+A naaru prison, for things too terrible even to kill. I have broken open many prisons in my life. This is the first I would rather keep shut.
+
+@ trigger=zone_enter where=magisters_terrace
+Kael'thas made his last stand here, begging Kil'jaeden for favour. A prince who lost everything and sold what was left. I pity him. I could have been him.
+
+@ trigger=zone_enter where=karazhan
+Medivh's ghosts still walk his tower, playing out a life that went wrong. I owe that man my people's future. I will try to be polite to his furniture.
+
+@ trigger=zone_enter where=gruuls_lair
+The ogres call Gruul their king, and he hangs dragon bones on his walls. Dragonkiller, they name him. I would rather not learn how he earned it.
+
+@ trigger=zone_enter where=magtheridons_lair
+Illidan chained a pit lord down here and bled him to make fel orcs. My people's curse began with a pit lord's blood. Let it end with one.
+
+@ trigger=zone_enter where=serpentshrine
+Lady Vashj drained a whole marsh from these halls. She is gone, but the water spirits still flinch from this place, like a kicked dog from a boot.
+
+@ trigger=zone_enter where=tempest_keep
+A naaru ship, stolen by the elves, and Kael'thas on a throne at its heart. His people follow Lor'themar now. They are better served.
+
+@ trigger=zone_enter where=hyjal_summit
+Hyjal, as it was. Somewhere up this slope a younger Thrall is digging in beside Jaina. He does not know if he will live. I do. It is a strange comfort.
+
+@ trigger=zone_enter where=black_temple
+Illidan ruled from here until Akama cast him down. Before him Gul'dan, and before Gul'dan the draenei. This temple has outlived every master it has had.
+
+@ trigger=zone_enter where=zulaman
+Zul'jin fought beside Orgrim Doomhammer in the Second War. Now he wars on the elves of my Horde. I would have liked to talk him out of it.
+
+@ trigger=zone_enter where=sunwell_plateau
+Kil'jaeden, who poisoned Ner'zhul and through him all my people, tried to come through here. He was turned back. I would have given much to see it.
+
+@ trigger=zone_enter where=utgarde_keep
+Vrykul, giants who serve the Lich King gladly and drink to it. The Forsaken at Vengeance Landing would like these halls quiet. So would I.
+
+@ trigger=zone_enter where=utgarde_pinnacle
+King Ymiron sits up here, sworn to the Lich King. A king who kneels to another's crown has already lost his kingdom. He simply has not noticed.
+
+@ trigger=zone_enter where=nexus
+The blue dragons' fortress, and a red dragon chained somewhere inside. I have no patience for chains, friend, and less for those who forge them.
+
+@ trigger=zone_enter where=oculus
+We are to ride drakes between these rings, in the open sky. Grom would have loved it. I prefer the ground. The earth does not buck.
+
+@ trigger=zone_enter where=azjol_nerub
+Anub'arak fell beneath Tirion's coliseum, yet something still stirs in his kingdom. The Scourge does not leave its dead lying idle. Watch the webs.
+
+@ trigger=zone_enter where=ahnkahet
+Below the spiders, something older. The earth spirits here will not speak to me. They only whisper, and not in any tongue they ever taught me.
+
+@ trigger=zone_enter where=drak_tharon
+The Drakkari built this keep to hold back the Scourge. Now the Scourge holds it. Walls are only as strong as the people behind them.
+
+@ trigger=zone_enter where=violet_hold
+The Kirin Tor keep their worst enemies here, and the blue dragons want them out. For once in my life, I find myself on the gaoler's side.
+
+@ trigger=zone_enter where=gundrak
+The Drakkari bleed their own gods on these altars. Every god they kill makes them stronger, and smaller. I wonder if they feel it.
+
+@ trigger=zone_enter where=halls_of_stone
+Brann Bronzebeard is somewhere in here, chattering to the stones. In fairness, these stones have a great deal to say. I can hear them.
+
+@ trigger=zone_enter where=halls_of_lightning
+A keeper of the titans turned on his own kin, here. The storm in these halls is furious. I do not think it forgives him either.
+
+@ trigger=zone_enter where=culling_of_stratholme
+The day Arthas purged Stratholme. The dragons ask us to see that it happens as it did. That is a hard thing to ask of anyone. It is harder to refuse.
+
+@ trigger=zone_enter where=trial_of_the_champion
+Lances, horses and the Crusade's champions. Tirion says it sharpens us for the Citadel. I hope so. It is a long way down from a horse.
+
+@ trigger=zone_enter where=forge_of_souls
+Here the Lich King feeds souls to his forge. Ner'zhul was a shaman once, sworn to honour the dead. Jaina and Sylvanas lead the way in. Stay with them.
+
+@ trigger=zone_enter where=pit_of_saron
+Horde and Alliance prisoners, worked to death in these pits. I was a slave, friend. No one leaves this place in chains while I draw breath.
+
+@ trigger=zone_enter where=halls_of_reflection
+Frostmourne lies ahead, the blade that holds Ner'zhul's captives. I do not know what we will find in there. I am afraid of it. Walk with me anyway.
+
+@ trigger=zone_enter where=obsidian_sanctum
+Black dragons nesting under the Accord's very feet, over eggs of a colour I have never seen. Whatever they are breeding, I want it broken before it hatches.
+
+@ trigger=zone_enter where=eye_of_eternity
+Malygos went mad and made war on all magic, and the Dragonqueen herself fought him here. Look down, friend. There is no floor, only stars.
+
+@ trigger=zone_enter where=vault_of_archavon
+A titan vault beneath the fortress we and the Alliance keep killing each other for. Its watchers are waking. Even they seem tired of the noise.
+
+@ trigger=zone_enter where=ulduar
+The titans' city, where the Old God was put down. A watcher from the stars nearly judged this whole world unworthy here, I am told. I am glad someone argued.
+
+@ trigger=zone_enter where=trial_of_the_crusader
+I sat in those stands while Garrosh and Varian traded insults and good warriors bled below. Anub'arak lies somewhere under this floor. Let him stay there.
+
+@ trigger=zone_enter where=icecrown_citadel
+Ner'zhul's throne is at the top of this. I do not know how many of us will come down again. I know I will not be ashamed of how we climb.
+
+@ trigger=zone_enter where=ruby_sanctum
+Alexstrasza's own sanctum, attacked by dragons of a flight I do not know. Orcs once chained the Dragonqueen. If her children need us, the debt is ours to pay.
+
 @ trigger=zone_enter
 %zone. The elements are different here. Listen. They have their own voices.
 %zone. Let us see what it asks of us.

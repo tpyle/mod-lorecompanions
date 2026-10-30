@@ -287,6 +287,227 @@ The Alliance and the Horde killing each other for a fortress, within sight of th
 @ trigger=zone_enter where=hrothgars_landing
 Sea-raiders on Icecrown's own shore, and the Argent Crusade riding out to joust with them. The Lich King must be delighted.
 
+# One line for every dungeon and raid.
+
+@ trigger=zone_enter where=ragefire_chasm
+Demon-worshippers in the tunnels beneath the Warchief's own city. He swears his people are free of the demons. He should look down more often.
+
+@ trigger=zone_enter where=wailing_caverns
+A druid lies asleep somewhere in these caves, and his nightmares walk out of them. Wake him or end him. Either will stop the dreaming.
+
+@ trigger=zone_enter where=deadmines
+Stonemasons who rebuilt Stormwind, unpaid, now building a ship inside a mountain. Grievance does not need sense. Only tools.
+
+@ trigger=zone_enter where=shadowfang_keep
+Baron Silverlaine held this keep for Lordaeron. Now Arugal keeps wolves in it and calls them his children. Silverlaine deserved better heirs.
+
+@ trigger=zone_enter where=blackfathom_deeps
+A temple to the elves' moon, drowned, and cultists in it praying to something older. Heathens nesting inside heathens. Mind the water.
+
+@ trigger=zone_enter where=stockade
+Stormwind locks its heretics in a cellar and feeds them. In Tirisfal, we are more economical.
+
+@ trigger=zone_enter where=gnomeregan
+A trusted advisor turned on his king, and the city fell from within. The gnomes lost their home exactly as Lordaeron lost hers.
+
+@ trigger=zone_enter where=razorfen_kraul
+Thorns grown from a dead god's blood, and pig-men who worship them. I have seen relics venerated on weaker evidence. Not many.
+
+@ trigger=zone_enter where=razorfen_downs
+A lich, in the Barrens. The Horde told us the plague was Lordaeron's affair. It seems the plague was not consulted.
+
+@ trigger=zone_enter where=uldaman
+Dwarves dig here for proof that the Titans made them. I need no carved disc to tell me who made me.
+
+@ trigger=zone_enter where=zulfarrak
+Sand, trolls, and a witch doctor raising the dead in his graveyard. Even in the desert, someone always thinks it a good idea.
+
+@ trigger=zone_enter where=maraudon
+The centaurs were born here, I am told, of a demigod's son and a creature of living stone. It explains a great deal about the centaurs.
+
+@ trigger=zone_enter where=sunken_temple
+Trolls drowned here calling on a blood god, and dragons keep the water so none try again. Dragons as gaolers. I approve of the principle.
+
+@ trigger=zone_enter where=blackrock_depths
+The Dark Iron throne halls, with a fire lord in the cellar. The Emperor is dead, they tell me. Then someone should tell whoever sits on his throne.
+
+@ trigger=zone_enter where=blackrock_spire
+Orcs in the upper halls, dragons above them, and each certain the other serves him. Neither may be trusted. On that, at least, they agree.
+
+@ trigger=zone_enter where=dire_maul
+The elves of this city chained a demon beneath it and drank its power for ages. That is what learning becomes without faith.
+
+@ trigger=zone_enter where=scholomance
+The Barovs sold Caer Darrow to the Cult of the Damned to keep their gold, and necromancy is taught in its cellars like grammar. Burn the books. Then the school.
+
+@ trigger=zone_enter where=stratholme
+The Crusade's Bastion still stands in Stratholme. Whatever lies they spread about the Grand Crusader, his banners have not fallen.
+
+@ trigger=zone_enter where=molten_core
+The fire lord's own halls. I have burned a great many things in the Light's name. I would rather not be burned in return.
+
+@ trigger=zone_enter where=onyxias_lair
+She was slain once, and her head hung on a city gate. Now she is back in her lair. I know a little about things that will not stay dead.
+
+@ trigger=zone_enter where=blackwing_lair
+Nefarian breeds his dragons from the blood of every flight, in cages, by experiment. The Cult did the same with corpses. Every tyrant thinks himself a scholar.
+
+@ trigger=zone_enter where=zulgurub
+The priests called their blood god into their own capital, and he fed on them first. Heresy is always hungriest for its own.
+
+@ trigger=zone_enter where=ruins_of_ahnqiraj
+Insects in the ruins, and the druids of Cenarius leading the war against them. For once a druid wants something burned. Let us oblige.
+
+@ trigger=zone_enter where=ahnqiraj
+Something beneath this temple speaks into men's minds. Let it try mine. It will find the Light already living there.
+
+@ trigger=zone_enter where=naxxramas
+Kel'Thuzad flew this thing over Lordaeron while we burned our dead below it. Now it hangs over Northrend. Bring it down, stone by stone.
+
+@ trigger=zone_enter where=hellfire_ramparts
+Their skin is red with demon blood. Our tabards are scarlet with dye. I trust none of you will confuse the two.
+
+@ trigger=zone_enter where=blood_furnace
+This is where they bleed a pit lord to make more orcs. A plague of another colour, brewed in a cauldron. Smash the vats.
+
+@ trigger=zone_enter where=shattered_halls
+The Shattered Hand cut off their own hands and fight with blades in their place. I have known flagellants with more sense. Fewer, but more.
+
+@ trigger=zone_enter where=slave_pens
+Naga keeping slaves in the reeds. Some of those poor creatures no longer remember they were free. Free them anyway.
+
+@ trigger=zone_enter where=underbog
+Everything in this hollow grows out of rot. The fungus, the beasts, the smell. I want to wash, and we have only just arrived.
+
+@ trigger=zone_enter where=steamvault
+The naga are pumping the marsh dry, and nobody can tell me why. I trust machines I do not understand even less than I trust mages.
+
+@ trigger=zone_enter where=mana_tombs
+Wrapped spirits looting the draenei's tombs. Grave-robbers, every one of them. I have hanged men for less.
+
+@ trigger=zone_enter where=auchenai_crypts
+Priests who tended the dead until they could no longer tell the dead from themselves. That is how it begins. Always watch the priests. I do.
+
+@ trigger=zone_enter where=sethekk_halls
+Bird-men chanting to a raven god. I do not know the god and do not intend to. Heresy is heresy, feathers or no.
+
+@ trigger=zone_enter where=shadow_labyrinth
+The Shadow Council sold the orcs to the demons from halls like these. Every plague begins in a room where someone says yes.
+
+@ trigger=zone_enter where=old_hillsbrad
+Southshore, before the plague, as the dragons remember it. If you see a girl playing at knights by the shore, say nothing to her. Let her keep it a while.
+
+@ trigger=zone_enter where=black_morass
+We are to protect Medivh while he opens the Dark Portal. Protect him. Let it be recorded that the High Inquisitor objected.
+
+@ trigger=zone_enter where=mechanar
+Machines in a naaru's fortress, run by elves who took it. Everything Kael'thas laid hands on, he bent to his use.
+
+@ trigger=zone_enter where=botanica
+A garden grown by the naaru, and the elves cutting it open to see how it works. Mages cannot leave a living thing alone.
+
+@ trigger=zone_enter where=arcatraz
+A naaru prison for things too dangerous to kill. I have always held that nothing is too dangerous to kill. Let us test the theory.
+
+@ trigger=zone_enter where=magisters_terrace
+The magisters opened these doors to a prince who came home with fel in his eyes. Loyalty is not a virtue. Loyalty to the Light is.
+
+@ trigger=zone_enter where=karazhan
+Ghosts at a ball, actors playing to an empty house, a butler who will not stop serving. Even the dead here put on a show. It is very like Medivh.
+
+@ trigger=zone_enter where=gruuls_lair
+A giant who kills dragons, and ogres who crown him for it. There is no heresy here, only appetite. Kill it quickly.
+
+@ trigger=zone_enter where=magtheridons_lair
+A pit lord in chains, bled to breed an army. The Betrayer put him there. I despise Illidan. I cannot fault the chains.
+
+@ trigger=zone_enter where=serpentshrine
+Lady Vashj's sanctum, and Lady Vashj dead in it, they tell me. Then let us see what still swims here.
+
+@ trigger=zone_enter where=tempest_keep
+A naaru fortress, and an elf prince on its throne who fed his people on stolen light. The Light does not care to be stolen.
+
+@ trigger=zone_enter where=hyjal_summit
+Men, orcs and elves holding a mountain against a demon lord, together. The dragons show us this memory as though it proves something.
+
+@ trigger=zone_enter where=black_temple
+The draenei built this for the Light. Demons and the Betrayer filled it, and Akama took it back. No holy place is ever lost while someone will fight for it.
+
+@ trigger=zone_enter where=zulaman
+Lordaeron's forefathers bled beside the elves against Zul'jin's people. When the plague came to us, the elves had shut their gates. I remember both.
+
+@ trigger=zone_enter where=sunwell_plateau
+A demon lord nearly walked into the world through the elves' well. The draenei say they made it holy again. I will believe it when I feel it.
+
+@ trigger=zone_enter where=utgarde_keep
+Vrykul on the cliffs, bending the knee to the Lich King. They are strong and they are many, and they chose him. Remember that when you meet them.
+
+@ trigger=zone_enter where=utgarde_pinnacle
+The vrykul king believes his gods cursed his people with flesh. Flesh is no curse. The curse is what the Lich King makes of it.
+
+@ trigger=zone_enter where=nexus
+The blue dragons keep a red one chained in here, I am told. Dragons gaoling dragons. And they wonder why the rest of us quarrel.
+
+@ trigger=zone_enter where=oculus
+We are to ride dragons into the sky to fight other dragons. I am a priestess. I have always preferred floors.
+
+@ trigger=zone_enter where=azjol_nerub
+The spider-kingdom fought the Lich King, lost, and now crawls for him. That is what losing to the Scourge means. Do not lose.
+
+@ trigger=zone_enter where=ahnkahet
+Beneath the spiders, something older, whispering. Keep praying as we go. Aloud, if you must.
+
+@ trigger=zone_enter where=drak_tharon
+The trolls raised these walls against the Scourge, and the Scourge took them and made them a gate. A wall is only as good as the souls behind it.
+
+@ trigger=zone_enter where=violet_hold
+The Kirin Tor keep their prisoners in a tower in the middle of their own city. Mages have never understood the word "away".
+
+@ trigger=zone_enter where=gundrak
+Their priests butcher the gods they once knelt to and drink the blood for strength. Every heresy ends with the worshipper eating the altar.
+
+@ trigger=zone_enter where=halls_of_stone
+A dwarf with a notebook wants us to guard him while he talks to a wall. Very well. The wall may have more sense than most I meet.
+
+@ trigger=zone_enter where=halls_of_lightning
+A keeper made by the Titans, and he betrayed his own kin. Not even the makers of the world are proof against it. So I trust no one.
+
+@ trigger=zone_enter where=culling_of_stratholme
+The dragons' memory of the day the prince purged Stratholme. He saw the plague for what it was, and did not flinch. I built my life on that. Do not ask about after.
+
+@ trigger=zone_enter where=trial_of_the_champion
+Fordring's champions, tilting at each other for his favour. I will fight here, since I must. I will not cheer.
+
+@ trigger=zone_enter where=forge_of_souls
+Inside the Citadel. Here the Lich King works the souls he has taken. My mother and father may be in there somewhere. Light, give me strength.
+
+@ trigger=zone_enter where=pit_of_saron
+The Lich King's mines, worked by living prisoners. Some of them will be ours. Free them first. Question them after.
+
+@ trigger=zone_enter where=halls_of_reflection
+Frostmourne's hall. I do not know what waits for us in there. For once, I will not pretend that I do.
+
+@ trigger=zone_enter where=obsidian_sanctum
+Black dragons beneath Wyrmrest, guarding eggs of a colour I have never seen. I do not need to know what hatches. Break every one.
+
+@ trigger=zone_enter where=eye_of_eternity
+The Aspect of Magic died here for his madness. Even an Aspect can be purged. Remember that, the next time someone calls a thing too great to fall.
+
+@ trigger=zone_enter where=vault_of_archavon
+A Titan vault beneath a battlefield, and its watchers waking to the noise. Two armies fighting on their roof. I cannot blame them.
+
+@ trigger=zone_enter where=ulduar
+The Titans' own city. Their keepers knelt to a darkness in its depths, and a signal went from here to the stars, they say. Pray nothing answers.
+
+@ trigger=zone_enter where=trial_of_the_crusader
+Fordring's grand Trial. Beasts, a demon, and champions killing each other for show, until the Lich King broke the floor beneath them. A circus with a pit.
+
+@ trigger=zone_enter where=icecrown_citadel
+Every grave in Lordaeron leads to these halls. We climb now. Whatever waits at the top, the Light will judge us on the way.
+
+@ trigger=zone_enter where=ruby_sanctum
+The Life-Binder's own sanctum, attacked beneath Wyrmrest. If even the dragons cannot hold their homes, no one can. Quickly.
+
 @ trigger=zone_enter
 %zone. Let us see whether the plague has reached it.
 %zone. Stay alert. The taint hides in the most ordinary places.

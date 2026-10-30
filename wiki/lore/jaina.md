@@ -27,9 +27,9 @@ frost mage, drawn with her Theramore model and carrying a staff and a book.
 - Sent to Dalaran after the Second War; became Antonidas's apprentice. Met
   Prince Arthas on the way; they courted. Kael'thas admired her; she did not
   return his feelings.
-- Third War: investigated the plague with Arthas, killed Kel'Thuzad at
-  Andorhal, found the tainted grain. At Stratholme she refused the culling
-  and left with Uther. Refused Arthas's call to follow him to Northrend.
+- Third War: investigated the plague with Arthas, was beside him when he
+  killed Kel'Thuzad at Andorhal, found the tainted grain. At Stratholme she
+  refused the culling and left with Uther. Refused Arthas's call to follow him to Northrend.
 - Guided by the Prophet (Medivh), led Lordaeron's survivors west across the
   sea to Kalimdor. Allied with Thrall and Cairne in Stonetalon.
 - Fought Archimonde at Mount Hyjal beside Thrall, Tyrande and Malfurion.

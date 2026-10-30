@@ -69,6 +69,11 @@ no Council of Three Hammers.
   never play. `hyjal_summit` is the Caverns of Time replay of the battle.
 - `old_hillsbrad` is the Caverns of Time replay of Thrall's escape;
   `durnholde` is the keep as it stands today, in Hillsbrad.
+- `gnomeregan`, `magisters_terrace`, `utgarde_keep` and `hellfire_citadel`
+  are both the instance and the ground outside its door, so a line for one
+  must fit either. `hellfire_citadel` covers all four of its instances;
+  `hellfire_ramparts`, `blood_furnace`, `shattered_halls` and
+  `magtheridons_lair` name each alone.
 
 ## Rumours
 
